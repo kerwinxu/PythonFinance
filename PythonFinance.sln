@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonFinance", "PythonFinance\PythonFinance.pyproj", "{16ADC6AD-4287-4D20-83D1-EEA4397688AD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FinanceDataSource", "FinanceDataSource\FinanceDataSource.pyproj", "{5F7775FA-5933-44AC-9D64-26425328C36E}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "FinanceDataMining", "FinanceDataMining\FinanceDataMining.pyproj", "{1090F3DC-E7CE-478D-A923-B5ADF01CDD28}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "BackTrader", "BackTrader\BackTrader.pyproj", "{471532B4-8836-4A32-87AF-5B5705B1A8FD}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CandlestickOhlc", "CandlestickOhlc\CandlestickOhlc.pyproj", "{CA3CDE3F-A019-4AA8-B003-1C263130ACE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{16ADC6AD-4287-4D20-83D1-EEA4397688AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16ADC6AD-4287-4D20-83D1-EEA4397688AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7775FA-5933-44AC-9D64-26425328C36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7775FA-5933-44AC-9D64-26425328C36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1090F3DC-E7CE-478D-A923-B5ADF01CDD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1090F3DC-E7CE-478D-A923-B5ADF01CDD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{471532B4-8836-4A32-87AF-5B5705B1A8FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{471532B4-8836-4A32-87AF-5B5705B1A8FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA3CDE3F-A019-4AA8-B003-1C263130ACE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA3CDE3F-A019-4AA8-B003-1C263130ACE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6556 @@
+cscope 15 /cygdrive/e/Program/python/PythonFinance/BackTrader -q 0000000295 0000031258
+	@E:\Program\python\PythonFinance\BackTrader\.ropeproject\config.py
+
+1 #Th ``
+cÚfig
+.
+py
+``
+
+4 
+def
+ 
+	$£t_´efs
+(
+´efs
+):
+
+7 #S³cify 
+which
+ 
+fes
+ 
+ªd
+ 
+fŞd”s
+ 
+to
+ 
+ignÜe
+ 
+š
+ 
+the
+ 
+´ojeù
+.
+
+8 #Chªge 
+to
+ 
+ignÜed
+ 
+»sourûs
+ 
+¬e
+ 
+nÙ
+ 
+added
+Ø
+the
+ 
+hi¡Üy
+ 
+ªd
+
+
+9 #VCSs. 
+Also
+ 
+they
+ 
+¬e
+ 
+nÙ
+ 
+»tuºed
+ 
+š
+ `
+Projeù
+.
+	`g‘_fes
+()`.
+
+10 #NÙ
+th©
+ ``?`` 
+ªd
+ ``*`` 
+m©ch
+ 
+®l
+ 
+ch¬aù”s
+ 
+but
+ 
+¦ashes
+.
+
+11 #'*.
+pyc
+': m©che '
+‹¡
+.pyc'‡nd '
+pkg
+/test.pyc'
+
+12 #'
+mod
+*.
+pyc
+': m©che '
+‹¡
+/
+mod1
+.pyc' but‚ot 'mod/1.pyc'
+
+13 #'.
+svn
+': m©che '
+pkg
+/.svn'‡nd‡ll of its children
+
+14 #'
+bud
+
+
+	@E:\Program\python\PythonFinance\BackTrader\BackTrader.py
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_KAMA_1.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-09-30 23:20:09
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 
+äom
+ 
+__futu»__
+ 
+	$impÜt
+ (
+absŞu‹_impÜt
+, 
+divisiÚ
+, 
+´št_funùiÚ
+,
+
+9 
+unicode_l™”®s
+)
+
+11 
+impÜt
+ 
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+12 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+13 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+	`Çme
+ (
+š
+ 
+¬gv
+[0])
+
+14 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+15 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+16 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+17 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+18 
+impÜt
+ 
+sys
+
+
+19 
+sys
+.
+·th
+.
+	`­³nd
+("../FinanceDataSource")
+
+20 
+impÜt
+ 
+FšªûD©aSourû
+
+
+23 #C»©
+a
+ 
+SŒ©ey
+
+
+25 
+şass
+ 
+	$SŒ©egy_KAMA
+(
+bt
+.
+SŒ©egy
+):
+
+27 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+):
+
+29 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+30 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+32 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+33 #K“°
+a
+ 
+»ã»nû
+ 
+to
+ 
+the
+ "şo£" 
+lše
+ 
+š
+h
+d©a
+[0] 
+d©a£r›s
+
+
+34 
+£lf
+.
+d©aşo£
+ = s–f.
+d©as
+[0].
+şo£
+
+
+36 
+£lf
+.
+kama
+ = 
+bt
+.
+lib
+.
+	$KAMA
+(
+£lf
+.
+d©a
+)
+
+37 #TØ
+k“p
+ 
+Œack
+ 
+of
+ 
+³ndšg
+ 
+Üd”s
+
+
+38 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+40 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+41 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+42 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+45 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+46 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+47 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+48 
+Üd”
+.
+	$isbuy
+():
+
+49 
+£lf
+.
+	`log
+('BUY EXECUTED, %d, %.2f' %
+
+50 (
+Üd”
+.
+execu‹d
+.
+size
+, ord”.execu‹d.
+´iû
+))
+
+51 
+–if
+ 
+Üd”
+.
+	$is£Î
+():
+
+52 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, %.2f' %
+
+53 (
+Üd”
+.
+execu‹d
+.
+size
+, ord”.execu‹d.
+´iû
+))
+
+55 
+£lf
+.
+b¬_execu‹d
+ = 
+	$Ën
+(
+£lf
+)
+
+57 #Wr™
+down
+: 
+no
+ 
+³ndšg
+ 
+Üd”
+
+
+58 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+60 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+61 #Sim¶y 
+log
+ 
+the
+ 
+şosšg
+ 
+´iû
+ 
+of
+h
+£r›s
+ 
+äom
+h
+»ã»nû
+
+
+62 #£lf.
+	`log
+('Clo£, %.2f' % 
+£lf
+.
+d©aşo£
+[0])
+
+64 #Check 
+ª
+ 
+Üd”
+ 
+is
+ 
+³ndšg
+ ... 
+yes
+, 
+we
+ 
+ÿÂÙ
+ 
+£nd
+ 
+a
+ 2
+nd
+ 
+Úe
+
+
+65 
+£lf
+.
+Üd”
+:
+
+69 
+£lf
+.
+kama
+[0] > s–f.kama[-1] 
+ªd
+ self.kama[-2] > self.kama[-1]:
+
+70 
+£lf
+.
+Üd”
+ = s–f.
+	$buy
+()
+
+71 
+·ss
+
+
+73 
+–if
+ 
+£lf
+.
+kama
+[0] < s–f.kama[-1] 
+ªd
+ self.kama[-2] < self.kama[-1]:
+
+75 
+£lf
+.
+Üd”
+ = s–f.
+	$£Î
+()
+
+76 
+·ss
+
+
+78 #Check 
+we
+ 
+¬e
+ 
+š
+ 
+the
+ 
+m¬k‘
+
+
+79 
+nÙ
+ 
+£lf
+.
+pos™iÚ
+:
+
+80 
+·ss
+
+
+84 
+·ss
+
+
+87 
+__Çme__
+ == '__main__':
+
+88 #C»©
+a
+ 
+û»bro
+ 
+’t™y
+
+
+89 
+û»bro
+ = 
+bt
+.
+	$C”ebro
+()
+
+91 #Add 
+a
+ 
+¡¿‹gy
+
+
+92 
+û»bro
+.
+	$add¡¿‹gy
+(
+SŒ©egy_KAMA
+)
+
+94 #C»©
+a
+ 
+D©a
+ 
+F“d
+
+
+95 #æœ¬åœ°æ•°æ®ï¼Œç¬”è€…ç”¨
+Wšd
+è·å–çš„ä¸œé£æ±½è½¦æ•°æ®ä»¥
+csv
+å½¢å¼å­˜å‚¨åœ¨æœ¬åœ°ã€‚
+
+96 #·¿£_d©e ğ
+True
+æ˜¯ä¸ºäº†è¯»å–
+csv
+ä¸º
+d©aäame
+çš„æ—¶å€™èƒ½å¤Ÿè‡ªåŠ¨è¯†åˆ«
+d©‘ime
+æ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œ
+big
+ä½œä¸º
+šdex
+
+
+97 #æ³¨æ„ï¼Œè¿™é‡Œæœ€åçš„
+·ndas
+è¦ç¬¦åˆ
+backŒad”
+çš„è¦æ±‚çš„æ ¼å¼
+
+98 
+d©aäame
+ = 
+FšªûD©aSourû
+.
+	$g‘_d©a
+(
+
+99 
+FšªûD©aSourû
+.
+¡r_tÚghuashun
+, FšªûD©aSourû.
+tÚghuashun_AGTD
+)
+
+100 
+d©aäame
+['openinterest'] = 0
+
+101 
+d©a
+ = 
+bt
+.
+ãeds
+.
+	$PªdasD©a
+(
+d©ªame
+=
+d©aäame
+)
+
+102 #Add 
+the
+ 
+D©a
+ 
+F“d
+ 
+to
+ 
+C”ebro
+
+
+103 
+û»bro
+.
+	$addd©a
+(
+d©a
+)
+
+105 
+û»bro
+.
+	$addsiz”
+(
+bt
+.
+siz”s
+.
+P”ûÁSiz”
+, 
+³rûÁs
+=10)
+
+107 #S‘ 
+our
+ 
+desœed
+ 
+ÿsh
+ 
+¡¬t
+
+
+108 
+û»bro
+.
+brok”
+.
+	$£tÿsh
+(50000.0)
+
+110 #Pršˆ
+out
+ 
+the
+ 
+¡¬tšg
+ 
+cÚd™iÚs
+
+
+111 
+	`´št
+('S¹šg PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+113 #RuÀ
+ov”
+ 
+ev”ythšg
+
+
+114 
+û»bro
+.
+	$run
+()
+
+116 #Pršˆ
+out
+ 
+the
+ 
+fš®
+ 
+»suÉ
+
+
+117 
+	`´št
+('Fš® PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+118 #PlÙ 
+the
+ 
+»suÉ
+
+
+119 
+û»bro
+.
+	`¶Ù
+()
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_KAMA_2.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-10-03 16:36:18
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 
+äom
+ 
+__futu»__
+ 
+	$impÜt
+ (
+absŞu‹_impÜt
+, 
+divisiÚ
+, 
+´št_funùiÚ
+,
+
+9 
+unicode_l™”®s
+)
+
+11 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+12 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+13 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+	`Çme
+ (
+š
+ 
+¬gv
+[0])
+
+14 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+15 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+16 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+17 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+18 
+impÜt
+ 
+sys
+
+
+19 
+sys
+.
+·th
+.
+	`­³nd
+("../")
+
+20 #äom 
+FšªûD©aMššg
+ 
+impÜt
+ 
+š™_d©a
+
+
+23 #C»©
+a
+ 
+SŒ©ey
+
+
+25 
+şass
+ 
+	$SŒ©egy_KAMA
+(
+bt
+.
+SŒ©egy
+):
+
+27 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+):
+
+29 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+30 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+32 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+33 #K“°
+a
+ 
+»ã»nû
+ 
+to
+ 
+the
+ "şo£" 
+lše
+ 
+š
+h
+d©a
+[0] 
+d©a£r›s
+
+
+34 
+£lf
+.
+d©aşo£
+ = s–f.
+d©as
+[0].
+şo£
+
+
+36 
+£lf
+.
+kama
+ = 
+bt
+.
+lib
+.
+	$KAMA
+(
+£lf
+.
+d©a
+)
+
+37 #TØ
+k“p
+ 
+Œack
+ 
+of
+ 
+³ndšg
+ 
+Üd”s
+
+
+38 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+40 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+41 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+42 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+45 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+46 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+47 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+48 
+Üd”
+.
+	$isbuy
+():
+
+49 
+£lf
+.
+	`log
+('BUY EXECUTED, %d, %.2f' % (
+Üd”
+.
+execu‹d
+.
+size
+, ord”.execu‹d.
+´iû
+))
+
+50 
+–if
+ 
+Üd”
+.
+	$is£Î
+():
+
+51 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, %.2f' % (
+Üd”
+.
+execu‹d
+.
+size
+, ord”.execu‹d.
+´iû
+))
+
+53 
+£lf
+.
+b¬_execu‹d
+ = 
+	$Ën
+(
+£lf
+)
+
+55 #Wr™
+down
+: 
+no
+ 
+³ndšg
+ 
+Üd”
+
+
+56 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+58 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+59 #Sim¶y 
+log
+ 
+the
+ 
+şosšg
+ 
+´iû
+ 
+of
+h
+£r›s
+ 
+äom
+h
+»ã»nû
+
+
+60 #£lf.
+	`log
+('Clo£, %.2f' % 
+£lf
+.
+d©aşo£
+[0])
+
+62 #Check 
+ª
+ 
+Üd”
+ 
+is
+ 
+³ndšg
+ ... 
+yes
+, 
+we
+ 
+ÿÂÙ
+ 
+£nd
+ 
+a
+ 2
+nd
+ 
+Úe
+
+
+63 
+£lf
+.
+Üd”
+:
+
+66 
+k
+ = 
+£lf
+.
+kama
+
+
+67 
+h
+ = 
+£lf
+.
+d©a_high
+
+
+68 
+l
+ = 
+£lf
+.
+d©a_low
+
+
+69 
+p_s
+ = 
+£lf
+.
+pos™iÚ
+.
+size
+
+
+73 
+l
+[0] > 
+k
+[0] 
+ªd
+†[-1] > k[-1]‡nd 
+p_s
+ <= 0:
+
+74 
+£lf
+.
+Üd”
+ = s–f.
+	$Üd”_rg‘_³rûÁ
+(
+rg‘
+=0.1)
+
+75 
+£lf
+.
+	$£Î
+(
+´iû
+=
+£lf
+.
+kama
+[0], 
+size
+=£lf.
+Üd”
+.size, 
+execu‹d
+=
+bt
+.
+Ord”
+.
+Stİ
+, 
+Œªsm™
+=
+F®£
+, 
+·»Á
+=self.order)
+
+76 
+h
+[0] < 
+k
+[0] 
+ªd
+ h[-1] < k[-1]‡nd 
+p_s
+ >= 0:
+
+77 
+£lf
+.
+Üd”
+ = s–f.
+	`Üd”_rg‘_³rûÁ
+(
+rg‘
+=-0.1)
+
+78 
+£lf
+.
+	`buy
+(
+´iû
+=£lf.
+kama
+[0], 
+size
+=£lf.
+Üd”
+.size, 
+execu‹d
+=
+bt
+.
+Ord”
+.
+Stİ
+, 
+Œªsm™
+=
+F®£
+, 
+·»Á
+=self.order)
+
+81 
+Fš®
+ 
+PÜtfŞio
+ 
+V®ue
+: 101954.11
+
+82 å¤æ™®æ¯”ç‡: 
+	`Ord”edDiù
+([('sharperatio', -0.3973477640025947)])
+
+83 æœ€å¤§å›æ’¤: 
+	`AutoOrd”edDiù
+([('len', 1567), ('drawdown', 8.149751729860053), ('moneydown', 9046.253799999657), ('max', AutoOrderedDict([('len', 1567), ('drawdown', 8.22337095022286), ('moneydown', 9127.97139999966)]))])
+
+84 å¹´åŒ–æ”¶ç›Šï¼š 
+	`Ord”edDiù
+([('rtot', 0.019352591731643536), ('ravg', 8.713458681514424e-06), ('rnorm', 0.0021982041035608565), ('rnorm100', 0.21982041035608565)])
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_MACD_1.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-10-02 23:51:47
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 #äom 
+__futu»__
+ 
+impÜt
+ (
+absŞu‹_impÜt
+, 
+divisiÚ
+, 
+´št_funùiÚ
+,
+
+11 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+12 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+13 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+Çme
+ (
+š
+ 
+¬gv
+[0])
+
+14 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+15 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+16 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+17 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+18 
+impÜt
+ 
+sys
+
+
+19 
+	gsys
+.
+	g·th
+.
+­³nd
+("../FinanceDataSource")
+
+20 
+impÜt
+ 
+	gFšªûD©aSourû
+
+
+22 #C»©
+a
+ 
+SŒ©ey
+
+
+23 #è¿™ä¸ª
+MACD
+ç³»ç»Ÿ
+
+26 
+şass
+ 
+	$SŒ©egy_MACD
+(
+bt
+.
+SŒ©egy
+):
+
+28 
+·¿ms
+ = (('fastperiod', 12), ('slowperiod', 26), ('signalperiod', 9))
+
+30 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+):
+
+32 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+33 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+35 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+37 
+£lf
+.
+macdhi¡o
+ = 
+bt
+.
+šdiÿtÜs
+.
+	$MACDHi¡o
+(
+£lf
+.
+d©a
+)
+
+38 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+40 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+41 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+42 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+45 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+46 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+47 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+48 
+Üd”
+.
+	$isbuy
+():
+
+49 
+£lf
+.
+	`log
+(
+
+51 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+52 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+53 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+54 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+56 
+£lf
+.
+buy´iû
+ = 
+Üd”
+.
+execu‹d
+.
+´iû
+
+
+57 
+£lf
+.
+buycomm
+ = 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+58 
+£lf
+.
+İsize
+ = 
+Üd”
+.
+execu‹d
+.
+size
+
+
+60 
+£lf
+.
+	`log
+(
+
+62 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+63 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+64 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+65 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+67 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+68 #Sim¶y 
+log
+ 
+the
+ 
+şosšg
+ 
+´iû
+ 
+of
+h
+£r›s
+ 
+äom
+h
+»ã»nû
+
+
+69 #£lf.
+	`log
+('Clo£, %.2f' % 
+£lf
+.
+d©aşo£
+[0])
+
+71 #Check 
+ª
+ 
+Üd”
+ 
+is
+ 
+³ndšg
+ ... 
+yes
+, 
+we
+ 
+ÿÂÙ
+ 
+£nd
+ 
+a
+ 2
+nd
+ 
+Úe
+
+
+72 
+£lf
+.
+Üd”
+:
+
+74 #å…ˆæ±‚è¿˜æœ‰å¤šå°‘é’±å§, 
+ÿsh
+æ˜¯
+g‘_ÿsh
+, å¦‚æœæ˜¯è¦èµ„äº§æ˜¯
+	`g‘_v®ue
+()
+
+75 
+ÿsh
+ = 
+£lf
+.
+brok”
+.
+	$g‘_v®ue
+()
+
+76 #v®uğ
+£lf
+.
+brok”
+.
+	`g‘_v®ue
+()
+
+78 
+İ’_´iû
+ = 
+£lf
+.
+d©a_İ’
+[0]
+
+80 
+size1
+ = (
+ÿsh
+ / 
+İ’_´iû
+ * 0.1)
+
+81 #size2 = (
+v®ue
+/
+İ’_´iû
+*0.25)
+
+83 if(
+£lf
+.
+macdhi¡o
+[0] > 0
+
+84 
+ªd
+ 
+£lf
+.
+macdhi¡o
+[-1] < 0):
+
+85 
+£lf
+.
+	$buy
+(
+size
+=
+size1
+)
+
+87 if(
+£lf
+.
+macdhi¡o
+[0] < 0
+
+88 
+ªd
+ 
+£lf
+.
+macdhi¡o
+[-1] > 0):
+
+89 
+£lf
+.
+	$£Î
+(
+size
+=
+size1
+)
+
+92 
+__Çme__
+ == '__main__':
+
+93 #C»©
+a
+ 
+û»bro
+ 
+’t™y
+
+
+94 
+û»bro
+ = 
+bt
+.
+	$C”ebro
+()
+
+96 #Add 
+a
+ 
+¡¿‹gy
+
+
+97 
+û»bro
+.
+	$add¡¿‹gy
+(
+SŒ©egy_MACD
+)
+
+101 
+û»bro
+.
+brok”
+.
+	$£tcommissiÚ
+(
+commissiÚ
+=0.0008, 
+š‹»¡
+=0.05475)
+
+103 #C»©
+a
+ 
+D©a
+ 
+F“d
+
+
+104 #æœ¬åœ°æ•°æ®ï¼Œç¬”è€…ç”¨
+Wšd
+è·å–çš„ä¸œé£æ±½è½¦æ•°æ®ä»¥
+csv
+å½¢å¼å­˜å‚¨åœ¨æœ¬åœ°ã€‚
+
+105 #·¿£_d©e ğ
+True
+æ˜¯ä¸ºäº†è¯»å–
+csv
+ä¸º
+d©aäame
+çš„æ—¶å€™èƒ½å¤Ÿè‡ªåŠ¨è¯†åˆ«
+d©‘ime
+æ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œ
+big
+ä½œä¸º
+šdex
+
+
+106 #æ³¨æ„ï¼Œè¿™é‡Œæœ€åçš„
+·ndas
+è¦ç¬¦åˆ
+backŒad”
+çš„è¦æ±‚çš„æ ¼å¼
+
+107 
+d©aäame
+ = 
+FšªûD©aSourû
+.
+	$g‘_d©a
+(
+
+108 
+FšªûD©aSourû
+.
+¡r_tÚghuashun
+, FšªûD©aSourû.
+tÚghuashun_AGTD
+)
+
+109 
+d©aäame
+['openinterest'] = 0
+
+110 
+d©a
+ = 
+bt
+.
+ãeds
+.
+	$PªdasD©a
+(
+d©ªame
+=
+d©aäame
+)
+
+111 #Add 
+the
+ 
+D©a
+ 
+F“d
+ 
+to
+ 
+C”ebro
+
+
+112 
+û»bro
+.
+	$addd©a
+(
+d©a
+)
+
+115 #û»bro.
+	`addsiz”
+(
+bt
+.
+siz”s
+.
+P”ûÁSiz”
+, 
+³rûÁs
+=10)
+
+118 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+Sh¬³R©io
+, 
+_Çme
+='SharpeRatio')
+
+119 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+D¿wDown
+, 
+_Çme
+='DW')
+
+121 #S‘ 
+our
+ 
+desœed
+ 
+ÿsh
+ 
+¡¬t
+
+
+122 
+û»bro
+.
+brok”
+.
+	$£tÿsh
+(50000.0)
+
+124 #Pršˆ
+out
+ 
+the
+ 
+¡¬tšg
+ 
+cÚd™iÚs
+
+
+125 
+	`´št
+('S¹šg PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+127 #RuÀ
+ov”
+ 
+ev”ythšg
+
+
+128 
+»suÉs
+ = 
+û»bro
+.
+	$run
+()
+
+130 #Pršˆ
+out
+ 
+the
+ 
+fš®
+ 
+»suÉ
+
+
+131 
+	`´št
+('Fš® PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+132 #PlÙ 
+the
+ 
+»suÉ
+
+
+133 #û»bro.
+	`¶Ù
+()
+
+136 
+¡¿t
+ = 
+»suÉs
+[0]
+
+137 
+	`´št
+('å¤æ™®æ¯”ç‡:', 
+¡¿t
+.
+ª®yz”s
+.
+Sh¬³R©io
+.
+	$g‘_ª®ysis
+())
+
+138 
+	`´št
+('æœ€å¤§å›æ’¤:', 
+¡¿t
+.
+ª®yz”s
+.
+DW
+.
+	`g‘_ª®ysis
+())
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_MA_1.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-11-07 21:18:01
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 
+äom
+ 
+__futu»__
+ 
+	$impÜt
+ (
+absŞu‹_impÜt
+, 
+divisiÚ
+, 
+´št_funùiÚ
+,
+
+9 
+unicode_l™”®s
+)
+
+11 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+12 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+13 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+	`Çme
+ (
+š
+ 
+¬gv
+[0])
+
+14 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+15 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+16 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+17 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+18 
+impÜt
+ 
+sys
+
+
+19 
+sys
+.
+·th
+.
+	`­³nd
+("../FinanceDataSource")
+
+20 
+impÜt
+ 
+FšªûD©aSourû
+
+
+23 #C»©
+a
+ 
+SŒ©ey
+
+
+26 #å½“
+MACD
+å‡ºç°çªç ´çš„æ—¶å€™ï¼Œ10%ä»“ä½ã€‚
+
+27 
+şass
+ 
+	$SŒ©egy_MA
+(
+bt
+.
+SŒ©egy
+):
+
+29 
+·¿ms
+ = (('ma1', 5), ('ma2', 10), ('ma3', 20))
+
+31 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+):
+
+33 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+34 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+36 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+38 
+£lf
+.
+sma1
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma1
+)
+
+39 
+£lf
+.
+sma2
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma2
+)
+
+40 
+£lf
+.
+sma3
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma3
+)
+
+41 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+43 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+44 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+45 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+48 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+49 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+50 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+51 
+Üd”
+.
+	$isbuy
+():
+
+52 
+£lf
+.
+	`log
+(
+
+54 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+55 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+56 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+57 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+59 
+£lf
+.
+buy´iû
+ = 
+Üd”
+.
+execu‹d
+.
+´iû
+
+
+60 
+£lf
+.
+buycomm
+ = 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+61 
+£lf
+.
+İsize
+ = 
+Üd”
+.
+execu‹d
+.
+size
+
+
+63 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+
+64 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+65 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+66 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+67 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+69 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+70 #Sim¶y 
+log
+ 
+the
+ 
+şosšg
+ 
+´iû
+ 
+of
+h
+£r›s
+ 
+äom
+h
+»ã»nû
+
+
+71 #£lf.
+	`log
+('Clo£, %.2f' % 
+£lf
+.
+d©aşo£
+[0])
+
+73 #Check 
+ª
+ 
+Üd”
+ 
+is
+ 
+³ndšg
+ ... 
+yes
+, 
+we
+ 
+ÿÂÙ
+ 
+£nd
+ 
+a
+ 2
+nd
+ 
+Úe
+
+
+74 
+£lf
+.
+Üd”
+:
+
+76 #å…ˆæ±‚è¿˜æœ‰å¤šå°‘é’±å§, 
+ÿsh
+æ˜¯
+g‘_ÿsh
+, å¦‚æœæ˜¯è¦èµ„äº§æ˜¯
+	`g‘_v®ue
+()
+
+77 #ÿsh = 
+£lf
+.
+brok”
+.
+	`g‘_ÿsh
+()
+
+78 
+v®ue
+ = 
+£lf
+.
+brok”
+.
+	$g‘_v®ue
+()
+
+80 
+İ’_´iû
+ = 
+£lf
+.
+d©a_İ’
+[0]
+
+82 
+size1
+ = (
+v®ue
+/
+İ’_´iû
+*0.15)
+
+83 #size2 = (
+v®ue
+/
+İ’_´iû
+*0.25)
+
+89 if(
+£lf
+.
+sma1
+[0] > s–f.
+sma2
+[0]):
+
+91 if(
+£lf
+.
+sma2
+[0] > s–f.
+sma3
+[0]):
+
+92 
+£lf
+.
+	$Üd”_rg‘_³rûÁ
+(
+rg‘
+=0.20)
+
+94 
+£lf
+.
+	$Üd”_rg‘_³rûÁ
+(
+rg‘
+=0.10)
+
+96 if(
+£lf
+.
+sma1
+[0] < s–f.
+sma2
+[0]):
+
+97 if(
+£lf
+.
+sma2
+[0] < s–f.
+sma3
+[0]):
+
+98 
+£lf
+.
+	`Üd”_rg‘_³rûÁ
+(
+rg‘
+=-0.20)
+
+100 
+£lf
+.
+	`Üd”_rg‘_³rûÁ
+(
+rg‘
+=-0.10)
+
+103 if(
+£lf
+.
+sma1
+[0] > s–f.
+sma2
+[0] 
+ªd
+
+
+104 
+£lf
+.
+sma1
+[-1] < s–f.
+sma2
+[-1]):
+
+106 
+£lf
+.
+	$şo£
+()
+
+107 
+£lf
+.
+	`buy_b¿ck‘
+(
+size
+=
+size1
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price-60)
+
+109 if(
+£lf
+.
+sma1
+[0] < s–f.
+sma2
+[0] 
+ªd
+
+
+110 
+£lf
+.
+sma1
+[-1] > s–f.
+sma2
+[-1]):
+
+112 
+£lf
+.
+	$şo£
+()
+
+113 
+£lf
+.
+	`£Î_b¿ck‘
+(
+size
+=
+size1
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price+60)
+
+116 
+__Çme__
+ == '__main__':
+
+117 #C»©
+a
+ 
+û»bro
+ 
+’t™y
+
+
+118 
+û»bro
+ = 
+bt
+.
+	$C”ebro
+()
+
+120 #Add 
+a
+ 
+¡¿‹gy
+
+
+121 
+û»bro
+.
+	$add¡¿‹gy
+(
+SŒ©egy_MA
+)
+
+125 
+û»bro
+.
+brok”
+.
+	$£tcommissiÚ
+(
+commissiÚ
+=0.0008, 
+š‹»¡
+=0.05475)
+
+127 #C»©
+a
+ 
+D©a
+ 
+F“d
+
+
+128 #æœ¬åœ°æ•°æ®ï¼Œç¬”è€…ç”¨
+Wšd
+è·å–çš„ä¸œé£æ±½è½¦æ•°æ®ä»¥
+csv
+å½¢å¼å­˜å‚¨åœ¨æœ¬åœ°ã€‚
+
+129 #·¿£_d©e ğ
+True
+æ˜¯ä¸ºäº†è¯»å–
+csv
+ä¸º
+d©aäame
+çš„æ—¶å€™èƒ½å¤Ÿè‡ªåŠ¨è¯†åˆ«
+d©‘ime
+æ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œ
+big
+ä½œä¸º
+šdex
+
+
+130 #æ³¨æ„ï¼Œè¿™é‡Œæœ€åçš„
+·ndas
+è¦ç¬¦åˆ
+backŒad”
+çš„è¦æ±‚çš„æ ¼å¼
+
+131 
+d©aäame
+ = 
+FšªûD©aSourû
+.
+	$g‘_d©a
+(
+FšªûD©aSourû
+.
+¡r_tÚghuashun
+, FšªûD©aSourû.
+tÚghuashun_AGTD
+)
+
+132 
+d©aäame
+['openinterest'] = 0
+
+133 
+d©a
+ = 
+bt
+.
+ãeds
+.
+	$PªdasD©a
+(
+d©ªame
+=
+d©aäame
+)
+
+134 #Add 
+the
+ 
+D©a
+ 
+F“d
+ 
+to
+ 
+C”ebro
+
+
+135 
+û»bro
+.
+	$addd©a
+(
+d©a
+)
+
+138 #û»bro.
+	`addsiz”
+(
+bt
+.
+siz”s
+.
+P”ûÁSiz”
+, 
+³rûÁs
+=10)
+
+141 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+Sh¬³R©io
+, 
+_Çme
+='SharpeRatio')
+
+142 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+D¿wDown
+, 
+_Çme
+='DW')
+
+144 #S‘ 
+our
+ 
+desœed
+ 
+ÿsh
+ 
+¡¬t
+
+
+145 
+û»bro
+.
+brok”
+.
+	$£tÿsh
+(50000.0)
+
+147 #Pršˆ
+out
+ 
+the
+ 
+¡¬tšg
+ 
+cÚd™iÚs
+
+
+148 
+	`´št
+('S¹šg PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+150 #RuÀ
+ov”
+ 
+ev”ythšg
+
+
+151 
+»suÉs
+ = 
+û»bro
+.
+	$run
+()
+
+153 #Pršˆ
+out
+ 
+the
+ 
+fš®
+ 
+»suÉ
+
+
+154 
+	`´št
+('Fš® PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+155 #PlÙ 
+the
+ 
+»suÉ
+
+
+156 #û»bro.
+	`¶Ù
+()
+
+159 
+¡¿t
+ = 
+»suÉs
+[0]
+
+160 
+	`´št
+('å¤æ™®æ¯”ç‡:', 
+¡¿t
+.
+ª®yz”s
+.
+Sh¬³R©io
+.
+	$g‘_ª®ysis
+())
+
+161 
+	`´št
+('æœ€å¤§å›æ’¤:', 
+¡¿t
+.
+ª®yz”s
+.
+DW
+.
+	`g‘_ª®ysis
+())
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_MA_2.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-11-07 21:19:12
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 
+äom
+ 
+__futu»__
+ 
+	$impÜt
+ (
+absŞu‹_impÜt
+, 
+divisiÚ
+, 
+´št_funùiÚ
+,
+
+9 
+unicode_l™”®s
+)
+
+11 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+12 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+13 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+	`Çme
+ (
+š
+ 
+¬gv
+[0])
+
+14 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+15 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+16 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+17 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+18 
+impÜt
+ 
+sys
+
+
+19 
+sys
+.
+·th
+.
+	`­³nd
+("../FinanceDataSource")
+
+20 
+impÜt
+ 
+FšªûD©aSourû
+
+
+23 #C»©
+a
+ 
+SŒ©ey
+
+
+26 #å½“
+MACD
+å‡ºç°çªç ´çš„æ—¶å€™ï¼Œ10%ä»“ä½ã€‚
+
+27 
+şass
+ 
+	$SŒ©egy_MA
+(
+bt
+.
+SŒ©egy
+):
+
+29 
+·¿ms
+ = (('ma1', 5), ('ma2', 10), ('ma3', 20))
+
+31 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+):
+
+33 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+34 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+36 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+38 
+£lf
+.
+sma1
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma1
+)
+
+39 
+£lf
+.
+sma2
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma2
+)
+
+40 
+£lf
+.
+sma3
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma3
+)
+
+41 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+43 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+44 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+45 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+48 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+49 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+50 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+51 
+Üd”
+.
+	$isbuy
+():
+
+52 
+£lf
+.
+	`log
+(
+
+54 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+55 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+56 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+57 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+59 
+£lf
+.
+buy´iû
+ = 
+Üd”
+.
+execu‹d
+.
+´iû
+
+
+60 
+£lf
+.
+buycomm
+ = 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+61 
+£lf
+.
+İsize
+ = 
+Üd”
+.
+execu‹d
+.
+size
+
+
+63 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+
+64 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+65 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+66 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+67 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+69 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+70 #Sim¶y 
+log
+ 
+the
+ 
+şosšg
+ 
+´iû
+ 
+of
+h
+£r›s
+ 
+äom
+h
+»ã»nû
+
+
+71 #£lf.
+	`log
+('Clo£, %.2f' % 
+£lf
+.
+d©aşo£
+[0])
+
+73 #Check 
+ª
+ 
+Üd”
+ 
+is
+ 
+³ndšg
+ ... 
+yes
+, 
+we
+ 
+ÿÂÙ
+ 
+£nd
+ 
+a
+ 2
+nd
+ 
+Úe
+
+
+74 
+£lf
+.
+Üd”
+:
+
+76 #å…ˆæ±‚è¿˜æœ‰å¤šå°‘é’±å§, 
+ÿsh
+æ˜¯
+g‘_ÿsh
+, å¦‚æœæ˜¯è¦èµ„äº§æ˜¯
+	`g‘_v®ue
+()
+
+77 
+ÿsh
+ = 
+£lf
+.
+brok”
+.
+	$g‘_ÿsh
+()
+
+78 #v®uğ
+£lf
+.
+brok”
+.
+	`g‘_v®ue
+()
+
+80 
+İ’_´iû
+ = 
+£lf
+.
+d©a_İ’
+[0]
+
+82 
+size1
+ = (
+ÿsh
+/
+İ’_´iû
+*0.15)
+
+83 #size2 = (
+v®ue
+/
+İ’_´iû
+*0.25)
+
+85 if(
+£lf
+.
+sma1
+[0] > s–f.
+sma2
+[0] 
+ªd
+
+
+86 
+£lf
+.
+sma1
+[-1] < s–f.
+sma2
+[-1]):
+
+88 
+®»ady_size
+ = 
+£lf
+.
+pos™iÚ
+.
+size
+
+
+89 #if(
+®»ady_size
+ < 0):
+
+90 #£lf.
+	`şo£
+()
+
+92 #£lf.
+	`buy_b¿ck‘
+(
+size
+=
+size1
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price-60)
+
+93 
+£lf
+.
+	$buy
+(
+size
+=
+size1
+)
+
+95 if(
+£lf
+.
+sma1
+[0] < s–f.
+sma2
+[0] 
+ªd
+
+
+96 
+£lf
+.
+sma1
+[-1] > s–f.
+sma2
+[-1]):
+
+98 
+®»ady_size
+ = 
+£lf
+.
+pos™iÚ
+.
+size
+
+
+99 #if(
+®»ady_size
+ > 0):
+
+100 #£lf.
+	`şo£
+()
+
+102 #£lf.
+	`£Î_b¿ck‘
+(
+size
+=
+size1
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price+60)
+
+103 
+£lf
+.
+	$£Î
+(
+size
+=
+size1
+)
+
+106 
+__Çme__
+ == '__main__':
+
+107 #C»©
+a
+ 
+û»bro
+ 
+’t™y
+
+
+108 
+û»bro
+ = 
+bt
+.
+	$C”ebro
+()
+
+110 #Add 
+a
+ 
+¡¿‹gy
+
+
+111 
+û»bro
+.
+	$add¡¿‹gy
+(
+SŒ©egy_MA
+)
+
+115 
+û»bro
+.
+brok”
+.
+	$£tcommissiÚ
+(
+commissiÚ
+=0.0008, 
+š‹»¡
+=0.05475)
+
+117 #C»©
+a
+ 
+D©a
+ 
+F“d
+
+
+118 #æœ¬åœ°æ•°æ®ï¼Œç¬”è€…ç”¨
+Wšd
+è·å–çš„ä¸œé£æ±½è½¦æ•°æ®ä»¥
+csv
+å½¢å¼å­˜å‚¨åœ¨æœ¬åœ°ã€‚
+
+119 #·¿£_d©e ğ
+True
+æ˜¯ä¸ºäº†è¯»å–
+csv
+ä¸º
+d©aäame
+çš„æ—¶å€™èƒ½å¤Ÿè‡ªåŠ¨è¯†åˆ«
+d©‘ime
+æ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œ
+big
+ä½œä¸º
+šdex
+
+
+120 #æ³¨æ„ï¼Œè¿™é‡Œæœ€åçš„
+·ndas
+è¦ç¬¦åˆ
+backŒad”
+çš„è¦æ±‚çš„æ ¼å¼
+
+121 
+d©aäame
+ = 
+FšªûD©aSourû
+.
+	$g‘_d©a
+(
+FšªûD©aSourû
+.
+¡r_tÚghuashun
+, FšªûD©aSourû.
+tÚghuashun_AGTD
+)
+
+122 
+d©aäame
+['openinterest'] = 0
+
+123 
+d©a
+ = 
+bt
+.
+ãeds
+.
+	$PªdasD©a
+(
+d©ªame
+=
+d©aäame
+)
+
+124 #Add 
+the
+ 
+D©a
+ 
+F“d
+ 
+to
+ 
+C”ebro
+
+
+125 
+û»bro
+.
+	$addd©a
+(
+d©a
+)
+
+128 #û»bro.
+	`addsiz”
+(
+bt
+.
+siz”s
+.
+P”ûÁSiz”
+, 
+³rûÁs
+=10)
+
+131 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+Sh¬³R©io
+, 
+_Çme
+='SharpeRatio')
+
+132 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+D¿wDown
+, 
+_Çme
+='DW')
+
+134 #S‘ 
+our
+ 
+desœed
+ 
+ÿsh
+ 
+¡¬t
+
+
+135 
+û»bro
+.
+brok”
+.
+	$£tÿsh
+(50000.0)
+
+137 #Pršˆ
+out
+ 
+the
+ 
+¡¬tšg
+ 
+cÚd™iÚs
+
+
+138 
+	`´št
+('S¹šg PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+140 #RuÀ
+ov”
+ 
+ev”ythšg
+
+
+141 
+»suÉs
+ = 
+û»bro
+.
+	$run
+()
+
+143 #Pršˆ
+out
+ 
+the
+ 
+fš®
+ 
+»suÉ
+
+
+144 
+	`´št
+('Fš® PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+145 #PlÙ 
+the
+ 
+»suÉ
+
+
+146 #û»bro.
+	`¶Ù
+()
+
+149 
+¡¿t
+ = 
+»suÉs
+[0]
+
+150 
+	`´št
+('å¤æ™®æ¯”ç‡:', 
+¡¿t
+.
+ª®yz”s
+.
+Sh¬³R©io
+.
+	$g‘_ª®ysis
+())
+
+151 
+	`´št
+('æœ€å¤§å›æ’¤:', 
+¡¿t
+.
+ª®yz”s
+.
+DW
+.
+	`g‘_ª®ysis
+())
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_MA_3.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-11-07 21:20:35
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+9 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+10 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+Çme
+ (
+š
+ 
+¬gv
+[0])
+
+11 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+12 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+13 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+14 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+15 
+impÜt
+ 
+sys
+
+
+16 
+	gsys
+.
+	g·th
+.
+­³nd
+("../FinanceDataSource")
+
+17 
+impÜt
+ 
+	gFšªûD©aSourû
+
+
+20 #C»©
+a
+ 
+SŒ©ey
+
+
+23 #å½“
+MACD
+å‡ºç°çªç ´çš„æ—¶å€™ï¼Œ10%ä»“ä½ã€‚
+
+24 
+şass
+ 
+	$SŒ©egy_MA
+(
+bt
+.
+SŒ©egy
+):
+
+26 
+·¿ms
+ = (
+
+32 ('´šog', 
+F®£
+)
+
+35 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+, 
+i¥ršt
+=
+F®£
+):
+
+37 
+£lf
+.
+·¿ms
+.
+´šog
+ 
+Ü
+ 
+i¥ršt
+:
+
+38 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+39 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+41 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+43 
+£lf
+.
+sma1
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma1
+)
+
+44 
+£lf
+.
+sma2
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma2
+)
+
+45 
+£lf
+.
+sma3
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma3
+)
+
+46 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+48 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+49 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+50 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+53 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+54 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+55 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+56 
+Üd”
+.
+	$isbuy
+():
+
+57 
+£lf
+.
+	`log
+(
+
+59 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+60 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+61 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+62 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+64 
+£lf
+.
+buy´iû
+ = 
+Üd”
+.
+execu‹d
+.
+´iû
+
+
+65 
+£lf
+.
+buycomm
+ = 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+66 
+£lf
+.
+İsize
+ = 
+Üd”
+.
+execu‹d
+.
+size
+
+
+68 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+
+69 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+70 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+71 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+72 
+Üd”
+.
+execu‹d
+.
+comm
+))
+
+74 
+def
+ 
+	$¡İ
+(
+£lf
+):
+
+75 
+£lf
+.
+	`log
+('(%d, %d)(%d, %d) Ending Value %.2f' %
+
+76 (
+£lf
+.
+·¿ms
+.
+ma1
+, s–f.·¿ms.
+ma2
+, s–f.·¿ms.
+³rûÁ_Üd”_1
+, s–f.·¿ms.
+³rûÁ_Üd”_2
+, s–f.
+brok”
+.
+	`g‘v®ue
+()), 
+i¥ršt
+=
+True
+)
+
+78 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+86 
+³rûÁ_Üd”
+ = 0
+
+88 
+ma1_now
+ = 
+£lf
+.
+sma1
+[0]
+
+89 
+ma1_´e
+ = 
+£lf
+.
+sma1
+[-1]
+
+90 
+ma2_now
+ = 
+£lf
+.
+sma2
+[0]
+
+91 
+ma2_´e
+ = 
+£lf
+.
+sma2
+[-1]
+
+93 #İ’_´iû = 
+£lf
+.
+d©a_İ’
+[0]
+
+95 
+ma1_now
+ > 
+ma1_´e
+:
+
+96 
+³rûÁ_Üd”
+ =…”ûÁ_Üd” + 
+£lf
+.
+·¿ms
+.
+³rûÁ_Üd”_1
+/100
+
+98 
+³rûÁ_Üd”
+ =…”ûÁ_Üd” - 
+£lf
+.
+·¿ms
+.
+³rûÁ_Üd”_1
+/100
+
+100 
+ma2_now
+ > 
+ma2_´e
+:
+
+101 
+³rûÁ_Üd”
+ =…”ûÁ_Üd” + 
+£lf
+.
+·¿ms
+.
+³rûÁ_Üd”_2
+/100
+
+103 
+³rûÁ_Üd”
+ =…”ûÁ_Üd” - 
+£lf
+.
+·¿ms
+.
+³rûÁ_Üd”_2
+/100
+
+107 
+£lf
+.
+Üd”
+ = s–f.
+	`Üd”_rg‘_³rûÁ
+(
+rg‘
+=
+³rûÁ_Üd”
+)
+
+110 #cu¼’t_´iû = 
+£lf
+.
+pos™iÚ
+.
+´iû
+
+
+111 
+cu¼’t_size
+ = 
+£lf
+.
+pos™iÚ
+.
+size
+
+
+114 
+v®ue
+ = 
+£lf
+.
+brok”
+.
+	$g‘_v®ue
+()
+
+116 
+Ãed_size
+ = 
+v®ue
+ / 
+İ’_´iû
+ * 
+³rûÁ_Üd”
+
+
+118 ià(
+³rûÁ_Üd”
+ > 0):
+
+120 if(
+cu¼’t_size
+ > 0):
+
+123 if(
+Ãed_size
+ > 
+cu¼’t_size
+):
+
+125 
+£lf
+.
+Üd”
+ = s–f.
+	`buy_b¿ck‘
+(
+size
+=
+Ãed_size
+-
+cu¼’t_size
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price-100)
+
+128 
+£lf
+.
+Üd”
+ = s–f.
+	$şo£
+()
+
+130 
+£lf
+.
+Üd”
+ = s–f.
+	`buy_b¿ck‘
+(
+size
+=
+Ãed_size
+, 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price-100)
+
+133 if(
+cu¼’t_size
+ > 0):
+
+135 
+£lf
+.
+Üd”
+ = s–f.
+	$şo£
+()
+
+137 
+£lf
+.
+Üd”
+ = s–f.
+	`£Î_b¿ck‘
+(
+size
+=
+	`abs
+(
+Ãed_size
+), 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price+100)
+
+140 
+£lf
+.
+Üd”
+ = s–f.
+	`£Î_b¿ck‘
+(
+size
+=
+	`abs
+(
+Ãed_size
+ - 
+cu¼’t_size
+), 
+´iû
+=
+İ’_´iû
+, 
+¡İ´iû
+=open_price+100)
+
+142 
+__Çme__
+ == '__main__':
+
+143 #C»©
+a
+ 
+û»bro
+ 
+’t™y
+
+
+144 
+û»bro
+ = 
+bt
+.
+	$C”ebro
+()
+
+146 #Add 
+a
+ 
+¡¿‹gy
+
+
+148 
+û»bro
+.
+	$add¡¿‹gy
+(
+SŒ©egy_MA
+)
+
+149 #û»bro.
+	`İt¡¿‹gy
+(
+SŒ©egy_MA
+,
+
+152 #³rûÁ_Üd”_1=
+	`¿nge
+(10, 30),
+
+153 #³rûÁ_Üd”_2=
+	`¿nge
+(10, 20)
+
+157 
+û»bro
+.
+brok”
+.
+	$£tcommissiÚ
+(
+commissiÚ
+=0.0008, 
+š‹»¡
+=0.05475)
+
+159 #C»©
+a
+ 
+D©a
+ 
+F“d
+
+
+160 #·¿£_d©e ğ
+True
+æ˜¯ä¸ºäº†è¯»å–
+csv
+ä¸º
+d©aäame
+çš„æ—¶å€™èƒ½å¤Ÿè‡ªåŠ¨è¯†åˆ«
+d©‘ime
+æ ¼å¼çš„å­—ç¬¦ä¸²ï¼Œ
+big
+ä½œä¸º
+šdex
+
+
+161 #æ³¨æ„ï¼Œè¿™é‡Œæœ€åçš„
+·ndas
+è¦ç¬¦åˆ
+backŒad”
+çš„è¦æ±‚çš„æ ¼å¼
+
+162 
+d©aäame
+ = 
+FšªûD©aSourû
+.
+	$g‘_d©a
+(
+FšªûD©aSourû
+.
+¡r_tÚghuashun
+, FšªûD©aSourû.
+tÚghuashun_AGTD
+)
+
+163 
+d©aäame
+['openinterest'] = 0
+
+164 
+d©a
+ = 
+bt
+.
+ãeds
+.
+	$PªdasD©a
+(
+d©ªame
+=
+d©aäame
+)
+
+165 #Add 
+the
+ 
+D©a
+ 
+F“d
+ 
+to
+ 
+C”ebro
+
+
+166 
+û»bro
+.
+	$addd©a
+(
+d©a
+)
+
+169 #û»bro.
+	`addsiz”
+(
+bt
+.
+siz”s
+.
+P”ûÁSiz”
+, 
+³rûÁs
+=10)
+
+172 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+Sh¬³R©io
+, 
+_Çme
+='SharpeRatio')
+
+173 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+D¿wDown
+, 
+_Çme
+='DW')
+
+174 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+AÂu®R‘uº
+, 
+_Çme
+='AnnualReturn')
+
+175 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+C®m¬
+, 
+_Çme
+='Calmar')
+
+176 #û»bro.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+P”iodSts
+, 
+_Çme
+='PeriodStats')
+
+177 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+R‘uºs
+, 
+_Çme
+='Returns')
+
+178 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+T¿deAÇlyz”
+, 
+_Çme
+='TradeAnalyzer')
+
+179 
+û»bro
+.
+	`addª®yz”
+(
+bt
+.
+ª®yz”s
+.
+SQN
+, 
+_Çme
+='SQN')
+
+181 #S‘ 
+our
+ 
+desœed
+ 
+ÿsh
+ 
+¡¬t
+
+
+182 
+û»bro
+.
+brok”
+.
+	$£tÿsh
+(50000.0)
+
+184 #Pršˆ
+out
+ 
+the
+ 
+¡¬tšg
+ 
+cÚd™iÚs
+
+
+185 
+	`´št
+('S¹šg PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+187 #RuÀ
+ov”
+ 
+ev”ythšg
+
+
+188 
+»suÉs
+ = 
+û»bro
+.
+	$run
+()
+
+190 #Pršˆ
+out
+ 
+the
+ 
+fš®
+ 
+»suÉ
+
+
+191 
+	`´št
+('Fš® PÜtfŞiØV®ue: %.2f' % 
+û»bro
+.
+brok”
+.
+	$g‘v®ue
+())
+
+192 #PlÙ 
+the
+ 
+»suÉ
+
+
+193 #û»bro.
+	`¶Ù
+()
+
+196 
+¡¿t
+ = 
+»suÉs
+[0]
+
+197 #´št('å¤æ™®æ¯”ç‡:', 
+¡¿t
+.
+ª®yz”s
+.
+Sh¬³R©io
+.
+	`g‘_ª®ysis
+())
+
+198 #´št('æœ€å¤§å›æ’¤:', 
+¡¿t
+.
+ª®yz”s
+.
+DW
+.
+	`g‘_ª®ysis
+())
+
+199 #´št('å¹´åº¦å›æ’¤ï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+AÂu®R‘uº
+.
+	`g‘_ª®ysis
+())
+
+200 #´št('C®m¬ï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+C®m¬
+.
+	`g‘_ª®ysis
+())
+
+201 #´št('P”iodStsï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+P”iodSts
+.
+	`g‘_ª®ysis
+())
+
+202 #´št('å¹´åŒ–æ”¶ç›Šï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+R‘uºs
+.
+	`g‘_ª®ysis
+())
+
+203 #´št('T¿deAÇlyz”ï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+T¿deAÇlyz”
+.
+	`g‘_ª®ysis
+())
+
+204 #´št('SQNæŒ‡æ•°ï¼š', 
+¡¿t
+.
+ª®yz”s
+.
+SQN
+.
+	`g‘_ª®ysis
+())
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_MA_4.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-09-20 20:49:18
+
+5 #La¡ 
+Chªge
+: 2017-10-08 20:28:36
+
+6 #F
+Name
+: 
+§m¶e1
+.
+py
+
+
+8 #impÜˆ
+d©‘ime
+ #FÜ d©‘im
+objeùs
+
+
+9 #impÜˆ
+os
+.
+·th
+ #TØ
+mªage
+ 
+·ths
+
+
+10 #impÜˆ
+sys
+ #TØ
+fšd
+ 
+out
+ 
+the
+ 
+süt
+ 
+Çme
+ (
+š
+ 
+¬gv
+[0])
+
+11 #impÜˆ
+·ndas
+ 
+as
+ 
+pd
+
+
+12 #äom 
+WšdPy
+ 
+impÜt
+ 
+w
+
+
+13 #ImpÜˆ
+the
+ 
+backŒad”
+ 
+¶©fÜm
+
+
+15 
+äom
+ 
+SŒ©egy_maš
+ 
+impÜt
+ 
+SŒ©egyBa£
+
+
+16 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+	gbt
+
+
+18 #C»©
+a
+ 
+SŒ©ey
+
+
+23 
+şass
+ 
+	$SŒ©egy_MA
+(
+SŒ©egyBa£
+):
+
+24 
+·¿ms
+ = (
+
+28 ('´šog', 
+F®£
+)
+
+31 
+def
+ 
+	$g‘_Ãed_pos™iÚ
+(
+£lf
+):
+
+33 
+Œy
+:
+
+34 #é¦–å…ˆå–å¾—
+T¿deAÇlyz”
+ï¼Œè¿™é‡Œæœ‰èƒœç‡ï¼Œç›ˆåˆ©é‡‘é¢ï¼Œç­‰ç­‰ä¿¡æ¯
+
+35 
+
+ = 
+£lf
+.
+ª®yz”s
+.
+T¿deAÇlyz”
+.
+	$g‘_ª®ysis
+()
+
+36 
+Üd”_couÁ
+ = 
+
+['total']['closed']
+
+37 
+wÚ_couÁ
+ = 
+
+['won']['total']
+
+38 
+wÚ_av”age
+ = 
+
+['won']['pnl']['average']
+
+39 #lo¡_couÁ = 
+
+['lost']['total']
+
+40 
+lo¡_av”age
+ = 
+	`abs
+(
+
+['lost']['pnl']['average'])
+
+41 
+³v
+ = 
+wÚ_av”age
+ / 
+lo¡_av”age
+
+
+42 #ka˜ğ(
+wÚ_couÁ
+ / 
+Üd”_couÁ
+ * 
+³v
+ - 
+lo¡_couÁ
+ / order_count) / (peilv)
+
+43 
+p
+ = 
+wÚ_couÁ
+ / 
+Üd”_couÁ
+
+
+44 
+kai
+ = 
+p
+ - (1 -…è/ 
+³v
+
+
+46 if(
+kai
+ > 0.5 
+Ü
+ kaili < 0.05):
+
+48  
+kai
+
+
+49 
+exû±
+ 
+Exû±iÚ
+ 
+as
+ 
+”r
+:
+
+50 
+£lf
+.
+	$log
+(
+”r
+, 
+i¥ršt
+=
+True
+)
+
+53 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+55 
+£lf
+.
+sma1
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma1
+)
+
+56 
+£lf
+.
+sma2
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma2
+)
+
+57 
+£lf
+.
+sma3
+ = 
+bt
+.
+lib
+.
+	$SMA
+(
+£lf
+.
+d©a
+, 
+tim•”iod
+=£lf.
+·¿ms
+.
+ma3
+)
+
+58 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+60 
+def
+ 
+	$Ãxt
+(
+£lf
+):
+
+64 if(
+£lf
+.
+sma1
+[0] > s–f.
+sma2
+[0] 
+ªd
+
+
+65 
+£lf
+.
+sma1
+[-1] < s–f.
+sma2
+[-1]):
+
+67 
+pos_³rûÁ
+ = 
+£lf
+.
+	$g‘_Ãed_pos™iÚ
+()
+
+68 
+£lf
+.
+Üd”
+ = s–f.
+	$Üd”_rg‘_³rûÁ
+(
+rg‘
+=
+pos_³rûÁ
+)
+
+69 
+£lf
+.
+	`log
+("ä¹°å•ä»“ä½ï¼š%s" % (
+pos_³rûÁ
+), 
+i¥ršt
+=
+True
+)
+
+70 
+·ss
+
+
+71 
+	`–if
+(
+£lf
+.
+sma1
+[0] < s–f.
+sma2
+[0] 
+ªd
+
+
+72 
+£lf
+.
+sma1
+[-1] > s–f.
+sma2
+[-1]):
+
+74 
+pos_³rûÁ
+ = 
+£lf
+.
+	$g‘_Ãed_pos™iÚ
+()
+
+75 
+£lf
+.
+Üd”
+ = s–f.
+	`Üd”_rg‘_³rûÁ
+(
+rg‘
+=0 - 
+pos_³rûÁ
+)
+
+76 
+£lf
+.
+	`log
+("å–å•ä»“ä½ï¼š%s" % (
+pos_³rûÁ
+), 
+i¥ršt
+=
+True
+)
+
+77 
+·ss
+
+
+	@E:\Program\python\PythonFinance\BackTrader\Strategy_main.py
+
+1 #!/
+u¤
+/
+bš
+/
+’v
+ 
+pythÚ
+
+
+2 #-*- 
+codšg
+: 
+utf
+-8 -*-
+
+3 #AuthÜ: 
+k”wš
+.
+ú
+@
+gma
+.
+com
+
+
+4 #C»©ed 
+Time
+:2017-10-08 10:30:59
+
+5 #La¡ 
+Chªge
+: 2017-10-08 16:18:24
+
+6 #F
+Name
+: 
+SŒ©egy_maš
+.
+py
+
+
+8 
+impÜt
+ 
+backŒad”
+ 
+as
+ 
+bt
+
+
+11 
+şass
+ 
+	$SŒ©egyBa£
+(
+bt
+.
+SŒ©egy
+):
+
+14 ä»¥ä¾¿æˆ‘ç»§æ‰¿åï¼Œæˆ‘åªç”¨äº›
+Ãxt
+æ–¹æ³•å’Œ
+__š™__
+æ–¹æ³•å°±å¯ä»¥äº†ã€‚
+
+17 
+def
+ 
+	$log
+(
+£lf
+, 
+txt
+, 
+dt
+=
+NÚe
+, 
+i¥ršt
+=
+F®£
+):
+
+19 
+£lf
+.
+·¿ms
+.
+´šog
+ 
+Ü
+ 
+i¥ršt
+:
+
+20 
+dt
+ = dˆ
+Ü
+ 
+£lf
+.
+d©as
+[0].
+d©‘ime
+.
+	$d©e
+(0)
+
+21 
+	`´št
+('%s, %s' % (
+dt
+.
+	`isofÜm©
+(), 
+txt
+))
+
+23 
+def
+ 
+	$__š™__
+(
+£lf
+):
+
+24 
+£lf
+.
+Üd”
+ = 
+NÚe
+
+
+26 
+def
+ 
+	$nÙify
+(
+£lf
+, 
+Üd”
+):
+
+27 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Subm™‹d
+, ord”.
+Acû±ed
+]:
+
+28 #Buy/
+S–l
+ 
+Üd”
+ 
+subm™‹d
+/
+acû±ed
+ 
+to
+/
+by
+ 
+brok”
+ - 
+NÙhšg
+o do
+
+31 #Check 
+ª
+ 
+Üd”
+ 
+has
+ 
+b“n
+ 
+com¶‘ed
+
+
+32 #A‰’tiÚ: 
+brok”
+ 
+could
+ 
+»jeù
+ 
+Üd”
+ 
+nÙ
+ 
+’ougth
+ 
+ÿsh
+
+
+33 
+Üd”
+.
+¡©us
+ 
+š
+ [Üd”.
+Com¶‘ed
+, ord”.
+CªûËd
+, ord”.
+M¬gš
+]:
+
+34 
+Üd”
+.
+	$isbuy
+():
+
+35 
+£lf
+.
+	`log
+(
+
+37 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+38 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+39 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+40 
+Üd”
+.
+execu‹d
+.
+comm
+), 
+i¥ršt
+=
+True
+)
+
+42 
+£lf
+.
+buy´iû
+ = 
+Üd”
+.
+execu‹d
+.
+´iû
+
+
+43 
+£lf
+.
+buycomm
+ = 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+44 
+£lf
+.
+İsize
+ = 
+Üd”
+.
+execu‹d
+.
+size
+
+
+46 
+£lf
+.
+	`log
+('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+
+47 (
+Üd”
+.
+execu‹d
+.
+size
+,
+
+48 
+Üd”
+.
+execu‹d
+.
+´iû
+,
+
+49 
+Üd”
+.
+execu‹d
+.
+v®ue
+,
+
+50 
+Üd”
+.
+execu‹d
+.
+comm
+
+
+51 ), 
+i¥ršt
+=
+True
+)
+
+53 
+def
+ 
+	$¡İ
+(
+£lf
+):
+
+54 
+·ss
+
+
+	@
+1
+.
+1
+/usr/include
+10
+609
+E:\Program\python\PythonFinance\BackTrader\.ropeproject\config.py
+E:\Program\python\PythonFinance\BackTrader\BackTrader.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_KAMA_1.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_KAMA_2.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_MACD_1.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_MA_1.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_MA_2.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_MA_3.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_MA_4.py
+E:\Program\python\PythonFinance\BackTrader\Strategy_main.py
