@@ -2,26 +2,18 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-07 21:20:35
+# Last Change:  2017-11-10 20:54:20
 # File Name: sample1.py
 
-# import datetime  # For datetime objects
-# import os.path  # To manage paths
-# import sys  # To find out the script name (in argv[0])
-# import pandas as pd
-# from WindPy import w
-# Import the backtrader platform
 import backtrader as bt
-import sys
-sys.path.append("../FinanceDataSource")
-import FinanceDataSource
-
+import CerebroBase
+import StrategyBase
 
 # Create a Stratey
 # 这个是均线系统，我大选系统如下：
 # 当五日均线突破10日均线的时候，10%仓位
 # 当MACD出现突破的时候，10%仓位。
-class Strategy_MA(bt.Strategy):
+class Strategy_MA(StrategyBase.StrategyBase):
 
     params = (
         ('ma1', 6),
@@ -32,49 +24,12 @@ class Strategy_MA(bt.Strategy):
         ('printlog', False)
     )
 
-    def log(self, txt, dt=None, isprint=False):
-        ''''' Logging function fot this strategy'''
-        if self.params.printlog or isprint:
-            dt = dt or self.datas[0].datetime.date(0)
-            print('%s, %s' % (dt.isoformat(), txt))
-
     def __init__(self):
         # 添加多条均线
         self.sma1 = bt.talib.SMA(self.data, timeperiod=self.params.ma1)
         self.sma2 = bt.talib.SMA(self.data, timeperiod=self.params.ma2)
         self.sma3 = bt.talib.SMA(self.data, timeperiod=self.params.ma3)
         self.order = None
-
-    def notify(self, order):
-        if order.status in [order.Submitted, order.Accepted]:
-            # Buy/Sell order submitted/accepted to/by broker - Nothing to do
-            return
-
-        # Check if an order has been completed
-        # Attention: broker could reject order if not enougth cash
-        if order.status in [order.Completed, order.Canceled, order.Margin]:
-            if order.isbuy():
-                self.log(
-                    'BUY EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
-                    (order.executed.size,
-                     order.executed.price,
-                     order.executed.value,
-                     order.executed.comm))
-
-                self.buyprice = order.executed.price
-                self.buycomm = order.executed.comm
-                self.opsize = order.executed.size
-            else:  # Sell
-                self.log('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
-                         (order.executed.size,
-                          order.executed.price,
-                          order.executed.value,
-                          order.executed.comm))
-
-    def stop(self):
-        self.log('(%d,  %d)(%d, %d) Ending Value %.2f' %
-                 (self.params.ma1, self.params.ma2, self.params.percent_order_1, self.params.percent_order_2, self.broker.getvalue()), isprint=True)
-
     def next(self):
         """我这里打算交易方法是用均线的方向来判断
         比如2条均线：
@@ -141,64 +96,9 @@ class Strategy_MA(bt.Strategy):
                 """
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = bt.Cerebro()
-
+    cerebro = CerebroBase.CerebroAGUSDO()
     # Add a strategy
-    # 在这里加上我的策略，从
     cerebro.addstrategy(Strategy_MA)
-    # cerebro.optstrategy(Strategy_MA,
-    #                     ma1=6,
-    #                     ma2=12,
-    #                     percent_order_1=range(10, 30),
-    #                     percent_order_2=range(10, 20)
-    #                     )
-    # 设置佣金杠杆
-    # 上海黄金交易所手续费为万分之8，白银的递延费为万分之1.5， * 362 = 0.05475，这里不考虑杠杆。
-    cerebro.broker.setcommission(commission=0.0008, interest=0.05475)
-
-    # Create a Data Feed
-    # parase_dates = True是为了读取csv为dataframe的时候能够自动识别datetime格式的字符串，big作为index
-    # 注意，这里最后的pandas要符合backtrader的要求的格式
-    dataframe = FinanceDataSource.get_data(FinanceDataSource.str_tonghuashun, FinanceDataSource.tonghuashun_AGTD)
-    dataframe['openinterest'] = 0
-    data = bt.feeds.PandasData(dataname=dataframe)
-    # Add the Data Feed to Cerebro
-    cerebro.adddata(data)
-
-    # 每股固定10个
-    # cerebro.addsizer(bt.sizers.PercentSizer, percents=10)
-
-    # 加入分析师
-    cerebro.addanalyzer(bt.analyzers.SharpeRatio, _name='SharpeRatio')
-    cerebro.addanalyzer(bt.analyzers.DrawDown, _name='DW')
-    cerebro.addanalyzer(bt.analyzers.AnnualReturn, _name='AnnualReturn')
-    cerebro.addanalyzer(bt.analyzers.Calmar, _name='Calmar')
-    # cerebro.addanalyzer(bt.analyzers.PeriodStats, _name='PeriodStats')
-    cerebro.addanalyzer(bt.analyzers.Returns, _name='Returns')
-    cerebro.addanalyzer(bt.analyzers.TradeAnalyzer, _name='TradeAnalyzer')
-    cerebro.addanalyzer(bt.analyzers.SQN, _name='SQN')
-
     # Set our desired cash start
-    cerebro.broker.setcash(50000.0)
-
-    # Print out the starting conditions
-    print('Starting Portfolio Value: %.2f' % cerebro.broker.getvalue())
-
-    # Run over everything
-    results = cerebro.run()
-
-    # Print out the final result
-    print('Final Portfolio Value: %.2f' % cerebro.broker.getvalue())
-    # Plot the result
-    # cerebro.plot()
-
-    # 显示分析师结果
-    strat = results[0]
-    # print('夏普比率:', strat.analyzers.SharpeRatio.get_analysis())
-    # print('最大回撤:', strat.analyzers.DW.get_analysis())
-    # print('年度回撤：', strat.analyzers.AnnualReturn.get_analysis())
-    # print('Calmar：', strat.analyzers.Calmar.get_analysis())
-    # print('PeriodStats：', strat.analyzers.PeriodStats.get_analysis())
-    # print('年化收益：', strat.analyzers.Returns.get_analysis())
-    # print('TradeAnalyzer：', strat.analyzers.TradeAnalyzer.get_analysis())
-    # print('SQN指数：', strat.analyzers.SQN.get_analysis())
+    cerebro.set_cash(100000.0)
+    cerebro.run()

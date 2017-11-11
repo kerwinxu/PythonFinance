@@ -1,4 +1,122 @@
-cscope 15 /cygdrive/e/Program/python/PythonFinance/BackTrader -q 0000000295 0000031258
+cscope 15 /cygdrive/e/Program/python/PythonFinance -q 0000000579 0000046278
+	@E:\Program\python\PythonFinance\.ropeproject\config.py
+
+1 #Thê ``
+c⁄fig
+.
+py
+``
+
+4 
+def
+ 
+	$£t_¥efs
+(
+¥efs
+):
+
+7 #S≥cify 
+which
+ 
+fûes
+ 
+™d
+ 
+fﬁdîs
+ 
+to
+ 
+ign‹e
+ 
+ö
+ 
+the
+ 
+¥oje˘
+.
+
+8 #Ch™ge†
+to
+ 
+ign‹ed
+ 
+ªsour˚s
+ 
+¨e
+ 
+nŸ
+ 
+added
+Åÿ
+the
+ 
+hi°‹y
+ 
+™d
+
+
+9 #VCSs. 
+Also
+ 
+they
+ 
+¨e
+ 
+nŸ
+ 
+ªtu∫ed
+ 
+ö
+ `
+Proje˘
+.
+	`gë_fûes
+()`.
+
+10 #NŸê
+th©
+ ``?`` 
+™d
+ ``*`` 
+m©ch
+ 
+Æl
+ 
+ch¨a˘îs
+ 
+but
+ 
+¶ashes
+.
+
+11 #'*.
+pyc
+': m©che†'
+ã°
+.pyc'ánd '
+pkg
+/test.pyc'
+
+12 #'
+mod
+*.
+pyc
+': m©che†'
+ã°
+/
+mod1
+.pyc' butÇot 'mod/1.pyc'
+
+13 #'.
+svn
+': m©che†'
+pkg
+/.svn'ándáll of its children
+
+14 #'
+buûd
+
+
 	@E:\Program\python\PythonFinance\BackTrader\.ropeproject\config.py
 
 1 #Thê ``
@@ -6537,13 +6655,2606 @@ def
 ∑ss
 
 
+	@E:\Program\python\PythonFinance\CandlestickOhlc\CandlestickOhlc.py
+
+1 #!/
+u§
+/
+bö
+/
+ív
+ 
+pyth⁄
+
+
+2 #-*- 
+codög
+: 
+utf
+-8 -*-
+
+3 #Auth‹: 
+kîwö
+.
+˙
+@
+gmaû
+.
+com
+
+
+4 #Cª©ed 
+Time
+:2017-09-03 20:47:16
+
+5 #La° 
+Ch™ge
+: 2017-10-07 20:27:14
+
+6 #Fûê
+Name
+: 
+sim∂e_1
+.
+py
+
+
+8 
+‰om
+ 
+	gm©∂Ÿlib
+.
+d©es
+ 
+imp‹t
+ 
+	gD©eF‹m©ãr
+, 
+	gWìkdayLoˇt‹
+,\
+
+9 
+	gDayLoˇt‹
+, 
+MONDAY
+
+
+10 
+‰om
+ 
+m∂_fö™˚
+ 
+imp‹t
+ 
+ˇndÀ°ick_ohlc
+
+
+11 
+imp‹t
+ 
+∑ndas
+ 
+as
+ 
+pd
+
+
+12 
+imp‹t
+ 
+d©ëime
+
+
+13 
+imp‹t
+ 
+	gm©∂Ÿlib
+.
+py∂Ÿ
+ 
+as
+ 
+	g∂t
+ #Imp‹à
+m©∂Ÿlib
+
+
+14 
+imp‹t
+ 
+pyœb
+
+
+15 
+imp‹t
+ 
+numpy
+ 
+as
+ 
+≈
+
+
+18 
+def
+ 
+ˇndÀ°ick_ohlc
+(
+d©
+, 
+°ick
+="day", 
+sh¨e£rõs
+=
+N⁄e
+, 
+Ÿhî£rõs
+=None):
+
+20 Ëøô‰∏™ÊñπÊ≥ïÁî®Êù•ÁªòÂà∂
+k
+Á∫øÂõæÁöÑÔºåÁé∞Âú®Â∑≤ÁªèÂèØ‰ª•ÊòæÁ§∫kÁ∫øÂõæÔºåÈôÑÂä†Âú®‰∏ªÂõæ‰∏äÁöÑÊåáÊ†áÂíåÂÖ∂‰ªñÂçïÁã¨ÊòæÁ§∫ÁöÑÂ≠óË°®„ÄÇ
+
+21 :
+∑øm
+ 
+d©
+: 
+∑ndas
+ 
+D©aFøme
+ 
+obje˘
+ 
+wôh
+ 
+d©ëime64
+ 
+ödex
+, 
+™d
+ 
+	gcﬁumns
+ "O≥n", "High", "Low", 
+	g™d
+ "Clo£", 
+likñy
+ 
+¸óãd
+ 
+vü
+ 
+D©aRódî
+ 
+	g‰om
+ "yahoo"
+
+22 :
+∑øm
+ 
+°ick
+: 
+A
+ 
+°rög
+ 
+‹
+ 
+numbî
+ 
+ödiˇtög
+ 
+the
+ 
+≥riod
+ 
+of
+ 
+time
+ 
+covîed
+ 
+by
+ 
+a
+ 
+sögÀ
+ 
+ˇndÀ°ick
+. 
+VÆid
+ såög 
+öputs
+ 
+ö˛ude
+ "day", "wìk", "m⁄th", 
+	g™d
+ "yór", ("day" ), 
+™d
+ 
+™y
+ 
+numîic
+ 
+öput
+ 
+ödiˇãs
+Åhênumbî o‡
+åadög
+ 
+days
+ 
+ö˛uded
+ 
+ö
+á 
+	g≥riod
+
+
+23 :
+∑øm
+ 
+sh¨e£rõs
+: Ëøô‰∏™ÊòØÂÖ±Áî®Âú®‰∏ªÂõæ‰∏äÁöÑ
+An
+ 
+ôîabÀ
+ 
+th©
+ 
+wûl
+ 
+be
+ 
+c€r˚d
+ 
+öto
+ 
+a
+ 
+li°
+, 
+c⁄èöög
+ 
+the
+ 
+cﬁumns
+ 
+of
+ 
+d©
+Åh© 
+hﬁd
+ 
+Ÿhî
+ 
+£rõs
+ 
+to
+ bê
+∂Ÿãd
+ 
+as
+ 
+	glöes
+
+
+24 :
+∑øm
+ 
+Ÿhî£rõs
+: ÂÖ∂‰ªñÁöÑÂõæÂΩ¢ÔºåÊØîÂ¶Ç
+KDJ
+Ôºå
+RSI
+‰πãÁ±ªÁöÑ
+
+26 
+This
+ 
+wûl
+ 
+show
+ 
+a
+ 
+J≠™e£
+ 
+ˇndÀ°ick
+ 
+∂Ÿ
+ 
+°ock
+ 
+d©a
+ 
+°‹ed
+ 
+ö
+ 
+d©
+, 
+Æso
+ 
+∂Ÿtög
+ 
+Ÿhî
+ 
+£rõs
+ 
+	g∑s£d
+.
+
+28 
+	gm⁄days
+ = 
+	$WìkdayLoˇt‹
+(
+MONDAY
+Ë#maj‹ 
+ticks
+ 
+⁄
+ 
+the
+ 
+m⁄days
+ Ëé∑ÂæóÊØèÂë®‰∏ÄÁöÑÊó•ÊúüÊï∞ÊçÆÔºåËøô‰∏™ÂΩì‰∏ªË¶ÅÂàªÂ∫¶
+
+29 
+Ældays
+ = 
+	$DayLoˇt‹
+(Ë#mö‹ 
+ticks
+ 
+⁄
+ 
+the
+ 
+days
+ Ëé∑ÂæóÁæéÊó•Êï∞ÊçÆÔºåËøô‰∏™ÂΩìÊ¨°Ë¶ÅÂàªÂ∫¶
+
+30 #dayF‹m©ã∏
+	`D©eF‹m©ãr
+('%d'Ë#e.
+g
+., 12
+
+31 #ax.
+xaxis
+.
+	`£t_maj‹_f‹m©ãr
+(
+m⁄dayF‹m©ãr
+)ÔºåÁî®Ëøô‰∏™Êù•ËÆæÂÆöÊ†ºÂºè
+
+33 #Cª©ê
+a
+ 
+√w
+ 
+D©aFøme
+ 
+which
+ 
+ö˛udes
+ 
+OHLC
+ 
+d©a
+ 
+óch
+ 
+≥riod
+ 
+•ecifõd
+ 
+by
+ 
+°ick
+ 
+öput
+
+
+35 
+å™sd©
+ = 
+d©
+.
+loc
+[:, ["Open", "High", "Low", "Close"]]
+
+38 i‡(
+	`ty≥
+(
+°ick
+Ë=
+°r
+):
+
+40 
+°ick
+ == "day":
+
+42 
+∂Ÿd©
+ = 
+å™sd©
+
+
+43 
+°ick
+ = 1 #U£d 
+∂Ÿtög
+
+
+45 
+ñif
+ 
+°ick
+ 
+ö
+ ["week", "month", "year"]:
+
+47 
+°ick
+ == "week":
+
+48 #∑ndasÊèê‰æõ
+to_d©ëime
+ÊñπÊ≥ïÂ∞Ü‰ª£Ë°®Êó∂Èó¥ÁöÑÂ≠óÁ¨¶ËΩ¨Âåñ‰∏∫
+Time°amp
+ÂØπË±°, Ëøô‰∏™ÂØπË±°ÊòØÊó∂Èó¥Êà≥Ôºö
+
+49 
+å™sd©
+["wìk"] = 
+pd
+.
+	`to_d©ëime
+—ønsd©.
+ödex
+).
+	`m≠
+(
+œmbda
+ 
+x
+: x.
+	`isoˇÀnd¨
+()[1]Ë#Idítify 
+wìks
+
+
+50 
+ñif
+ 
+°ick
+ == "month":
+
+51 
+å™sd©
+["m⁄th"] = 
+pd
+.
+	`to_d©ëime
+—ønsd©.
+ödex
+).
+	$m≠
+(
+œmbda
+ 
+x
+: x.
+m⁄th
+Ë#Idítify 
+m⁄ths
+
+
+52 
+å™sd©
+["yór"] = 
+pd
+.
+	`to_d©ëime
+—ønsd©.
+ödex
+).
+	`m≠
+(
+œmbda
+ 
+x
+: x.
+	`isoˇÀnd¨
+()[0]Ë#Idítify 
+yórs
+
+
+53 
+grou≥d
+ = 
+å™sd©
+.
+	`groupby
+(
+	`li°
+(
+	`£t
+(["yór", 
+°ick
+]))Ë#Grou∞
+by
+ 
+yór
+ 
+™d
+ 
+Ÿhî
+ 
+≠¥›rüã
+ 
+v¨übÀ
+
+
+54 
+∂Ÿd©
+ = 
+pd
+.
+	`D©aFøme
+({"O≥n": [], "High": [], "Low": [], "Clo£": []
+	}
+}Ë#Cª©ê
+em±y
+ 
+d©a
+ 
+‰ame
+ 
+c⁄èöög
+ 
+wh©
+ 
+wûl
+ 
+be
+ 
+∂Ÿãd
+
+
+55 
+«me
+, 
+group
+ 
+ö
+ 
+	ggrou≥d
+:
+
+56 
+∂Ÿd©
+ =ÖlŸd©.
+≠≥nd
+(
+pd
+.
+D©aFøme
+({"O≥n": 
+group
+.
+ûoc
+[0, 0],
+
+57 "High": 
+max
+(
+group
+.
+High
+),
+
+58 "Low": 
+mö
+(
+group
+.
+Low
+),
+
+59 "Clo£": 
+group
+.
+ûoc
+[-1, 3]},
+
+60 
+ödex
+=[
+group
+.index[0]]))
+
+61 
+°ick
+ == "week":
+
+62 
+°ick
+ = 5
+
+63 
+ñif
+ 
+°ick
+ == "month":
+
+64 
+°ick
+ = 30
+
+65 
+ñif
+ 
+°ick
+ == "year":
+
+66 
+°ick
+ = 365
+
+68 
+ñif
+ (
+ty≥
+(
+°ick
+Ë=
+™d
+ stick >= 1):
+
+70 
+å™sd©
+["°ick"] = [
+≈
+.
+Êo‹
+(
+i
+ / 
+°ick
+Ëò
+ö
+ 
+ønge
+(
+Àn
+—ønsd©.
+ödex
+))]
+
+71 
+grou≥d
+ = 
+å™sd©
+.
+groupby
+("stick")
+
+72 
+∂Ÿd©
+ = 
+pd
+.
+D©aFøme
+({"O≥n": [], "High": [], "Low": [], "Clo£": []}Ë#Cª©ê
+em±y
+ 
+d©a
+ 
+‰ame
+ 
+c⁄èöög
+ 
+wh©
+ 
+wûl
+ 
+be
+ 
+∂Ÿãd
+
+
+73 
+«me
+, 
+group
+ 
+ö
+ 
+	ggrou≥d
+:
+
+74 
+∂Ÿd©
+ =ÖlŸd©.
+≠≥nd
+(
+pd
+.
+D©aFøme
+({"O≥n": 
+group
+.
+ûoc
+[0, 0],
+
+75 "High": 
+max
+(
+group
+.
+High
+),
+
+76 "Low": 
+mö
+(
+group
+.
+Low
+),
+
+77 "Clo£": 
+group
+.
+ûoc
+[-1, 3]},
+
+78 
+ödex
+=[
+group
+.index[0]]))
+
+81 
+øi£
+ 
+VÆueEº‹
+('Valid inputsÅoárgument "stick" includeÅhe strings "day", "week", "month", "year", oráÖositive integer')
+
+84 #Së 
+∂Ÿ
+ 
+∑ømëîs
+, 
+ö˛udög
+ 
+the
+ 
+axis
+ 
+obje˘
+ 
+ax
+ 
+u£d
+ 
+∂Ÿtög
+
+
+85 
+	gfig
+, 
+	gax
+ = 
+∂t
+.
+	$sub∂Ÿs
+()
+
+87 if(
+Ÿhî£rõs
+ 
+is
+ 
+nŸ
+ 
+N⁄e
+):
+
+88 
+	`ty≥
+(
+Ÿhî£rõs
+Ë!
+li°
+:
+
+89 
+Ÿhî£rõs
+ = [otherseries]
+
+90 
+zôu_cou¡
+ = 
+	$Àn
+(
+Ÿhî£rõs
+)
+
+91 
+zhutu_size
+ = 2
+
+93 
+fig
+ = 
+∂t
+.
+	$figuª
+(1)
+
+95 
+„ngedaxüo
+ = (
+zhutu_size
++
+zôu_cou¡
+, 1)
+
+97 
+ax
+ = 
+∂t
+.
+	`sub∂Ÿ2grid
+(
+„ngedaxüo
+, (0, 0), 
+row•™
+=
+zhutu_size
+)
+
+99 
+k
+ = 
+zhutu_size
+
+
+101 
+k
+ < 
+zôu_cou¡
++
+zhutu_size
+:
+
+103 
+cﬁ_«me_1
+ = 
+Ÿhî£rõs
+[
+k
+-
+zhutu_size
+]
+
+104 #sh¨exÁöÑÊÑèÊÄùÊòØÂÖ±‰∫´
+X
+ËΩ¥
+
+105 
+ax2
+ = 
+∂t
+.
+	`sub∂Ÿ2grid
+(
+„ngedaxüo
+, (
+k
+, 0), 
+sh¨ex
+=
+ax
+)
+
+107 
+d©
+.
+loc
+[:, 
+cﬁ_«me_1
+].
+	$∂Ÿ
+(
+ax
+=
+ax2
+)
+
+108 #ÊØîÂ¶ÇÂæóÂä†
+°r
+ËΩ¨Êç¢‰∏Ä‰∏™Ê†ºÂºè
+
+109 
+ax2
+.
+	`£t_tôÀ
+(
+	$°r
+(
+cﬁ_«me_1
+))
+
+110 
+k
+ = k + 1
+
+111 
+∑ss
+
+
+115 #fig.
+	`sub∂Ÿs_adju°
+(
+bŸtom
+=0.2)
+
+117 
+∂Ÿd©
+.
+ödex
+[-1] -ÖlŸd©.ödex[0] < 
+pd
+.
+	`Timedñè
+('730 days'):
+
+118 
+wìkF‹m©ãr
+ = 
+	`D©eF‹m©ãr
+('%b %d'Ë#e.
+g
+., 
+J™
+ 12
+
+119 
+ax
+.
+xaxis
+.
+	$£t_maj‹_loˇt‹
+(
+m⁄days
+)
+
+120 
+ax
+.
+xaxis
+.
+	$£t_mö‹_loˇt‹
+(
+Ældays
+)
+
+123 
+wìkF‹m©ãr
+ = 
+	`D©eF‹m©ãr
+('%b %d, %Y')
+
+125 
+ax
+.
+xaxis
+.
+	$£t_maj‹_f‹m©ãr
+(
+wìkF‹m©ãr
+)
+
+127 
+ax
+.
+	$grid
+(
+True
+)
+
+129 #Cª©ê
+the
+ 
+ˇndñ°ick
+ 
+ch¨t
+
+
+130 
+	`ˇndÀ°ick_ohlc
+(
+ax
+, 
+	`li°
+(
+	`zù
+÷i°(
+pyœb
+.
+	`d©e2num
+(
+∂Ÿd©
+.
+ödex
+.
+	`tﬁi°
+())),Ölotdat["Open"].tolist(),Ölotdat["High"].tolist(),
+
+131 
+∂Ÿd©
+["Low"].
+	`tﬁi°
+(),Ölotdat["Close"].tolist())),
+
+132 
+cﬁ‹up
+="ªd", 
+cﬁ‹down
+="gªí", 
+width
+=
+°ick
+ * .4)
+
+134 #PlŸ 
+Ÿhî
+ 
+	`£rõs
+ (
+such
+ 
+as
+ 
+movög
+ 
+avîages
+Ëa†
+löes
+
+
+135 
+sh¨e£rõs
+ 
+is
+ 
+nŸ
+ 
+N⁄e
+:
+
+136 
+	`ty≥
+(
+sh¨e£rõs
+Ë!
+li°
+:
+
+137 
+sh¨e£rõs
+ = [shareseries]
+
+138 
+d©
+.
+loc
+[:, 
+sh¨e£rõs
+].
+	$∂Ÿ
+(
+ax
+˜x, 
+lw
+=1.3, 
+grid
+=
+True
+)
+
+140 
+ax
+.
+	$xaxis_d©e
+()
+
+141 
+ax
+.
+	$autosˇÀ_võw
+()
+
+142 
+∂t
+.
+	`£ç
+’….
+	`gˇ
+().
+	`gë_xtickœbñs
+(), 
+rŸ©i⁄
+=45, 
+h‹iz⁄èœlignmít
+='right')
+
+144 
+∂t
+.
+	$show
+()
+
+147 
+__«me__
+ == "__main__":
+
+148 #Wê
+wûl
+ 
+look
+ 
+©
+ 
+°ock
+ 
+¥i˚s
+ 
+ovî
+ 
+the
+ 
+∑°
+ 
+yór
+, 
+°¨tög
+áà
+J™u¨y
+ 1, 2016
+
+149 
+°¨t
+ = 
+d©ëime
+.
+	$d©ëime
+(2016, 1, 1)
+
+150 
+íd
+ = 
+d©ëime
+.
+d©e
+.
+	$today
+()
+
+151 #Lë'†gë AµÀ stock d©a; AµÀ'
+s
+ 
+tickî
+ 
+symbﬁ
+ 
+is
+ 
+AAPL
+
+
+152 #Fú° 
+¨gumít
+ 
+is
+ 
+the
+ 
+£rõs
+ 
+we
+ 
+w™t
+, 
+£c⁄d
+ i†thê
+	`sour˚
+ ("yahoo" 
+Yahoo
+! 
+Fö™˚
+), 
+thúd
+ i†thê
+°¨t
+ 
+d©e
+, 
+fouπh
+ i†thê
+íd
+ date
+
+153 #≠∂ê
+web
+.
+	`D©aRódî
+("AAPL", "yahoo", 
+°¨t
+, 
+íd
+)
+
+154 
+imp‹t
+ 
+sys
+
+
+155 
+sys
+.
+∑th
+.
+	`≠≥nd
+("../FinanceDataSource")
+
+156 
+imp‹t
+ 
+Fö™˚D©aSour˚
+
+
+157 #yahoo_s_p_500 = 
+öô_d©a
+.
+	`gë_d©a
+(öô_d©a.
+°r_∑ndas_d©¨ódî
+, inô_d©a.
+yahoo_s_p_500
+)
+
+158 #∑ndas_ˇndÀ°ick_ohlc(
+yahoo_s_p_500
+)
+
+159 
+d©a
+ = 
+Fö™˚D©aSour˚
+.
+	$gë_t⁄ghuashun_d©a
+(
+Fö™˚D©aSour˚
+.
+t⁄ghuashun_AGUSDO
+)
+
+161 
+imp‹t
+ 
+èlib
+
+
+162 
+d©a
+["20d"] = 
+èlib
+.
+	`MA
+(d©a["Clo£"].
+	`as_m©rix
+(), 20)
+
+163 
+d©a
+["120d"] = 
+èlib
+.
+	`MA
+(d©a["Clo£"].
+	`as_m©rix
+(), 120)
+
+164 
+	`ˇndÀ°ick_ohlc
+(
+d©a
+, 
+°ick
+="day", 
+sh¨e£rõs
+=["20d"], 
+Ÿhî£rõs
+=["20d", "120d"])
+
+	@E:\Program\python\PythonFinance\FinanceDataMining\FinanceDataMining.py
+
+	@E:\Program\python\PythonFinance\FinanceDataMining\ta-lib_Pattern.py
+
+1 #!/
+u§
+/
+bö
+/
+ív
+ 
+pyth⁄
+
+
+2 #-*- 
+codög
+: 
+utf
+-8 -*-
+
+3 #Auth‹: 
+kîwö
+.
+˙
+@
+gmaû
+.
+com
+
+
+4 #Cª©ed 
+Time
+:2017-09-06 23:05:12
+
+5 #La° 
+Ch™ge
+: 2017-10-11 12:32:45
+
+6 #Fûê
+Name
+: 
+ad≠tive_ma_1
+.
+py
+
+
+7 #Ëøô‰∏™ÊòØËøêÁî®
+Ta
+-
+lib
+‰∏≠ÁöÑÊ®°ÂºèËØÜÂà´Êù•Âà§Êñ≠„ÄÇ
+
+9 
+imp‹t
+ 
+sys
+
+
+10 
+	gsys
+.
+	g∑th
+.
+≠≥nd
+("../FinanceDataSource")
+
+11 
+imp‹t
+ 
+Fö™˚D©aSour˚
+
+
+12 
+imp‹t
+ 
+numpy
+ 
+as
+ 
+≈
+
+
+13 
+imp‹t
+ 
+èlib
+
+
+16 
+def
+ 
+	$gë_t⁄ghuashun_AGUSDO_d©a
+():
+
+18  
+Fö™˚D©aSour˚
+.
+	$gë_t⁄ghuashun_d©a
+(
+Fö™˚D©aSour˚
+.
+t⁄ghuashun_AGUSDO
+)
+
+21 
+def
+ 
+	$∑âîn
+(
+cdl_fun
+, 
+d©a
+):
+
+23 
+	`¥öt
+("Ê®°ÂºèÔºö%s" % (
+cdl_fun
+))
+
+24 
+›í_d©a
+ = 
+d©a
+['O≥n'].
+	$as_m©rix
+()
+
+25 
+high_d©a
+ = 
+d©a
+['High'].
+	$as_m©rix
+()
+
+26 
+low_d©a
+ = 
+d©a
+['Low'].
+	$as_m©rix
+()
+
+27 
+˛o£_d©a
+ = 
+d©a
+['Clo£'].
+	$as_m©rix
+()
+
+29 
+cdl
+ = 
+	`evÆ
+(
+cdl_fun
+ + "(open_data, high_data,Üow_data, close_data)")
+
+30 
+boﬁ_cdl
+ = 
+cdl
+ == 100
+
+32 
+boﬁ_cdl
+ = 
+≈
+.
+	$ö£π
+(
+boﬁ_cdl
+, 0, 
+FÆ£
+)
+
+34 
+boﬁ_cdl
+ = boﬁ_cdl[:
+	`Àn
+(bool_cdl) - 1]
+
+36 
+	$¥öt
+(
+d©a
+[
+boﬁ_cdl
+].
+ödex
+)
+
+37 
+diff_˛o£_›í
+ = (
+˛o£_d©a
+ - 
+›í_d©a
+)[
+boﬁ_cdl
+]
+
+38 
+	$summ¨y
+(
+diff_˛o£_›í
+)
+
+39 
+	`¥öt
+("*********************************************************")
+
+41 
+∑ss
+
+
+44 
+def
+ 
+	$summ¨y
+(
+_l°
+):
+
+46 if(
+	`Àn
+(
+_l°
+) == 0):
+
+48 
+	$summ¨y2
+(
+_l°
+)
+
+49 
+¨r_ãmp
+ = 
+≈
+.
+	$¨øy
+(
+_l°
+)
+
+50 
+	`¥öt
+("up")
+
+51 
+¨r_up
+ = 
+¨r_ãmp
+[arr_temp > 0]
+
+52 
+	$summ¨y2
+(
+¨r_up
+)
+
+53 
+	`¥öt
+("down")
+
+54 
+¨r_down
+ = 
+¨r_ãmp
+[arr_temp < 0]
+
+55 
+	$summ¨y2
+(
+¨r_down
+)
+
+58 
+def
+ 
+	$summ¨y2
+(
+¨r
+):
+
+59 if(
+	`Àn
+(
+¨r
+) == 0):
+
+61 
+	`¥öt
+("À¿%d" % 
+	$Àn
+(
+¨r
+))
+
+62 
+	`¥öt
+("ÊúÄÂ∞èÔºö%f" % 
+≈
+.
+	$mö
+(
+¨r
+))
+
+63 
+	`¥öt
+("ÂùáÂÄºÔºö%f" % 
+≈
+.
+	$món
+(
+¨r
+))
+
+64 
+	`¥öt
+("‰∏≠‰ΩçÊï∞Ôºö%f" % 
+≈
+.
+	$medün
+(
+¨r
+))
+
+65 
+	`¥öt
+("ÊúÄÂ§ßÂÄºÔºö%f" % 
+≈
+.
+	$max
+(
+¨r
+))
+
+68 
+__«me__
+ == "__main__":
+
+69 
+sûvî_d©a
+ = 
+	$gë_t⁄ghuashun_AGUSDO_d©a
+()
+
+70 #Áî®
+dú
+Êù•ÂèñÂæóÊâÄÊúâÁöÑÂ±ûÊÄßÊñπÊ≥ï
+
+71 
+i
+ 
+ö
+ 
+	$dú
+(
+èlib
+):
+
+72 #Âà§Êñ≠ÂºÄÂßãÊòØ‰∏çÊòØ‚Äú
+CDL
+‚Äù
+
+73 if(
+i
+[:3] == "CDL"):
+
+74 
+s
+ = "èlib." + 
+i
+
+
+75 
+	$∑âîn
+(
+s
+, 
+sûvî_d©a
+)
+
+76 #∑âîn(
+èlib
+.
+CDL2CROWS
+, 
+sûvî_d©a
+)
+
+	@E:\Program\python\PythonFinance\FinanceDataSource\FinanceDataSource.py
+
+1 #!/
+u§
+/
+bö
+/
+ív
+ 
+pyth⁄
+
+
+2 #-*- 
+codög
+: 
+utf
+-8 -*-
+
+3 #Auth‹: 
+kîwö
+.
+˙
+@
+gmaû
+.
+com
+
+
+4 #Cª©ed 
+Time
+:2017-09-03 11:23:33
+
+5 #La° 
+Ch™ge
+: 2017-10-01 14:58:36
+
+6 #Fûê
+Name
+: 
+öô_d©a
+.
+py
+
+
+9 Ëøô‰∏™Êñá‰ª∂ÊòØÁî®Êù•ÂàùÂßãÂåñÈáëËûçÊï∞ÊçÆÁöÑÔºåÊöÇÊó∂ÊòØ‰ªé
+	gqu™dl
+‰∏≠ÂèñÂæóÊï∞ÊçÆ
+
+13 
+imp‹t
+ 
+qu™dl
+
+
+14 
+‰om
+ 
+∑ndas_d©¨ódî
+ 
+imp‹t
+ 
+d©a
+ 
+as
+ 
+web
+
+
+15 
+imp‹t
+ 
+time
+
+
+16 
+imp‹t
+ 
+d©ëime
+
+
+17 
+imp‹t
+ 
+∑ndas
+
+
+18 
+imp‹t
+ 
+os
+
+
+19 
+imp‹t
+ 
+ch¨dë
+
+
+20 
+imp‹t
+ 
+numpy
+ 
+as
+ 
+	g≈
+
+
+25 
+	g°r_qu™dl
+ = "quandl"
+
+26 
+qu™dl_lbma_gﬁd
+ = "LBMA/GOLD"
+
+27 
+qu™dl_lbma_sûvî
+ = "LBMA/SILVER"
+
+28 
+qu™dl_„d_jrxwtfb_n_b
+ = "FED/JRXWTFB_N_B"
+
+29 
+dow∆ﬂd_qu™dl
+ = [
+qu™dl_lbma_gﬁd
+,
+
+30 
+qu™dl_lbma_sûvî
+,
+
+31 
+qu™dl_„d_jrxwtfb_n_b
+]
+
+34 
+	g°r_∑ndas_d©¨ódî
+ = "yahoo"
+
+35 
+yahoo_gﬁd
+ = "GC=F" #ÈõÖËôéË¥¢Áªè‰∏äÁöÑÈªÑÈáëÊúüË¥ß
+
+36 
+yahoo_sûvî
+ = "SI=F" #ÁôΩÈì∂ÊúüË¥ß
+
+37 
+yaoo_¸ude_oû
+ = "CL=F" #ÂéüÊ≤πÊúüË¥ß
+
+38 
+yahoo_s_p_500
+ = "^GSPC" #Ê†áÊôÆ500
+
+39 
+yahoo_dow_30
+ = "^DJI" #ÈÅìÁêºÊñØ
+
+40 
+yahoo_«sdaq
+ = "^IXIC" #Á∫≥ÊñØËææÂÖã
+
+42 
+dow∆ﬂd_yahoo
+ = [
+yahoo_gﬁd
+,
+
+43 
+yahoo_sûvî
+,
+
+44 
+yaoo_¸ude_oû
+,
+
+45 
+yahoo_s_p_500
+,
+
+46 
+yahoo_dow_30
+,
+
+47 
+yahoo_«sdaq
+]
+
+51 
+	g°r_t⁄ghuashun
+ = "ÂêåËä±È°∫"
+
+52 
+t⁄ghuashun_AGUSDO
+ = "AGUSDO" #‰º¶Êï¶Èì∂
+
+53 
+t⁄ghuashun_AUUSDO
+ = "AUUSDO" #‰º¶Êï¶Èáë
+
+54 
+t⁄ghuashun_USDIND
+ = "USDIND" #ÁæéÂÖÉÊåáÊï∞
+
+55 
+t⁄ghuashun_AGTD
+ = "AGTD" #‰∏äÊµ∑ÈªÑÈáë‰∫§ÊòìÊâÄÁöÑÁôΩÈì∂
+TD
+
+
+56 
+t⁄ghuashun_AUTD
+ = "AUTD" #‰∏äÊµ∑ÈªÑÈáë‰∫§ÊòìÊâÄÁöÑÈªÑÈáë
+TD
+
+
+58 
+t⁄ghuashun_di˘_cﬁumns
+ = {
+
+74 
+def
+ 
+gë_csv_fûe_«me
+(
+d©a_suµlõr
+, 
+symbﬁ
+, 
+ext
+='csv'):
+
+76 ËæìÂÖ•Êï∞ÊçÆÊèê‰æõËÄÖÂíåÁ¨¶Âè∑ÔºåÂèñÂæó
+CSV
+Êñá‰ª∂ÂêçÁöÑ
+
+79 
+code
+ = 
+symbﬁ
+.
+ª∂a˚
+("/", "_")
+
+80 
+	gcsv_fûe_«me
+ = "".
+joö
+(["d©a/", 
+d©a_suµlõr
+, "_", 
+code
+, ".", 
+ext
+])
+
+81 
+	gthis_fûe_∑th
+ = 
+os
+.
+∑th
+.
+	$ab•©h
+(
+__fûe__
+) #Ëøô‰∏™ÊñπÂºèÂèØ‰ª•ÂæóÂà∞Ëøô‰∏™Êñá‰ª∂ÁöÑÁªùÂØπË∑ØÂæÑ
+
+82 
+this_fûe_dú
+ = 
+os
+.
+∑th
+.
+	$dú«me
+(
+this_fûe_∑th
+) #ÂèñÂæóËøô‰∏™Êñá‰ª∂ÊâÄÂú®ÁöÑÁõÆÂΩï
+
+84  
+os
+.
+∑th
+.
+	$joö
+(
+this_fûe_dú
+, 
+csv_fûe_«me
+)
+
+87 
+def
+ 
+	$gë_d©a
+(
+d©a_suµlõr
+, 
+symbﬁ
+):
+
+90 i‡(
+d©a_suµlõr
+ =
+°r_t⁄ghuashun
+):
+
+91  
+	$gë_t⁄ghuashun_d©a
+(
+symbﬁ
+)
+
+92  
+∑ndas
+.
+	`ªad_csv
+(
+	`gë_csv_fûe_«me
+(
+d©a_suµlõr
+, 
+symbﬁ
+), 
+∑r£_d©es
+=
+True
+, 
+ödex_cﬁ
+="Date")
+
+95 
+def
+ 
+	$yahoo_dow∆ﬂd_d©a
+(
+°ock_«me
+):
+
+96 
+°¨t
+ = 
+d©ëime
+.
+	$d©ëime
+(2000, 1, 1)
+
+97 
+íd
+ = 
+d©ëime
+.
+d©e
+.
+	$today
+()
+
+98 
+d©a
+ = 
+web
+.
+	`D©aRódî
+(
+°ock_«me
+, "yahoo", 
+°¨t
+, 
+íd
+)
+
+99 
+	`¥öt
+("‰∏ãËΩΩ {0}ÔºåÊï∞ÊçÆÈáèÔºö{1}".
+	`f‹m©
+(
+°ock_«me
+, 
+	$Àn
+(
+d©a
+)))
+
+100 
+csv_fûe_«me
+ = 
+	$gë_csv_fûe_«me
+(
+°r_∑ndas_d©¨ódî
+, 
+°ock_«me
+)
+
+101 
+d©a
+.
+	$to_csv
+(
+csv_fûe_«me
+)
+
+104 
+def
+ 
+	$qu™dl_dow∆ﬂd_d©a
+(
+°ock_«me
+):
+
+106 ‰ªé
+qu™dl
+‰∏ãËΩΩÈáëËûçÊï∞ÊçÆÁöÑ
+
+107 
+Args
+ :
+
+108 
+°ock_«me
+ : ÈáëËûçÂìÅÁßç
+
+109 
+csv_fûe_«me
+ : Ë¶Å‰øùÂ≠òÂà∞ÁöÑ
+CSV
+Êñá‰ª∂
+
+111 #ÂæóÊúâ
+key
+Âïä
+
+112 
+qu™dl
+.
+ApiC⁄fig
+.
+≠i_key
+ = "TX__sAMFHm3ckYYyEHu7"
+
+113 #ÈªòËÆ§‰∏ãËΩΩÁöÑÂ∞±ÊòØ
+∑ndas
+
+
+114 
+d©a
+ = 
+qu™dl
+.
+	$gë
+(
+°ock_«me
+)
+
+115 
+	`¥öt
+("‰∏ãËΩΩ {0}ÔºåÊï∞ÊçÆÈáèÔºö{1}".
+	`f‹m©
+(
+°ock_«me
+, 
+	$Àn
+(
+d©a
+)))
+
+116 
+csv_fûe_«me
+ = 
+	$gë_csv_fûe_«me
+(
+°r_qu™dl
+, 
+°ock_«me
+)
+
+117 
+d©a
+.
+	$to_csv
+(
+csv_fûe_«me
+)
+
+120 
+def
+ 
+	$gë_t⁄ghuashun_d©a
+(
+symbﬁ
+):
+
+123 
+∑th
+ = 
+	`gë_csv_fûe_«me
+(
+°r_t⁄ghuashun
+, 
+symbﬁ
+, "xls")
+
+125 
+øwd©a
+ = 
+	`›í
+(
+∑th
+, "rb").
+	$ªad
+()
+
+126 
+ªsu…
+ = 
+ch¨dë
+.
+	$dëe˘
+(
+øwd©a
+)
+
+127 
+ch¨íc
+ = 
+ªsu…
+['encoding']
+
+129 
+f
+ = 
+	$›í
+(
+∑th
+, 
+ícodög
+=
+ch¨íc
+)
+
+131 #ËøôÈáåËøòÂæóÂØπÊó∂Èó¥ËøõË°åËΩ¨Êç¢ÔºåÂõ†‰∏∫
+mëÆŸlib
+‰∏çËÆ§Ëøô‰∏™Êó∂Èó¥Ê†ºÂºèÂïä„ÄÇ
+
+132 
+d©a
+ = 
+∑ndas
+.
+	`ªad_csv
+(
+f
+, 
+£p
+='\t', 
+∑r£_d©es
+=["Êó∂Èó¥"], 
+ödex_cﬁ
+="Êó∂Èó¥", 
+d©e_∑r£r
+=
+°r·ime
+,
+thoußnds
+=',', 
+dty≥
+={
+
+133 "ÂºÄÁõò":
+≈
+.
+Êﬂt64
+,
+
+134 "ÊúÄÈ´ò":
+≈
+.
+Êﬂt64
+,
+
+135 "ÊúÄ‰Ωé":
+≈
+.
+Êﬂt64
+,
+
+136 "Êî∂Áõò":
+≈
+.
+Êﬂt64
+
+
+139 
+	}
+})
+
+141 
+d©a
+.
+	$ª«me
+(
+cﬁumns
+=
+t⁄ghuashun_di˘_cﬁumns
+, 
+ö∂a˚
+=
+True
+)
+
+142  
+d©a
+
+
+145 
+def
+ 
+	$°r·ime
+(
+x
+):
+
+146  
+d©ëime
+.d©ëime.
+	`°Ωtime
+(
+	`°r
+(
+x
+).
+	`•lô
+(',')[0], "%Y-%m-%d")
+
+149 
+def
+ 
+	$öô_d©a
+():
+
+150 
+symbﬁ
+ 
+ö
+ 
+dow∆ﬂd_qu™dl
+:
+
+151 
+	$qu™dl_dow∆ﬂd_d©a
+(
+symbﬁ
+)
+
+153 
+is_dow∆ﬂd_ok
+ = 
+FÆ£
+ #ÊòØÂê¶‰∏ãËΩΩ‰∫Ü
+
+154 
+symbﬁ
+ 
+ö
+ 
+dow∆ﬂd_yahoo
+:
+
+155 
+fõld_cou¡
+ = 0 #Â§±Ë¥•Ê¨°Êï∞
+
+156 
+is_dow∆ﬂd_ok
+ = 
+FÆ£
+
+
+157 
+is_dow∆ﬂd_ok
+ 
+is
+ 
+FÆ£
+ 
+™d
+ 
+fõld_cou¡
+ < 5): #ÊúÄÂ§öÂÖÅËÆ∏5Ê¨°ÈîôËØØÂêß
+
+158 
+åy
+:
+
+159 
+	$yahoo_dow∆ﬂd_d©a
+(
+symbﬁ
+)
+
+160 
+is_dow∆ﬂd_ok
+ = 
+True
+
+
+161 
+ex˚±
+ 
+Ex˚±i⁄
+ 
+as
+ 
+îr
+:
+
+162 
+	$¥öt
+(
+îr
+)
+
+163 
+	`¥öt
+("‰∏ãËΩΩÂ§±Ë¥•Ôºö" + 
+symbﬁ
+)
+
+164 
+fõld_cou¡
+ = field_count + 1
+
+165 
+	`¥öt
+("Â§±Ë¥•Ê¨°Êï∞Ôºö" + 
+	$°r
+(
+fõld_cou¡
+))
+
+166 
+	`¥öt
+("ÊöÇÂÅú3ÁßíÈíü")
+
+167 
+time
+.
+	$¶ìp
+(3)
+
+169 
+__«me__
+ == "__main__":
+
+170 
+	`öô_d©a
+()
+
+	@E:\Program\python\PythonFinance\FinanceDataSource\__init__.py
+
+1 #!/
+u§
+/
+bö
+/
+ív
+ 
+pyth⁄
+
+
+2 #-*- 
+codög
+: 
+utf
+-8 -*-
+
+3 #Auth‹: 
+kîwö
+.
+˙
+@
+gmaû
+.
+com
+
+
+4 #Cª©ed 
+Time
+ : 2017-11-07 20:32:08
+
+5 #Time-
+°amp
+: <2017-11-07 20:33:17 
+kîwö
+>
+
+6 #Fûê
+Name
+ : 
+__öô__
+.
+py
+
+
+7 #C›yrighà(
+c
+) 2017
+
+11 
+	g‰om
+ . 
+imp‹t
+ 
+	gFö™˚D©aSour˚
+
+
+	@E:\Program\python\PythonFinance\PythonFinance\PythonFinance.py
+
+	@E:\Program\python\PythonFinance\a.py
+
+1 #!/
+u§
+/
+bö
+/
+ív
+ 
+pyth⁄
+
+
+2 #-*- 
+codög
+: 
+utf
+-8 -*-
+
+3 #Auth‹: 
+kîwö
+.
+˙
+@
+gmaû
+.
+com
+
+
+4 #Cª©ed 
+Time
+:2017-11-08 13:16:37
+
+5 #La° 
+Ch™ge
+: 2017-11-08 13:16:42
+
+6 #Fûê
+Name
+: 
+a
+.
+py
+
+
 	@
 1
 .
 1
 /usr/include
-10
-609
+18
+1103
+E:\Program\python\PythonFinance\.ropeproject\config.py
 E:\Program\python\PythonFinance\BackTrader\.ropeproject\config.py
 E:\Program\python\PythonFinance\BackTrader\BackTrader.py
 E:\Program\python\PythonFinance\BackTrader\Strategy_KAMA_1.py
@@ -6554,3 +9265,10 @@ E:\Program\python\PythonFinance\BackTrader\Strategy_MA_2.py
 E:\Program\python\PythonFinance\BackTrader\Strategy_MA_3.py
 E:\Program\python\PythonFinance\BackTrader\Strategy_MA_4.py
 E:\Program\python\PythonFinance\BackTrader\Strategy_main.py
+E:\Program\python\PythonFinance\CandlestickOhlc\CandlestickOhlc.py
+E:\Program\python\PythonFinance\FinanceDataMining\FinanceDataMining.py
+E:\Program\python\PythonFinance\FinanceDataMining\ta-lib_Pattern.py
+E:\Program\python\PythonFinance\FinanceDataSource\FinanceDataSource.py
+E:\Program\python\PythonFinance\FinanceDataSource\__init__.py
+E:\Program\python\PythonFinance\PythonFinance\PythonFinance.py
+E:\Program\python\PythonFinance\a.py

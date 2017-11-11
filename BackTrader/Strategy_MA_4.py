@@ -2,30 +2,23 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-10-08 20:28:36
+# Last Change:  2017-11-10 20:56:25
 # File Name: sample1.py
 
-# import datetime  # For datetime objects
-# import os.path  # To manage paths
-# import sys  # To find out the script name (in argv[0])
-# import pandas as pd
-# from WindPy import w
-# Import the backtrader platform
-
-from Strategy_main import StrategyBase
 import backtrader as bt
+import CerebroBase
+import StrategyBase
 
 # Create a Stratey
 # 这个是均线系统，我大选系统如下：
 # 当五日均线突破10日均线的时候，通过胜率赔钱等判断仓位
 
 
-class Strategy_MA(StrategyBase):
+class Strategy_MA(StrategyBase.StrategyBase):
     params = (
         ('ma1', 5),
         ('ma2', 20),
-        ('ma3', 20),
-        ('printlog', False)
+        ('ma3', 20)
     )
 
     def get_need_position(self):
@@ -75,3 +68,12 @@ class Strategy_MA(StrategyBase):
             self.order = self.order_target_percent(target=0 - pos_percent)
             self.log("卖单仓位：%s" % (pos_percent), isprint=True)
         pass
+
+if __name__ == '__main__':
+    # Create a cerebro entity
+    cerebro = CerebroBase.CerebroAGUSDO()
+    # Add a strategy
+    cerebro.addstrategy(Strategy_MA)
+    # Set our desired cash start
+    cerebro.set_cash(100000.0)
+    cerebro.run()

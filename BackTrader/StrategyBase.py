@@ -2,11 +2,10 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-10-08 10:30:59
-# Last Change:  2017-10-08 16:18:24
+# Last Change:  2017-11-10 20:45:23
 # File Name: Strategy_main.py
 
 import backtrader as bt
-
 
 class StrategyBase(bt.Strategy):
     """
@@ -16,7 +15,7 @@ class StrategyBase(bt.Strategy):
 
     def log(self, txt, dt=None, isprint=False):
         ''''' Logging function fot this strategy'''
-        if self.params.printlog or isprint:
+        if isprint:
             dt = dt or self.datas[0].datetime.date(0)
             print('%s, %s' % (dt.isoformat(), txt))
 
@@ -49,6 +48,19 @@ class StrategyBase(bt.Strategy):
                           order.executed.value,
                           order.executed.comm
                           ), isprint=True)
+            self.bar_executed = len(self)
+
+        elif order.status in [order.Canceled, order.Margin, order.Rejected]:
+            self.log('Order Canceled/Margin/Rejected')
+        #  重置单子标志
+        self.order = None
+
+    def notify_trade(self, trade):
+        if not trade.isclosed:
+            return
+
+        self.log('OPERATION PROFIT, GROSS %.2f, NET %.2f' %
+                 (trade.pnl, trade.pnlcomm))
 
     def stop(self):
         pass
