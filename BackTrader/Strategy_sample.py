@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-10 20:59:33
-# Last Change:  2017-11-10 21:30:46
+# Last Change:  2017-11-11 21:01:44
 # File Name: Strategy_sample.py
 # 这个文件只是作为策略编写的例子文件
 
@@ -39,8 +39,8 @@ if __name__ == '__main__':
     # Set our desired cash start
     cerebro.set_cash(100000.0)
     #  run
-    cerebro.run()
-    # 显示分析师的结果
-    cerebro.show_analyzer()
+    results = cerebro.run()
+    # 显示分析师的结果?!?jedi=0, ?!?           (*_*results*_*) ?!?jedi?!?
+    cerebro.show_analyzer(results)
     # 用图表显示结果
     cerebro.show_plot()

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-11 10:05:28
+# Last Change:  2017-11-12 19:28:59
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -60,6 +60,6 @@ if __name__ == '__main__':
     # Set our desired cash start
     cerebro.set_cash(100000.0)
 
-    cerebro.run()
+    cerebro.show_analyzer(cerebro.run())
 
     cerebro.show_plot()

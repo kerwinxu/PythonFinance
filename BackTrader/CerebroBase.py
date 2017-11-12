@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-11-11 20:56:47
+# Last Change:  2017-11-12 19:28:37
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -29,9 +29,9 @@ class CerebroBase(object):
         # 加入分析师
         self.init_analyzers()
 
-    def addstrategy(self, strategy_):
+    def addstrategy(self, strategy_, *args, **kwargs):
         """设置策略"""
-        self.cerebro.addstrategy(strategy_)
+        self.cerebro.addstrategy(strategy_,  *args,  ** kwargs)
 
     def adddata(self, data_):
         """设置数据"""
@@ -84,7 +84,7 @@ class CerebroAGUSDO(CerebroBase):
     def init_data(self):
         """封装上数据"""
         dataframe = FinanceDataSource.get_data(
-            FinanceDataSource.download_quandl,
+            FinanceDataSource.str_tonghuashun,
             FinanceDataSource.tonghuashun_AGUSDO)
         dataframe['openinterest'] = 0
         data = bt.feeds.PandasData(dataname=dataframe)
