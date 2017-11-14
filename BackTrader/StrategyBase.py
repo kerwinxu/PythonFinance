@@ -2,10 +2,11 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-10-08 10:30:59
-# Last Change:  2017-11-10 20:45:23
+# Last Change:  2017-11-13 22:18:48
 # File Name: Strategy_main.py
 
 import backtrader as bt
+
 
 class StrategyBase(bt.Strategy):
     """
@@ -32,28 +33,32 @@ class StrategyBase(bt.Strategy):
         if order.status in [order.Completed, order.Canceled, order.Margin]:
             if order.isbuy():
                 self.log(
-                    'BUY EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+                    'BUY EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm : %.2f, current value : %.2f' %
                     (order.executed.size,
                      order.executed.price,
                      order.executed.value,
-                     order.executed.comm), isprint=True)
+                     order.executed.comm,
+                     self.broker.get_value()), isprint=True)
 
                 self.buyprice = order.executed.price
                 self.buycomm = order.executed.comm
                 self.opsize = order.executed.size
             else:  # Sell
-                self.log('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm %.2f' %
+                self.log('SELL EXECUTED, %d, Price: %.2f, Cost: %.2f, Comm : %.2f , current value %.2f:' %
                          (order.executed.size,
                           order.executed.price,
                           order.executed.value,
-                          order.executed.comm
+                          order.executed.comm,
+                          self.broker.get_value()
                           ), isprint=True)
+
             self.bar_executed = len(self)
 
         elif order.status in [order.Canceled, order.Margin, order.Rejected]:
             self.log('Order Canceled/Margin/Rejected')
         #  重置单子标志
         self.order = None
+        # 显示有多少钱
 
     def notify_trade(self, trade):
         if not trade.isclosed:

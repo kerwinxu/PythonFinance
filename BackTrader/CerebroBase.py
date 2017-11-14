@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-11-12 19:28:37
+# Last Change:  2017-11-14 21:32:27
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -31,7 +31,7 @@ class CerebroBase(object):
 
     def addstrategy(self, strategy_, *args, **kwargs):
         """设置策略"""
-        self.cerebro.addstrategy(strategy_,  *args,  ** kwargs)
+        self.cerebro.addstrategy(strategy_, *args, ** kwargs)
 
     def adddata(self, data_):
         """设置数据"""
@@ -53,7 +53,7 @@ class CerebroBase(object):
         self.addanalyzer(bt.analyzers.DrawDown, 'DW')
         self.addanalyzer(bt.analyzers.AnnualReturn, 'AnnualReturn')
         self.addanalyzer(bt.analyzers.Calmar, 'Calmar')
-        # self.cerebro.addanalyzer(bt.analyzers.PeriodStats, PeriodStats')
+        # self.addanalyzer(bt.analyzers.PeriodStats, 'PeriodStats')
         self.addanalyzer(bt.analyzers.Returns, 'Returns')
         self.addanalyzer(bt.analyzers.TradeAnalyzer, 'TradeAnalyzer')
         self.addanalyzer(bt.analyzers.SQN, 'SQN')
@@ -107,6 +107,12 @@ class CerebroAGTD(CerebroBase):
         dataframe['openinterest'] = 0
         data = bt.feeds.PandasData(dataname=dataframe)
         self.adddata(data)
+        # 如下是佣金
+        self.cerebro.broker.setcommission(
+            automargin=0.15,  # 保证金比例
+            commission=0.0008,  # 手续费，记得是万分之8
+            interest=0.073  # 递延费，记得是万分之8， * 360 = 0.073
+        )
 
 
 class CerebroAUTD(CerebroBase):
@@ -120,4 +126,9 @@ class CerebroAUTD(CerebroBase):
         dataframe['openinterest'] = 0
         data = bt.feeds.PandasData(dataname=dataframe)
         self.adddata(data)
-        # 如下得设置佣金了
+        # 如下是佣金
+        self.cerebro.broker.setcommission(
+            automargin=0.15,  # 保证金比例
+            commission=0.0008,  # 手续费，记得是万分之8
+            interest=0.073  # 递延费，记得是万分之8， * 360 = 0.073
+        )

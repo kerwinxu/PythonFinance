@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-12 19:28:59
+# Last Change:  2017-11-14 21:22:23
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -53,13 +53,13 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
 
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = CerebroBase.CerebroAGUSDO()
+    cerebro = CerebroBase.CerebroAGTD()
     # Add a strategy
     cerebro.addstrategy(Strategy_KAMA)
 
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
+    cerebro.set_cash(5000.0)
 
     cerebro.show_analyzer(cerebro.run())
 
-    cerebro.show_plot()
+    # cerebro.show_plot()
