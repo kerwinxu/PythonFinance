@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-13 22:25:12
+# Last Change:  2017-11-14 22:03:36
 # File Name: sample1.py
 import backtrader as bt
 import CerebroBase
@@ -34,8 +34,6 @@ class Strategy_MACD(StrategyBase.StrategyBase):
         open_price = self.data_open[0]
 
         size1 = int(cash / open_price * 0.1)
-        # size2 = int(value/open_price*0.25)
-        # 当5日均线上穿10日均线的时候，买入
         if(self.macdhisto[0] > 0
            and self.macdhisto[-1] < 0):
             self.buy(size=size1)

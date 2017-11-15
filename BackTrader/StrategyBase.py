@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-10-08 10:30:59
-# Last Change:  2017-11-13 22:18:48
+# Last Change:  2017-11-14 21:39:45
 # File Name: Strategy_main.py
 
 import backtrader as bt
@@ -59,13 +59,6 @@ class StrategyBase(bt.Strategy):
         #  重置单子标志
         self.order = None
         # 显示有多少钱
-
-    def notify_trade(self, trade):
-        if not trade.isclosed:
-            return
-
-        self.log('OPERATION PROFIT, GROSS %.2f, NET %.2f' %
-                 (trade.pnl, trade.pnlcomm))
 
     def stop(self):
         pass

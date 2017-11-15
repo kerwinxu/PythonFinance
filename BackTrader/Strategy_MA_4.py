@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-10 20:56:25
+# Last Change:  2017-11-14 22:02:24
 # File Name: sample1.py
 
 import backtrader as bt
@@ -71,9 +71,9 @@ class Strategy_MA(StrategyBase.StrategyBase):
 
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = CerebroBase.CerebroAGUSDO()
+    cerebro = CerebroBase.CerebroAGTD()
     # Add a strategy
     cerebro.addstrategy(Strategy_MA)
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
+    cerebro.set_cash(5000.0)
     cerebro.run()

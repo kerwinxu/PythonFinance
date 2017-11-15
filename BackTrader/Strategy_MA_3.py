@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-10 20:54:20
+# Last Change:  2017-11-14 21:54:11
 # File Name: sample1.py
 
 import backtrader as bt
@@ -60,45 +60,13 @@ class Strategy_MA(StrategyBase.StrategyBase):
         # 然后根据百分比下单
         # 这个不方便下止损单。
         self.order = self.order_target_percent(target=percent_order)
-        """
-        # 取得当前的单子信息
-        # current_price = self.position.price
-        current_size = self.position.size
 
-        # 获得总资产
-        value = self.broker.get_value()
-        # 需要调整到的尺寸
-        need_size = value / open_price * percent_order
-        # 设置止损
-        if (percent_order > 0):
-            # 到这里就是买单
-            if(current_size > 0):
-                # 如果原先就有买单了
-                # 那么先判断是否需要加仓
-                if(need_size > current_size):
-                    # 到这里需要加仓
-                    self.order = self.buy_bracket(size=need_size-current_size, price=open_price, stopprice=open_price-100)
-            else:
-                # 到这里表示已经有卖单，得先平仓
-                self.order = self.close()
-                # 然后下单
-                self.order = self.buy_bracket(size=need_size, price=open_price, stopprice=open_price-100)
-        else:
-            # 到这里就是下卖单
-            if(current_size > 0):
-                # 这里表示原先就已经有买单，得先平仓
-                self.order = self.close()
-                # 然后再下单
-                self.order = self.sell_bracket(size=abs(need_size), price=open_price, stopprice=open_price+100)
-            else:
-                # 这里表示原先就有卖单，补仓就可以了
-                self.order = self.sell_bracket(size=abs(need_size - current_size), price=open_price, stopprice=open_price+100)
-                """
+
 if __name__ == '__main__':
     # Create a cerebro entity
     cerebro = CerebroBase.CerebroAGUSDO()
     # Add a strategy
     cerebro.addstrategy(Strategy_MA)
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
+    cerebro.set_cash(5000.0)
     cerebro.run()

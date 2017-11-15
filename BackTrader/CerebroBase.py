@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-11-14 21:32:27
+# Last Change:  2017-11-15 09:52:55
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -130,5 +130,5 @@ class CerebroAUTD(CerebroBase):
         self.cerebro.broker.setcommission(
             automargin=0.15,  # 保证金比例
             commission=0.0008,  # 手续费，记得是万分之8
-            interest=0.073  # 递延费，记得是万分之8， * 360 = 0.073
+            interest=0.073  # 递延费，记得是万分之8， * 365 = 0.073
         )

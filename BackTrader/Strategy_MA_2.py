@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-10 20:52:02
+# Last Change:  2017-11-14 21:51:47
 # File Name: sample1.py
 
 import backtrader as bt
@@ -43,22 +43,10 @@ class Strategy_MA(StrategyBase.StrategyBase):
         # 当5日均线上穿10日均线的时候，买入
         if(self.sma1[0] > self.sma2[0] and
            self.sma1[-1] < self.sma2[-1]):
-            # 首先取消原先的单子吧
-            #  already_size = self.position.size
-            # if(already_size < 0):
-            # self.close()
-            # already_size = 0
-            # self.buy_bracket(size=size1, price=open_price, stopprice=open_price-60)
             self.buy(size=size1)
 
         if(self.sma1[0] < self.sma2[0] and
            self.sma1[-1] > self.sma2[-1]):
-            # 首先取消原先的单子吧
-            # already_size = self.position.size
-            # if(already_size > 0):
-            # self.close()
-            # already_size = 0
-            # self.sell_bracket(size=size1, price=open_price, stopprice=open_price+60)
             self.sell(size=size1)
 
 
@@ -68,6 +56,6 @@ if __name__ == '__main__':
     # Add a strategy
     cerebro.addstrategy(Strategy_MA)
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
+    cerebro.set_cash(5000.0)
 
     cerebro.run()
