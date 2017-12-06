@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-14 22:03:36
+# Last Change:  2017-11-22 20:33:17
 # File Name: sample1.py
 import backtrader as bt
 import CerebroBase

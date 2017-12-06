@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-14 21:22:23
+# Last Change:  2017-11-19 20:01:19
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -62,4 +62,4 @@ if __name__ == '__main__':
 
     cerebro.show_analyzer(cerebro.run())
 
-    # cerebro.show_plot()
+    cerebro.show_plot()
