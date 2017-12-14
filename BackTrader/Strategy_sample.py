@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-10 20:59:33
-# Last Change:  2017-11-22 21:10:19
+# Last Change:  2017-12-07 21:25:13
 # File Name: Strategy_sample.py
 # 这个文件只是作为策略编写的例子文件
 
@@ -52,6 +52,7 @@ class Strategy_sample(StrategyBase.StrategyBase):
         if self.order:
             return
         pass
+
 
 if __name__ == '__main__':
     #  测试策略在这里
