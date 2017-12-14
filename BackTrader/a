@@ -1,0 +1,205 @@
+2008-12-17, BUY EXECUTED, 1, Price: 2426.00, Cost: 2426.00, Comm : 1.94, current value : 2063.06, current cash : 1634.16
+2008-12-25, SELL EXECUTED, -1, Price: 2387.00, Cost: 2426.00, Comm : 1.91 , current value : 1957.15 , current cash : 1957.15
+2008-12-30, BUY EXECUTED, 1, Price: 2485.00, Cost: 2485.00, Comm : 1.99, current value : 1944.16, current cash : 1582.41
+2009-01-14, SELL EXECUTED, -1, Price: 2421.00, Cost: 2485.00, Comm : 1.94 , current value : 1889.22 , current cash : 1889.22
+2009-01-15, BUY EXECUTED, 1, Price: 2420.00, Cost: 2420.00, Comm : 1.94, current value : 1883.29, current cash : 1524.29
+2009-01-16, SELL EXECUTED, -1, Price: 2415.00, Cost: 2420.00, Comm : 1.93 , current value : 1880.36 , current cash : 1880.36
+2009-01-20, BUY EXECUTED, 1, Price: 2462.00, Cost: 2462.00, Comm : 1.97, current value : 1859.39, current cash : 1509.09
+2009-02-26, SELL EXECUTED, -1, Price: 3010.00, Cost: 2462.00, Comm : 2.41 , current value : 2423.98 , current cash : 2423.98
+2009-03-23, BUY EXECUTED, 1, Price: 3006.00, Cost: 3006.00, Comm : 2.40, current value : 2524.57, current cash : 1970.67
+2009-03-26, SELL EXECUTED, -1, Price: 2948.00, Cost: 3006.00, Comm : 2.36 , current value : 2361.22 , current cash : 2361.22
+2009-03-27, BUY EXECUTED, 1, Price: 3060.00, Cost: 3060.00, Comm : 2.45, current value : 2289.77, current cash : 1899.77
+2009-03-31, SELL EXECUTED, -1, Price: 2933.00, Cost: 3060.00, Comm : 2.35 , current value : 2229.42 , current cash : 2229.42
+2009-04-28, BUY EXECUTED, 1, Price: 2890.00, Cost: 2890.00, Comm : 2.31, current value : 2208.11, current cash : 1793.61
+2009-04-29, SELL EXECUTED, -1, Price: 2825.00, Cost: 2890.00, Comm : 2.26 , current value : 2159.85 , current cash : 2159.85
+2009-05-06, BUY EXECUTED, 1, Price: 3020.00, Cost: 3020.00, Comm : 2.42, current value : 2110.43, current cash : 1704.43
+2009-06-16, SELL EXECUTED, -1, Price: 3228.00, Cost: 3020.00, Comm : 2.58 , current value : 2362.85 , current cash : 2362.85
+2009-07-21, BUY EXECUTED, 1, Price: 3220.00, Cost: 3220.00, Comm : 2.58, current value : 2334.28, current cash : 1877.28
+2009-07-22, SELL EXECUTED, -1, Price: 3194.00, Cost: 3220.00, Comm : 2.56 , current value : 2331.72 , current cash : 2331.72
+2009-07-24, BUY EXECUTED, 1, Price: 3210.00, Cost: 3210.00, Comm : 2.57, current value : 2317.15, current cash : 1847.65
+2009-07-27, SELL EXECUTED, -1, Price: 3202.00, Cost: 3210.00, Comm : 2.56 , current value : 2318.59 , current cash : 2318.59
+2009-07-28, BUY EXECUTED, 1, Price: 3244.00, Cost: 3244.00, Comm : 2.60, current value : 2308.00, current cash : 1829.40
+2009-07-30, SELL EXECUTED, -1, Price: 3155.00, Cost: 3244.00, Comm : 2.52 , current value : 2224.47 , current cash : 2224.47
+2009-08-04, BUY EXECUTED, 1, Price: 3280.00, Cost: 3280.00, Comm : 2.62, current value : 2196.85, current cash : 1729.85
+2009-08-20, SELL EXECUTED, -1, Price: 3171.00, Cost: 3280.00, Comm : 2.54 , current value : 2110.31 , current cash : 2110.31
+2009-08-21, BUY EXECUTED, 1, Price: 3210.00, Cost: 3210.00, Comm : 2.57, current value : 2103.74, current cash : 1626.24
+2009-08-24, SELL EXECUTED, -1, Price: 3249.00, Cost: 3210.00, Comm : 2.60 , current value : 2144.14 , current cash : 2144.14
+2009-08-25, BUY EXECUTED, 1, Price: 3262.00, Cost: 3262.00, Comm : 2.61, current value : 2125.53, current cash : 1652.23
+2009-09-29, SELL EXECUTED, -1, Price: 3595.00, Cost: 3262.00, Comm : 2.88 , current value : 2471.66 , current cash : 2471.66
+2009-09-30, BUY EXECUTED, 1, Price: 3589.00, Cost: 3589.00, Comm : 2.87, current value : 2496.79, current cash : 1930.44
+2009-10-30, SELL EXECUTED, -1, Price: 3765.00, Cost: 3589.00, Comm : 3.01 , current value : 2641.77 , current cash : 2641.77
+2009-11-02, BUY EXECUTED, 1, Price: 3773.00, Cost: 3773.00, Comm : 3.02, current value : 2627.76, current cash : 2072.81
+2009-12-09, SELL EXECUTED, -1, Price: 3960.00, Cost: 3773.00, Comm : 3.17 , current value : 2822.59 , current cash : 2822.59
+2009-12-18, BUY EXECUTED, 1, Price: 3950.00, Cost: 3950.00, Comm : 3.16, current value : 2800.43, current cash : 2226.93
+2009-12-21, SELL EXECUTED, -1, Price: 3950.00, Cost: 3950.00, Comm : 3.16 , current value : 2816.27 , current cash : 2816.27
+2009-12-22, BUY EXECUTED, 1, Price: 3964.00, Cost: 3964.00, Comm : 3.17, current value : 2770.10, current cash : 2218.50
+2009-12-23, SELL EXECUTED, -1, Price: 4174.00, Cost: 3964.00, Comm : 3.34 , current value : 3019.76 , current cash : 3019.76
+2009-12-24, BUY EXECUTED, 1, Price: 4174.00, Cost: 4174.00, Comm : 3.34, current value : 3037.42, current cash : 2390.32
+2010-01-25, SELL EXECUTED, -1, Price: 3992.00, Cost: 4174.00, Comm : 3.19 , current value : 2831.22 , current cash : 2831.22
+2010-02-23, BUY EXECUTED, 1, Price: 3913.00, Cost: 3913.00, Comm : 3.13, current value : 2827.09, current cash : 2241.14
+2010-02-26, SELL EXECUTED, -1, Price: 3816.00, Cost: 3913.00, Comm : 3.05 , current value : 2728.04 , current cash : 2728.04
+2010-03-01, BUY EXECUTED, 1, Price: 3925.00, Cost: 3925.00, Comm : 3.14, current value : 2719.90, current cash : 2136.15
+2010-05-24, SELL EXECUTED, -1, Price: 4106.00, Cost: 3925.00, Comm : 3.28 , current value : 2902.62 , current cash : 2902.62
+2010-05-25, BUY EXECUTED, 1, Price: 4130.00, Cost: 4130.00, Comm : 3.30, current value : 2861.31, current cash : 2279.81
+2010-05-26, SELL EXECUTED, -1, Price: 4105.00, Cost: 4130.00, Comm : 3.28 , current value : 2871.03 , current cash : 2871.03
+2010-05-27, BUY EXECUTED, 1, Price: 4164.00, Cost: 4164.00, Comm : 3.33, current value : 2855.70, current cash : 2243.10
+2010-06-07, SELL EXECUTED, -1, Price: 4055.00, Cost: 4164.00, Comm : 3.24 , current value : 2755.45 , current cash : 2755.45
+2010-06-09, BUY EXECUTED, 1, Price: 4180.00, Cost: 4180.00, Comm : 3.34, current value : 2748.11, current cash : 2125.11
+2010-07-05, SELL EXECUTED, -1, Price: 4155.00, Cost: 4180.00, Comm : 3.32 , current value : 2723.79 , current cash : 2723.79
+2010-07-09, BUY EXECUTED, 1, Price: 4142.00, Cost: 4142.00, Comm : 3.31, current value : 2721.47, current cash : 2099.17
+2010-07-12, SELL EXECUTED, -1, Price: 4159.00, Cost: 4142.00, Comm : 3.33 , current value : 2734.14 , current cash : 2734.14
+2010-07-13, BUY EXECUTED, 1, Price: 4151.00, Cost: 4151.00, Comm : 3.32, current value : 2722.82, current cash : 2108.17
+2010-07-14, SELL EXECUTED, -1, Price: 4184.00, Cost: 4151.00, Comm : 3.35 , current value : 2760.48 , current cash : 2760.48
+2010-07-15, BUY EXECUTED, 1, Price: 4157.00, Cost: 4157.00, Comm : 3.33, current value : 2774.15, current cash : 2133.60
+2010-07-20, SELL EXECUTED, -1, Price: 4120.00, Cost: 4157.00, Comm : 3.30 , current value : 2716.86 , current cash : 2716.86
+2010-07-26, BUY EXECUTED, 1, Price: 4154.00, Cost: 4154.00, Comm : 3.32, current value : 2721.53, current cash : 2090.43
+2010-07-29, SELL EXECUTED, -1, Price: 4085.00, Cost: 4154.00, Comm : 3.27 , current value : 2641.26 , current cash : 2641.26
+2010-08-03, BUY EXECUTED, 1, Price: 4180.00, Cost: 4180.00, Comm : 3.34, current value : 2638.92, current cash : 2010.92
+2010-10-25, SELL EXECUTED, -1, Price: 5300.00, Cost: 4180.00, Comm : 4.24 , current value : 3753.68 , current cash : 3753.68
+2010-10-26, BUY EXECUTED, 1, Price: 5344.00, Cost: 5344.00, Comm : 4.28, current value : 3717.40, current cash : 2947.80
+2010-11-16, SELL EXECUTED, -1, Price: 5873.00, Cost: 5344.00, Comm : 4.70 , current value : 4273.71 , current cash : 4273.71
+2010-11-19, BUY EXECUTED, 1, Price: 6100.00, Cost: 6100.00, Comm : 4.88, current value : 4306.83, current cash : 3353.83
+2011-01-18, SELL EXECUTED, -1, Price: 6310.00, Cost: 6100.00, Comm : 5.05 , current value : 4473.78 , current cash : 4473.78
+2011-01-20, BUY EXECUTED, 1, Price: 6443.00, Cost: 6443.00, Comm : 5.15, current value : 4351.62, current cash : 3502.17
+2011-01-21, SELL EXECUTED, -1, Price: 6280.00, Cost: 6443.00, Comm : 5.02 , current value : 4300.60 , current cash : 4300.60
+2011-02-10, BUY EXECUTED, 1, Price: 6555.00, Cost: 6555.00, Comm : 5.24, current value : 4250.36, current cash : 3312.11
+2011-05-05, SELL EXECUTED, -1, Price: 9020.00, Cost: 6555.00, Comm : 7.22 , current value : 6753.14 , current cash : 6753.14
+2011-07-19, BUY EXECUTED, 1, Price: 8600.00, Cost: 8600.00, Comm : 6.88, current value : 6866.26, current cash : 5456.26
+2011-07-21, SELL EXECUTED, -1, Price: 8280.00, Cost: 8600.00, Comm : 6.62 , current value : 6419.64 , current cash : 6419.64
+2011-07-22, BUY EXECUTED, 1, Price: 8555.00, Cost: 8555.00, Comm : 6.84, current value : 6252.79, current cash : 5129.54
+2011-07-25, SELL EXECUTED, -1, Price: 8684.00, Cost: 8555.00, Comm : 6.95 , current value : 6534.84 , current cash : 6534.84
+2011-07-26, BUY EXECUTED, 1, Price: 8699.00, Cost: 8699.00, Comm : 6.96, current value : 6450.89, current cash : 5223.04
+2011-08-01, SELL EXECUTED, -1, Price: 8365.00, Cost: 8699.00, Comm : 6.69 , current value : 6187.19 , current cash : 6187.19
+2011-08-04, BUY EXECUTED, 1, Price: 8700.00, Cost: 8700.00, Comm : 6.96, current value : 6264.23, current cash : 4875.23
+2011-08-08, SELL EXECUTED, -1, Price: 8505.00, Cost: 8700.00, Comm : 6.80 , current value : 5978.43 , current cash : 5978.43
+2011-08-09, BUY EXECUTED, 1, Price: 8488.00, Cost: 8488.00, Comm : 6.79, current value : 5827.64, current cash : 4698.44
+2011-08-10, SELL EXECUTED, -1, Price: 8270.00, Cost: 8488.00, Comm : 6.62 , current value : 5747.02 , current cash : 5747.02
+2011-08-19, BUY EXECUTED, 1, Price: 8618.00, Cost: 8618.00, Comm : 6.89, current value : 5747.13, current cash : 4447.43
+2011-08-26, SELL EXECUTED, -1, Price: 8511.00, Cost: 8618.00, Comm : 6.81 , current value : 5626.32 , current cash : 5626.32
+2011-08-29, BUY EXECUTED, 1, Price: 8690.00, Cost: 8690.00, Comm : 6.95, current value : 5616.37, current cash : 4315.87
+2011-09-19, SELL EXECUTED, -1, Price: 8625.00, Cost: 8690.00, Comm : 6.90 , current value : 5547.47 , current cash : 5547.47
+2011-09-20, BUY EXECUTED, 1, Price: 8600.00, Cost: 8600.00, Comm : 6.88, current value : 5429.59, current cash : 4250.59
+2011-09-21, SELL EXECUTED, -1, Price: 8495.00, Cost: 8600.00, Comm : 6.80 , current value : 5428.79 , current cash : 5428.79
+2011-10-31, BUY EXECUTED, 1, Price: 7430.00, Cost: 7430.00, Comm : 5.94, current value : 5199.85, current cash : 4308.35
+2011-11-04, SELL EXECUTED, -1, Price: 7270.00, Cost: 7430.00, Comm : 5.82 , current value : 5257.03 , current cash : 5257.03
+2011-11-07, BUY EXECUTED, 1, Price: 7205.00, Cost: 7205.00, Comm : 5.76, current value : 5284.27, current cash : 4170.52
+2011-11-11, SELL EXECUTED, -1, Price: 7160.00, Cost: 7205.00, Comm : 5.73 , current value : 5200.54 , current cash : 5200.54
+2011-11-14, BUY EXECUTED, 1, Price: 7299.00, Cost: 7299.00, Comm : 5.84, current value : 5182.70, current cash : 4099.85
+2011-11-18, SELL EXECUTED, -1, Price: 7036.00, Cost: 7299.00, Comm : 5.63 , current value : 4926.07 , current cash : 4926.07
+2012-01-31, BUY EXECUTED, 1, Price: 6908.00, Cost: 6908.00, Comm : 5.53, current value : 4999.55, current cash : 3884.35
+2012-03-07, SELL EXECUTED, -1, Price: 6909.00, Cost: 6908.00, Comm : 5.53 , current value : 4916.02 , current cash : 4916.02
+2012-06-07, BUY EXECUTED, 1, Price: 6153.00, Cost: 6153.00, Comm : 4.92, current value : 4914.10, current cash : 3988.15
+2012-06-11, SELL EXECUTED, -1, Price: 6066.00, Cost: 6153.00, Comm : 4.85 , current value : 4819.24 , current cash : 4819.24
+2012-06-12, BUY EXECUTED, 1, Price: 6053.00, Cost: 6053.00, Comm : 4.84, current value : 4761.40, current cash : 3906.45
+2012-06-13, SELL EXECUTED, -1, Price: 6030.00, Cost: 6053.00, Comm : 4.82 , current value : 4786.58 , current cash : 4786.58
+2012-06-14, BUY EXECUTED, 1, Price: 6088.00, Cost: 6088.00, Comm : 4.87, current value : 4777.71, current cash : 3868.51
+2012-06-19, SELL EXECUTED, -1, Price: 5986.00, Cost: 6088.00, Comm : 4.79 , current value : 4674.92 , current cash : 4674.92
+2012-06-20, BUY EXECUTED, 1, Price: 6048.00, Cost: 6048.00, Comm : 4.84, current value : 4609.08, current cash : 3762.88
+2012-06-21, SELL EXECUTED, -1, Price: 5950.00, Cost: 6048.00, Comm : 4.76 , current value : 4567.32 , current cash : 4567.32
+2012-08-10, BUY EXECUTED, 1, Price: 5901.00, Cost: 5901.00, Comm : 4.72, current value : 4535.60, current cash : 3677.45
+2012-08-13, SELL EXECUTED, -1, Price: 5912.00, Cost: 5901.00, Comm : 4.73 , current value : 4568.87 , current cash : 4568.87
+2012-08-20, BUY EXECUTED, 1, Price: 5915.00, Cost: 5915.00, Comm : 4.73, current value : 4572.14, current cash : 3676.89
+2012-10-09, SELL EXECUTED, -1, Price: 7013.00, Cost: 5915.00, Comm : 5.61 , current value : 5656.53 , current cash : 5656.53
+2012-11-23, BUY EXECUTED, 1, Price: 6851.00, Cost: 6851.00, Comm : 5.48, current value : 5670.05, current cash : 4623.40
+2012-12-05, SELL EXECUTED, -1, Price: 6790.00, Cost: 6851.00, Comm : 5.43 , current value : 5584.61 , current cash : 5584.61
+2013-01-21, BUY EXECUTED, 1, Price: 6545.00, Cost: 6545.00, Comm : 5.24, current value : 5570.38, current cash : 4597.63
+2013-01-28, SELL EXECUTED, -1, Price: 6400.00, Cost: 6545.00, Comm : 5.12 , current value : 5429.26 , current cash : 5429.26
+2013-02-01, BUY EXECUTED, 1, Price: 6548.00, Cost: 6548.00, Comm : 5.24, current value : 5323.02, current cash : 4441.82
+2013-02-04, SELL EXECUTED, -1, Price: 6500.00, Cost: 6548.00, Comm : 5.20 , current value : 5370.82 , current cash : 5370.82
+2013-02-05, BUY EXECUTED, 1, Price: 6466.00, Cost: 6466.00, Comm : 5.17, current value : 5394.65, current cash : 4395.75
+2013-02-06, SELL EXECUTED, -1, Price: 6516.00, Cost: 6466.00, Comm : 5.21 , current value : 5410.43 , current cash : 5410.43
+2013-02-07, BUY EXECUTED, 1, Price: 6514.00, Cost: 6514.00, Comm : 5.21, current value : 5402.22, current cash : 4428.12
+2013-02-18, SELL EXECUTED, -1, Price: 6216.00, Cost: 6514.00, Comm : 4.97 , current value : 5102.25 , current cash : 5102.25
+2013-07-23, BUY EXECUTED, 1, Price: 4067.00, Cost: 4067.00, Comm : 3.25, current value : 5092.00, current cash : 4488.95
+2013-07-30, SELL EXECUTED, -1, Price: 4000.00, Cost: 4067.00, Comm : 3.20 , current value : 5028.80 , current cash : 5028.80
+2013-08-12, BUY EXECUTED, 1, Price: 4030.00, Cost: 4030.00, Comm : 3.22, current value : 5215.57, current cash : 4421.07
+2013-09-13, SELL EXECUTED, -1, Price: 4460.00, Cost: 4030.00, Comm : 3.57 , current value : 5452.00 , current cash : 5452.00
+2013-10-24, BUY EXECUTED, 1, Price: 4565.00, Cost: 4565.00, Comm : 3.65, current value : 5440.35, current cash : 4763.60
+2013-10-28, SELL EXECUTED, -1, Price: 4485.00, Cost: 4565.00, Comm : 3.59 , current value : 5364.76 , current cash : 5364.76
+2013-10-29, BUY EXECUTED, 1, Price: 4498.00, Cost: 4498.00, Comm : 3.60, current value : 5364.17, current cash : 4686.47
+2013-11-01, SELL EXECUTED, -1, Price: 4388.00, Cost: 4498.00, Comm : 3.51 , current value : 5247.66 , current cash : 5247.66
+2014-02-17, BUY EXECUTED, 1, Price: 4218.00, Cost: 4218.00, Comm : 3.37, current value : 5396.28, current cash : 4611.58
+2014-03-11, SELL EXECUTED, -1, Price: 4161.00, Cost: 4218.00, Comm : 3.33 , current value : 5183.95 , current cash : 5183.95
+2014-03-14, BUY EXECUTED, 1, Price: 4213.00, Cost: 4213.00, Comm : 3.37, current value : 5190.58, current cash : 4548.63
+2014-03-19, SELL EXECUTED, -1, Price: 4149.00, Cost: 4213.00, Comm : 3.32 , current value : 5113.26 , current cash : 5113.26
+2014-06-17, BUY EXECUTED, 1, Price: 4137.00, Cost: 4137.00, Comm : 3.31, current value : 5077.95, current cash : 4489.40
+2014-06-18, SELL EXECUTED, -1, Price: 4098.00, Cost: 4137.00, Comm : 3.28 , current value : 5067.67 , current cash : 5067.67
+2014-06-19, BUY EXECUTED, 1, Price: 4116.00, Cost: 4116.00, Comm : 3.29, current value : 5090.38, current cash : 4446.98
+2014-07-28, SELL EXECUTED, -1, Price: 4270.00, Cost: 4116.00, Comm : 3.42 , current value : 5214.97 , current cash : 5214.97
+2014-07-29, BUY EXECUTED, 1, Price: 4295.00, Cost: 4295.00, Comm : 3.44, current value : 5213.53, current cash : 4567.28
+2014-08-06, SELL EXECUTED, -1, Price: 4257.00, Cost: 4295.00, Comm : 3.41 , current value : 5170.12 , current cash : 5170.12
+2014-11-18, BUY EXECUTED, 1, Price: 3475.00, Cost: 3475.00, Comm : 2.78, current value : 5170.34, current cash : 4646.09
+2014-12-01, SELL EXECUTED, -1, Price: 3425.00, Cost: 3475.00, Comm : 2.74 , current value : 5114.60 , current cash : 5114.60
+2014-12-03, BUY EXECUTED, 1, Price: 3450.00, Cost: 3450.00, Comm : 2.76, current value : 5138.84, current cash : 4594.34
+2014-12-18, SELL EXECUTED, -1, Price: 3433.00, Cost: 3450.00, Comm : 2.75 , current value : 5092.10 , current cash : 5092.10
+2014-12-19, BUY EXECUTED, 1, Price: 3476.00, Cost: 3476.00, Comm : 2.78, current value : 5069.32, current cash : 4567.92
+2014-12-24, SELL EXECUTED, -1, Price: 3366.00, Cost: 3476.00, Comm : 2.69 , current value : 4976.62 , current cash : 4976.62
+2015-01-05, BUY EXECUTED, 1, Price: 3420.00, Cost: 3420.00, Comm : 2.74, current value : 5001.89, current cash : 4460.89
+2015-02-13, SELL EXECUTED, -1, Price: 3558.00, Cost: 3420.00, Comm : 2.85 , current value : 5109.04 , current cash : 5109.04
+2015-02-16, BUY EXECUTED, 1, Price: 3569.00, Cost: 3569.00, Comm : 2.86, current value : 5170.19, current cash : 4570.84
+2015-02-26, SELL EXECUTED, -1, Price: 3542.00, Cost: 3569.00, Comm : 2.83 , current value : 5076.35 , current cash : 5076.35
+2015-02-27, BUY EXECUTED, 1, Price: 3572.00, Cost: 3572.00, Comm : 2.86, current value : 5065.50, current cash : 4537.70
+2015-03-04, SELL EXECUTED, -1, Price: 3536.00, Cost: 3572.00, Comm : 2.83 , current value : 5034.67 , current cash : 5034.67
+2015-03-23, BUY EXECUTED, 1, Price: 3477.00, Cost: 3477.00, Comm : 2.78, current value : 5136.88, current cash : 4510.33
+2015-04-10, SELL EXECUTED, -1, Price: 3482.00, Cost: 3477.00, Comm : 2.79 , current value : 5034.10 , current cash : 5034.10
+2015-04-14, BUY EXECUTED, 1, Price: 3479.00, Cost: 3479.00, Comm : 2.78, current value : 5010.32, current cash : 4509.47
+2015-04-15, SELL EXECUTED, -1, Price: 3443.00, Cost: 3479.00, Comm : 2.75 , current value : 4992.56 , current cash : 4992.56
+2015-04-17, BUY EXECUTED, 1, Price: 3521.00, Cost: 3521.00, Comm : 2.82, current value : 4972.74, current cash : 4461.59
+2015-04-22, SELL EXECUTED, -1, Price: 3482.00, Cost: 3521.00, Comm : 2.79 , current value : 4947.96 , current cash : 4947.96
+2015-04-29, BUY EXECUTED, 1, Price: 3556.00, Cost: 3556.00, Comm : 2.84, current value : 4955.11, current cash : 4411.71
+2015-06-08, SELL EXECUTED, -1, Price: 3487.00, Cost: 3556.00, Comm : 2.79 , current value : 4873.32 , current cash : 4873.32
+2015-08-12, BUY EXECUTED, 1, Price: 3325.00, Cost: 3325.00, Comm : 2.66, current value : 5017.66, current cash : 4371.91
+2015-08-28, SELL EXECUTED, -1, Price: 3250.00, Cost: 3325.00, Comm : 2.60 , current value : 4793.06 , current cash : 4793.06
+2015-08-31, BUY EXECUTED, 1, Price: 3283.00, Cost: 3283.00, Comm : 2.63, current value : 4789.44, current cash : 4297.99
+2015-09-15, SELL EXECUTED, -1, Price: 3256.00, Cost: 3283.00, Comm : 2.60 , current value : 4760.83 , current cash : 4760.83
+2015-09-17, BUY EXECUTED, 1, Price: 3279.00, Cost: 3279.00, Comm : 2.62, current value : 4801.21, current cash : 4266.36
+2015-09-30, SELL EXECUTED, -1, Price: 3266.00, Cost: 3279.00, Comm : 2.61 , current value : 4742.60 , current cash : 4742.60
+2015-10-09, BUY EXECUTED, 1, Price: 3416.00, Cost: 3416.00, Comm : 2.73, current value : 4756.86, current cash : 4227.46
+2015-11-06, SELL EXECUTED, -1, Price: 3300.00, Cost: 3416.00, Comm : 2.64 , current value : 4621.22 , current cash : 4621.22
+2015-12-08, BUY EXECUTED, 1, Price: 3230.00, Cost: 3230.00, Comm : 2.58, current value : 4592.64, current cash : 4134.14
+2015-12-09, SELL EXECUTED, -1, Price: 3201.00, Cost: 3230.00, Comm : 2.56 , current value : 4587.08 , current cash : 4587.08
+2015-12-22, BUY EXECUTED, 1, Price: 3226.00, Cost: 3226.00, Comm : 2.58, current value : 4585.50, current cash : 4100.60
+2016-01-14, SELL EXECUTED, -1, Price: 3196.00, Cost: 3226.00, Comm : 2.56 , current value : 4551.94 , current cash : 4551.94
+2016-01-15, BUY EXECUTED, 1, Price: 3229.00, Cost: 3229.00, Comm : 2.58, current value : 4536.36, current cash : 4065.01
+2016-03-01, SELL EXECUTED, -1, Price: 3278.00, Cost: 3229.00, Comm : 2.62 , current value : 4595.74 , current cash : 4595.74
+2016-03-07, BUY EXECUTED, 1, Price: 3364.00, Cost: 3364.00, Comm : 2.69, current value : 4639.05, current cash : 4088.45
+2016-04-06, SELL EXECUTED, -1, Price: 3331.00, Cost: 3364.00, Comm : 2.66 , current value : 4557.38 , current cash : 4557.38
+2016-04-12, BUY EXECUTED, 1, Price: 3379.00, Cost: 3379.00, Comm : 2.70, current value : 4594.68, current cash : 4047.83
+2016-05-20, SELL EXECUTED, -1, Price: 3585.00, Cost: 3379.00, Comm : 2.87 , current value : 4757.81 , current cash : 4757.81
+2016-06-13, BUY EXECUTED, 1, Price: 3743.00, Cost: 3743.00, Comm : 2.99, current value : 4742.82, current cash : 4193.37
+2016-07-22, SELL EXECUTED, -1, Price: 4176.00, Cost: 3743.00, Comm : 3.34 , current value : 5184.47 , current cash : 5184.47
+2016-07-29, BUY EXECUTED, 1, Price: 4409.00, Cost: 4409.00, Comm : 3.53, current value : 5122.95, current cash : 4519.60
+2016-08-09, SELL EXECUTED, -1, Price: 4285.00, Cost: 4409.00, Comm : 3.43 , current value : 5053.52 , current cash : 5053.52
+2016-08-11, BUY EXECUTED, 1, Price: 4418.00, Cost: 4418.00, Comm : 3.53, current value : 4990.98, current cash : 4387.28
+2016-08-16, SELL EXECUTED, -1, Price: 4320.00, Cost: 4418.00, Comm : 3.46 , current value : 4948.53 , current cash : 4948.53
+2016-08-17, BUY EXECUTED, 1, Price: 4367.00, Cost: 4367.00, Comm : 3.49, current value : 4871.04, current cash : 4289.99
+2016-08-18, SELL EXECUTED, -1, Price: 4285.00, Cost: 4367.00, Comm : 3.43 , current value : 4859.61 , current cash : 4859.61
+2016-09-07, BUY EXECUTED, 1, Price: 4293.00, Cost: 4293.00, Comm : 3.43, current value : 4914.17, current cash : 4212.22
+2016-09-13, SELL EXECUTED, -1, Price: 4183.00, Cost: 4293.00, Comm : 3.35 , current value : 4742.83 , current cash : 4742.83
+2016-09-22, BUY EXECUTED, 1, Price: 4309.00, Cost: 4309.00, Comm : 3.45, current value : 4760.38, current cash : 4093.03
+2016-09-29, SELL EXECUTED, -1, Price: 4230.00, Cost: 4309.00, Comm : 3.38 , current value : 4657.00 , current cash : 4657.00
+2016-11-10, BUY EXECUTED, 1, Price: 4233.00, Cost: 4233.00, Comm : 3.39, current value : 4657.61, current cash : 4018.66
+2016-11-15, SELL EXECUTED, -1, Price: 4017.00, Cost: 4233.00, Comm : 3.21 , current value : 4434.40 , current cash : 4434.40
+2017-02-08, BUY EXECUTED, 1, Price: 4062.00, Cost: 4062.00, Comm : 3.25, current value : 4437.15, current cash : 3821.85
+2017-03-06, SELL EXECUTED, -1, Price: 4078.00, Cost: 4062.00, Comm : 3.26 , current value : 4443.88 , current cash : 4443.88
+2017-03-28, BUY EXECUTED, 1, Price: 4148.00, Cost: 4148.00, Comm : 3.32, current value : 4433.56, current cash : 3818.36
+2017-04-11, SELL EXECUTED, -1, Price: 4108.00, Cost: 4148.00, Comm : 3.29 , current value : 4397.28 , current cash : 4397.28
+2017-04-13, BUY EXECUTED, 1, Price: 4183.00, Cost: 4183.00, Comm : 3.35, current value : 4421.93, current cash : 3766.48
+2017-04-27, SELL EXECUTED, -1, Price: 4100.00, Cost: 4183.00, Comm : 3.28 , current value : 4307.65 , current cash : 4307.65
+2017-06-06, BUY EXECUTED, 1, Price: 4020.00, Cost: 4020.00, Comm : 3.22, current value : 4324.44, current cash : 3701.44
+2017-06-12, SELL EXECUTED, -1, Price: 3984.00, Cost: 4020.00, Comm : 3.19 , current value : 4265.25 , current cash : 4265.25
+2017-07-28, BUY EXECUTED, 1, Price: 3825.00, Cost: 3825.00, Comm : 3.06, current value : 4248.19, current cash : 3688.44
+2017-07-31, SELL EXECUTED, -1, Price: 3815.00, Cost: 3825.00, Comm : 3.05 , current value : 4249.14 , current cash : 4249.14
+2017-08-01, BUY EXECUTED, 1, Price: 3838.00, Cost: 3838.00, Comm : 3.07, current value : 4239.07, current cash : 3670.37
+2017-08-04, SELL EXECUTED, -1, Price: 3807.00, Cost: 3838.00, Comm : 3.05 , current value : 4212.02 , current cash : 4212.02
+2017-08-07, BUY EXECUTED, 1, Price: 3820.00, Cost: 3820.00, Comm : 3.06, current value : 4124.96, current cash : 3635.96
+2017-08-08, SELL EXECUTED, -1, Price: 3716.00, Cost: 3820.00, Comm : 2.97 , current value : 4101.99 , current cash : 4101.99
+2017-08-11, BUY EXECUTED, 1, Price: 3910.00, Cost: 3910.00, Comm : 3.13, current value : 4083.86, current cash : 3512.36
+2017-09-20, SELL EXECUTED, -1, Price: 3851.00, Cost: 3910.00, Comm : 3.08 , current value : 4036.78 , current cash : 4036.78
+2017-10-16, BUY EXECUTED, 1, Price: 3865.00, Cost: 3865.00, Comm : 3.09, current value : 4062.69, current cash : 3453.94
+2017-10-18, SELL EXECUTED, -1, Price: 3867.00, Cost: 3865.00, Comm : 3.09 , current value : 4032.60 , current cash : 4032.60
+SharpeRatio:OrderedDict([('sharperatio', 0.34931244177664195)])
+DW:AutoOrderedDict([('len', 1589), ('drawdown', 52.14304261533691), ('moneydown', 4393.758399999999), ('max', AutoOrderedDict([('len', 1589), ('drawdown', 52.34162905056466), ('moneydown', 4410.491999999998)]))])
+AnnualReturn:OrderedDict([(2008, -0.0304192000000002), (2009, 0.5663565120101393), (2010, 0.5851706172583926), (2011, 0.02310479979091218), (2012, 0.1336849319295379), (2013, -0.06033692286248771), (2014, -0.05164805797454064), (2015, -0.08200836551043444), (2016, -0.029354060081700384), (2017, -0.09060933495508006)])
+TradeAnalyzer:AutoOrderedDict([('total', AutoOrderedDict([('total', 100), ('open', 0), ('closed', 100)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 0), ('longest', 4)])), ('lost', AutoOrderedDict([('current', 8), ('longest', 14)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 2773.0), ('average', 27.73)])), ('net', AutoOrderedDict([('total', 2032.597599999999), ('average', 20.32597599999999)]))])), ('won', AutoOrderedDict([('total', 25), ('pnl', AutoOrderedDict([('total', 8786.0352), ('average', 351.441408), ('max', 2452.54)]))])), ('lost', AutoOrderedDict([('total', 75), ('pnl', AutoOrderedDict([('total', -6753.437599999999), ('average', -90.04583466666666), ('max', -347.6512)]))])), ('long', AutoOrderedDict([('total', 100), ('pnl', AutoOrderedDict([('total', 2032.597599999999), ('average', 20.32597599999999), ('won', AutoOrderedDict([('total', 8786.0352), ('average', 351.441408), ('max', 2452.54)])), ('lost', AutoOrderedDict([('total', -6753.437599999999), ('average', -90.04583466666666), ('max', -347.6512)]))])), ('won', 25), ('lost', 75)])), ('short', AutoOrderedDict([('total', 0), ('pnl', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('won', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)])), ('lost', AutoOrderedDict([('total', 0.0), ('average', 0.0), ('max', 0.0)]))])), ('won', 0), ('lost', 0)])), ('len', AutoOrderedDict([('total', 1018), ('average', 10.18), ('max', 58), ('min', 1), ('won', AutoOrderedDict([('total', 558), ('average', 22.32), ('max', 58), ('min', 1)])), ('lost', AutoOrderedDict([('total', 460), ('average', 6.133333333333334), ('max', 28), ('min', 1)])), ('long', AutoOrderedDict([('total', 1018), ('average', 10.18), ('max', 58), ('min', 1), ('won', AutoOrderedDict([('total', 558), ('average', 22.32), ('max', 58), ('min', 1)])), ('lost', AutoOrderedDict([('total', 460), ('average', 6.133333333333334), ('max', 28), ('min', 1)]))])), ('short', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807), ('won', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)])), ('lost', AutoOrderedDict([('total', 0), ('average', 0.0), ('max', 0), ('min', 9223372036854775807)]))]))]))])
+SQN:AutoOrderedDict([('sqn', 0.61957131802548), ('trades', 100)])

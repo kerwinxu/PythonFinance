@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-19 20:01:19
+# Last Change:  2017-12-14 09:45:58
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -39,7 +39,7 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
             pass
         elif self.kama[0] < self.kama[-1] and self.kama[-2] < self.kama[-1]:
             # 这里就是卖掉了
-            self.order = self.sell()
+            self.order = self.close()
             pass
 
         # Check if we are in the market
@@ -58,7 +58,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(Strategy_KAMA)
 
     # Set our desired cash start
-    cerebro.set_cash(5000.0)
+    cerebro.set_cash(2000.0)
 
     cerebro.show_analyzer(cerebro.run())
 

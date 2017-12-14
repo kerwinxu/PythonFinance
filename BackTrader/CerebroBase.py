@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-11-15 09:52:55
+# Last Change:  2017-12-14 09:45:20
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -52,9 +52,9 @@ class CerebroBase(object):
         self.addanalyzer(bt.analyzers.SharpeRatio, 'SharpeRatio')
         self.addanalyzer(bt.analyzers.DrawDown, 'DW')
         self.addanalyzer(bt.analyzers.AnnualReturn, 'AnnualReturn')
-        self.addanalyzer(bt.analyzers.Calmar, 'Calmar')
+        # self.addanalyzer(bt.analyzers.Calmar, 'Calmar')
         # self.addanalyzer(bt.analyzers.PeriodStats, 'PeriodStats')
-        self.addanalyzer(bt.analyzers.Returns, 'Returns')
+        # self.addanalyzer(bt.analyzers.Returns, 'Returns')
         self.addanalyzer(bt.analyzers.TradeAnalyzer, 'TradeAnalyzer')
         self.addanalyzer(bt.analyzers.SQN, 'SQN')
 
@@ -109,9 +109,10 @@ class CerebroAGTD(CerebroBase):
         self.adddata(data)
         # 如下是佣金
         self.cerebro.broker.setcommission(
-            automargin=0.15,  # 保证金比例
+            # automargin=0.15,  # 保证金比例
             commission=0.0008,  # 手续费，记得是万分之8
-            interest=0.073  # 递延费，记得是万分之8， * 360 = 0.073
+            leverage = 100/15,  # 这个才是真正的杠杆，15%的保证金相当于100 / 15的杠杆
+            interest=0.073  # 递延费，记得是万分之8， * 365 = 0.073
         )
 
 
@@ -128,7 +129,11 @@ class CerebroAUTD(CerebroBase):
         self.adddata(data)
         # 如下是佣金
         self.cerebro.broker.setcommission(
-            automargin=0.15,  # 保证金比例
+            # automargin=0.15,  # 保证金比例
             commission=0.0008,  # 手续费，记得是万分之8
+            leverage = 100/15,  # 这个才是真正的杠杆，15%的保证金相当于100 / 15的杠杆
             interest=0.073  # 递延费，记得是万分之8， * 365 = 0.073
         )
+
+class BrokerSGE(bt.broker.BrokerBase):
+    pass
