@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-10-08 10:30:59
-# Last Change:  2017-12-17 16:22:10
+# Last Change:  2017-12-17 23:19:21
 # File Name: Strategy_main.py
 
 import backtrader as bt
@@ -152,7 +152,7 @@ class StrategyBase(bt.Strategy):
         return _size
         pass
 
-    def jiacang(self):
+    def buy_add(self):
         """
             Description : 判断是否可以加仓，
 
@@ -172,10 +172,34 @@ class StrategyBase(bt.Strategy):
         for _p in self.dict_open.keys():
             if(_close > _p):
                 _price.append(_p)
-                if self.position.size > 0:
-                    self.order = self.buy(size=self.dict_open[_p])
-                elif self.position.size < 0:
-                    self.order = self.sell(size=self.dict_open[_p])
+                self.order = self.buy(size=self.dict_open[_p])
+
+        # 如果有被超过的
+        for _p in _price:
+            # 然后删除这个价格啦，已经完成使命了
+            self.dict_open.pop(_p)
+
+    def sell_add(self):
+        """
+            Description : 判断是否可以加仓，
+
+            Arg :
+
+            Returns :
+
+            Raises	 :
+
+        """
+        # 如果没有，就直接退出吧。
+        if self.dict_open is None:
+            return
+        # 判断是否有价格被超过
+        _price = []
+        _close = self.data.close[0]
+        for _p in self.dict_open.keys():
+            if(_close < _p):
+                _price.append(_p)
+                self.order = self.sell(size=self.dict_open[_p])
 
         # 如果有被超过的
         for _p in _price:
