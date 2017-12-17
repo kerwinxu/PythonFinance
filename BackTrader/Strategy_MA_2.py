@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-14 21:51:47
+# Last Change:  2017-12-16 21:51:26
 # File Name: sample1.py
 
 import backtrader as bt
@@ -33,7 +33,7 @@ class Strategy_MA(StrategyBase.StrategyBase):
         if self.order:
             return
         # 先求还有多少钱吧, cash是get_cash, 如果是要资产是get_value()
-        cash = self.broker.get_cash()
+        cash = self.broker.get_value()
         # value = self.broker.get_value()
         # 获得开盘价格，我是根据开盘价格来交易的。
         open_price = self.data_open[0]
@@ -52,10 +52,12 @@ class Strategy_MA(StrategyBase.StrategyBase):
 
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = CerebroBase.CerebroAGUSDO()
+    cerebro = CerebroBase.CerebroAGTD()
     # Add a strategy
     cerebro.addstrategy(Strategy_MA)
     # Set our desired cash start
     cerebro.set_cash(5000.0)
 
     cerebro.run()
+
+    cerebro.show_plot()

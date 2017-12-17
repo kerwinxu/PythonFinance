@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-12-14 09:45:20
+# Last Change:  2017-12-16 21:06:17
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -49,14 +49,14 @@ class CerebroBase(object):
 
     def init_analyzers(self):
         """初始化分析师的"""
-        self.addanalyzer(bt.analyzers.SharpeRatio, 'SharpeRatio')
+        # self.addanalyzer(bt.analyzers.Calmar, 'Calmar') # 收益和最大回撤之间的关系。
         self.addanalyzer(bt.analyzers.DrawDown, 'DW')
         self.addanalyzer(bt.analyzers.AnnualReturn, 'AnnualReturn')
-        # self.addanalyzer(bt.analyzers.Calmar, 'Calmar')
-        # self.addanalyzer(bt.analyzers.PeriodStats, 'PeriodStats')
-        # self.addanalyzer(bt.analyzers.Returns, 'Returns')
+        self.addanalyzer(bt.analyzers.PeriodStats, 'PeriodStats')   # Calculates basic statistics for given timeframe
+        self.addanalyzer(bt.analyzers.Returns, 'Returns')
         self.addanalyzer(bt.analyzers.TradeAnalyzer, 'TradeAnalyzer')
-        self.addanalyzer(bt.analyzers.SQN, 'SQN')
+        self.addanalyzer(bt.analyzers.SQN, 'SQN')   # 交易次数N的平方根 * 交易系统的期望值 / 期望值的标准差
+        self.addanalyzer(bt.analyzers.SharpeRatio, 'SharpeRatio') # 夏普比率
 
     def show_analyzer(self, results):
         # 显示分析师结果

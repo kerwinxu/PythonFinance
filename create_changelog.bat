@@ -1,1 +1,1 @@
-gitchangelog >changelog.txt
+gitchangelog > changelog.txt

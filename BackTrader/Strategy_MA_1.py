@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-15 09:51:14
+# Last Change:  2017-12-16 21:49:03
 # File Name: sample1.py
 
 import backtrader as bt
@@ -53,6 +53,6 @@ if __name__ == '__main__':
     # Add a strategy
     cerebro.addstrategy(Strategy_MA)
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
-    cerebro.run()
+    cerebro.set_cash(200000.0)
+    cerebro.show_analyzer(cerebro.run())
     cerebro.show_plot()

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-11-11 20:59:17
+# Last Change:  2017-12-16 21:28:37
 # File Name: sample1.py
 # import datetime  # For datetime objects
 # import os.path  # To manage paths
@@ -37,7 +37,7 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
         # 我的判断是，当最低价也高过均线价格。且单子少于等于0，就买入一部分，且设置止损价格为均线价格
         # 这里是连续2天突破均线才下单。
         if l[0] > k[0] and l[-1] > k[-1] and p_s <= 0:
-            self.order = self.order_target_percent(target=0.1)
+            self.order = self.buy()
             self.sell(
                 price=self.kama[0],
                 size=self.order.size,
@@ -45,7 +45,7 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
                 transmit=False,
                 parent=self.order)
         if h[0] < k[0] and h[-1] < k[-1] and p_s >= 0:
-            self.order = self.order_target_percent(target=-0.1)
+            self.order = self.sell()
             self.buy(
                 price=self.kama[0],
                 size=self.order.size,
@@ -56,13 +56,13 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
 
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = CerebroBase.CerebroAGUSDO()
+    cerebro = CerebroBase.CerebroAGTD()
     # Add a strategy
     cerebro.addstrategy(Strategy_KAMA)
 
     # Set our desired cash start
-    cerebro.set_cash(100000.0)
+    cerebro.set_cash(5000.0)
 
-    cerebro.run()
+    cerebro.show_analyzer(cerebro.run())
 
     cerebro.show_plot()

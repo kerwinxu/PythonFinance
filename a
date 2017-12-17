@@ -1,0 +1,596 @@
+2009-02-03, BUY EXECUTED, 1, Price: 2660.00, Value: 2660.00, Comm : 2.13, current value : 5011.87, current cash : 4598.87
+2009-02-04, SELL EXECUTED, -1, Price: 2672.00, Value: 2660.00, Comm : 2.14 , current value : 5007.73 , current cash : 5007.73
+2009-02-04, Order Canceled/Margin/Rejected
+2009-02-05, BUY EXECUTED, 12, Price: 2668.00, Value: 32016.00, Comm : 25.61, current value : 5258.12, current cash : 179.72
+2009-02-06, SELL EXECUTED, -12, Price: 2725.00, Value: 32016.00, Comm : 26.16 , current value : 5639.96 , current cash : 5639.96
+2009-02-06, Order Canceled/Margin/Rejected
+2009-02-09, BUY EXECUTED, 13, Price: 2770.00, Value: 36010.00, Comm : 28.81, current value : 5715.15, current cash : 209.65
+2009-02-10, SELL EXECUTED, -13, Price: 2785.00, Value: 36010.00, Comm : 28.96 , current value : 5777.19 , current cash : 5777.19
+2009-02-10, Order Canceled/Margin/Rejected
+2009-02-13, BUY EXECUTED, 12, Price: 2965.00, Value: 35580.00, Comm : 28.46, current value : 5856.73, current cash : 411.73
+2009-02-16, SELL EXECUTED, -12, Price: 2970.00, Value: 35580.00, Comm : 28.51 , current value : 5780.21 , current cash : 5780.21
+2009-02-16, Order Canceled/Margin/Rejected
+2009-02-17, BUY EXECUTED, 12, Price: 2985.00, Value: 35820.00, Comm : 28.66, current value : 7083.56, current cash : 378.56
+2009-02-18, SELL EXECUTED, -12, Price: 3101.00, Value: 35820.00, Comm : 29.77 , current value : 7113.79 , current cash : 7113.79
+2009-02-18, Order Canceled/Margin/Rejected
+2009-02-19, BUY EXECUTED, 14, Price: 3228.00, Value: 45192.00, Comm : 36.15, current value : 6937.63, current cash : 298.83
+2009-02-20, SELL EXECUTED, -14, Price: 3197.70, Value: 45192.00, Comm : 35.81 , current value : 6617.62 , current cash : 6617.62
+2009-02-20, Order Canceled/Margin/Rejected
+2009-02-24, BUY EXECUTED, 8, Price: 3186.00, Value: 25488.00, Comm : 20.39, current value : 6957.23, current cash : 2774.03
+2009-02-24, Order Canceled/Margin/Rejected
+2009-02-24, Order Canceled/Margin/Rejected
+2009-02-24, Order Canceled/Margin/Rejected
+2009-02-25, SELL EXECUTED, -8, Price: 3154.14, Value: 25488.00, Comm : 20.19 , current value : 6322.16 , current cash : 6322.16
+2009-02-25, Order Canceled/Margin/Rejected
+2009-03-04, BUY EXECUTED, 13, Price: 2839.00, Value: 36907.00, Comm : 29.53, current value : 6201.64, current cash : 756.59
+2009-03-05, SELL EXECUTED, -13, Price: 2850.00, Value: 36907.00, Comm : 29.64 , current value : 5492.36 , current cash : 43426.36
+2009-03-05, Order Canceled/Margin/Rejected
+2009-03-05, SELL EXECUTED, -13, Price: 2850.00, Value: -37050.00, Comm : 29.64 , current value : 5492.36 , current cash : 43426.36
+2009-03-06, BUY EXECUTED, 13, Price: 2918.00, Value: -37050.00, Comm : 37.76, current value : 5454.60, current cash : 5454.60
+2009-03-19, BUY EXECUTED, 13, Price: 2763.00, Value: 35919.00, Comm : 28.74, current value : 6933.87, current cash : 38.02
+2009-03-20, SELL EXECUTED, -13, Price: 2951.00, Value: 35919.00, Comm : 30.69 , current value : 7015.48 , current cash : 46171.48
+2009-03-20, Order Canceled/Margin/Rejected
+2009-03-20, SELL EXECUTED, -13, Price: 2951.00, Value: -38363.00, Comm : 30.69 , current value : 7015.48 , current cash : 46171.48
+2009-03-23, BUY EXECUTED, 13, Price: 3006.00, Value: -38363.00, Comm : 54.28, current value : 7039.20, current cash : 7039.20
+2009-05-21, BUY EXECUTED, 4, Price: 3055.00, Value: 12220.00, Comm : 9.78, current value : 7169.43, current cash : 5196.43
+2009-05-22, SELL EXECUTED, -4, Price: 3076.00, Value: 12220.00, Comm : 9.84 , current value : 7103.59 , current cash : 7103.59
+2009-05-22, Order Canceled/Margin/Rejected
+2009-05-26, BUY EXECUTED, 4, Price: 3128.00, Value: 12512.00, Comm : 10.01, current value : 7117.58, current cash : 5216.78
+2009-05-27, BUY EXECUTED, 4, Price: 3113.00, Value: 12452.00, Comm : 9.96, current value : 7197.60, current cash : 5235.30
+2009-05-27, SELL EXECUTED, -4, Price: 3129.00, Value: 12482.00, Comm : 10.01 , current value : 7197.60 , current cash : 5235.30
+2009-05-27, Order Canceled/Margin/Rejected
+2009-06-01, SELL EXECUTED, -4, Price: 3360.00, Value: 12482.00, Comm : 10.75 , current value : 8054.85 , current cash : 8054.85
+2009-06-01, Order Canceled/Margin/Rejected
+2009-06-02, BUY EXECUTED, 5, Price: 3385.00, Value: 16925.00, Comm : 13.54, current value : 7956.31, current cash : 5502.56
+2009-06-03, SELL EXECUTED, -5, Price: 3419.00, Value: 16925.00, Comm : 13.68 , current value : 8197.63 , current cash : 8197.63
+2009-06-03, Order Canceled/Margin/Rejected
+2009-06-04, BUY EXECUTED, 5, Price: 3432.00, Value: 17160.00, Comm : 13.73, current value : 7733.91, current cash : 5609.91
+2009-06-05, SELL EXECUTED, -5, Price: 3358.00, Value: 17160.00, Comm : 13.43 , current value : 7800.47 , current cash : 7800.47
+2009-06-05, Order Canceled/Margin/Rejected
+2009-06-08, BUY EXECUTED, 4, Price: 3350.00, Value: 13400.00, Comm : 10.72, current value : 7589.75, current cash : 5779.75
+2009-06-09, SELL EXECUTED, -4, Price: 3284.00, Value: 13400.00, Comm : 10.51 , current value : 7515.24 , current cash : 7515.24
+2009-06-09, Order Canceled/Margin/Rejected
+2009-06-11, BUY EXECUTED, 4, Price: 3332.00, Value: 13328.00, Comm : 10.66, current value : 7416.58, current cash : 5505.38
+2009-06-12, SELL EXECUTED, -4, Price: 3280.00, Value: 13328.00, Comm : 10.50 , current value : 7051.59 , current cash : 20395.59
+2009-06-12, Order Canceled/Margin/Rejected
+2009-06-12, SELL EXECUTED, -4, Price: 3280.00, Value: -13120.00, Comm : 10.50 , current value : 7051.59 , current cash : 20395.59
+2009-06-15, BUY EXECUTED, 4, Price: 3230.00, Value: -13120.00, Comm : 18.21, current value : 7457.38, current cash : 7457.38
+2009-09-07, BUY EXECUTED, 3, Price: 3461.00, Value: 10383.00, Comm : 8.31, current value : 7674.08, current cash : 5891.63
+2009-09-08, SELL EXECUTED, -3, Price: 3540.00, Value: 10383.00, Comm : 8.50 , current value : 7677.58 , current cash : 7677.58
+2009-09-08, Order Canceled/Margin/Rejected
+2009-09-09, BUY EXECUTED, 3, Price: 3700.00, Value: 11100.00, Comm : 8.88, current value : 7461.70, current cash : 6003.70
+2009-09-10, SELL EXECUTED, -3, Price: 3663.00, Value: 11100.00, Comm : 8.79 , current value : 7548.91 , current cash : 7548.91
+2009-09-10, Order Canceled/Margin/Rejected
+2009-09-11, BUY EXECUTED, 3, Price: 3597.00, Value: 10791.00, Comm : 8.63, current value : 7789.28, current cash : 5921.63
+2009-09-14, SELL EXECUTED, -3, Price: 3687.00, Value: 10791.00, Comm : 8.85 , current value : 7801.43 , current cash : 7801.43
+2009-09-14, Order Canceled/Margin/Rejected
+2009-09-15, BUY EXECUTED, 3, Price: 3637.00, Value: 10911.00, Comm : 8.73, current value : 7798.70, current cash : 6156.05
+2009-09-16, SELL EXECUTED, -3, Price: 3637.00, Value: 10911.00, Comm : 8.73 , current value : 7783.97 , current cash : 7783.97
+2009-09-16, Order Canceled/Margin/Rejected
+2009-09-17, BUY EXECUTED, 3, Price: 3794.00, Value: 11382.00, Comm : 9.11, current value : 7990.86, current cash : 6067.56
+2009-09-18, SELL EXECUTED, -3, Price: 3816.00, Value: 11382.00, Comm : 9.16 , current value : 7831.71 , current cash : 7831.71
+2009-09-18, Order Canceled/Margin/Rejected
+2009-09-21, BUY EXECUTED, 3, Price: 3750.00, Value: 11250.00, Comm : 9.00, current value : 7588.71, current cash : 6135.21
+2009-09-22, SELL EXECUTED, -3, Price: 3690.00, Value: 11250.00, Comm : 8.86 , current value : 7354.99 , current cash : 18694.99
+2009-09-22, Order Canceled/Margin/Rejected
+2009-09-22, SELL EXECUTED, -3, Price: 3690.00, Value: -11070.00, Comm : 8.86 , current value : 7354.99 , current cash : 18694.99
+2009-09-23, BUY EXECUTED, 3, Price: 3830.00, Value: -11070.00, Comm : 11.41, current value : 7193.59, current cash : 7193.59
+2009-09-24, BUY EXECUTED, 2, Price: 3765.00, Value: 7530.00, Comm : 6.02, current value : 7147.56, current cash : 6058.06
+2009-09-25, SELL EXECUTED, -2, Price: 3751.11, Value: 7530.00, Comm : 6.00 , current value : 7153.78 , current cash : 7153.78
+2009-09-25, Order Canceled/Margin/Rejected
+2009-10-14, BUY EXECUTED, 2, Price: 3844.00, Value: 7688.00, Comm : 6.15, current value : 7433.27, current cash : 3663.67
+2009-10-14, BUY EXECUTED, 2, Price: 3854.00, Value: 7708.00, Comm : 6.17, current value : 7433.27, current cash : 3663.67
+2009-10-14, BUY EXECUTED, 2, Price: 3874.00, Value: 7748.00, Comm : 6.20, current value : 7433.27, current cash : 3663.67
+2009-10-15, SELL EXECUTED, -2, Price: 3880.00, Value: 7714.67, Comm : 6.21 , current value : 7252.64 , current cash : 7252.64
+2009-10-15, Order Canceled/Margin/Rejected
+2009-10-15, SELL EXECUTED, -2, Price: 3880.00, Value: 7714.67, Comm : 6.21 , current value : 7252.64 , current cash : 7252.64
+2009-10-15, Order Canceled/Margin/Rejected
+2009-10-15, SELL EXECUTED, -2, Price: 3880.00, Value: 7714.67, Comm : 6.21 , current value : 7252.64 , current cash : 7252.64
+2009-10-15, Order Canceled/Margin/Rejected
+2009-10-16, BUY EXECUTED, 2, Price: 3819.00, Value: 7638.00, Comm : 6.11, current value : 7238.53, current cash : 6100.83
+2009-10-19, SELL EXECUTED, -2, Price: 3815.00, Value: 7638.00, Comm : 6.10 , current value : 7232.43 , current cash : 7232.43
+2009-10-19, Order Canceled/Margin/Rejected
+2009-10-20, BUY EXECUTED, 2, Price: 3830.00, Value: 7660.00, Comm : 6.13, current value : 7310.30, current cash : 6077.30
+2009-10-21, SELL EXECUTED, -2, Price: 3883.00, Value: 7660.00, Comm : 6.21 , current value : 7326.09 , current cash : 7326.09
+2009-10-21, Order Canceled/Margin/Rejected
+2009-10-22, BUY EXECUTED, 2, Price: 3820.00, Value: 7640.00, Comm : 6.11, current value : 7395.97, current cash : 6173.97
+2009-10-23, SELL EXECUTED, -2, Price: 3846.00, Value: 7640.00, Comm : 6.15 , current value : 7365.82 , current cash : 7365.82
+2009-10-23, Order Canceled/Margin/Rejected
+2009-11-18, BUY EXECUTED, 2, Price: 4001.00, Value: 8002.00, Comm : 6.40, current value : 7471.42, current cash : 6159.12
+2009-11-19, SELL EXECUTED, -2, Price: 4096.00, Value: 8002.00, Comm : 6.55 , current value : 7542.87 , current cash : 7542.87
+2009-11-19, Order Canceled/Margin/Rejected
+2009-11-20, BUY EXECUTED, 2, Price: 4075.00, Value: 8150.00, Comm : 6.52, current value : 7598.35, current cash : 6313.85
+2009-11-23, SELL EXECUTED, -2, Price: 4178.00, Value: 8150.00, Comm : 6.68 , current value : 7735.66 , current cash : 7735.66
+2009-11-23, Order Canceled/Margin/Rejected
+2009-11-24, BUY EXECUTED, 2, Price: 4183.00, Value: 8366.00, Comm : 6.69, current value : 7654.97, current cash : 6474.07
+2009-11-25, SELL EXECUTED, -2, Price: 4147.11, Value: 8366.00, Comm : 6.64 , current value : 7650.55 , current cash : 7650.55
+2009-11-25, Order Canceled/Margin/Rejected
+2009-11-27, BUY EXECUTED, 2, Price: 4074.00, Value: 8148.00, Comm : 6.52, current value : 7644.03, current cash : 6421.83
+2009-11-30, SELL EXECUTED, -2, Price: 4068.00, Value: 8148.00, Comm : 6.51 , current value : 7541.02 , current cash : 15755.02
+2009-11-30, Order Canceled/Margin/Rejected
+2009-11-30, SELL EXECUTED, -2, Price: 4068.00, Value: -8136.00, Comm : 6.51 , current value : 7541.02 , current cash : 15755.02
+2009-12-01, BUY EXECUTED, 2, Price: 4068.00, Value: -8136.00, Comm : 8.14, current value : 7610.88, current cash : 7610.88
+2009-12-03, BUY EXECUTED, 2, Price: 4243.00, Value: 8486.00, Comm : 6.79, current value : 7506.09, current cash : 6331.19
+2009-12-04, SELL EXECUTED, -2, Price: 4051.00, Value: 8486.00, Comm : 6.48 , current value : 7213.61 , current cash : 7213.61
+2009-12-04, Order Canceled/Margin/Rejected
+2009-12-24, BUY EXECUTED, 1, Price: 4174.00, Value: 4174.00, Comm : 3.34, current value : 7231.27, current cash : 6584.17
+2009-12-25, SELL EXECUTED, -1, Price: 4195.00, Value: 4174.00, Comm : 3.36 , current value : 7203.58 , current cash : 11398.58
+2009-12-25, Order Canceled/Margin/Rejected
+2009-12-25, SELL EXECUTED, -1, Price: 4174.00, Value: -4174.00, Comm : 3.34 , current value : 7203.58 , current cash : 11398.58
+2009-12-28, BUY EXECUTED, 1, Price: 4174.00, Value: -4174.00, Comm : 5.84, current value : 7218.73, current cash : 7218.73
+2010-01-20, BUY EXECUTED, 1, Price: 4188.00, Value: 4188.00, Comm : 3.35, current value : 7230.38, current cash : 6587.18
+2010-01-21, SELL EXECUTED, -1, Price: 4176.81, Value: 4188.00, Comm : 3.34 , current value : 7200.85 , current cash : 7200.85
+2010-01-21, Order Canceled/Margin/Rejected
+2010-04-09, BUY EXECUTED, 1, Price: 4069.00, Value: 4069.00, Comm : 3.26, current value : 7207.60, current cash : 6587.25
+2010-04-12, SELL EXECUTED, -1, Price: 4130.00, Value: 4069.00, Comm : 3.30 , current value : 7255.29 , current cash : 7255.29
+2010-04-12, Order Canceled/Margin/Rejected
+2010-04-13, BUY EXECUTED, 1, Price: 4106.00, Value: 4106.00, Comm : 3.28, current value : 7233.01, current cash : 6636.11
+2010-04-14, SELL EXECUTED, -1, Price: 4091.67, Value: 4106.00, Comm : 3.27 , current value : 7244.13 , current cash : 11328.13
+2010-04-14, Order Canceled/Margin/Rejected
+2010-04-14, SELL EXECUTED, -1, Price: 4097.00, Value: -4097.00, Comm : 3.28 , current value : 7244.13 , current cash : 11328.13
+2010-04-15, BUY EXECUTED, 1, Price: 4119.00, Value: -4097.00, Comm : 4.11, current value : 7205.01, current cash : 7205.01
+2010-05-13, BUY EXECUTED, 1, Price: 4295.00, Value: 4295.00, Comm : 3.44, current value : 7233.58, current cash : 6557.33
+2010-05-14, SELL EXECUTED, -1, Price: 4353.00, Value: 4295.00, Comm : 3.48 , current value : 7256.09 , current cash : 7256.09
+2010-05-14, Order Canceled/Margin/Rejected
+2010-05-17, BUY EXECUTED, 1, Price: 4316.00, Value: 4316.00, Comm : 3.45, current value : 7250.64, current cash : 6605.24
+2010-05-18, SELL EXECUTED, -1, Price: 4291.65, Value: 4316.00, Comm : 3.43 , current value : 7224.86 , current cash : 7224.86
+2010-05-18, Order Canceled/Margin/Rejected
+2010-09-03, BUY EXECUTED, 1, Price: 4298.00, Value: 4298.00, Comm : 3.44, current value : 7240.42, current cash : 6576.72
+2010-09-06, SELL EXECUTED, -1, Price: 4336.00, Value: 4298.00, Comm : 3.47 , current value : 7233.48 , current cash : 11588.48
+2010-09-06, Order Canceled/Margin/Rejected
+2010-09-06, SELL EXECUTED, -1, Price: 4336.00, Value: -4336.00, Comm : 3.47 , current value : 7233.48 , current cash : 11588.48
+2010-09-07, BUY EXECUTED, 1, Price: 4356.00, Value: -4336.00, Comm : 4.35, current value : 7228.13, current cash : 7228.13
+2010-09-08, BUY EXECUTED, 1, Price: 4343.00, Value: 4343.00, Comm : 3.47, current value : 7249.65, current cash : 6573.20
+2010-09-09, SELL EXECUTED, -1, Price: 4359.00, Value: 4343.00, Comm : 3.49 , current value : 7237.17 , current cash : 7237.17
+2010-09-09, Order Canceled/Margin/Rejected
+2010-09-10, BUY EXECUTED, 1, Price: 4348.00, Value: 4348.00, Comm : 3.48, current value : 7218.69, current cash : 6581.49
+2010-09-13, SELL EXECUTED, -1, Price: 4348.00, Value: 4348.00, Comm : 3.48 , current value : 7211.74 , current cash : 11563.74
+2010-09-13, Order Canceled/Margin/Rejected
+2010-09-13, SELL EXECUTED, -1, Price: 4337.00, Value: -4337.00, Comm : 3.47 , current value : 7211.74 , current cash : 11563.74
+2010-09-14, BUY EXECUTED, 1, Price: 4344.00, Value: -4337.00, Comm : 4.34, current value : 7215.40, current cash : 7215.40
+2010-09-15, BUY EXECUTED, 1, Price: 4374.00, Value: 4374.00, Comm : 3.50, current value : 7233.90, current cash : 6555.80
+2010-09-16, SELL EXECUTED, -1, Price: 4378.00, Value: 4374.00, Comm : 3.50 , current value : 7212.40 , current cash : 7212.40
+2010-09-16, Order Canceled/Margin/Rejected
+2010-09-20, BUY EXECUTED, 1, Price: 4492.00, Value: 4492.00, Comm : 3.59, current value : 7296.80, current cash : 6535.00
+2010-09-21, SELL EXECUTED, -1, Price: 4568.00, Value: 4492.00, Comm : 3.65 , current value : 7281.15 , current cash : 7281.15
+2010-09-21, Order Canceled/Margin/Rejected
+2010-09-28, BUY EXECUTED, 1, Price: 4747.00, Value: 4747.00, Comm : 3.80, current value : 7214.35, current cash : 6565.30
+2010-09-29, SELL EXECUTED, -1, Price: 4681.00, Value: 4747.00, Comm : 3.74 , current value : 7207.61 , current cash : 7207.61
+2010-09-29, Order Canceled/Margin/Rejected
+2010-09-30, BUY EXECUTED, 1, Price: 4812.00, Value: 4812.00, Comm : 3.85, current value : 7244.76, current cash : 6481.96
+2010-10-08, SELL EXECUTED, -1, Price: 4906.00, Value: 4812.00, Comm : 3.92 , current value : 7293.83 , current cash : 7293.83
+2010-10-08, Order Canceled/Margin/Rejected
+2010-10-12, BUY EXECUTED, 1, Price: 5150.00, Value: 5150.00, Comm : 4.12, current value : 7285.71, current cash : 6517.21
+2010-10-13, SELL EXECUTED, -1, Price: 5178.00, Value: 5150.00, Comm : 4.14 , current value : 7313.57 , current cash : 7313.57
+2010-10-13, Order Canceled/Margin/Rejected
+2010-10-14, BUY EXECUTED, 1, Price: 5196.00, Value: 5196.00, Comm : 4.16, current value : 7628.41, current cash : 6530.01
+2010-10-15, SELL EXECUTED, -1, Price: 5470.00, Value: 5196.00, Comm : 4.38 , current value : 7579.04 , current cash : 7579.04
+2010-10-15, Order Canceled/Margin/Rejected
+2010-10-18, BUY EXECUTED, 1, Price: 5380.00, Value: 5380.00, Comm : 4.30, current value : 7591.73, current cash : 6767.73
+2010-10-19, SELL EXECUTED, -1, Price: 5460.00, Value: 5380.00, Comm : 4.37 , current value : 7650.36 , current cash : 7650.36
+2010-10-19, Order Canceled/Margin/Rejected
+2010-10-20, BUY EXECUTED, 1, Price: 5200.00, Value: 5200.00, Comm : 4.16, current value : 7736.20, current cash : 6866.20
+2010-10-21, SELL EXECUTED, -1, Price: 5273.00, Value: 5200.00, Comm : 4.22 , current value : 7690.77 , current cash : 12983.77
+2010-10-21, Order Canceled/Margin/Rejected
+2010-10-21, SELL EXECUTED, -1, Price: 5273.00, Value: -5273.00, Comm : 4.22 , current value : 7690.77 , current cash : 12983.77
+2010-10-22, BUY EXECUTED, 1, Price: 5295.00, Value: -5273.00, Comm : 5.29, current value : 7683.48, current cash : 7683.48
+2010-11-02, BUY EXECUTED, 1, Price: 5525.00, Value: 5525.00, Comm : 4.42, current value : 7692.06, current cash : 6850.31
+2010-11-03, SELL EXECUTED, -1, Price: 5560.00, Value: 5525.00, Comm : 4.45 , current value : 7709.61 , current cash : 7709.61
+2010-11-03, Order Canceled/Margin/Rejected
+2010-11-04, BUY EXECUTED, 1, Price: 5534.00, Value: 5534.00, Comm : 4.43, current value : 7737.18, current cash : 6875.08
+2010-11-05, SELL EXECUTED, -1, Price: 5710.00, Value: 5534.00, Comm : 4.57 , current value : 7876.61 , current cash : 7876.61
+2010-11-05, Order Canceled/Margin/Rejected
+2010-11-10, BUY EXECUTED, 1, Price: 6330.00, Value: 6330.00, Comm : 5.06, current value : 7819.55, current cash : 6922.05
+2010-11-11, SELL EXECUTED, -1, Price: 6266.70, Value: 6330.00, Comm : 5.01 , current value : 7803.24 , current cash : 7803.24
+2010-11-11, Order Canceled/Margin/Rejected
+2010-11-12, BUY EXECUTED, 1, Price: 6291.00, Value: 6291.00, Comm : 5.03, current value : 7686.20, current cash : 6854.55
+2010-11-15, BUY EXECUTED, 1, Price: 5936.00, Value: 5936.00, Comm : 4.75, current value : 7439.65, current cash : 6763.13
+2010-11-15, SELL EXECUTED, -1, Price: 6005.00, Value: 6113.50, Comm : 4.80 , current value : 7439.65 , current cash : 6763.13
+2010-11-15, Order Canceled/Margin/Rejected
+2010-11-16, BUY EXECUTED, 1, Price: 5785.00, Value: 5785.00, Comm : 4.63, current value : 7513.63, current cash : 7513.63
+2010-11-16, SELL EXECUTED, -1, Price: 5873.00, Value: 5949.25, Comm : 4.70 , current value : 7513.63 , current cash : 7513.63
+2010-11-16, Order Canceled/Margin/Rejected
+2010-11-16, SELL EXECUTED, -1, Price: 5873.00, Value: 5949.25, Comm : 4.70 , current value : 7513.63 , current cash : 7513.63
+2010-11-17, SELL EXECUTED, -1, Price: 5715.00, Value: -5715.00, Comm : 4.57 , current value : 7585.05 , current cash : 13224.05
+2010-11-17, Order Canceled/Margin/Rejected
+2010-11-18, BUY EXECUTED, 1, Price: 5665.00, Value: -5715.00, Comm : 5.67, current value : 7553.38, current cash : 7553.38
+2010-11-23, BUY EXECUTED, 1, Price: 6230.00, Value: 6230.00, Comm : 4.98, current value : 7536.40, current cash : 6613.90
+2010-11-24, BUY EXECUTED, 1, Price: 6100.00, Value: 6100.00, Comm : 4.88, current value : 7517.64, current cash : 6548.89
+2010-11-24, SELL EXECUTED, -1, Price: 6100.00, Value: 6165.00, Comm : 4.88 , current value : 7517.64 , current cash : 6548.89
+2010-11-24, Order Canceled/Margin/Rejected
+2010-11-25, SELL EXECUTED, -1, Price: 6189.00, Value: 6165.00, Comm : 4.95 , current value : 7492.68 , current cash : 7492.68
+2010-11-25, Order Canceled/Margin/Rejected
+2010-12-02, BUY EXECUTED, 1, Price: 6339.00, Value: 6339.00, Comm : 5.07, current value : 7540.61, current cash : 6536.76
+2010-12-03, SELL EXECUTED, -1, Price: 6364.00, Value: 6339.00, Comm : 5.09 , current value : 7507.52 , current cash : 7507.52
+2010-12-03, Order Canceled/Margin/Rejected
+2010-12-07, BUY EXECUTED, 1, Price: 6573.00, Value: 6573.00, Comm : 5.26, current value : 7547.26, current cash : 6516.31
+2010-12-08, BUY EXECUTED, 1, Price: 6359.00, Value: 6359.00, Comm : 5.09, current value : 7433.24, current cash : 6563.34
+2010-12-08, SELL EXECUTED, -1, Price: 6507.27, Value: 6466.00, Comm : 5.21 , current value : 7433.24 , current cash : 6563.34
+2010-12-08, Order Canceled/Margin/Rejected
+2010-12-09, SELL EXECUTED, -1, Price: 6295.41, Value: 6466.00, Comm : 5.04 , current value : 7357.61 , current cash : 7357.61
+2010-12-09, Order Canceled/Margin/Rejected
+2010-12-15, BUY EXECUTED, 1, Price: 6461.00, Value: 6461.00, Comm : 5.17, current value : 7212.16, current cash : 5386.21
+2010-12-15, BUY EXECUTED, 1, Price: 6612.00, Value: 6612.00, Comm : 5.29, current value : 7212.16, current cash : 5386.21
+2010-12-16, SELL EXECUTED, -1, Price: 6490.00, Value: 6536.50, Comm : 5.19 , current value : 7317.39 , current cash : 20213.39
+2010-12-16, Order Canceled/Margin/Rejected
+2010-12-16, SELL EXECUTED, -1, Price: 6490.00, Value: 6536.50, Comm : 5.19 , current value : 7317.39 , current cash : 20213.39
+2010-12-16, Order Canceled/Margin/Rejected
+2010-12-16, SELL EXECUTED, -2, Price: 6490.00, Value: -12980.00, Comm : 10.38 , current value : 7317.39 , current cash : 20213.39
+2010-12-17, BUY EXECUTED, 2, Price: 6431.00, Value: -12980.00, Comm : 12.89, current value : 7338.50, current cash : 7338.50
+2010-12-30, BUY EXECUTED, 1, Price: 6631.00, Value: 6631.00, Comm : 5.30, current value : 7365.20, current cash : 6338.55
+2010-12-31, SELL EXECUTED, -1, Price: 6660.00, Value: 6631.00, Comm : 5.33 , current value : 7356.87 , current cash : 7356.87
+2010-12-31, Order Canceled/Margin/Rejected
+2011-01-04, BUY EXECUTED, 1, Price: 6646.00, Value: 6646.00, Comm : 5.32, current value : 7360.55, current cash : 6354.65
+2011-01-05, BUY EXECUTED, 1, Price: 6496.00, Value: 6496.00, Comm : 5.20, current value : 7421.31, current cash : 7421.31
+2011-01-05, SELL EXECUTED, -1, Price: 6579.54, Value: 6571.00, Comm : 5.26 , current value : 7421.31 , current cash : 7421.31
+2011-01-05, Order Canceled/Margin/Rejected
+2011-01-05, SELL EXECUTED, -1, Price: 6648.00, Value: 6571.00, Comm : 5.32 , current value : 7421.31 , current cash : 7421.31
+2011-01-06, SELL EXECUTED, -1, Price: 6431.04, Value: -6431.04, Comm : 5.14 , current value : 7387.21 , current cash : 13847.21
+2011-01-06, Order Canceled/Margin/Rejected
+2011-01-07, BUY EXECUTED, 1, Price: 6403.00, Value: -6431.04, Comm : 6.41, current value : 7437.80, current cash : 7437.80
+2011-02-22, BUY EXECUTED, 1, Price: 7005.00, Value: 7005.00, Comm : 5.60, current value : 7456.20, current cash : 6381.45
+2011-02-23, SELL EXECUTED, -1, Price: 7030.00, Value: 7005.00, Comm : 5.62 , current value : 7451.57 , current cash : 7451.57
+2011-02-23, Order Canceled/Margin/Rejected
+2011-02-25, BUY EXECUTED, 1, Price: 6996.00, Value: 6996.00, Comm : 5.60, current value : 7317.26, current cash : 5319.41
+2011-02-25, BUY EXECUTED, 1, Price: 7143.00, Value: 7143.00, Comm : 5.71, current value : 7317.26, current cash : 5319.41
+2011-02-28, SELL EXECUTED, -1, Price: 7147.00, Value: 7069.50, Comm : 5.72 , current value : 7583.83 , current cash : 7583.83
+2011-02-28, Order Canceled/Margin/Rejected
+2011-02-28, SELL EXECUTED, -1, Price: 7147.00, Value: 7069.50, Comm : 5.72 , current value : 7583.83 , current cash : 7583.83
+2011-02-28, Order Canceled/Margin/Rejected
+2011-03-01, BUY EXECUTED, 1, Price: 7139.00, Value: 7139.00, Comm : 5.71, current value : 7607.11, current cash : 6507.26
+2011-03-02, SELL EXECUTED, -1, Price: 7250.00, Value: 7139.00, Comm : 5.80 , current value : 7683.31 , current cash : 7683.31
+2011-03-02, Order Canceled/Margin/Rejected
+2011-03-04, BUY EXECUTED, 1, Price: 7267.00, Value: 7267.00, Comm : 5.81, current value : 7629.68, current cash : 5490.68
+2011-03-04, BUY EXECUTED, 1, Price: 7273.00, Value: 7273.00, Comm : 5.82, current value : 7629.68, current cash : 5490.68
+2011-03-07, SELL EXECUTED, -1, Price: 7548.00, Value: 7270.00, Comm : 6.04 , current value : 8215.61 , current cash : 8215.61
+2011-03-07, Order Canceled/Margin/Rejected
+2011-03-07, SELL EXECUTED, -1, Price: 7548.00, Value: 7270.00, Comm : 6.04 , current value : 8215.61 , current cash : 8215.61
+2011-03-07, Order Canceled/Margin/Rejected
+2011-03-08, BUY EXECUTED, 1, Price: 7700.00, Value: 7700.00, Comm : 6.16, current value : 8136.45, current cash : 7054.45
+2011-03-09, SELL EXECUTED, -1, Price: 7623.00, Value: 7700.00, Comm : 6.10 , current value : 8126.35 , current cash : 8126.35
+2011-03-09, Order Canceled/Margin/Rejected
+2011-03-10, BUY EXECUTED, 1, Price: 7691.00, Value: 7691.00, Comm : 6.15, current value : 8124.19, current cash : 6966.54
+2011-03-11, SELL EXECUTED, -1, Price: 7549.00, Value: 7691.00, Comm : 6.04 , current value : 7972.16 , current cash : 7972.16
+2011-03-11, Order Canceled/Margin/Rejected
+2011-03-15, BUY EXECUTED, 1, Price: 7685.00, Value: 7685.00, Comm : 6.15, current value : 7854.01, current cash : 6813.26
+2011-03-16, BUY EXECUTED, 1, Price: 7295.00, Value: 7295.00, Comm : 5.84, current value : 7695.34, current cash : 6635.84
+2011-03-16, SELL EXECUTED, -1, Price: 7295.00, Value: 7490.00, Comm : 5.84 , current value : 7695.34 , current cash : 6635.84
+2011-03-16, Order Canceled/Margin/Rejected
+2011-03-17, SELL EXECUTED, -1, Price: 7452.00, Value: 7490.00, Comm : 5.96 , current value : 7715.37 , current cash : 7715.37
+2011-03-17, Order Canceled/Margin/Rejected
+2011-03-18, BUY EXECUTED, 1, Price: 7390.00, Value: 7390.00, Comm : 5.91, current value : 7863.46, current cash : 6600.96
+2011-03-21, SELL EXECUTED, -1, Price: 7730.00, Value: 7390.00, Comm : 6.18 , current value : 8043.28 , current cash : 8043.28
+2011-03-21, Order Canceled/Margin/Rejected
+2011-03-22, BUY EXECUTED, 1, Price: 7740.00, Value: 7740.00, Comm : 6.19, current value : 8026.09, current cash : 6876.09
+2011-03-23, SELL EXECUTED, -1, Price: 7740.00, Value: 7740.00, Comm : 6.19 , current value : 8030.89 , current cash : 8030.89
+2011-03-23, Order Canceled/Margin/Rejected
+2011-03-24, BUY EXECUTED, 1, Price: 7743.00, Value: 7743.00, Comm : 6.19, current value : 8156.70, current cash : 6863.25
+2011-03-25, SELL EXECUTED, -1, Price: 7941.00, Value: 7743.00, Comm : 6.35 , current value : 8216.35 , current cash : 8216.35
+2011-03-25, Order Canceled/Margin/Rejected
+2011-03-28, BUY EXECUTED, 1, Price: 7910.00, Value: 7910.00, Comm : 6.33, current value : 8091.02, current cash : 7023.52
+2011-03-29, SELL EXECUTED, -1, Price: 7780.00, Value: 7910.00, Comm : 6.22 , current value : 8073.79 , current cash : 8073.79
+2011-03-29, Order Canceled/Margin/Rejected
+2011-03-30, BUY EXECUTED, 1, Price: 7802.00, Value: 7802.00, Comm : 6.24, current value : 8158.55, current cash : 6897.25
+2011-03-31, SELL EXECUTED, -1, Price: 7955.00, Value: 7802.00, Comm : 6.36 , current value : 8214.19 , current cash : 8214.19
+2011-03-31, Order Canceled/Margin/Rejected
+2011-04-01, BUY EXECUTED, 1, Price: 7970.00, Value: 7970.00, Comm : 6.38, current value : 8209.81, current cash : 7012.31
+2011-04-06, SELL EXECUTED, -1, Price: 8262.00, Value: 7970.00, Comm : 6.61 , current value : 8493.20 , current cash : 8493.20
+2011-04-06, Order Canceled/Margin/Rejected
+2011-04-08, BUY EXECUTED, 1, Price: 8347.00, Value: 8347.00, Comm : 6.68, current value : 8706.53, current cash : 7234.48
+2011-04-11, SELL EXECUTED, -1, Price: 8829.00, Value: 8347.00, Comm : 7.06 , current value : 8961.46 , current cash : 8961.46
+2011-04-11, Order Canceled/Margin/Rejected
+2011-04-12, BUY EXECUTED, 1, Price: 8831.00, Value: 8831.00, Comm : 7.06, current value : 8792.40, current cash : 7629.75
+2011-04-13, SELL EXECUTED, -1, Price: 8787.00, Value: 8831.00, Comm : 7.03 , current value : 8903.37 , current cash : 8903.37
+2011-04-13, Order Canceled/Margin/Rejected
+2011-04-14, BUY EXECUTED, 1, Price: 8736.00, Value: 8736.00, Comm : 6.99, current value : 9014.38, current cash : 7585.98
+2011-04-15, SELL EXECUTED, -1, Price: 8785.00, Value: 8736.00, Comm : 7.03 , current value : 8938.35 , current cash : 8938.35
+2011-04-15, Order Canceled/Margin/Rejected
+2011-04-19, BUY EXECUTED, 1, Price: 9200.00, Value: 9200.00, Comm : 7.36, current value : 9048.99, current cash : 7550.99
+2011-04-20, SELL EXECUTED, -1, Price: 9308.00, Value: 9200.00, Comm : 7.45 , current value : 9031.54 , current cash : 9031.54
+2011-04-20, Order Canceled/Margin/Rejected
+2011-04-22, BUY EXECUTED, 1, Price: 9882.00, Value: 9882.00, Comm : 7.91, current value : 9240.64, current cash : 7541.34
+2011-04-25, SELL EXECUTED, -1, Price: 10480.00, Value: 9882.00, Comm : 8.38 , current value : 9613.26 , current cash : 9613.26
+2011-04-25, Order Canceled/Margin/Rejected
+2011-04-26, BUY EXECUTED, 1, Price: 10572.00, Value: 10572.00, Comm : 8.46, current value : 8932.80, current cash : 8019.00
+2011-04-27, SELL EXECUTED, -1, Price: 9950.00, Value: 10572.00, Comm : 7.96 , current value : 8974.84 , current cash : 8974.84
+2011-04-27, Order Canceled/Margin/Rejected
+2011-04-28, BUY EXECUTED, 1, Price: 9809.00, Value: 9809.00, Comm : 7.85, current value : 9655.99, current cash : 7495.64
+2011-04-29, SELL EXECUTED, -1, Price: 10600.00, Value: 9809.00, Comm : 8.48 , current value : 9749.51 , current cash : 9749.51
+2011-04-29, Order Canceled/Margin/Rejected
+2011-05-03, BUY EXECUTED, 1, Price: 9787.00, Value: 9787.00, Comm : 7.83, current value : 9799.68, current cash : 8273.63
+2011-05-04, BUY EXECUTED, 1, Price: 9120.00, Value: 9120.00, Comm : 7.30, current value : 9634.29, current cash : 8600.62
+2011-05-04, BUY EXECUTED, 1, Price: 9573.00, Value: 9573.00, Comm : 7.66, current value : 9634.29, current cash : 8600.62
+2011-05-04, SELL EXECUTED, -1, Price: 9650.00, Value: 9493.33, Comm : 7.72 , current value : 9634.29 , current cash : 8600.62
+2011-05-04, Order Canceled/Margin/Rejected
+2011-05-04, SELL EXECUTED, -1, Price: 9650.00, Value: 9493.33, Comm : 7.72 , current value : 9634.29 , current cash : 8600.62
+2011-05-05, SELL EXECUTED, -1, Price: 9020.00, Value: 9493.33, Comm : 7.22 , current value : 10297.64 , current cash : 27569.64
+2011-05-05, Order Canceled/Margin/Rejected
+2011-05-05, SELL EXECUTED, -1, Price: 9020.00, Value: -9020.00, Comm : 7.22 , current value : 10297.64 , current cash : 27569.64
+2011-05-05, Order Canceled/Margin/Rejected
+2011-05-05, SELL EXECUTED, -1, Price: 9020.00, Value: -9020.00, Comm : 7.22 , current value : 10297.64 , current cash : 27569.64
+2011-05-06, BUY EXECUTED, 1, Price: 8100.00, Value: -9020.00, Comm : 10.09, current value : 11160.59, current cash : 10131.59
+2011-05-06, BUY EXECUTED, 2, Price: 8100.00, Value: -920.00, Comm : 12.96, current value : 11160.59, current cash : 10131.59
+2011-05-09, SELL EXECUTED, -1, Price: 7699.00, Value: 8100.00, Comm : 6.16 , current value : 10726.27 , current cash : 18632.27
+2011-05-09, Order Canceled/Margin/Rejected
+2011-05-09, SELL EXECUTED, -1, Price: 7699.00, Value: -7699.00, Comm : 6.16 , current value : 10726.27 , current cash : 18632.27
+2011-05-10, BUY EXECUTED, 1, Price: 8030.00, Value: -7699.00, Comm : 7.96, current value : 10594.31, current cash : 10594.31
+2011-08-23, BUY EXECUTED, 1, Price: 9001.00, Value: 9001.00, Comm : 7.20, current value : 10643.11, current cash : 9236.96
+2011-08-24, SELL EXECUTED, -1, Price: 9030.00, Value: 9001.00, Comm : 7.22 , current value : 10608.88 , current cash : 10608.88
+2011-08-24, Order Canceled/Margin/Rejected
+2011-10-31, BUY EXECUTED, 2, Price: 7393.00, Value: 14786.00, Comm : 11.83, current value : 10225.05, current cash : 8379.15
+2011-11-01, SELL EXECUTED, -2, Price: 7200.00, Value: 14786.00, Comm : 11.52 , current value : 10214.01 , current cash : 24588.01
+2011-11-01, Order Canceled/Margin/Rejected
+2011-11-01, SELL EXECUTED, -2, Price: 7200.00, Value: -14400.00, Comm : 11.52 , current value : 10214.01 , current cash : 24588.01
+2011-11-02, BUY EXECUTED, 2, Price: 6800.00, Value: -14400.00, Comm : 13.76, current value : 10974.25, current cash : 10974.25
+2012-02-07, BUY EXECUTED, 2, Price: 6901.00, Value: 13802.00, Comm : 11.04, current value : 11045.21, current cash : 8892.91
+2012-02-08, SELL EXECUTED, -2, Price: 6931.00, Value: 13802.00, Comm : 11.09 , current value : 11012.12 , current cash : 11012.12
+2012-02-08, Order Canceled/Margin/Rejected
+2012-02-09, BUY EXECUTED, 2, Price: 7031.00, Value: 14062.00, Comm : 11.25, current value : 10956.87, current cash : 8891.57
+2012-02-10, SELL EXECUTED, -2, Price: 6979.50, Value: 14062.00, Comm : 11.17 , current value : 10886.71 , current cash : 10886.71
+2012-02-10, Order Canceled/Margin/Rejected
+2012-02-13, BUY EXECUTED, 2, Price: 6947.00, Value: 13894.00, Comm : 11.12, current value : 10943.59, current cash : 8791.49
+2012-02-14, SELL EXECUTED, -2, Price: 6988.00, Value: 13894.00, Comm : 11.18 , current value : 10946.41 , current cash : 10946.41
+2012-02-14, Order Canceled/Margin/Rejected
+2012-02-15, BUY EXECUTED, 2, Price: 6910.00, Value: 13820.00, Comm : 11.06, current value : 11023.35, current cash : 8862.35
+2012-02-16, SELL EXECUTED, -2, Price: 6938.00, Value: 13820.00, Comm : 11.10 , current value : 10980.25 , current cash : 10980.25
+2012-02-16, Order Canceled/Margin/Rejected
+2012-02-20, BUY EXECUTED, 2, Price: 6933.00, Value: 13866.00, Comm : 11.09, current value : 10951.16, current cash : 8889.26
+2012-02-21, SELL EXECUTED, -2, Price: 6941.00, Value: 13866.00, Comm : 11.11 , current value : 10974.06 , current cash : 10974.06
+2012-02-21, Order Canceled/Margin/Rejected
+2012-02-22, BUY EXECUTED, 2, Price: 6983.00, Value: 13966.00, Comm : 11.17, current value : 11128.88, current cash : 8867.98
+2012-02-23, SELL EXECUTED, -2, Price: 7038.00, Value: 13966.00, Comm : 11.26 , current value : 11061.62 , current cash : 11061.62
+2012-02-23, Order Canceled/Margin/Rejected
+2012-02-28, BUY EXECUTED, 2, Price: 7238.00, Value: 14476.00, Comm : 11.58, current value : 11110.04, current cash : 8878.64
+2012-02-29, SELL EXECUTED, -2, Price: 7375.00, Value: 14476.00, Comm : 11.80 , current value : 11312.24 , current cash : 11312.24
+2012-02-29, Order Canceled/Margin/Rejected
+2012-03-01, BUY EXECUTED, 2, Price: 7073.00, Value: 14146.00, Comm : 11.32, current value : 10261.26, current cash : 4717.76
+2012-03-01, BUY EXECUTED, 2, Price: 7227.00, Value: 14454.00, Comm : 11.56, current value : 10261.26, current cash : 4717.76
+2012-03-01, BUY EXECUTED, 2, Price: 7565.00, Value: 15130.00, Comm : 12.10, current value : 10261.26, current cash : 4717.76
+2012-03-02, SELL EXECUTED, -2, Price: 7120.00, Value: 14576.67, Comm : 11.39 , current value : 9784.91 , current cash : 52918.91
+2012-03-02, Order Canceled/Margin/Rejected
+2012-03-02, SELL EXECUTED, -2, Price: 7120.00, Value: 14576.67, Comm : 11.39 , current value : 9784.91 , current cash : 52918.91
+2012-03-02, Order Canceled/Margin/Rejected
+2012-03-02, SELL EXECUTED, -2, Price: 7120.00, Value: 14576.67, Comm : 11.39 , current value : 9784.91 , current cash : 52918.91
+2012-03-02, Order Canceled/Margin/Rejected
+2012-03-02, SELL EXECUTED, -6, Price: 7120.00, Value: -42720.00, Comm : 34.18 , current value : 9784.91 , current cash : 52918.91
+2012-03-05, BUY EXECUTED, 6, Price: 7125.00, Value: -42720.00, Comm : 59.83, current value : 10109.07, current cash : 10109.07
+2012-08-23, BUY EXECUTED, 1, Price: 6140.00, Value: 6140.00, Comm : 4.91, current value : 10342.16, current cash : 9183.16
+2012-08-24, SELL EXECUTED, -1, Price: 6375.00, Value: 6140.00, Comm : 5.10 , current value : 10334.06 , current cash : 10334.06
+2012-08-24, Order Canceled/Margin/Rejected
+2012-08-28, BUY EXECUTED, 1, Price: 6484.00, Value: 6484.00, Comm : 5.19, current value : 10270.87, current cash : 9356.27
+2012-08-30, SELL EXECUTED, -1, Price: 6429.06, Value: 6484.00, Comm : 5.14 , current value : 10268.79 , current cash : 10268.79
+2012-08-30, Order Canceled/Margin/Rejected
+2012-08-31, BUY EXECUTED, 1, Price: 6353.00, Value: 6353.00, Comm : 5.08, current value : 10218.56, current cash : 8340.66
+2012-08-31, BUY EXECUTED, 1, Price: 6433.00, Value: 6433.00, Comm : 5.15, current value : 10218.56, current cash : 8340.66
+2012-09-03, SELL EXECUTED, -1, Price: 6625.00, Value: 6393.00, Comm : 5.30 , current value : 10711.96 , current cash : 10711.96
+2012-09-03, Order Canceled/Margin/Rejected
+2012-09-03, SELL EXECUTED, -1, Price: 6625.00, Value: 6393.00, Comm : 5.30 , current value : 10711.96 , current cash : 10711.96
+2012-09-03, Order Canceled/Margin/Rejected
+2012-09-04, BUY EXECUTED, 2, Price: 6670.00, Value: 13340.00, Comm : 10.67, current value : 10857.29, current cash : 8700.29
+2012-09-05, SELL EXECUTED, -2, Price: 6746.00, Value: 13340.00, Comm : 10.79 , current value : 10842.50 , current cash : 10842.50
+2012-09-05, Order Canceled/Margin/Rejected
+2012-09-06, BUY EXECUTED, 2, Price: 6740.00, Value: 13480.00, Comm : 10.78, current value : 11149.71, current cash : 8809.71
+2012-09-07, SELL EXECUTED, -2, Price: 6851.00, Value: 13480.00, Comm : 10.96 , current value : 11042.75 , current cash : 11042.75
+2012-09-07, Order Canceled/Margin/Rejected
+2012-09-11, BUY EXECUTED, 2, Price: 7048.00, Value: 14096.00, Comm : 11.28, current value : 11077.47, current cash : 8917.07
+2012-09-12, SELL EXECUTED, -2, Price: 7090.00, Value: 14096.00, Comm : 11.34 , current value : 11104.13 , current cash : 11104.13
+2012-09-12, Order Canceled/Margin/Rejected
+2012-09-13, BUY EXECUTED, 2, Price: 7075.00, Value: 14150.00, Comm : 11.32, current value : 10804.81, current cash : 8970.31
+2012-09-14, SELL EXECUTED, -2, Price: 6955.00, Value: 14150.00, Comm : 11.13 , current value : 10841.68 , current cash : 10841.68
+2012-09-14, Order Canceled/Margin/Rejected
+2012-09-17, BUY EXECUTED, 1, Price: 7278.00, Value: 7278.00, Comm : 5.82, current value : 10811.86, current cash : 9744.16
+2012-09-18, SELL EXECUTED, -1, Price: 7205.22, Value: 7278.00, Comm : 5.76 , current value : 10757.32 , current cash : 10757.32
+2012-09-18, Order Canceled/Margin/Rejected
+2012-09-20, BUY EXECUTED, 1, Price: 7250.00, Value: 7250.00, Comm : 5.80, current value : 10701.52, current cash : 9664.02
+2012-09-21, BUY EXECUTED, 2, Price: 7165.00, Value: 14330.00, Comm : 11.46, current value : 10911.36, current cash : 8602.02
+2012-09-21, SELL EXECUTED, -1, Price: 7219.08, Value: 7193.33, Comm : 5.78 , current value : 10911.36 , current cash : 8602.02
+2012-09-21, Order Canceled/Margin/Rejected
+2012-09-24, BUY EXECUTED, 2, Price: 6763.00, Value: 13526.00, Comm : 10.82, current value : 11153.89, current cash : 8874.77
+2012-09-24, SELL EXECUTED, -2, Price: 7093.35, Value: 13956.33, Comm : 11.35 , current value : 11153.89 , current cash : 8874.77
+2012-09-24, Order Canceled/Margin/Rejected
+2012-09-25, SELL EXECUTED, -2, Price: 7041.00, Value: 13956.33, Comm : 11.27 , current value : 10997.35 , current cash : 25153.35
+2012-09-25, Order Canceled/Margin/Rejected
+2012-09-25, SELL EXECUTED, -2, Price: 7041.00, Value: -14082.00, Comm : 11.27 , current value : 10997.35 , current cash : 25153.35
+2012-09-26, BUY EXECUTED, 2, Price: 7126.00, Value: -14082.00, Comm : 14.22, current value : 10887.14, current cash : 10887.14
+2012-10-08, BUY EXECUTED, 2, Price: 7160.00, Value: 14320.00, Comm : 11.46, current value : 10579.68, current cash : 8727.68
+2012-10-09, SELL EXECUTED, -2, Price: 7013.00, Value: 14320.00, Comm : 11.22 , current value : 10529.24 , current cash : 24585.24
+2012-10-09, Order Canceled/Margin/Rejected
+2012-10-09, SELL EXECUTED, -2, Price: 7013.00, Value: -14026.00, Comm : 11.22 , current value : 10529.24 , current cash : 24585.24
+2012-10-10, BUY EXECUTED, 2, Price: 7030.00, Value: -14026.00, Comm : 14.05, current value : 10511.19, current cash : 10511.19
+2013-04-16, BUY EXECUTED, 1, Price: 4925.00, Value: 4925.00, Comm : 3.94, current value : 10412.25, current cash : 9768.50
+2013-04-17, SELL EXECUTED, -1, Price: 4875.75, Value: 4925.00, Comm : 3.90 , current value : 10540.18 , current cash : 15350.18
+2013-04-17, Order Canceled/Margin/Rejected
+2013-04-17, SELL EXECUTED, -1, Price: 4900.00, Value: -4900.00, Comm : 3.92 , current value : 10540.18 , current cash : 15350.18
+2013-05-02, BUY EXECUTED, 1, Price: 4737.00, Value: -4900.00, Comm : 18.49, current value : 10594.69, current cash : 10594.69
+2013-05-20, BUY EXECUTED, 1, Price: 4300.00, Value: 4300.00, Comm : 3.44, current value : 10647.81, current cash : 9297.81
+2013-05-20, BUY EXECUTED, 1, Price: 4300.00, Value: 4300.00, Comm : 3.44, current value : 10647.81, current cash : 9297.81
+2013-05-21, SELL EXECUTED, -1, Price: 4355.01, Value: 4300.00, Comm : 3.48 , current value : 10303.87 , current cash : 19411.87
+2013-05-21, Order Canceled/Margin/Rejected
+2013-05-21, SELL EXECUTED, -1, Price: 4361.00, Value: 4300.00, Comm : 3.49 , current value : 10303.87 , current cash : 19411.87
+2013-05-21, Order Canceled/Margin/Rejected
+2013-05-21, SELL EXECUTED, -2, Price: 4361.00, Value: -8722.00, Comm : 6.98 , current value : 10303.87 , current cash : 19411.87
+2013-05-22, BUY EXECUTED, 2, Price: 4488.00, Value: -8722.00, Comm : 8.93, current value : 10426.94, current cash : 10426.94
+2013-08-14, BUY EXECUTED, 2, Price: 4326.00, Value: 8652.00, Comm : 6.92, current value : 10342.02, current cash : 9122.22
+2013-08-15, SELL EXECUTED, -2, Price: 4326.00, Value: 8652.00, Comm : 6.92 , current value : 10413.10 , current cash : 10413.10
+2013-08-15, Order Canceled/Margin/Rejected
+2013-08-16, BUY EXECUTED, 2, Price: 4381.00, Value: 8762.00, Comm : 7.01, current value : 10870.09, current cash : 9091.79
+2013-08-19, SELL EXECUTED, -2, Price: 4603.00, Value: 8762.00, Comm : 7.36 , current value : 10842.72 , current cash : 10842.72
+2013-08-19, Order Canceled/Margin/Rejected
+2013-08-20, BUY EXECUTED, 2, Price: 4638.00, Value: 9276.00, Comm : 7.42, current value : 10599.30, current cash : 9443.90
+2013-08-21, SELL EXECUTED, -2, Price: 4591.62, Value: 9276.00, Comm : 7.35 , current value : 10735.19 , current cash : 10735.19
+2013-08-21, Order Canceled/Margin/Rejected
+2013-08-22, BUY EXECUTED, 2, Price: 4563.00, Value: 9126.00, Comm : 7.30, current value : 10741.89, current cash : 9358.99
+2013-08-23, SELL EXECUTED, -2, Price: 4611.00, Value: 9126.00, Comm : 7.38 , current value : 10816.52 , current cash : 10816.52
+2013-08-23, Order Canceled/Margin/Rejected
+2013-08-26, BUY EXECUTED, 2, Price: 4605.00, Value: 9210.00, Comm : 7.37, current value : 11295.15, current cash : 9427.65
+2013-08-27, SELL EXECUTED, -2, Price: 4847.00, Value: 9210.00, Comm : 7.76 , current value : 11285.39 , current cash : 11285.39
+2013-08-27, Order Canceled/Margin/Rejected
+2013-08-29, BUY EXECUTED, 2, Price: 4850.00, Value: 9700.00, Comm : 7.76, current value : 10783.66, current cash : 8319.16
+2013-08-29, BUY EXECUTED, 2, Price: 4985.00, Value: 9970.00, Comm : 7.98, current value : 10783.66, current cash : 8319.16
+2013-08-30, SELL EXECUTED, -2, Price: 4801.50, Value: 9835.00, Comm : 7.68 , current value : 10847.25 , current cash : 10847.25
+2013-08-30, Order Canceled/Margin/Rejected
+2013-08-30, SELL EXECUTED, -2, Price: 4830.00, Value: 9835.00, Comm : 7.73 , current value : 10847.25 , current cash : 10847.25
+2013-08-30, Order Canceled/Margin/Rejected
+2013-09-02, BUY EXECUTED, 2, Price: 4668.00, Value: 9336.00, Comm : 7.47, current value : 11143.78, current cash : 9439.38
+2013-09-03, SELL EXECUTED, -2, Price: 4820.00, Value: 9336.00, Comm : 7.71 , current value : 11136.07 , current cash : 11136.07
+2013-09-03, Order Canceled/Margin/Rejected
+2013-09-04, BUY EXECUTED, 2, Price: 4820.00, Value: 9640.00, Comm : 7.71, current value : 11080.35, current cash : 9682.35
+2013-09-05, SELL EXECUTED, -2, Price: 4705.00, Value: 9640.00, Comm : 7.53 , current value : 10890.83 , current cash : 10890.83
+2013-09-05, Order Canceled/Margin/Rejected
+2013-09-10, BUY EXECUTED, 2, Price: 4727.00, Value: 9454.00, Comm : 7.56, current value : 10767.26, current cash : 9465.16
+2013-09-11, SELL EXECUTED, -2, Price: 4619.00, Value: 9454.00, Comm : 7.39 , current value : 10640.48 , current cash : 19890.48
+2013-09-11, Order Canceled/Margin/Rejected
+2013-09-11, SELL EXECUTED, -2, Price: 4619.00, Value: -9238.00, Comm : 7.39 , current value : 10640.48 , current cash : 19890.48
+2013-09-12, BUY EXECUTED, 2, Price: 4600.00, Value: -9238.00, Comm : 9.21, current value : 10681.27, current cash : 10681.27
+2014-02-18, BUY EXECUTED, 2, Price: 4360.00, Value: 8720.00, Comm : 6.98, current value : 10610.30, current cash : 9366.30
+2014-02-19, SELL EXECUTED, -2, Price: 4310.00, Value: 8720.00, Comm : 6.90 , current value : 10567.40 , current cash : 10567.40
+2014-02-19, Order Canceled/Margin/Rejected
+2014-02-20, BUY EXECUTED, 2, Price: 4357.00, Value: 8714.00, Comm : 6.97, current value : 10478.43, current cash : 9253.33
+2014-02-21, SELL EXECUTED, -2, Price: 4309.00, Value: 8714.00, Comm : 6.89 , current value : 10408.64 , current cash : 19068.64
+2014-02-21, Order Canceled/Margin/Rejected
+2014-02-21, SELL EXECUTED, -2, Price: 4309.00, Value: -8618.00, Comm : 6.89 , current value : 10408.64 , current cash : 19068.64
+2014-02-24, BUY EXECUTED, 2, Price: 4345.00, Value: -8618.00, Comm : 12.12, current value : 10366.52, current cash : 10366.52
+2014-02-26, BUY EXECUTED, 2, Price: 4346.00, Value: 8692.00, Comm : 6.95, current value : 10498.59, current cash : 7739.89
+2014-02-26, BUY EXECUTED, 2, Price: 4363.00, Value: 8726.00, Comm : 6.98, current value : 10498.59, current cash : 7739.89
+2014-02-27, SELL EXECUTED, -2, Price: 4302.54, Value: 8709.00, Comm : 6.88 , current value : 10164.61 , current cash : 10164.61
+2014-02-27, Order Canceled/Margin/Rejected
+2014-02-27, SELL EXECUTED, -2, Price: 4319.37, Value: 8709.00, Comm : 6.91 , current value : 10164.61 , current cash : 10164.61
+2014-02-27, Order Canceled/Margin/Rejected
+2014-06-24, BUY EXECUTED, 2, Price: 4321.00, Value: 8642.00, Comm : 6.91, current value : 10141.70, current cash : 8861.40
+2014-06-25, BUY EXECUTED, 2, Price: 4302.00, Value: 8604.00, Comm : 6.88, current value : 9995.55, current cash : 8783.10
+2014-06-25, SELL EXECUTED, -2, Price: 4277.79, Value: 8623.00, Comm : 6.84 , current value : 9995.55 , current cash : 8783.10
+2014-06-25, Order Canceled/Margin/Rejected
+2014-06-26, SELL EXECUTED, -2, Price: 4302.00, Value: 8623.00, Comm : 6.88 , current value : 10057.80 , current cash : 18621.80
+2014-06-26, Order Canceled/Margin/Rejected
+2014-06-26, SELL EXECUTED, -2, Price: 4289.00, Value: -8578.00, Comm : 6.86 , current value : 10057.80 , current cash : 18621.80
+2014-06-27, BUY EXECUTED, 2, Price: 4296.00, Value: -8578.00, Comm : 8.59, current value : 10021.21, current cash : 10021.21
+2014-07-14, BUY EXECUTED, 2, Price: 4401.00, Value: 8802.00, Comm : 7.04, current value : 9922.17, current cash : 8693.87
+2014-07-15, BUY EXECUTED, 2, Price: 4323.00, Value: 8646.00, Comm : 6.92, current value : 9854.33, current cash : 8625.73
+2014-07-15, SELL EXECUTED, -2, Price: 4329.00, Value: 8724.00, Comm : 6.93 , current value : 9854.33 , current cash : 8625.73
+2014-07-15, Order Canceled/Margin/Rejected
+2014-07-16, SELL EXECUTED, -2, Price: 4323.00, Value: 8724.00, Comm : 6.92 , current value : 9896.50 , current cash : 18486.50
+2014-07-16, Order Canceled/Margin/Rejected
+2014-07-16, SELL EXECUTED, -2, Price: 4322.00, Value: -8644.00, Comm : 6.92 , current value : 9896.50 , current cash : 18486.50
+2014-07-17, BUY EXECUTED, 2, Price: 4294.00, Value: -8644.00, Comm : 8.60, current value : 9889.90, current cash : 9889.90
+2015-01-20, BUY EXECUTED, 2, Price: 3712.00, Value: 7424.00, Comm : 5.94, current value : 9939.96, current cash : 8770.36
+2015-01-21, SELL EXECUTED, -2, Price: 3760.00, Value: 7424.00, Comm : 6.02 , current value : 9973.94 , current cash : 9973.94
+2015-01-21, Order Canceled/Margin/Rejected
+2015-01-22, BUY EXECUTED, 2, Price: 3862.00, Value: 7724.00, Comm : 6.18, current value : 9801.76, current cash : 8809.16
+2015-01-23, SELL EXECUTED, -2, Price: 3791.00, Value: 7724.00, Comm : 6.07 , current value : 9819.70 , current cash : 9819.70
+2015-01-23, Order Canceled/Margin/Rejected
+2015-01-27, BUY EXECUTED, 2, Price: 3758.00, Value: 7516.00, Comm : 6.01, current value : 9841.69, current cash : 8686.29
+2015-01-28, SELL EXECUTED, -2, Price: 3765.00, Value: 7516.00, Comm : 6.02 , current value : 9807.64 , current cash : 17345.64
+2015-01-28, Order Canceled/Margin/Rejected
+2015-01-28, SELL EXECUTED, -2, Price: 3765.00, Value: -7530.00, Comm : 6.02 , current value : 9807.64 , current cash : 17345.64
+2015-01-29, BUY EXECUTED, 2, Price: 3772.00, Value: -7530.00, Comm : 7.54, current value : 9794.10, current cash : 9794.10
+2015-01-30, BUY EXECUTED, 2, Price: 3675.00, Value: 7350.00, Comm : 5.88, current value : 9554.22, current cash : 8685.72
+2015-02-02, SELL EXECUTED, -2, Price: 3560.00, Value: 7350.00, Comm : 5.70 , current value : 9456.82 , current cash : 16666.82
+2015-02-02, Order Canceled/Margin/Rejected
+2015-02-02, SELL EXECUTED, -2, Price: 3560.00, Value: -7120.00, Comm : 5.70 , current value : 9456.82 , current cash : 16666.82
+2015-02-03, BUY EXECUTED, 2, Price: 3618.00, Value: -7120.00, Comm : 7.21, current value : 9423.61, current cash : 9423.61
+2015-05-19, BUY EXECUTED, 2, Price: 3734.00, Value: 7468.00, Comm : 5.97, current value : 9321.64, current cash : 8297.44
+2015-05-20, SELL EXECUTED, -2, Price: 3693.00, Value: 7468.00, Comm : 5.91 , current value : 9485.82 , current cash : 16709.82
+2015-05-20, Order Canceled/Margin/Rejected
+2015-05-20, SELL EXECUTED, -2, Price: 3693.00, Value: -7386.00, Comm : 5.91 , current value : 9485.82 , current cash : 16709.82
+2015-05-21, BUY EXECUTED, 2, Price: 3619.00, Value: -7386.00, Comm : 7.27, current value : 9464.55, current cash : 9464.55
+2016-02-16, BUY EXECUTED, 2, Price: 3388.00, Value: 6776.00, Comm : 5.42, current value : 9439.13, current cash : 8442.73
+2016-02-17, SELL EXECUTED, -2, Price: 3391.00, Value: 6776.00, Comm : 5.43 , current value : 9459.71 , current cash : 9459.71
+2016-02-17, Order Canceled/Margin/Rejected
+2016-02-18, BUY EXECUTED, 2, Price: 3374.00, Value: 6748.00, Comm : 5.40, current value : 9458.31, current cash : 8442.11
+2016-02-19, SELL EXECUTED, -2, Price: 3384.00, Value: 6748.00, Comm : 5.41 , current value : 9468.89 , current cash : 9468.89
+2016-02-19, Order Canceled/Margin/Rejected
+2016-02-22, BUY EXECUTED, 2, Price: 3388.00, Value: 6776.00, Comm : 5.42, current value : 9425.47, current cash : 8447.07
+2016-02-23, SELL EXECUTED, -2, Price: 3348.00, Value: 6776.00, Comm : 5.36 , current value : 9332.76 , current cash : 16068.76
+2016-02-23, Order Canceled/Margin/Rejected
+2016-02-23, SELL EXECUTED, -2, Price: 3348.00, Value: -6696.00, Comm : 5.36 , current value : 9332.76 , current cash : 16068.76
+2016-02-24, BUY EXECUTED, 2, Price: 3360.00, Value: -6696.00, Comm : 6.72, current value : 9342.04, current cash : 9342.04
+2016-03-08, BUY EXECUTED, 2, Price: 3410.00, Value: 6820.00, Comm : 5.46, current value : 9302.59, current cash : 8313.59
+2016-03-09, SELL EXECUTED, -2, Price: 3375.90, Value: 6820.00, Comm : 5.40 , current value : 9385.54 , current cash : 16063.54
+2016-03-09, Order Canceled/Margin/Rejected
+2016-03-09, SELL EXECUTED, -2, Price: 3403.00, Value: -6806.00, Comm : 5.44 , current value : 9385.54 , current cash : 16063.54
+2016-03-10, BUY EXECUTED, 2, Price: 3331.00, Value: -6806.00, Comm : 6.69, current value : 9394.85, current cash : 9394.85
+2016-03-21, BUY EXECUTED, 2, Price: 3444.00, Value: 6888.00, Comm : 5.51, current value : 9323.34, current cash : 8356.14
+2016-03-22, SELL EXECUTED, -2, Price: 3424.00, Value: 6888.00, Comm : 5.48 , current value : 9288.38 , current cash : 16186.38
+2016-03-22, Order Canceled/Margin/Rejected
+2016-03-22, SELL EXECUTED, -2, Price: 3424.00, Value: -6848.00, Comm : 5.48 , current value : 9288.38 , current cash : 16186.38
+2016-03-23, BUY EXECUTED, 2, Price: 3438.00, Value: -6848.00, Comm : 6.87, current value : 9303.51, current cash : 9303.51
+2016-04-22, BUY EXECUTED, 1, Price: 3633.00, Value: 3633.00, Comm : 2.91, current value : 9224.59, current cash : 8187.14
+2016-04-22, BUY EXECUTED, 1, Price: 3770.00, Value: 3770.00, Comm : 3.02, current value : 9224.59, current cash : 8187.14
+2016-04-25, SELL EXECUTED, -1, Price: 3684.00, Value: 3701.50, Comm : 2.95 , current value : 9256.70 , current cash : 9256.70
+2016-04-25, Order Canceled/Margin/Rejected
+2016-04-25, SELL EXECUTED, -1, Price: 3684.00, Value: 3701.50, Comm : 2.95 , current value : 9256.70 , current cash : 9256.70
+2016-04-25, Order Canceled/Margin/Rejected
+2016-04-26, BUY EXECUTED, 1, Price: 3633.00, Value: 3633.00, Comm : 2.91, current value : 9264.79, current cash : 8708.84
+2016-04-27, SELL EXECUTED, -1, Price: 3653.00, Value: 3633.00, Comm : 2.92 , current value : 9270.87 , current cash : 9270.87
+2016-04-27, Order Canceled/Margin/Rejected
+2016-04-28, BUY EXECUTED, 1, Price: 3727.00, Value: 3727.00, Comm : 2.98, current value : 9256.89, current cash : 8708.84
+2016-04-29, SELL EXECUTED, -1, Price: 3727.00, Value: 3727.00, Comm : 2.98 , current value : 9264.90 , current cash : 9264.90
+2016-04-29, Order Canceled/Margin/Rejected
+2016-05-03, BUY EXECUTED, 1, Price: 3770.00, Value: 3770.00, Comm : 3.02, current value : 9275.89, current cash : 8696.39
+2016-05-04, SELL EXECUTED, -1, Price: 3751.00, Value: 3770.00, Comm : 3.00 , current value : 9239.89 , current cash : 9239.89
+2016-05-04, Order Canceled/Margin/Rejected
+2016-05-05, BUY EXECUTED, 1, Price: 3717.00, Value: 3717.00, Comm : 2.97, current value : 9251.91, current cash : 8679.36
+2016-05-06, SELL EXECUTED, -1, Price: 3684.78, Value: 3717.00, Comm : 2.95 , current value : 9201.75 , current cash : 9201.75
+2016-05-06, Order Canceled/Margin/Rejected
+2016-05-09, BUY EXECUTED, 1, Price: 3706.00, Value: 3706.00, Comm : 2.96, current value : 9198.78, current cash : 8642.88
+2016-05-10, SELL EXECUTED, -1, Price: 3668.94, Value: 3706.00, Comm : 2.94 , current value : 9158.79 , current cash : 9158.79
+2016-05-10, Order Canceled/Margin/Rejected
+2016-05-13, BUY EXECUTED, 1, Price: 3695.00, Value: 3695.00, Comm : 2.96, current value : 9120.83, current cash : 8601.58
+2016-05-16, SELL EXECUTED, -1, Price: 3658.05, Value: 3695.00, Comm : 2.93 , current value : 9073.02 , current cash : 12781.02
+2016-05-16, Order Canceled/Margin/Rejected
+2016-05-16, SELL EXECUTED, -1, Price: 3668.00, Value: -3668.00, Comm : 2.93 , current value : 9073.02 , current cash : 12781.02
+2016-05-17, BUY EXECUTED, 1, Price: 3705.00, Value: -3668.00, Comm : 3.70, current value : 9072.32, current cash : 9072.32
+2016-05-20, BUY EXECUTED, 1, Price: 3577.00, Value: 3577.00, Comm : 2.86, current value : 9063.46, current cash : 8532.91
+2016-05-23, SELL EXECUTED, -1, Price: 3541.23, Value: 3577.00, Comm : 2.83 , current value : 9066.00 , current cash : 12604.00
+2016-05-23, Order Canceled/Margin/Rejected
+2016-05-23, SELL EXECUTED, -1, Price: 3576.00, Value: -3576.00, Comm : 2.86 , current value : 9066.00 , current cash : 12604.00
+2016-05-24, BUY EXECUTED, 1, Price: 3539.00, Value: -3576.00, Comm : 3.55, current value : 9061.45, current cash : 9061.45
+2016-06-30, BUY EXECUTED, 1, Price: 3940.00, Value: 3940.00, Comm : 3.15, current value : 9083.30, current cash : 8467.30
+2016-07-01, SELL EXECUTED, -1, Price: 3973.00, Value: 3940.00, Comm : 3.18 , current value : 9088.12 , current cash : 9088.12
+2016-07-01, Order Canceled/Margin/Rejected
+2016-07-04, BUY EXECUTED, 1, Price: 4157.00, Value: 4157.00, Comm : 3.33, current value : 9321.79, current cash : 8461.24
+2016-07-05, SELL EXECUTED, -1, Price: 4375.00, Value: 4157.00, Comm : 3.50 , current value : 9299.29 , current cash : 9299.29
+2016-07-05, Order Canceled/Margin/Rejected
+2016-07-06, BUY EXECUTED, 1, Price: 4300.00, Value: 4300.00, Comm : 3.44, current value : 9385.85, current cash : 8650.85
+2016-07-07, SELL EXECUTED, -1, Price: 4425.00, Value: 4300.00, Comm : 3.54 , current value : 9417.31 , current cash : 9417.31
+2016-07-07, Order Canceled/Margin/Rejected
+2016-07-08, BUY EXECUTED, 1, Price: 4347.00, Value: 4347.00, Comm : 3.48, current value : 9319.84, current cash : 8761.79
+2016-07-11, SELL EXECUTED, -1, Price: 4266.00, Value: 4347.00, Comm : 3.41 , current value : 9329.42 , current cash : 9329.42
+2016-07-11, Order Canceled/Margin/Rejected
+2016-07-12, BUY EXECUTED, 1, Price: 4410.00, Value: 4410.00, Comm : 3.53, current value : 9350.89, current cash : 8664.39
+2016-07-13, SELL EXECUTED, -1, Price: 4366.89, Value: 4410.00, Comm : 3.49 , current value : 9279.29 , current cash : 9279.29
+2016-07-13, Order Canceled/Margin/Rejected
+2016-07-14, BUY EXECUTED, 1, Price: 4418.00, Value: 4418.00, Comm : 3.53, current value : 9253.76, current cash : 8613.06
+2016-07-15, SELL EXECUTED, -1, Price: 4365.00, Value: 4418.00, Comm : 3.49 , current value : 9219.26 , current cash : 9219.26
+2016-07-15, Order Canceled/Margin/Rejected
+2016-07-18, BUY EXECUTED, 1, Price: 4371.00, Value: 4371.00, Comm : 3.50, current value : 9141.77, current cash : 8560.12
+2016-07-19, SELL EXECUTED, -1, Price: 4278.00, Value: 4371.00, Comm : 3.42 , current value : 9088.92 , current cash : 13393.92
+2016-07-19, Order Canceled/Margin/Rejected
+2016-07-19, SELL EXECUTED, -1, Price: 4278.00, Value: -4278.00, Comm : 3.42 , current value : 9088.92 , current cash : 13393.92
+2016-07-20, BUY EXECUTED, 1, Price: 4316.00, Value: -4278.00, Comm : 4.31, current value : 9073.61, current cash : 9073.61
+2016-07-29, BUY EXECUTED, 1, Price: 4406.00, Value: 4406.00, Comm : 3.52, current value : 9015.09, current cash : 8409.19
+2016-08-01, SELL EXECUTED, -1, Price: 4349.00, Value: 4406.00, Comm : 3.48 , current value : 8914.13 , current cash : 13355.13
+2016-08-01, Order Canceled/Margin/Rejected
+2016-08-01, SELL EXECUTED, -1, Price: 4349.00, Value: -4349.00, Comm : 3.48 , current value : 8914.13 , current cash : 13355.13
+2016-08-02, BUY EXECUTED, 1, Price: 4447.00, Value: -4349.00, Comm : 4.43, current value : 8903.70, current cash : 8903.70
+2016-08-04, BUY EXECUTED, 1, Price: 4442.00, Value: 4442.00, Comm : 3.55, current value : 8728.58, current cash : 7560.68
+2016-08-04, BUY EXECUTED, 1, Price: 4464.00, Value: 4464.00, Comm : 3.57, current value : 8728.58, current cash : 7560.68
+2016-08-05, SELL EXECUTED, -1, Price: 4397.58, Value: 4453.00, Comm : 3.52 , current value : 8756.08 , current cash : 17580.08
+2016-08-05, Order Canceled/Margin/Rejected
+2016-08-05, SELL EXECUTED, -1, Price: 4402.00, Value: 4453.00, Comm : 3.52 , current value : 8756.08 , current cash : 17580.08
+2016-08-05, Order Canceled/Margin/Rejected
+2016-08-05, SELL EXECUTED, -2, Price: 4402.00, Value: -8804.00, Comm : 7.04 , current value : 8756.08 , current cash : 17580.08
+2016-08-08, BUY EXECUTED, 2, Price: 4394.00, Value: -8804.00, Comm : 12.31, current value : 8779.76, current cash : 8779.76
+2017-02-28, BUY EXECUTED, 1, Price: 4234.00, Value: 4234.00, Comm : 3.39, current value : 8761.38, current cash : 8141.28
+2017-03-01, SELL EXECUTED, -1, Price: 4191.66, Value: 4234.00, Comm : 3.35 , current value : 8745.31 , current cash : 12942.31
+2017-03-01, Order Canceled/Margin/Rejected
+2017-03-01, SELL EXECUTED, -1, Price: 4215.00, Value: -4215.00, Comm : 3.37 , current value : 8745.31 , current cash : 12942.31
+2017-03-02, BUY EXECUTED, 1, Price: 4202.00, Value: -4215.00, Comm : 4.20, current value : 8736.11, current cash : 8736.11
+SharpeRatio:OrderedDict([('sharperatio', 0.31715569328569615)])
+DW:AutoOrderedDict([('len', 1382), ('drawdown', 22.77297933020199), ('moneydown', 2576.1343119999856), ('max', AutoOrderedDict([('len', 1382), ('drawdown', 23.32354486807885), ('moneydown', 2583.6615199999833)]))])
+AnnualReturn:OrderedDict([(2008, 0.0), (2009, 0.44374654239999756), (2010, 0.019135823074646785), (2011, 0.4917017656373961), (2012, -0.04219592706093411), (2013, 0.01618169476738851), (2014, -0.07409006423123332), (2015, -0.04300816738917301), (2016, -0.0723529255098383), (2017, -0.00497247178350313)])
+Calmar:OrderedDict([(datetime.datetime(2008, 8, 31, 0, 0), nan), (datetime.datetime(2008, 9, 30, 0, 0), nan), (datetime.datetime(2008, 10, 31, 0, 0), nan), (datetime.datetime(2008, 11, 30, 0, 0), nan), (datetime.datetime(2008, 12, 31, 0, 0), nan), (datetime.datetime(2009, 1, 31, 0, 0), nan), (datetime.datetime(2009, 2, 28, 0, 0), nan), (datetime.datetime(2009, 3, 31, 0, 0), nan), (datetime.datetime(2009, 4, 30, 0, 0), nan), (datetime.datetime(2009, 5, 31, 0, 0), nan), (datetime.datetime(2009, 6, 30, 0, 0), nan), (datetime.datetime(2009, 7, 31, 0, 0), nan), (datetime.datetime(2009, 8, 31, 0, 0), nan), (datetime.datetime(2009, 9, 30, 0, 0), nan), (datetime.datetime(2009, 10, 31, 0, 0), nan), (datetime.datetime(2009, 11, 30, 0, 0), nan), (datetime.datetime(2009, 12, 31, 0, 0), nan), (datetime.datetime(2010, 1, 31, 0, 0), nan), (datetime.datetime(2010, 2, 28, 0, 0), nan), (datetime.datetime(2010, 3, 31, 0, 0), nan), (datetime.datetime(2010, 4, 30, 0, 0), nan), (datetime.datetime(2010, 5, 31, 0, 0), nan), (datetime.datetime(2010, 6, 30, 0, 0), nan), (datetime.datetime(2010, 7, 31, 0, 0), nan), (datetime.datetime(2010, 8, 31, 0, 0), nan), (datetime.datetime(2010, 9, 30, 0, 0), nan), (datetime.datetime(2010, 10, 31, 0, 0), nan), (datetime.datetime(2010, 11, 30, 0, 0), nan), (datetime.datetime(2010, 12, 31, 0, 0), nan), (datetime.datetime(2011, 1, 31, 0, 0), nan), (datetime.datetime(2011, 2, 28, 0, 0), nan), (datetime.datetime(2011, 3, 31, 0, 0), nan), (datetime.datetime(2011, 4, 30, 0, 0), nan), (datetime.datetime(2011, 5, 31, 0, 0), nan), (datetime.datetime(2011, 6, 30, 0, 0), 0.0018645215069667085), (datetime.datetime(2011, 7, 31, 0, 0), 0.0018645215069667085), (datetime.datetime(2011, 8, 31, 0, 0), 0.0018645215069667085), (datetime.datetime(2011, 9, 30, 0, 0), 0.0018679353283555596), (datetime.datetime(2011, 10, 31, 0, 0), 0.0018679353283555596), (datetime.datetime(2011, 11, 30, 0, 0), 0.00177374828680049), (datetime.datetime(2011, 12, 31, 0, 0), 0.0019520145450280708), (datetime.datetime(2012, 1, 31, 0, 0), 0.0019520145450280708), (datetime.datetime(2012, 2, 29, 0, 0), 0.001369416525324213), (datetime.datetime(2012, 3, 31, 0, 0), 0.0009358382425731787), (datetime.datetime(2012, 4, 30, 0, 0), 0.0008987354625117226), (datetime.datetime(2012, 5, 31, 0, 0), 0.0005640628723591644), (datetime.datetime(2012, 6, 30, 0, 0), 0.0007554365234882835), (datetime.datetime(2012, 7, 31, 0, 0), 0.0007554365234882835), (datetime.datetime(2012, 8, 31, 0, 0), 0.0007554365234882835), (datetime.datetime(2012, 9, 30, 0, 0), 0.001002484536347786), (datetime.datetime(2012, 10, 31, 0, 0), 0.000899099169700109), (datetime.datetime(2012, 11, 30, 0, 0), 0.0008017022600059054), (datetime.datetime(2012, 12, 31, 0, 0), 0.0009330580764440931), (datetime.datetime(2013, 1, 31, 0, 0), 0.0009392167522878627), (datetime.datetime(2013, 2, 28, 0, 0), 0.0009392167522878627), (datetime.datetime(2013, 3, 31, 0, 0), 0.0009392167522878627), (datetime.datetime(2013, 4, 30, 0, 0), 0.0009377824854153844), (datetime.datetime(2013, 5, 31, 0, 0), 0.0009506000932733815), (datetime.datetime(2013, 6, 30, 0, 0), 0.0009109703258936988), (datetime.datetime(2013, 7, 31, 0, 0), 0.0009109703258936988), (datetime.datetime(2013, 8, 31, 0, 0), 0.0009109703258936988), (datetime.datetime(2013, 9, 30, 0, 0), 0.0010524754881238252), (datetime.datetime(2013, 10, 31, 0, 0), 0.0008179888085021536), (datetime.datetime(2013, 11, 30, 0, 0), 0.0008804271262463693), (datetime.datetime(2013, 12, 31, 0, 0), 0.0009246070513061226), (datetime.datetime(2014, 1, 31, 0, 0), 0.0008986829482494377), (datetime.datetime(2014, 2, 28, 0, 0), 0.0008427909094894845), (datetime.datetime(2014, 3, 31, 0, 0), 0.0005303493829026707), (datetime.datetime(2014, 4, 30, 0, 0), 9.078851069920824e-05), (datetime.datetime(2014, 5, 31, 0, 0), -0.00010281299049555636), (datetime.datetime(2014, 6, 30, 0, 0), -0.00010281299049555636), (datetime.datetime(2014, 7, 31, 0, 0), -0.00013809273930096317), (datetime.datetime(2014, 8, 31, 0, 0), -0.0001732503318968721), (datetime.datetime(2014, 9, 30, 0, 0), -0.0001732503318968721), (datetime.datetime(2014, 10, 31, 0, 0), -7.960897048326112e-05), (datetime.datetime(2014, 11, 30, 0, 0), -0.0002568424289179953), (datetime.datetime(2014, 12, 31, 0, 0), -0.0002568424289179953), (datetime.datetime(2015, 1, 31, 0, 0), -0.0002568424289179953), (datetime.datetime(2015, 2, 28, 0, 0), -0.000149803841555375), (datetime.datetime(2015, 3, 31, 0, 0), -0.00012635399098004035), (datetime.datetime(2015, 4, 30, 0, 0), -0.00012635399098004035), (datetime.datetime(2015, 5, 31, 0, 0), -0.00012635399098004035), (datetime.datetime(2015, 6, 30, 0, 0), -0.00011855295205618877), (datetime.datetime(2015, 7, 31, 0, 0), -0.00011855295205618877), (datetime.datetime(2015, 8, 31, 0, 0), -0.0002227956645958346), (datetime.datetime(2015, 9, 30, 0, 0), -0.00020043503828516852), (datetime.datetime(2015, 10, 31, 0, 0), -0.00018874666369659266), (datetime.datetime(2015, 11, 30, 0, 0), -0.00018874666369659266), (datetime.datetime(2015, 12, 31, 0, 0), -0.00018874666369659266), (datetime.datetime(2016, 1, 31, 0, 0), -0.00018874666369659266), (datetime.datetime(2016, 2, 29, 0, 0), -0.00018874666369659266), (datetime.datetime(2016, 3, 31, 0, 0), -0.00020258541898495684), (datetime.datetime(2016, 4, 30, 0, 0), -0.00021860536079898034), (datetime.datetime(2016, 5, 31, 0, 0), -0.00019385180839145868), (datetime.datetime(2016, 6, 30, 0, 0), -0.00020865829482847692), (datetime.datetime(2016, 7, 31, 0, 0), -0.00020428950516657821), (datetime.datetime(2016, 8, 31, 0, 0), -0.00030993650910786147), (datetime.datetime(2016, 9, 30, 0, 0), -0.00025670269972325946), (datetime.datetime(2016, 10, 31, 0, 0), -0.00025670269972325946), (datetime.datetime(2016, 11, 30, 0, 0), -0.00025670269972325946), (datetime.datetime(2016, 12, 31, 0, 0), -0.00025670269972325946), (datetime.datetime(2017, 1, 31, 0, 0), -0.00025670269972325946), (datetime.datetime(2017, 2, 28, 0, 0), -0.00019178144853917837), (datetime.datetime(2017, 3, 31, 0, 0), -0.00019410106237601835), (datetime.datetime(2017, 4, 30, 0, 0), -0.00019471292205895462), (datetime.datetime(2017, 5, 31, 0, 0), -0.00019471292205895462), (datetime.datetime(2017, 6, 30, 0, 0), -0.000176446193737841), (datetime.datetime(2017, 7, 31, 0, 0), -0.00015948754895394042), (datetime.datetime(2017, 8, 31, 0, 0), -0.00015948754895394042), (datetime.datetime(2017, 9, 30, 0, 0), -0.00015948754895394042), (datetime.datetime(2017, 10, 31, 0, 0), -0.00015948754895394042), (datetime.datetime(2017, 11, 30, 0, 0), -0.00015948754895394042)])
+PeriodStats:OrderedDict([('average', 0.07341462699047471), ('stddev', 0.19994793829335533), ('positive', 4), ('negative', 5), ('nochange', 1), ('best', 0.4917017656373961), ('worst', -0.07409006423123332)])
+Returns:OrderedDict([('rtot', 0.558026722611049), ('ravg', 0.0002487858772229376), ('rnorm', 0.06470103459265718), ('rnorm100', 6.470103459265718)])
+TradeAnalyzer:AutoOrderedDict([('total', AutoOrderedDict([('total', 181), ('open', 0), ('closed', 181)])), ('won', AutoOrderedDict([('pnl', AutoOrderedDict([('average', 222.2672225714285), ('total', 18670.446695999995), ('max', 2384.5744)])), ('total', 84)])), ('lost', AutoOrderedDict([('pnl', AutoOrderedDict([('average', -153.96226779381442), ('total', -14934.339976), ('max', -1079.1599999999983)])), ('total', 97)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 1), ('longest', 8)])), ('lost', AutoOrderedDict([('current', 0), ('longest', 10)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 7014.839999999999), ('average', 38.75602209944751)])), ('net', AutoOrderedDict([('total', 3736.106719999999), ('average', 20.641473591160214)]))])), ('long', AutoOrderedDict([('total', 144), ('pnl', AutoOrderedDict([('total', 4189.710559999998), ('average', 29.095212222222205), ('won', AutoOrderedDict([('total', 15259.278536000002), ('average', 214.919416), ('max', 2384.5744)])), ('lost', AutoOrderedDict([('total', -11069.567976000002), ('average', -151.63791747945208), ('max', -1079.1599999999983)]))])), ('won', 71), ('lost', 73)])), ('short', AutoOrderedDict([('total', 37), ('pnl', AutoOrderedDict([('total', -453.6038399999999), ('average', -12.25956324324324), ('won', AutoOrderedDict([('total', 3411.16816), ('average', 262.3975507692308), ('max', 1809.0)])), ('lost', AutoOrderedDict([('total', -3864.772), ('average', -161.03216666666665), ('max', -951.3972)]))])), ('won', 13), ('lost', 24)])), ('len', AutoOrderedDict([('total', 199), ('average', 1.0994475138121547), ('max', 8), ('min', 1), ('won', AutoOrderedDict([('total', 94), ('average', 1.119047619047619), ('max', 8), ('min', 1)])), ('lost', AutoOrderedDict([('total', 105), ('average', 1.0824742268041236), ('max', 2), ('min', 1)])), ('long', AutoOrderedDict([('total', 155), ('average', 1.0763888888888888), ('max', 3), ('min', 1), ('won', AutoOrderedDict([('total', 74), ('average', 1.0422535211267605), ('max', 3), ('min', 1)])), ('lost', AutoOrderedDict([('total', 81), ('average', 1.1095890410958904), ('max', 2), ('min', 1)]))])), ('short', AutoOrderedDict([('total', 44), ('average', 1.1891891891891893), ('max', 8), ('min', 1), ('won', AutoOrderedDict([('total', 20), ('average', 1.5384615384615385), ('max', 8), ('min', 1)])), ('lost', AutoOrderedDict([('total', 24), ('average', 1.0), ('max', 1), ('min', 1)]))]))]))])
+SQN:AutoOrderedDict([('sqn', 0.80180638748487), ('trades', 181)])

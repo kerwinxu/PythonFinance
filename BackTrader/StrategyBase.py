@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-10-08 10:30:59
-# Last Change:  2017-12-14 10:00:59
+# Last Change:  2017-12-17 16:22:10
 # File Name: Strategy_main.py
 
 import backtrader as bt
@@ -30,7 +30,7 @@ class StrategyBase(bt.Strategy):
 
         # Check if an order has been completed
         # Attention: broker could reject order if not enougth cash
-        if order.status in [order.Completed, order.Canceled, order.Margin]:
+        if order.status in [order.Completed]:
             if order.isbuy():
                 self.log(
                     'BUY EXECUTED, %d, Price: %.2f, Value: %.2f, Comm : %.2f, current value : %.2f, current cash : %.2f' %
@@ -45,7 +45,7 @@ class StrategyBase(bt.Strategy):
                 self.buyprice = order.executed.price
                 self.buycomm = order.executed.comm
                 self.opsize = order.executed.size
-            else:  # Sell
+            elif order.issell():  # Sell
                 self.log('SELL EXECUTED, %d, Price: %.2f, Value: %.2f, Comm : %.2f , current value : %.2f , current cash : %.2f' %
                          (order.executed.size,
                           order.executed.price,
@@ -54,17 +54,39 @@ class StrategyBase(bt.Strategy):
                           self.broker.get_value(),
                           self.broker.get_cash()
                           ), isprint=True)
-
             self.bar_executed = len(self)
 
         elif order.status in [order.Canceled, order.Margin, order.Rejected]:
-            self.log('Order Canceled/Margin/Rejected')
+            self.log('Order Canceled/Margin/Rejected', isprint=True)
         #  重置单子标志
         self.order = None
-        # 显示有多少钱
 
     def stop(self):
         pass
+
+    def get_max_sizing(self, price=None):
+        """
+            Description : 取得可以购买的最大数量。
+                算法是先取得现金金额, 然后取得杠杆，算出可以购买的最大
+
+            Arg :
+
+            Returns :
+
+            Raises	 :
+
+        """
+        # 获得现金
+        _cash = self.broker.get_value()
+        # 获得杠杆
+        _leverage = self.broker.comminfo[None].get_leverage()
+        # 获得价格
+        _price = price
+        if(_price is None):
+            # 如果没有价格，就用收盘价计算吧。
+            _price = self.data_close[0]
+        # 简单计算，然后返回一个整形吧。
+        return int(_cash * _leverage / _price)
 
     def get_kally_ratio(self, b=None, p=None):
         """
@@ -106,8 +128,56 @@ class StrategyBase(bt.Strategy):
         q = 1 - p
         f = (b * p - q)/b
         # 判断f的范围
-
-        if(f < 0):
+        if(f < 0.1):
             return 0.1
+        if(f > 0.4):
+            return 0.4
 
         return f
+
+    def get_right_sizing(self):
+        """
+            Description : 取得一个合适的尺寸
+
+            Arg :
+
+            Returns :
+
+            Raises	 :
+
+        """
+        _size = int(self.get_max_sizing() * self.get_kally_ratio())
+        if _size < 1:
+            _size = 1
+        return _size
+        pass
+
+    def jiacang(self):
+        """
+            Description : 判断是否可以加仓，
+
+            Arg :
+
+            Returns :
+
+            Raises	 :
+
+        """
+        # 如果没有，就直接退出吧。
+        if self.dict_open is None:
+            return
+        # 判断是否有价格被超过
+        _price = []
+        _close = self.data.close[0]
+        for _p in self.dict_open.keys():
+            if(_close > _p):
+                _price.append(_p)
+                if self.position.size > 0:
+                    self.order = self.buy(size=self.dict_open[_p])
+                elif self.position.size < 0:
+                    self.order = self.sell(size=self.dict_open[_p])
+
+        # 如果有被超过的
+        for _p in _price:
+            # 然后删除这个价格啦，已经完成使命了
+            self.dict_open.pop(_p)

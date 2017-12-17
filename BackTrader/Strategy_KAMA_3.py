@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-12-11 20:46:43
+# Last Change:  2017-12-16 21:06:34
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -20,8 +20,8 @@ import StrategyBase
 class Strategy_KAMA(StrategyBase.StrategyBase):
 
     params= (
-        ('up_slope', 1.001),
-        ('down_slope', 0.097)
+        ('up_slope', 1.002),
+        ('down_slope', 0.997)
     )
 
     def __init__(self):
@@ -48,15 +48,28 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
         _slope = self.kama[0] / self.kama[-1]
         #  算出可以购买的数量
         _kally_ratio = self.get_kally_ratio()
-        _size = 1
+        _max_size = self.get_max_sizing()
+        _size = int(_max_size * _kally_ratio)
+        if _size < 1:
+            _size = 1
+        _close = self.dataclose[0]
         if not self.position:
             # 如果没有订单。
             if(_slope > self.params.up_slope):
                 # 这里就是买单开仓了，
-                self.order = self.buy()
+                self.order = self.buy_bracket(size=_size,
+                                              price = _close,
+                                              stopprice = _close * 0.98,
+                                      )
+
             elif(_slope < self.params.down_slope):
                 pass
-                # self.order = self.sell()
+                self.order = self.sell_bracket(size=_size,
+                                               price = _close,
+                                               stopprice = _close * 1.02,
+                                               )
+
+
         elif self.position.size > 0:
             # 到这里往往表示有订单了。
             if(_slope < self.params.up_slope):
@@ -73,7 +86,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(Strategy_KAMA)
 
     # Set our desired cash start
-    cerebro.set_cash(2000.0)
+    cerebro.set_cash(5000.0)
 
     cerebro.show_analyzer(cerebro.run())
 
