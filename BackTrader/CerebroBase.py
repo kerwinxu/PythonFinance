@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-12-16 21:06:17
+# Last Change:  2017-12-17 20:52:22
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -49,7 +49,7 @@ class CerebroBase(object):
 
     def init_analyzers(self):
         """初始化分析师的"""
-        # self.addanalyzer(bt.analyzers.Calmar, 'Calmar') # 收益和最大回撤之间的关系。
+        self.addanalyzer(bt.analyzers.Calmar, 'Calmar') # 收益和最大回撤之间的关系。
         self.addanalyzer(bt.analyzers.DrawDown, 'DW')
         self.addanalyzer(bt.analyzers.AnnualReturn, 'AnnualReturn')
         self.addanalyzer(bt.analyzers.PeriodStats, 'PeriodStats')   # Calculates basic statistics for given timeframe

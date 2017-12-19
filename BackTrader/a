@@ -1,0 +1,149 @@
+2008-10-08, SELL EXECUTED, -1, Price: 2877.00, Value: -2877.00, Comm : 2.30 , current value : 4994.70 , current cash : 7874.70
+2008-12-22, BUY EXECUTED, 1, Price: 2460.00, Value: -2877.00, Comm : 45.12, current value : 5369.58, current cash : 5369.58
+2008-12-23, BUY EXECUTED, 1, Price: 2450.00, Value: 2450.00, Comm : 1.96, current value : 5364.62, current cash : 5000.12
+2008-12-29, SELL EXECUTED, -1, Price: 2458.00, Value: 2450.00, Comm : 1.97 , current value : 5373.65 , current cash : 5373.65
+2008-12-31, BUY EXECUTED, 1, Price: 2444.00, Value: 2444.00, Comm : 1.96, current value : 5396.69, current cash : 5005.09
+2009-03-03, SELL EXECUTED, -1, Price: 2942.00, Value: 2444.00, Comm : 2.35 , current value : 5867.34 , current cash : 5867.34
+2009-03-04, SELL EXECUTED, -1, Price: 2852.00, Value: -2852.00, Comm : 2.28 , current value : 5885.06 , current cash : 8717.06
+2009-03-25, BUY EXECUTED, 1, Price: 2945.00, Value: -2852.00, Comm : 14.33, current value : 5757.72, current cash : 5757.72
+2009-04-03, SELL EXECUTED, -1, Price: 2886.00, Value: -2886.00, Comm : 2.31 , current value : 5755.42 , current cash : 8641.42
+2009-05-08, BUY EXECUTED, 1, Price: 3068.00, Value: -2886.00, Comm : 22.66, current value : 5550.76, current cash : 5550.76
+2009-05-11, BUY EXECUTED, 1, Price: 3024.00, Value: 3024.00, Comm : 2.42, current value : 5551.34, current cash : 5094.74
+2009-06-18, SELL EXECUTED, -1, Price: 3188.00, Value: 3024.00, Comm : 2.55 , current value : 5709.79 , current cash : 5709.79
+2009-06-19, SELL EXECUTED, -1, Price: 3207.00, Value: -3207.00, Comm : 2.57 , current value : 5721.22 , current cash : 8914.22
+2009-07-29, BUY EXECUTED, 1, Price: 3226.00, Value: -3207.00, Comm : 28.24, current value : 5659.99, current cash : 5659.99
+2009-08-03, SELL EXECUTED, -1, Price: 3220.00, Value: -3220.00, Comm : 2.58 , current value : 5642.41 , current cash : 8877.41
+2009-08-05, BUY EXECUTED, 1, Price: 3270.00, Value: -3220.00, Comm : 3.90, current value : 5603.51, current cash : 5603.51
+2009-08-06, BUY EXECUTED, 1, Price: 3299.00, Value: 3299.00, Comm : 2.64, current value : 5585.87, current cash : 5106.02
+2009-12-14, SELL EXECUTED, -1, Price: 3887.00, Value: 3299.00, Comm : 3.11 , current value : 6185.76 , current cash : 6185.76
+2009-12-15, SELL EXECUTED, -1, Price: 3910.00, Value: -3910.00, Comm : 3.13 , current value : 6177.63 , current cash : 10092.63
+2009-12-25, BUY EXECUTED, 1, Price: 4174.00, Value: -3910.00, Comm : 11.16, current value : 5907.47, current cash : 5907.47
+2009-12-28, BUY EXECUTED, 1, Price: 4174.00, Value: 4174.00, Comm : 3.34, current value : 5925.13, current cash : 5278.03
+2010-01-27, SELL EXECUTED, -1, Price: 3970.00, Value: 4174.00, Comm : 3.18 , current value : 5696.96 , current cash : 5696.96
+2010-01-28, SELL EXECUTED, -1, Price: 3948.00, Value: -3948.00, Comm : 3.16 , current value : 5713.80 , current cash : 9641.80
+2010-02-24, BUY EXECUTED, 1, Price: 3895.00, Value: -3948.00, Comm : 24.44, current value : 5722.36, current cash : 5722.36
+2010-02-25, BUY EXECUTED, 1, Price: 3839.00, Value: 3839.00, Comm : 3.07, current value : 5717.29, current cash : 5143.44
+2010-07-08, SELL EXECUTED, -1, Price: 4119.00, Value: 3839.00, Comm : 3.30 , current value : 5996.00 , current cash : 5996.00
+2010-07-16, BUY EXECUTED, 1, Price: 4192.00, Value: 4192.00, Comm : 3.35, current value : 5970.64, current cash : 5363.84
+2010-07-21, SELL EXECUTED, -1, Price: 4115.00, Value: 4192.00, Comm : 3.29 , current value : 5912.35 , current cash : 5912.35
+2010-07-22, SELL EXECUTED, -1, Price: 4135.00, Value: -4135.00, Comm : 3.31 , current value : 5929.04 , current cash : 10044.04
+2010-08-05, BUY EXECUTED, 1, Price: 4208.00, Value: -4135.00, Comm : 14.94, current value : 5821.10, current cash : 5821.10
+2010-08-06, BUY EXECUTED, 1, Price: 4182.00, Value: 4182.00, Comm : 3.35, current value : 5819.75, current cash : 5190.45
+2011-01-25, SELL EXECUTED, -1, Price: 6235.00, Value: 4182.00, Comm : 4.99 , current value : 7865.76 , current cash : 7865.76
+2011-01-26, SELL EXECUTED, -1, Price: 5995.00, Value: -5995.00, Comm : 4.80 , current value : 7786.97 , current cash : 13855.97
+2011-02-11, BUY EXECUTED, 1, Price: 6480.00, Value: -5995.00, Comm : 24.37, current value : 7351.60, current cash : 7351.60
+2011-02-14, BUY EXECUTED, 1, Price: 6490.00, Value: 6490.00, Comm : 5.19, current value : 7365.41, current cash : 6372.91
+2011-05-06, SELL EXECUTED, -1, Price: 8100.00, Value: 6490.00, Comm : 6.48 , current value : 8949.93 , current cash : 8949.93
+2011-05-09, SELL EXECUTED, -1, Price: 7699.00, Value: -7699.00, Comm : 6.16 , current value : 8736.77 , current cash : 16642.77
+2011-07-27, BUY EXECUTED, 1, Price: 8661.00, Value: -7699.00, Comm : 128.57, current value : 7853.20, current cash : 7853.20
+2011-07-28, BUY EXECUTED, 1, Price: 8708.00, Value: 8708.00, Comm : 6.97, current value : 7728.23, current cash : 6540.03
+2011-08-03, SELL EXECUTED, -1, Price: 8510.00, Value: 8708.00, Comm : 6.81 , current value : 7641.42 , current cash : 7641.42
+2011-08-11, SELL EXECUTED, -1, Price: 8315.00, Value: -8315.00, Comm : 6.65 , current value : 7614.77 , current cash : 15949.77
+2011-08-23, BUY EXECUTED, 1, Price: 9001.00, Value: -8315.00, Comm : 27.16, current value : 6921.61, current cash : 6921.61
+2011-08-24, BUY EXECUTED, 1, Price: 9030.00, Value: 9030.00, Comm : 7.22, current value : 6760.39, current cash : 5559.89
+2011-09-22, SELL EXECUTED, -1, Price: 8570.00, Value: 9030.00, Comm : 6.86 , current value : 6447.53 , current cash : 6447.53
+2011-09-27, SELL EXECUTED, -1, Price: 6205.00, Value: -6205.00, Comm : 4.96 , current value : 5907.57 , current cash : 12647.57
+2011-11-02, BUY EXECUTED, 1, Price: 6800.00, Value: -6205.00, Comm : 50.12, current value : 5797.45, current cash : 5797.45
+2011-11-08, BUY EXECUTED, 1, Price: 7290.00, Value: 7290.00, Comm : 5.83, current value : 5792.62, current cash : 4698.12
+2011-11-22, SELL EXECUTED, -1, Price: 6675.00, Value: 7290.00, Comm : 5.34 , current value : 5171.28 , current cash : 5171.28
+2011-11-23, SELL EXECUTED, -1, Price: 6750.00, Value: -6750.00, Comm : 5.40 , current value : 5082.88 , current cash : 11915.88
+2012-02-01, BUY EXECUTED, 1, Price: 6950.00, Value: -6750.00, Comm : 100.06, current value : 4865.82, current cash : 4865.82
+2012-02-02, BUY EXECUTED, 1, Price: 6982.00, Value: 6982.00, Comm : 5.59, current value : 4854.24, current cash : 3812.94
+2012-03-09, SELL EXECUTED, -1, Price: 6960.00, Value: 6982.00, Comm : 5.57 , current value : 4832.67 , current cash : 4832.67
+2012-03-12, SELL EXECUTED, -1, Price: 7001.00, Value: -7001.00, Comm : 5.60 , current value : 4854.07 , current cash : 11828.07
+2012-06-15, BUY EXECUTED, 1, Price: 6092.00, Value: -7001.00, Comm : 137.89, current value : 5598.17, current cash : 5598.17
+2012-06-27, SELL EXECUTED, -1, Price: 5760.00, Value: -5760.00, Comm : 4.61 , current value : 5642.57 , current cash : 11353.57
+2012-08-24, BUY EXECUTED, 1, Price: 6375.00, Value: -5760.00, Comm : 71.92, current value : 4906.65, current cash : 4906.65
+2012-08-27, BUY EXECUTED, 1, Price: 6449.00, Value: 6449.00, Comm : 5.16, current value : 4946.49, current cash : 3934.14
+2012-10-12, SELL EXECUTED, -1, Price: 7023.00, Value: 6449.00, Comm : 5.62 , current value : 5469.87 , current cash : 5469.87
+2012-10-17, SELL EXECUTED, -1, Price: 6800.00, Value: -6800.00, Comm : 5.44 , current value : 5445.43 , current cash : 12264.43
+2012-11-27, BUY EXECUTED, 1, Price: 7006.00, Value: -6800.00, Comm : 61.36, current value : 5197.07, current cash : 5197.07
+2012-11-28, BUY EXECUTED, 1, Price: 7000.00, Value: 7000.00, Comm : 5.60, current value : 5144.47, current cash : 4141.47
+2012-12-07, SELL EXECUTED, -1, Price: 6739.00, Value: 7000.00, Comm : 5.39 , current value : 4925.08 , current cash : 4925.08
+2012-12-10, SELL EXECUTED, -1, Price: 6808.00, Value: -6808.00, Comm : 5.45 , current value : 4901.63 , current cash : 11727.63
+2013-01-23, BUY EXECUTED, 1, Price: 6528.00, Value: -6808.00, Comm : 65.13, current value : 5134.50, current cash : 5134.50
+2013-01-24, BUY EXECUTED, 1, Price: 6590.00, Value: 6590.00, Comm : 5.27, current value : 5055.23, current cash : 4140.73
+2013-01-30, SELL EXECUTED, -1, Price: 6378.00, Value: 6590.00, Comm : 5.10 , current value : 4912.12 , current cash : 4912.12
+2013-01-31, SELL EXECUTED, -1, Price: 6415.00, Value: -6415.00, Comm : 5.13 , current value : 4784.99 , current cash : 11321.99
+2013-07-25, BUY EXECUTED, 1, Price: 4039.00, Value: -6415.00, Comm : 227.76, current value : 7055.23, current cash : 7055.23
+2013-07-26, BUY EXECUTED, 1, Price: 4032.00, Value: 4032.00, Comm : 3.23, current value : 7052.01, current cash : 6447.21
+2013-08-05, SELL EXECUTED, -1, Price: 4016.00, Value: 4032.00, Comm : 3.21 , current value : 7032.80 , current cash : 7032.80
+2013-08-08, SELL EXECUTED, -1, Price: 3883.00, Value: -3883.00, Comm : 3.11 , current value : 6964.69 , current cash : 10912.69
+2013-08-14, BUY EXECUTED, 1, Price: 4329.00, Value: -3883.00, Comm : 8.12, current value : 6575.57, current cash : 6575.57
+2013-08-15, BUY EXECUTED, 1, Price: 4318.00, Value: 4318.00, Comm : 3.45, current value : 6662.11, current cash : 5924.41
+2013-09-17, SELL EXECUTED, -1, Price: 4365.00, Value: 4318.00, Comm : 3.49 , current value : 6615.62 , current cash : 6615.62
+2013-09-18, SELL EXECUTED, -1, Price: 4378.00, Value: -4378.00, Comm : 3.50 , current value : 6603.12 , current cash : 10990.12
+2013-10-25, BUY EXECUTED, 1, Price: 4562.00, Value: -4378.00, Comm : 36.05, current value : 6392.07, current cash : 6392.07
+2013-11-05, SELL EXECUTED, -1, Price: 4378.00, Value: -4378.00, Comm : 3.50 , current value : 6408.57 , current cash : 10766.57
+2014-02-19, BUY EXECUTED, 1, Price: 4310.00, Value: -4378.00, Comm : 96.26, current value : 6360.31, current cash : 6360.31
+2014-02-20, BUY EXECUTED, 1, Price: 4358.00, Value: 4358.00, Comm : 3.49, current value : 6314.82, current cash : 5703.12
+2014-03-21, SELL EXECUTED, -1, Price: 4113.00, Value: 4358.00, Comm : 3.29 , current value : 6108.53 , current cash : 6108.53
+2014-03-24, SELL EXECUTED, -1, Price: 4155.00, Value: -4155.00, Comm : 3.32 , current value : 6140.21 , current cash : 10260.21
+2014-06-24, BUY EXECUTED, 1, Price: 4337.00, Value: -4155.00, Comm : 79.92, current value : 5843.28, current cash : 5843.28
+2014-06-25, BUY EXECUTED, 1, Price: 4335.00, Value: 4335.00, Comm : 3.47, current value : 5775.82, current cash : 5189.57
+2014-08-08, SELL EXECUTED, -1, Price: 4240.00, Value: 4335.00, Comm : 3.39 , current value : 5741.42 , current cash : 5741.42
+2014-08-11, SELL EXECUTED, -1, Price: 4253.00, Value: -4253.00, Comm : 3.40 , current value : 5736.02 , current cash : 9991.02
+2014-11-20, BUY EXECUTED, 1, Price: 3484.00, Value: -4253.00, Comm : 88.70, current value : 6418.32, current cash : 6418.32
+2014-11-25, BUY EXECUTED, 1, Price: 3497.00, Value: 3497.00, Comm : 2.80, current value : 6432.53, current cash : 5890.98
+2014-12-26, SELL EXECUTED, -1, Price: 3363.00, Value: 3497.00, Comm : 2.69 , current value : 6278.84 , current cash : 6278.84
+2014-12-29, SELL EXECUTED, -1, Price: 3457.00, Value: -3457.00, Comm : 2.77 , current value : 6317.07 , current cash : 9733.07
+2015-01-09, BUY EXECUTED, 1, Price: 3488.00, Value: -3457.00, Comm : 10.40, current value : 6234.68, current cash : 6234.68
+2015-01-12, BUY EXECUTED, 1, Price: 3487.00, Value: 3487.00, Comm : 2.79, current value : 6286.89, current cash : 5708.84
+2015-03-09, SELL EXECUTED, -1, Price: 3474.00, Value: 3487.00, Comm : 2.78 , current value : 6216.11 , current cash : 6216.11
+2015-03-10, SELL EXECUTED, -1, Price: 3422.00, Value: -3422.00, Comm : 2.74 , current value : 6243.37 , current cash : 9635.37
+2015-03-25, BUY EXECUTED, 1, Price: 3633.00, Value: -3422.00, Comm : 13.17, current value : 5989.20, current cash : 5989.20
+2015-03-26, BUY EXECUTED, 1, Price: 3615.00, Value: 3615.00, Comm : 2.89, current value : 6009.30, current cash : 5444.05
+2015-04-27, SELL EXECUTED, -1, Price: 3449.00, Value: 3615.00, Comm : 2.76 , current value : 5817.55 , current cash : 5817.55
+2015-04-28, SELL EXECUTED, -1, Price: 3456.00, Value: -3456.00, Comm : 2.76 , current value : 5720.78 , current cash : 9270.78
+2015-05-04, BUY EXECUTED, 1, Price: 3506.00, Value: -3456.00, Comm : 6.95, current value : 5757.83, current cash : 5757.83
+2015-05-05, BUY EXECUTED, 1, Price: 3524.00, Value: 3524.00, Comm : 2.82, current value : 5777.01, current cash : 5226.41
+2015-06-10, SELL EXECUTED, -1, Price: 3492.00, Value: 3524.00, Comm : 2.79 , current value : 5720.22 , current cash : 5720.22
+2015-06-11, SELL EXECUTED, -1, Price: 3495.00, Value: -3495.00, Comm : 2.80 , current value : 5739.42 , current cash : 9212.42
+2015-08-14, BUY EXECUTED, 1, Price: 3450.00, Value: -3495.00, Comm : 47.50, current value : 5714.92, current cash : 5714.92
+2015-08-17, BUY EXECUTED, 1, Price: 3463.00, Value: 3463.00, Comm : 2.77, current value : 5663.15, current cash : 5192.70
+2015-11-12, SELL EXECUTED, -1, Price: 3244.00, Value: 3463.00, Comm : 2.60 , current value : 5490.56 , current cash : 5490.56
+2015-11-13, SELL EXECUTED, -1, Price: 3238.00, Value: -3238.00, Comm : 2.59 , current value : 5489.97 , current cash : 8725.97
+2015-12-24, BUY EXECUTED, 1, Price: 3228.00, Value: -3238.00, Comm : 29.13, current value : 5468.83, current cash : 5468.83
+2015-12-25, BUY EXECUTED, 1, Price: 3234.00, Value: 3234.00, Comm : 2.59, current value : 5463.25, current cash : 4981.15
+2016-04-07, SELL EXECUTED, -1, Price: 3313.00, Value: 3234.00, Comm : 2.65 , current value : 5542.60 , current cash : 5542.60
+2016-04-08, SELL EXECUTED, -1, Price: 3336.00, Value: -3336.00, Comm : 2.67 , current value : 5540.93 , current cash : 8875.93
+2016-04-14, BUY EXECUTED, 1, Price: 3434.00, Value: -3336.00, Comm : 6.75, current value : 5435.18, current cash : 5435.18
+2016-04-15, BUY EXECUTED, 1, Price: 3435.00, Value: 3435.00, Comm : 2.75, current value : 5433.43, current cash : 4917.18
+2016-05-24, SELL EXECUTED, -1, Price: 3539.00, Value: 3435.00, Comm : 2.83 , current value : 5533.60 , current cash : 5533.60
+2016-05-25, SELL EXECUTED, -1, Price: 3522.00, Value: -3522.00, Comm : 2.82 , current value : 5531.78 , current cash : 9052.78
+2016-06-15, BUY EXECUTED, 1, Price: 3739.00, Value: -3522.00, Comm : 17.78, current value : 5296.00, current cash : 5296.00
+2016-06-16, BUY EXECUTED, 1, Price: 3743.00, Value: 3743.00, Comm : 2.99, current value : 5362.00, current cash : 4731.55
+2016-08-24, SELL EXECUTED, -1, Price: 4183.00, Value: 3743.00, Comm : 3.35 , current value : 5729.66 , current cash : 5729.66
+2016-08-25, SELL EXECUTED, -1, Price: 4155.00, Value: -4155.00, Comm : 3.32 , current value : 5781.33 , current cash : 9881.33
+2016-09-09, BUY EXECUTED, 1, Price: 4339.00, Value: -4155.00, Comm : 15.94, current value : 5526.40, current cash : 5526.40
+2016-09-12, BUY EXECUTED, 1, Price: 4278.00, Value: 4278.00, Comm : 3.42, current value : 5446.97, current cash : 4881.27
+2016-09-19, SELL EXECUTED, -1, Price: 4164.00, Value: 4278.00, Comm : 3.33 , current value : 5405.64 , current cash : 5405.64
+2016-09-20, SELL EXECUTED, -1, Price: 4228.00, Value: -4228.00, Comm : 3.38 , current value : 5389.26 , current cash : 9630.26
+2016-09-26, BUY EXECUTED, 1, Price: 4348.00, Value: -4228.00, Comm : 8.55, current value : 5273.71, current cash : 5273.71
+2016-10-10, SELL EXECUTED, -1, Price: 3920.00, Value: -3920.00, Comm : 3.14 , current value : 5256.57 , current cash : 9190.57
+2016-11-14, BUY EXECUTED, 1, Price: 4254.00, Value: -3920.00, Comm : 30.84, current value : 4905.73, current cash : 4905.73
+2016-11-17, SELL EXECUTED, -1, Price: 3997.00, Value: -3997.00, Comm : 3.20 , current value : 4901.53 , current cash : 8899.53
+2017-02-10, BUY EXECUTED, 1, Price: 4080.00, Value: -3997.00, Comm : 71.21, current value : 4748.32, current cash : 4748.32
+2017-02-16, BUY EXECUTED, 1, Price: 4128.00, Value: 4128.00, Comm : 3.30, current value : 4754.02, current cash : 4125.82
+2017-03-08, SELL EXECUTED, -1, Price: 4081.00, Value: 4128.00, Comm : 3.26 , current value : 4694.75 , current cash : 4694.75
+2017-03-09, SELL EXECUTED, -1, Price: 4043.00, Value: -4043.00, Comm : 3.23 , current value : 4736.52 , current cash : 8734.52
+2017-03-30, BUY EXECUTED, 1, Price: 4143.00, Value: -4043.00, Comm : 20.29, current value : 4571.22, current cash : 4571.22
+2017-03-31, BUY EXECUTED, 1, Price: 4139.00, Value: 4139.00, Comm : 3.31, current value : 4553.91, current cash : 3947.06
+2017-05-02, SELL EXECUTED, -1, Price: 4040.00, Value: 4139.00, Comm : 3.23 , current value : 4465.68 , current cash : 4465.68
+2017-05-03, SELL EXECUTED, -1, Price: 4015.00, Value: -4015.00, Comm : 3.21 , current value : 4465.47 , current cash : 8477.47
+2017-06-08, BUY EXECUTED, 1, Price: 4038.00, Value: -4015.00, Comm : 32.14, current value : 4407.33, current cash : 4407.33
+2017-06-09, BUY EXECUTED, 1, Price: 4037.00, Value: 4037.00, Comm : 3.23, current value : 4348.10, current cash : 3798.55
+2017-06-14, SELL EXECUTED, -1, Price: 3917.00, Value: 4037.00, Comm : 3.13 , current value : 4280.96 , current cash : 4280.96
+2017-06-15, SELL EXECUTED, -1, Price: 3940.00, Value: -3940.00, Comm : 3.15 , current value : 4296.81 , current cash : 8217.81
+2017-08-15, BUY EXECUTED, 1, Price: 3890.00, Value: -3940.00, Comm : 51.18, current value : 4276.63, current cash : 4276.63
+2017-08-16, BUY EXECUTED, 1, Price: 3848.00, Value: 3848.00, Comm : 3.08, current value : 4252.55, current cash : 3696.35
+2017-09-26, SELL EXECUTED, -1, Price: 3804.00, Value: 3848.00, Comm : 3.04 , current value : 4226.51 , current cash : 4226.51
+2017-09-29, SELL EXECUTED, -1, Price: 3823.00, Value: -3823.00, Comm : 3.06 , current value : 4215.45 , current cash : 8046.45
+Calmar:OrderedDict([(datetime.datetime(2008, 8, 31, 0, 0), nan), (datetime.datetime(2008, 9, 30, 0, 0), nan), (datetime.datetime(2008, 10, 31, 0, 0), nan), (datetime.datetime(2008, 11, 30, 0, 0), nan), (datetime.datetime(2008, 12, 31, 0, 0), nan), (datetime.datetime(2009, 1, 31, 0, 0), nan), (datetime.datetime(2009, 2, 28, 0, 0), nan), (datetime.datetime(2009, 3, 31, 0, 0), nan), (datetime.datetime(2009, 4, 30, 0, 0), nan), (datetime.datetime(2009, 5, 31, 0, 0), nan), (datetime.datetime(2009, 6, 30, 0, 0), nan), (datetime.datetime(2009, 7, 31, 0, 0), nan), (datetime.datetime(2009, 8, 31, 0, 0), nan), (datetime.datetime(2009, 9, 30, 0, 0), nan), (datetime.datetime(2009, 10, 31, 0, 0), nan), (datetime.datetime(2009, 11, 30, 0, 0), nan), (datetime.datetime(2009, 12, 31, 0, 0), nan), (datetime.datetime(2010, 1, 31, 0, 0), nan), (datetime.datetime(2010, 2, 28, 0, 0), nan), (datetime.datetime(2010, 3, 31, 0, 0), nan), (datetime.datetime(2010, 4, 30, 0, 0), nan), (datetime.datetime(2010, 5, 31, 0, 0), nan), (datetime.datetime(2010, 6, 30, 0, 0), nan), (datetime.datetime(2010, 7, 31, 0, 0), nan), (datetime.datetime(2010, 8, 31, 0, 0), nan), (datetime.datetime(2010, 9, 30, 0, 0), nan), (datetime.datetime(2010, 10, 31, 0, 0), nan), (datetime.datetime(2010, 11, 30, 0, 0), nan), (datetime.datetime(2010, 12, 31, 0, 0), nan), (datetime.datetime(2011, 1, 31, 0, 0), nan), (datetime.datetime(2011, 2, 28, 0, 0), nan), (datetime.datetime(2011, 3, 31, 0, 0), nan), (datetime.datetime(2011, 4, 30, 0, 0), nan), (datetime.datetime(2011, 5, 31, 0, 0), nan), (datetime.datetime(2011, 6, 30, 0, 0), 0.0006332947046097259), (datetime.datetime(2011, 7, 31, 0, 0), 0.0007465773175703622), (datetime.datetime(2011, 8, 31, 0, 0), 0.0003703108847525896), (datetime.datetime(2011, 9, 30, 0, 0), 0.0002076885759761518), (datetime.datetime(2011, 10, 31, 0, 0), 4.166316687218115e-05), (datetime.datetime(2011, 11, 30, 0, 0), -2.84777646745305e-06), (datetime.datetime(2011, 12, 31, 0, 0), -4.643443508913703e-05), (datetime.datetime(2012, 1, 31, 0, 0), 6.229786834638883e-06), (datetime.datetime(2012, 2, 29, 0, 0), -9.684563254748193e-05), (datetime.datetime(2012, 3, 31, 0, 0), -7.21594813649293e-05), (datetime.datetime(2012, 4, 30, 0, 0), -4.735392912949389e-05), (datetime.datetime(2012, 5, 31, 0, 0), -6.0092493704073574e-05), (datetime.datetime(2012, 6, 30, 0, 0), 9.758035028705668e-06), (datetime.datetime(2012, 7, 31, 0, 0), -5.957506445499317e-06), (datetime.datetime(2012, 8, 31, 0, 0), -1.8365873115003502e-05), (datetime.datetime(2012, 9, 30, 0, 0), -9.178715780717582e-05), (datetime.datetime(2012, 10, 31, 0, 0), -5.301617269860679e-05), (datetime.datetime(2012, 11, 30, 0, 0), -7.994260609232832e-05), (datetime.datetime(2012, 12, 31, 0, 0), -7.954923744171192e-05), (datetime.datetime(2013, 1, 31, 0, 0), -1.4004040409311207e-05), (datetime.datetime(2013, 2, 28, 0, 0), -8.866162401877087e-05), (datetime.datetime(2013, 3, 31, 0, 0), -4.65969277249687e-05), (datetime.datetime(2013, 4, 30, 0, 0), -5.040138622277331e-05), (datetime.datetime(2013, 5, 31, 0, 0), 3.156700365418756e-05), (datetime.datetime(2013, 6, 30, 0, 0), 4.3979055426375715e-05), (datetime.datetime(2013, 7, 31, 0, 0), 0.00010221194363784058), (datetime.datetime(2013, 8, 31, 0, 0), 8.142252289659495e-05), (datetime.datetime(2013, 9, 30, 0, 0), 3.83760748773268e-05), (datetime.datetime(2013, 10, 31, 0, 0), -5.060228320205943e-05), (datetime.datetime(2013, 11, 30, 0, 0), -0.00011268928285411195), (datetime.datetime(2013, 12, 31, 0, 0), -0.0001140271023325207), (datetime.datetime(2014, 1, 31, 0, 0), -6.905724512696687e-05), (datetime.datetime(2014, 2, 28, 0, 0), -9.514439947095491e-05), (datetime.datetime(2014, 3, 31, 0, 0), -0.00017133112276048764), (datetime.datetime(2014, 4, 30, 0, 0), -0.00028178777683477454), (datetime.datetime(2014, 5, 31, 0, 0), -0.00015498298725055606), (datetime.datetime(2014, 6, 30, 0, 0), -0.00019834836659574345), (datetime.datetime(2014, 7, 31, 0, 0), -0.0001289365923312801), (datetime.datetime(2014, 8, 31, 0, 0), -6.999856385296182e-05), (datetime.datetime(2014, 9, 30, 0, 0), -5.817548384706237e-06), (datetime.datetime(2014, 10, 31, 0, 0), 6.053365106921765e-05), (datetime.datetime(2014, 11, 30, 0, 0), 0.00013049031979719212), (datetime.datetime(2014, 12, 31, 0, 0), 3.878483681871945e-05), (datetime.datetime(2015, 1, 31, 0, 0), 0.0001299827770207592), (datetime.datetime(2015, 2, 28, 0, 0), 0.00012202635763804604), (datetime.datetime(2015, 3, 31, 0, 0), 9.75902339778287e-05), (datetime.datetime(2015, 4, 30, 0, 0), 5.5694984925285155e-05), (datetime.datetime(2015, 5, 31, 0, 0), -8.668568189921486e-06), (datetime.datetime(2015, 6, 30, 0, 0), 1.9375161103966678e-05), (datetime.datetime(2015, 7, 31, 0, 0), 3.6526533635036545e-05), (datetime.datetime(2015, 8, 31, 0, 0), 7.728559556375263e-05), (datetime.datetime(2015, 9, 30, 0, 0), 7.096741123593466e-06), (datetime.datetime(2015, 10, 31, 0, 0), 1.782835005667037e-05), (datetime.datetime(2015, 11, 30, 0, 0), 5.1632830732285374e-05), (datetime.datetime(2015, 12, 31, 0, 0), -5.330372661930178e-06), (datetime.datetime(2016, 1, 31, 0, 0), 5.676627676891288e-05), (datetime.datetime(2016, 2, 29, 0, 0), 1.2248431582101568e-05), (datetime.datetime(2016, 3, 31, 0, 0), 4.661941376368625e-06), (datetime.datetime(2016, 4, 30, 0, 0), -7.254520625952128e-05), (datetime.datetime(2016, 5, 31, 0, 0), -7.20771679292483e-05), (datetime.datetime(2016, 6, 30, 0, 0), -0.0001293095302201714), (datetime.datetime(2016, 7, 31, 0, 0), -0.00010066871879525478), (datetime.datetime(2016, 8, 31, 0, 0), -8.465278254406196e-05), (datetime.datetime(2016, 9, 30, 0, 0), -5.882296170292463e-05), (datetime.datetime(2016, 10, 31, 0, 0), -9.962695765291287e-05), (datetime.datetime(2016, 11, 30, 0, 0), -0.0001325571573510211), (datetime.datetime(2016, 12, 31, 0, 0), -0.00015534862671213236), (datetime.datetime(2017, 1, 31, 0, 0), -0.00015653587841886983), (datetime.datetime(2017, 2, 28, 0, 0), -0.00013513700908656168), (datetime.datetime(2017, 3, 31, 0, 0), -0.00012403736335663657), (datetime.datetime(2017, 4, 30, 0, 0), -0.00014198796545732584), (datetime.datetime(2017, 5, 31, 0, 0), -0.00015404725664808206), (datetime.datetime(2017, 6, 30, 0, 0), -0.0001234210976475533), (datetime.datetime(2017, 7, 31, 0, 0), -0.00013706378142225612), (datetime.datetime(2017, 8, 31, 0, 0), -0.0001314373764699983), (datetime.datetime(2017, 9, 30, 0, 0), -0.0001569427421768052), (datetime.datetime(2017, 10, 31, 0, 0), -0.00019691305155994637), (datetime.datetime(2017, 11, 30, 0, 0), -0.00018437374395549263)])
+DW:AutoOrderedDict([('len', 1589), ('drawdown', 63.68697651846947), ('moneydown', 7351.010799999898), ('max', AutoOrderedDict([('len', 1589), ('drawdown', 64.13699872440735), ('moneydown', 7402.954199999892)]))])
+AnnualReturn:OrderedDict([(2008, 0.07933876000000217), (2009, 0.097918840605705), (2010, 0.39773299220111835), (2011, -0.2752824939630454), (2012, -0.09561833002140252), (2013, 0.23553619631351408), (2014, -0.06290088509488068), (2015, -0.13404671372559218), (2016, -0.10401770856975312), (2017, -0.1404300731617194)])
+PeriodStats:OrderedDict([('average', -0.0001769415416053688), ('stddev', 0.1915567556702606), ('positive', 4), ('negative', 6), ('nochange', 0), ('best', 0.39773299220111835), ('worst', -0.2752824939630454)])
+Returns:OrderedDict([('rtot', -0.17640372574835533), ('ravg', -7.864633336975271e-05), ('rnorm', -0.019623773118616024), ('rnorm100', -1.9623773118616024)])
+TradeAnalyzer:AutoOrderedDict([('total', AutoOrderedDict([('total', 71), ('open', 1), ('closed', 70)])), ('streak', AutoOrderedDict([('won', AutoOrderedDict([('current', 0), ('longest', 3)])), ('lost', AutoOrderedDict([('current', 12), ('longest', 12)]))])), ('pnl', AutoOrderedDict([('gross', AutoOrderedDict([('total', 1336.0), ('average', 19.085714285714285)])), ('net', AutoOrderedDict([('total', -773.4894000000002), ('average', -11.049848571428575)]))])), ('won', AutoOrderedDict([('total', 18), ('pnl', AutoOrderedDict([('total', 10554.713599999997), ('average', 586.3729777777776), ('max', 2143.1118000000006)]))])), ('lost', AutoOrderedDict([('total', 52), ('pnl', AutoOrderedDict([('total', -11328.202999999996), ('average', -217.85005769230762), ('max', -1096.7322)]))])), ('long', AutoOrderedDict([('total', 33), ('pnl', AutoOrderedDict([('total', 2806.976), ('average', 85.05987878787879), ('won', AutoOrderedDict([('total', 6364.792799999999), ('average', 530.3993999999999), ('max', 2044.6664)])), ('lost', AutoOrderedDict([('total', -3557.8168), ('average', -169.41984761904763), ('max', -626.172)]))])), ('won', 12), ('lost', 21)])), ('short', AutoOrderedDict([('total', 37), ('pnl', AutoOrderedDict([('total', -3580.4653999999996), ('average', -96.76933513513512), ('won', AutoOrderedDict([('total', 4189.920800000001), ('average', 698.3201333333335), ('max', 2143.1118000000006)])), ('lost', AutoOrderedDict([('total', -7770.386200000002), ('average', -250.65761935483877), ('max', -1096.7322)]))])), ('won', 6), ('lost', 31)])), ('len', AutoOrderedDict([('total', 2063), ('average', 29.47142857142857), ('max', 113), ('min', 2), ('won', AutoOrderedDict([('total', 944), ('average', 52.44444444444444), ('max', 113), ('min', 4)])), ('lost', AutoOrderedDict([('total', 1119), ('average', 21.51923076923077), ('max', 70), ('min', 2)])), ('long', AutoOrderedDict([('total', 989), ('average', 29.96969696969697), ('max', 113), ('min', 3), ('won', AutoOrderedDict([('total', 606), ('average', 50.5), ('max', 113), ('min', 4)])), ('lost', AutoOrderedDict([('total', 383), ('average', 18.238095238095237), ('max', 56), ('min', 3)]))])), ('short', AutoOrderedDict([('total', 1074), ('average', 29.027027027027028), ('max', 112), ('min', 2), ('won', AutoOrderedDict([('total', 338), ('average', 56.333333333333336), ('max', 112), ('min', 14)])), ('lost', AutoOrderedDict([('total', 736), ('average', 23.741935483870968), ('max', 70), ('min', 2)]))]))]))])
+SQN:AutoOrderedDict([('sqn', -0.17885193260670684), ('trades', 70)])
+SharpeRatio:OrderedDict([('sharperatio', -0.053127552228560526)])

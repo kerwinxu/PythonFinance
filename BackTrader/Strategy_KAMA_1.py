@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-12-14 23:12:26
+# Last Change:  2017-12-18 21:35:56
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -35,7 +35,6 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
 
         # 我暂时的判断是当自适应均线拐角向上的时候，买入
         if self.kama[0] > self.kama[-1] and self.kama[-2] > self.kama[-1]:
-            import ipdb; ipdb.set_trace()  # XXX BREAKPOINT
             self.order = self.buy()
             pass
         elif self.kama[0] < self.kama[-1] and self.kama[-2] < self.kama[-1]:
@@ -59,7 +58,7 @@ if __name__ == '__main__':
     cerebro.addstrategy(Strategy_KAMA)
 
     # Set our desired cash start
-    cerebro.set_cash(2000.0)
+    cerebro.set_cash(5000.0)
 
     cerebro.show_analyzer(cerebro.run())
 
