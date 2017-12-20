@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-12-19 22:42:32
+# Last Change:  2017-12-20 20:11:59
 # File Name: sample1.py
 
 # import os.path  # To manage paths
