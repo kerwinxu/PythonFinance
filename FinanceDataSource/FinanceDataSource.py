@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2017-10-01 14:58:36
+# Last Change:  2017-12-28 22:27:13
 # File Name: init_data.py
 
 """
@@ -54,6 +54,12 @@ tonghuashun_AUUSDO = "AUUSDO"   # 伦敦金
 tonghuashun_USDIND = "USDIND"   # 美元指数
 tonghuashun_AGTD = "AGTD"       # 上海黄金交易所的白银TD
 tonghuashun_AUTD = "AUTD"       # 上海黄金交易所的黄金TD
+
+# 规范k线名称
+str_open = 'Open'
+str_close = 'Close'
+str_high = 'High'
+str_low = 'Low'
 
 tonghuashun_dict_columns = {
     "时间": "Date",
