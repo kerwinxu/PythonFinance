@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-12-18 21:35:56
+# Last Change:  2017-12-20 22:54:01
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -53,7 +53,7 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
 
 if __name__ == '__main__':
     # Create a cerebro entity
-    cerebro = CerebroBase.CerebroAGTD()
+    cerebro = CerebroBase.CerebroAUTD()
     # Add a strategy
     cerebro.addstrategy(Strategy_KAMA)
 

@@ -1,0 +1,6 @@
+> e:\program\python\pythonfinance\backtrader\cerebrobase.py(132)__init__()
+    131         import ipdb; ipdb.set_trace()  # XXX BREAKPOINT
+--> 132         self.cerebro.broker.setcommission(
+    133             # automargin=0.15,  # 保证金比例
+
+ipdb> 

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-12-17 20:52:22
+# Last Change:  2017-12-21 10:09:29
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -132,7 +132,10 @@ class CerebroAUTD(CerebroBase):
             # automargin=0.15,  # 保证金比例
             commission=0.0008,  # 手续费，记得是万分之8
             leverage = 100/15,  # 这个才是真正的杠杆，15%的保证金相当于100 / 15的杠杆
-            interest=0.073  # 递延费，记得是万分之8， * 365 = 0.073
+            interest=0.073,   # 递延费，记得是万分之8， * 365 = 0.073
+            # mult = 100, # 这个应该是一手是多少克吧, 但是却不成功。
+            # automargin = -1,    # Use param mult * price if automargin < 0 , 不能实现一手是100克。
+
         )
 
 class BrokerSGE(bt.broker.BrokerBase):
