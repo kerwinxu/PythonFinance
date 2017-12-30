@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2017-12-30 10:03:33
+# Last Change:  2017-12-30 10:42:32
 """@File Name: AUTD_up_down.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2017-12-28 20:58:42
@@ -108,6 +108,6 @@ def get_zip_all(dataframe, k=FinanceDataSource.str_close, ratio=2):
         Raises	 :
     """
     _lst = get_zip(dataframe, k, ratio)
-    _lst = get_zip_ratio?!?jedi=0, (_lst)?!? (lst, *_*ratio*_*) ?!?jedi?!?
+    _lst = get_zip_ratio(_lst)
     _lst = get_zip_result(_lst, ratio)
     return _lst
