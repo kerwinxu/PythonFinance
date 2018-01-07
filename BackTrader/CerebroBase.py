@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-11-08 19:26:07
-# Last Change:  2017-12-21 10:09:29
+# Last Change:  2018-01-07 20:59:22
 # File Name: CerebroBase.py
 
 import backtrader as bt
@@ -33,9 +33,9 @@ class CerebroBase(object):
         """设置策略"""
         self.cerebro.addstrategy(strategy_, *args, ** kwargs)
 
-    def adddata(self, data_):
+    def adddata(self, data_, name=None):
         """设置数据"""
-        self.cerebro.adddata(data_)
+        self.cerebro.adddata(data_, name=name)
 
     def set_cash(self, cash_=10000):
         """设置起始金额，默认为10000"""
@@ -138,5 +138,38 @@ class CerebroAUTD(CerebroBase):
 
         )
 
-class BrokerSGE(bt.broker.BrokerBase):
-    pass
+class CereborAGE(CerebroBase):
+    """
+    我封装的上海黄金交易所信息。
+    Attributes	:
+    functions	:
+
+    """
+    def __init__(self):
+        super(CereborAGE, self).__init__()
+
+        dataframe_AUTD = FinanceDataSource.get_data(
+            FinanceDataSource.str_tonghuashun,
+            FinanceDataSource.tonghuashun_AUTD)
+        dataframe_AGTD = FinanceDataSource.get_data(
+            FinanceDataSource.str_tonghuashun,
+            FinanceDataSource.tonghuashun_AGTD)
+
+        dataframe_AUTD['openinterest'] = 0
+        dataframe_AGTD['openinterest'] = 0
+
+        data_AUTD = bt.feeds.PandasData(dataname=dataframe_AUTD)
+        data_AGTD = bt.feeds.PandasData(dataname=dataframe_AGTD)
+
+        self.adddata(data_AUTD, name="AUTD")
+        self.adddata(data_AGTD, name="AGTD")
+        # 如下是佣金
+        self.cerebro.broker.setcommission(
+            # automargin=0.15,  # 保证金比例
+            commission=0.0008,  # 手续费，记得是万分之8
+            leverage = 100/15,  # 这个才是真正的杠杆，15%的保证金相当于100 / 15的杠杆
+            interest=0.073,   # 递延费，记得是万分之8， * 365 = 0.073
+            # mult = 100, # 这个应该是一手是多少克吧, 但是却不成功。
+            # automargin = -1,    # Use param mult * price if automargin < 0 , 不能实现一手是100克。
+        )
+

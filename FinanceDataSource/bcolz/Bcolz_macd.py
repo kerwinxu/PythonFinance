@@ -19,5 +19,6 @@ class Bcolz_macd(iBcolz):
 
 _b = Bcolz_macd()
 _b.add_indicator()
+import ipdb; ipdb.set_trace()  # XXX BREAKPOINT
 print(_b)
 _b.flush()
