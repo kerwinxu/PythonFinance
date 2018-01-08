@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2017-12-28 22:27:13
+# Last Change:  2018-01-08 20:38:24
 # File Name: init_data.py
 
 """
@@ -18,6 +18,9 @@ import pandas
 import os
 import chardet
 import numpy as np
+from rqalpha.data.data_proxy import DataProxy
+
+rqalpha_data_proxy = DataProxy(r"E:\home\kerwin\.rqalpha\bundle\stocks.bcolz")
 
 
 # 这里只需要定义符号就可以了
@@ -172,5 +175,16 @@ def init_data():
                 print("暂停3秒钟")
                 time.sleep(3)
 
+def get_XSHE(symbol):
+    """
+        Description : 取得深交所股票信息
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    pass
+
+
 if __name__ == "__main__":
-    init_data()
+    # init_data()
+    pass
