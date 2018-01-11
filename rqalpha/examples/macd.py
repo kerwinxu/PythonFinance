@@ -1,5 +1,6 @@
 from rqalpha.api import *
 
+# Last Change:  2018-01-10 13:49:57
 import talib
 
 
@@ -12,11 +13,24 @@ def init(context):
     context.LONGPERIOD = 26
     context.SMOOTHPERIOD = 9
     context.OBSERVATION = 100
+    context.TIME_PERIOD = 14
+    # 我这里要试试一开始就计算macd
+    _prices= get_bars_all(context.s1, '1d', "close")
+    # 用Talib计算MACD取值，得到三个时间序列数组，分别为macd, signal 和 hist
+    _macd, _signal, _hist = talib.MACD(_prices, context.SHORTPERIOD,
+                                    context.LONGPERIOD, context.SMOOTHPERIOD)
+    rsi_data = talib.RSI(_prices, timeperiod=context.TIME_PERIOD)
+    add_indicator(context.s1, '1d', "rsi", rsi_data)
 
 
 # 你选择的证券的数据更新将会触发此段逻辑，例如日或分钟历史数据切片或者是实时数据切片更新
 def handle_bar(context, bar_dict):
     # 开始编写你的主要的算法逻辑
+    # import datetime
+    # _data = get_bars_all(context.s1, dt=datetime.datetime.now())
+    # logger.info("length:" + str(len(_data)))
+    _macd = history_bars(context.s1, 1, '1d', 'rsi')
+    logger.info(_macd)
 
     # bar_dict[order_book_id] 可以拿到某个证券的bar信息
     # context.portfolio 可以拿到现在的投资组合状态信息

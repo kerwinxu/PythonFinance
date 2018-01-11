@@ -40,13 +40,12 @@ class Strategy_MACD(StrategyBase.StrategyBase):
         ('atrdist', 2),   # ATR distance for stop price
         ('smaperiod', 30),  # SMA Period (pretty standard)
         ('dirperiod', 10),  # Lookback period to consider SMA trend direction
-        ('atr_open', 0.5), # 我计算出每个加仓位置，这里表示多少个ATR。
+        ('atr_open', 0.5),  # 我计算出每个加仓位置，这里表示多少个ATR。
         ('ratio1', 0.2),
         ('ratio2', 0.1),
         ('ratio3', 0.1),
         ('ratio4', 0.1),
     )
-
 
     def __init__(self):
         self.macd = bt.indicators.MACD(self.data,

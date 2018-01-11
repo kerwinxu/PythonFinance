@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-08 20:38:24
+# Last Change:  2018-01-11 09:44:49
 # File Name: init_data.py
 
 """
@@ -18,10 +18,12 @@ import pandas
 import os
 import chardet
 import numpy as np
-from rqalpha.data.data_proxy import DataProxy
 
-rqalpha_data_proxy = DataProxy(r"E:\home\kerwin\.rqalpha\bundle\stocks.bcolz")
-
+from rqalpha_data import get_bars_all as get_cn_bars_all
+from rqalpha_data import get_bars as get_cn_bars
+from rqalpha_data import get_bar as get_cn_bar
+from rqalpha_data import history_bars as get_cn_history_bars
+from rqalpha_data import is_trading_date as is_cn_trading_date
 
 # 这里只需要定义符号就可以了
 # quandl的符号相关
@@ -175,16 +177,31 @@ def init_data():
                 print("暂停3秒钟")
                 time.sleep(3)
 
-def get_XSHE(symbol):
-    """
-        Description : 取得深交所股票信息
-        Arg :
-        Returns :
-        Raises	 :
-    """
-    pass
+# def get_bars_all(order_book_id,
+             # dt,
+             # frequency='1d',
+             # fields=None,
+             # skip_suspended=True,
+             # include_now=False,
+             # adjust_type='pre',
+             # adjust_orig=None,
+             # convert_to_dataframe=False):
+    # return datasource.get_bars_all(order_book_id=order_book_id,
+                               # dt=dt,
+                               # frequency=frequency,
+                               # fields=fields,
+                               # skip_suspended=skip_suspended,
+                               # include_now=include_now,
+                               # adjust_type=adjust_type,
+                               # adjust_orig=adjust_orig,
+                               # convert_to_dataframe=convert_to_dataframe)
 
 
 if __name__ == "__main__":
     # init_data()
+    # print(get_all_instruments('CS'))
+    df = get_cn_bars('600469.XSHG', '2017-11-01', 5, fields=['datetime', 'open', 'close'])
+    print(df)
+    df = get_cn_bars_all('600469.XSHG', '2017-11-01', fields=['datetime', 'open', 'close'])
+    print(df)
     pass
