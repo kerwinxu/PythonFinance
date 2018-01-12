@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-01-12 10:00:16
+# Last Change:  2018-01-12 20:38:22
 """@File Name: example.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-01-10 21:18:00
@@ -70,6 +70,9 @@ def init(context):
     context.TIME_PERIOD = 5
     # 获得所有股票，
     _all_cn_stock  = list(all_instruments('CS')['order_book_id'])
+    # 删除ST股票, 不对ST股票做回测。
+    _all_cn_stock = [_stock for _stock in _all_cn_stock if not is_st_stock(_stock, 1)]
+
     for _book_id in _all_cn_stock:
         # 在这里添加指标的相关数据
         # 如下先取得K线数据
@@ -139,5 +142,11 @@ config = {
     }
 }
 
+
+import datetime
+starttime = datetime.datetime.now()
 # 您可以指定您要传递的参数
 run_func(init=init, before_trading=before_trading, handle_bar=handle_bar, config=config)
+
+endtime = datetime.datetime.now()
+print("程序运行时间：" + str((endtime - starttime).seconds))
