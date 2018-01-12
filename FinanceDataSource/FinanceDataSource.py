@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-11 09:44:49
+# Last Change:  2018-01-12 00:20:00
 # File Name: init_data.py
 
 """
@@ -18,6 +18,7 @@ import pandas
 import os
 import chardet
 import numpy as np
+import tushare as ts
 
 from rqalpha_data import get_bars_all as get_cn_bars_all
 from rqalpha_data import get_bars as get_cn_bars
@@ -78,7 +79,7 @@ tonghuashun_dict_columns = {
     "金额": "Amount",
     "换手%": "ChangedHand",
     "成交次数": "VolAmount",
-    "未平仓合约":"OpenInterest",
+    "未平仓合约": "OpenInterest",
 }
 
 
@@ -140,11 +141,11 @@ def get_tonghuashun_data(symbol):
     f = open(path, encoding=charenc)
     # 因为同花顺的日期格式有些不同，1994-09-12,一
     # 这里还得对时间进行转换，因为metalotlib不认这个时间格式啊。
-    data = pandas.read_csv(f, sep='\t', parse_dates=["时间"], index_col="时间", date_parser=strftime,thousands=',', dtype={
-        "开盘":np.float64,
-        "最高":np.float64,
-        "最低":np.float64,
-        "收盘":np.float64
+    data = pandas.read_csv(f, sep='\t', parse_dates=["时间"], index_col="时间", date_parser=strftime, thousands=',', dtype={
+        "开盘": np.float64,
+        "最高": np.float64,
+        "最低": np.float64,
+        "收盘": np.float64
         # "总手":np.float64,
         # "金额":np.float64
     })
@@ -177,31 +178,22 @@ def init_data():
                 print("暂停3秒钟")
                 time.sleep(3)
 
-# def get_bars_all(order_book_id,
-             # dt,
-             # frequency='1d',
-             # fields=None,
-             # skip_suspended=True,
-             # include_now=False,
-             # adjust_type='pre',
-             # adjust_orig=None,
-             # convert_to_dataframe=False):
-    # return datasource.get_bars_all(order_book_id=order_book_id,
-                               # dt=dt,
-                               # frequency=frequency,
-                               # fields=fields,
-                               # skip_suspended=skip_suspended,
-                               # include_now=include_now,
-                               # adjust_type=adjust_type,
-                               # adjust_orig=adjust_orig,
-                               # convert_to_dataframe=convert_to_dataframe)
-
+def get_hs300():
+    """
+        Description : 获得深沪300股的成分股而已。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    return list(ts.get_hs300s()['code'])
 
 if __name__ == "__main__":
     # init_data()
     # print(get_all_instruments('CS'))
-    df = get_cn_bars('600469.XSHG', '2017-11-01', 5, fields=['datetime', 'open', 'close'])
+    df = get_cn_bars('600469.XSHG', '2017-11-01', 5,
+                     fields=['datetime', 'open', 'close'])
     print(df)
-    df = get_cn_bars_all('600469.XSHG', '2017-11-01', fields=['datetime', 'open', 'close'])
+    df = get_cn_bars_all('600469.XSHG', '2017-11-01',
+                         fields=['datetime', 'open', 'close'])
     print(df)
     pass
