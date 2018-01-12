@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-01-12 20:38:22
+# Last Change:  2018-01-12 22:52:02
 """@File Name: example.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-01-10 21:18:00
@@ -59,6 +59,21 @@ sys.path.append(
         "../FinanceDataSource"))
 import  FinanceDataSource
 
+import datetime
+
+def is_predate_listed_date(book_id, days):
+    """
+        Description : 判断某个股票上市日期是否大于多少天
+        Arg :
+            @book_id : 股票ID
+            @days : 天数
+        Returns :
+        Raises	 :
+    """
+    _instrument = instruments(book_id)
+    _listed_date = _instrument.listed_date
+    return (datetime.datetime.now() - _listed_date).days > days
+
 def init(context):
     """
         Description : 程序初始化
@@ -71,7 +86,8 @@ def init(context):
     # 获得所有股票，
     _all_cn_stock  = list(all_instruments('CS')['order_book_id'])
     # 删除ST股票, 不对ST股票做回测。
-    _all_cn_stock = [_stock for _stock in _all_cn_stock if not is_st_stock(_stock, 1)]
+    # 上市90天的股票不做回测，因为前几天都是疯涨。然后暴跌。
+    _all_cn_stock = [_stock for _stock in _all_cn_stock if not is_st_stock(_stock, 1) and is_predate_listed_date(_stock, 90)]
 
     for _book_id in _all_cn_stock:
         # 在这里添加指标的相关数据
