@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 20:47:16
-# Last Change:  2017-10-07 20:27:14
+# Last Change:  2018-01-13 16:33:28
 # File Name: simple_1.py
 
 from matplotlib.dates import DateFormatter, WeekdayLocator,\
@@ -15,7 +15,7 @@ import pylab
 import numpy as np
 
 
-def candlestick_ohlc(dat, stick="day", shareseries=None, otherseries=None):
+def candlestickohlc(dat, stick="day", shareseries=None, otherseries=None):
     """
     这个方法用来绘制k线图的，现在已经可以显示k线图，附加在主图上的指标和其他单独显示的字表。
         :param dat: pandas DataFrame object with datetime64 index, and float columns "Open", "High", "Low", and "Close", likely created via DataReader from "yahoo"
@@ -128,8 +128,8 @@ def candlestick_ohlc(dat, stick="day", shareseries=None, otherseries=None):
 
     # Create the candelstick chart
     candlestick_ohlc(ax, list(zip(list(pylab.date2num(plotdat.index.tolist())), plotdat["Open"].tolist(), plotdat["High"].tolist(),
-                                  plotdat["Low"].tolist(), plotdat["Close"].tolist())),
-                     colorup="red", colordown="green", width=stick * .4)
+                                  plotdat["Low"].tolist(), plotdat["Close"].tolist())),)
+                     # colorup="red", colordown="green", width=stick * .4)
 
     # Plot other series (such as moving averages) as lines
     if shareseries is not None:
@@ -151,8 +151,13 @@ if __name__ == "__main__":
     # Let's get Apple stock data; Apple's ticker symbol is AAPL
     # First argument is the series we want, second is the source ("yahoo" for Yahoo! Finance), third is the start date, fourth is the end date
     # apple = web.DataReader("AAPL", "yahoo", start, end)
-    import sys
-    sys.path.append("../FinanceDataSource")
+    import sys, os
+    sys.path.append(
+        os.path.join(
+            os.path.dirname(
+                os.path.realpath(__file__)),
+            "../FinanceDataSource"))
+    # sys.path.append("../../FinanceDataSource")
     import FinanceDataSource
     # yahoo_s_p_500 = init_data.get_data(init_data.str_pandas_datareader, init_data.yahoo_s_p_500)
     # pandas_candlestick_ohlc(yahoo_s_p_500)
@@ -161,4 +166,4 @@ if __name__ == "__main__":
     import talib
     data["20d"] = talib.MA(data["Close"].as_matrix(), 20)
     data["120d"] = talib.MA(data["Close"].as_matrix(), 120)
-    candlestick_ohlc(data, stick="day", shareseries=["20d"], otherseries=["20d", "120d"])
+    candlestickohlc(data , shareseries=["20d"], otherseries=["20d", "120d"])
