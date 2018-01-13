@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-12 00:20:00
+# Last Change:  2018-01-13 14:27:26
 # File Name: init_data.py
 
 """
@@ -25,6 +25,10 @@ from rqalpha_data import get_bars as get_cn_bars
 from rqalpha_data import get_bar as get_cn_bar
 from rqalpha_data import history_bars as get_cn_history_bars
 from rqalpha_data import is_trading_date as is_cn_trading_date
+from rqalpha_data import get_all_instruments as get_cn_all_instruments
+
+
+from rqalpha.api import all_instruments # 所有合约基础信息
 
 # 这里只需要定义符号就可以了
 # quandl的符号相关
@@ -61,6 +65,8 @@ tonghuashun_USDIND = "USDIND"   # 美元指数
 tonghuashun_AGTD = "AGTD"       # 上海黄金交易所的白银TD
 tonghuashun_AUTD = "AUTD"       # 上海黄金交易所的黄金TD
 
+str_cn_stock = "CN_STOCK"   # 中国股市
+
 # 规范k线名称
 str_open = 'Open'
 str_close = 'Close'
@@ -82,6 +88,20 @@ tonghuashun_dict_columns = {
     "未平仓合约": "OpenInterest",
 }
 
+cn_stock_dict_columns = {
+    "时间": "Date",
+    "开盘": "Open",
+    "最高": "High",
+    "最低": "Low",
+    "收盘": "Close",
+    "涨幅": "Increase",
+    "振幅": "Swing",
+    "总手": "Volume",
+    "金额": "Amount",
+    "换手%": "ChangedHand",
+    "成交次数": "VolAmount",
+    "未平仓合约": "OpenInterest",
+}
 
 def get_csv_file_name(data_supplier, symbol, ext='csv'):
     """
@@ -101,8 +121,23 @@ def get_data(data_supplier, symbol):
     # 如果是同花顺，就调用同花顺的方法。
     if (data_supplier == str_tonghuashun):
         return get_tonghuashun_data(symbol)
+    # 如果是中国股市，用rqalpha_data的吧。
+    if(data_supplier==str_cn_stock):
+        return get_cn_stock_data(symbol)
     return pandas.read_csv(get_csv_file_name(data_supplier, symbol), parse_dates=True, index_col="Date")
 
+def get_cn_stock_data(symbol):
+    """
+        Description : 取得股票数据
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    _data = get_cn_bars_all(symbol,
+                            dt = datetime.datetime.now(),
+                            convert_to_dataframe = True)
+    return _data
+    pass
 
 def yahoo_download_data(stock_name):
     start = datetime.datetime(2000, 1, 1)
@@ -189,11 +224,12 @@ def get_hs300():
 
 if __name__ == "__main__":
     # init_data()
-    # print(get_all_instruments('CS'))
-    df = get_cn_bars('600469.XSHG', '2017-11-01', 5,
-                     fields=['datetime', 'open', 'close'])
-    print(df)
-    df = get_cn_bars_all('600469.XSHG', '2017-11-01',
-                         fields=['datetime', 'open', 'close'])
-    print(df)
+    # df = get_cn_bars('600469.XSHG', '2017-11-01', 5,
+                     # fields=['datetime', 'open', 'close'])
+    # print(df)
+    # df = get_cn_bars_all('600469.XSHG', '2017-11-01',
+                         # fields=['datetime', 'open', 'close'])
+    # print(df)
+    # print(get_data(str_cn_stock, '600469.XSHG'))
+    print(get_cn_all_instruments('CS'))
     pass

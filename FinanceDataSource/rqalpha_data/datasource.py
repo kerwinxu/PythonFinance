@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Last Change:  2018-01-11 09:46:52
+# Last Change:  2018-01-13 14:44:45
 import os
 import datetime
 import pandas as pd
@@ -184,16 +184,14 @@ class DataSource(DataProxy):
 
         return bars
 
-datasource = DataSource()
 
+datasource = DataSource()
 
 def is_trading_date(date):
     datasource.is_trading_date(date)
 
-
 def get_bar(order_book_id, dt, frequency='1d'):
     return datasource.get_bar(order_book_id=order_book_id, dt=dt, frequency=frequency)
-
 
 def history_bars(
         order_book_id,
@@ -214,7 +212,6 @@ def history_bars(
                                    include_now=include_now,
                                    adjust_type=adjust_type,
                                    adjust_orig=adjust_orig)
-
 
 def get_bars(order_book_id,
              dt,
@@ -255,3 +252,79 @@ def get_bars_all(order_book_id,
                                adjust_type=adjust_type,
                                adjust_orig=adjust_orig,
                                convert_to_dataframe=convert_to_dataframe)
+
+def get_all_instruments(type=None, date=None):
+    """
+    获取某个国家市场的所有合约信息。使用者可以通过这一方法很快地对合约信息有一个快速了解，目前仅支持中国市场。
+
+    :param str type: 需要查询合约类型，例如：type='CS'代表股票。默认是所有类型
+
+    :param date: 查询时间点
+    :type date: `str` | `datetime` | `date`
+
+
+    :return: `pandas DataFrame` 所有合约的基本信息。
+
+    其中type参数传入的合约类型和对应的解释如下：
+
+    =========================   ===================================================
+    合约类型                      说明
+    =========================   ===================================================
+    CS                          Common Stock, 即股票
+    ETF                         Exchange Traded Fund, 即交易所交易基金
+    LOF                         Listed Open-Ended Fund，即上市型开放式基金
+    FenjiMu                     Fenji Mu Fund, 即分级母基金
+    FenjiA                      Fenji A Fund, 即分级A类基金
+    FenjiB                      Fenji B Funds, 即分级B类基金
+    INDX                        Index, 即指数
+    Future                      Futures，即期货，包含股指、国债和商品期货
+    hour                        int - option [1,4]
+    minute                      int - option [1,240]
+    =========================   ===================================================
+
+    :example:
+
+    获取中国市场所有分级基金的基础信息:
+
+    ..  code-block:: python3
+        :linenos:
+
+        [In]all_instruments('FenjiA')
+        [Out]
+            abbrev_symbol    order_book_id    product    sector_code  symbol
+        0    CYGA    150303.XSHE    null    null    华安创业板50A
+        1    JY500A    150088.XSHE    null    null    金鹰500A
+        2    TD500A    150053.XSHE    null    null    泰达稳健
+        3    HS500A    150110.XSHE    null    null    华商500A
+        4    QSAJ    150235.XSHE    null    null    鹏华证券A
+        ...
+
+    """
+    if date is None:
+        dt = datetime.datetime.now()
+    else:
+        dt = pd.Timestamp(date).to_pydatetime()
+
+    if type is not None:
+        if isinstance(type, str):
+            type = [type]
+
+        types = set()
+        for t in type:
+            if t == 'Stock':
+                types.add('CS')
+            elif t == 'Fund':
+                types.update(['ETF', 'LOF', 'SF', 'FenjiA', 'FenjiB', 'FenjiMu'])
+            else:
+                types.add(t)
+    else:
+        types = None
+
+    result = [i for i in datasource.all_instruments(types, dt)
+              if i.type != 'CS' or not datasource.is_suspended(i.order_book_id, dt)]
+    if types is not None and len(types) == 1:
+        return pd.DataFrame([i.__dict__ for i in result])
+
+    return pd.DataFrame(
+        [[i.order_book_id, i.symbol, i.type, i.listed_date, i.de_listed_date] for i in result],
+        columns=['order_book_id', 'symbol', 'type', 'listed_date', 'de_listed_date'])
