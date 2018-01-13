@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-13 14:54:01
+# Last Change:  2018-01-13 15:02:25
 # File Name: init_data.py
 
 """
@@ -27,6 +27,7 @@ from rqalpha_data import history_bars as get_cn_history_bars
 from rqalpha_data import is_trading_date as is_cn_trading_date
 from rqalpha_data import get_all_instruments as get_cn_all_instruments
 from rqalpha_data import is_st_stock as is_cn_st_stock
+from rqalpha_data import instruments as get_cn_instruments
 
 
 # 这里只需要定义符号就可以了
@@ -230,5 +231,6 @@ if __name__ == "__main__":
                          # fields=['datetime', 'open', 'close'])
     # print(df)
     # print(get_data(str_cn_stock, '600469.XSHG'))
-    print(get_cn_all_instruments('CS'))
+    # print(get_cn_all_instruments('CS'))
+    print(get_cn_instruments('600469.XSHG'))
     pass

@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Last Change:  2018-01-13 14:53:18
+# Last Change:  2018-01-13 15:01:01
 import os
 import datetime
 import pandas as pd
@@ -330,4 +330,19 @@ def get_all_instruments(type=None, date=None):
         columns=['order_book_id', 'symbol', 'type', 'listed_date', 'de_listed_date'])
 
 def is_st_stock(book_id, date):
+    """
+        Description : 判断是否是ST股票。
+        Arg :
+        Returns :
+        Raises	 :
+    """
     return datasource.is_st_stock(book_id, date)
+
+def instruments(id_or_symbols):
+    """
+        Description : 获得一个或者多个合约的详细信息。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    return datasource.instruments(id_or_symbols)
