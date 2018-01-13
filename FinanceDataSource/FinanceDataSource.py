@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-13 14:27:26
+# Last Change:  2018-01-13 14:54:01
 # File Name: init_data.py
 
 """
@@ -26,9 +26,8 @@ from rqalpha_data import get_bar as get_cn_bar
 from rqalpha_data import history_bars as get_cn_history_bars
 from rqalpha_data import is_trading_date as is_cn_trading_date
 from rqalpha_data import get_all_instruments as get_cn_all_instruments
+from rqalpha_data import is_st_stock as is_cn_st_stock
 
-
-from rqalpha.api import all_instruments # 所有合约基础信息
 
 # 这里只需要定义符号就可以了
 # quandl的符号相关
