@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-13 15:02:25
+# Last Change:  2018-01-15 21:46:33
 # File Name: init_data.py
 
 """
@@ -89,18 +89,13 @@ tonghuashun_dict_columns = {
 }
 
 cn_stock_dict_columns = {
-    "时间": "Date",
-    "开盘": "Open",
-    "最高": "High",
-    "最低": "Low",
-    "收盘": "Close",
-    "涨幅": "Increase",
-    "振幅": "Swing",
-    "总手": "Volume",
-    "金额": "Amount",
-    "换手%": "ChangedHand",
-    "成交次数": "VolAmount",
-    "未平仓合约": "OpenInterest",
+    "date": "Date",
+    "open": "Open",
+    "high": "High",
+    "low": "Low",
+    "close": "Close",
+    "value": "Volume",
+    "total_turnover": "Amount",
 }
 
 def get_csv_file_name(data_supplier, symbol, ext='csv'):
@@ -136,6 +131,7 @@ def get_cn_stock_data(symbol):
     _data = get_cn_bars_all(symbol,
                             dt = datetime.datetime.now(),
                             convert_to_dataframe = True)
+    _data.rename(columns=cn_stock_dict_columns, inplace=True)
     return _data
     pass
 
@@ -213,14 +209,18 @@ def init_data():
                 print("暂停3秒钟")
                 time.sleep(3)
 
-def get_hs300():
+def get_cn_stocks():
     """
-        Description : 获得深沪300股的成分股而已。
+        Description : 取得中国所有可以测试交易的股票列表，去掉ST和刚开市90天的股票。
         Arg :
         Returns :
         Raises	 :
     """
-    return list(ts.get_hs300s()['code'])
+    _all_cn_stock = list(get_cn_all_instruments('CS')['order_book_id'])
+    return [_stock for _stock in _all_cn_stock if
+            not is_cn_st_stock(_stock, 1)
+            and (datetime.datetime.now() - get_cn_instruments(_stock).listed_date).days > 90]
+    pass
 
 if __name__ == "__main__":
     # init_data()
@@ -232,5 +232,7 @@ if __name__ == "__main__":
     # print(df)
     # print(get_data(str_cn_stock, '600469.XSHG'))
     # print(get_cn_all_instruments('CS'))
-    print(get_cn_instruments('600469.XSHG'))
+    # print(get_cn_instruments('600469.XSHG'))
+    # print(get_data(str_tonghuashun, tonghuashun_AGTD))
+    print(get_cn_stocks())
     pass
