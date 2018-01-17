@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-01-12 22:52:02
+# Last Change:  2018-01-17 09:59:36
 """@File Name: example.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-01-10 21:18:00
@@ -50,6 +50,7 @@ from rqalpha.api import add_indicator   # 添加指标
 # logger
 from rqalpha.api import logger
 
+import datetime
 import talib
 import sys, os
 sys.path.append(
@@ -59,7 +60,6 @@ sys.path.append(
         "../FinanceDataSource"))
 import  FinanceDataSource
 
-import datetime
 
 def is_predate_listed_date(book_id, days):
     """
@@ -74,6 +74,7 @@ def is_predate_listed_date(book_id, days):
     _listed_date = _instrument.listed_date
     return (datetime.datetime.now() - _listed_date).days > days
 
+
 def init(context):
     """
         Description : 程序初始化
@@ -84,10 +85,13 @@ def init(context):
     # 这里设置参数
     context.TIME_PERIOD = 5
     # 获得所有股票，
-    _all_cn_stock  = list(all_instruments('CS')['order_book_id'])
+    _all_cn_stock = list(all_instruments('CS')['order_book_id'])
     # 删除ST股票, 不对ST股票做回测。
     # 上市90天的股票不做回测，因为前几天都是疯涨。然后暴跌。
-    _all_cn_stock = [_stock for _stock in _all_cn_stock if not is_st_stock(_stock, 1) and is_predate_listed_date(_stock, 90)]
+    _all_cn_stock = [
+            _stock for _stock in _all_cn_stock
+            if not is_st_stock(_stock, 1)
+            and is_predate_listed_date(_stock, 90)]
 
     for _book_id in _all_cn_stock:
         # 在这里添加指标的相关数据
@@ -109,6 +113,7 @@ def init(context):
     update_universe(_all_cn_stock)
     pass
 
+
 def before_trading(context):
     """
         Description : 每天交易策略开始前被调用。
@@ -117,6 +122,7 @@ def before_trading(context):
         Raises	 :
     """
     pass
+
 
 def handle_bar(context, bar_dict):
     """
@@ -129,6 +135,7 @@ def handle_bar(context, bar_dict):
     logger.info(_ma_5)
     pass
 
+
 def after_trading(context):
     """
         Description : 每天交易结束后调用。
@@ -138,11 +145,12 @@ def after_trading(context):
     """
     pass
 
+
 config = {
     "base": {
         "frequency": "1d",
         "matching_type": "current_bar",
-        "benchmark":"000300.XSHG",
+        "benchmark": "000300.XSHG",
         "accounts": {
             "stock": 10000
         }
@@ -159,10 +167,14 @@ config = {
 }
 
 
-import datetime
+# 如下是运行回测。
 starttime = datetime.datetime.now()
 # 您可以指定您要传递的参数
-run_func(init=init, before_trading=before_trading, handle_bar=handle_bar, config=config)
+run_func(
+        init=init,
+        before_trading=before_trading,
+        handle_bar=handle_bar,
+        config=config)
 
 endtime = datetime.datetime.now()
 print("程序运行时间：" + str((endtime - starttime).seconds))
