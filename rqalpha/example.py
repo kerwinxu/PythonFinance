@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-01-17 09:59:36
+# Last Change:  2018-01-17 10:02:11
 """@File Name: example.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-01-10 21:18:00
@@ -52,13 +52,14 @@ from rqalpha.api import logger
 
 import datetime
 import talib
-import sys, os
+import sys
+import os
 sys.path.append(
     os.path.join(
         os.path.dirname(
             os.path.realpath(__file__)),
         "../FinanceDataSource"))
-import  FinanceDataSource
+import FinanceDataSource
 
 
 def is_predate_listed_date(book_id, days):

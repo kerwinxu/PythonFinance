@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-20 20:49:18
-# Last Change:  2017-12-20 22:54:01
+# Last Change:  2018-01-15 21:20:11
 # File Name: sample1.py
 
 # import os.path  # To manage paths
@@ -49,6 +49,7 @@ class Strategy_KAMA(StrategyBase.StrategyBase):
         else:
             # 到这里往往表示有订单了。
             pass
+        print(1/0)
 
 
 if __name__ == '__main__':

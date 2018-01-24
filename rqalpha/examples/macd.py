@@ -1,6 +1,7 @@
 from rqalpha.api import *
+from rqalpha import run_func
 
-# Last Change:  2018-01-10 13:49:57
+# Last Change:  2018-01-11 22:59:18
 import talib
 
 
@@ -64,3 +65,25 @@ def handle_bar(context, bar_dict):
     if macd[-1] - signal[-1] > 0 and macd[-2] - signal[-2] < 0:
         # 满仓入股
         order_target_percent(context.s1, 1)
+
+config = {
+    "base": {
+        "frequency": "1d",
+        "matching_type": "current_bar",
+        "benchmark": None,
+        "accounts": {
+            "stock": 10000
+        }
+    },
+    "extra": {
+        "log_level": "verbose",
+    },
+    "mod": {
+        "sys_analyser": {
+            "enabled": True,
+            "plot": True
+        }
+    }
+}
+
+run_func(init=init,handle_bar=handle_bar, config=config)

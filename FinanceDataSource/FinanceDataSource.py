@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-15 21:46:33
+# Last Change:  2018-01-20 10:37:02
 # File Name: init_data.py
 
 """
@@ -68,6 +68,7 @@ tonghuashun_AUTD = "AUTD"       # 上海黄金交易所的黄金TD
 str_cn_stock = "CN_STOCK"   # 中国股市
 
 # 规范k线名称
+str_date = "Date"
 str_open = 'Open'
 str_close = 'Close'
 str_high = 'High'
@@ -98,6 +99,7 @@ cn_stock_dict_columns = {
     "total_turnover": "Amount",
 }
 
+
 def get_csv_file_name(data_supplier, symbol, ext='csv'):
     """
     输入数据提供者和符号，取得CSV文件名的
@@ -117,9 +119,10 @@ def get_data(data_supplier, symbol):
     if (data_supplier == str_tonghuashun):
         return get_tonghuashun_data(symbol)
     # 如果是中国股市，用rqalpha_data的吧。
-    if(data_supplier==str_cn_stock):
+    if(data_supplier == str_cn_stock):
         return get_cn_stock_data(symbol)
     return pandas.read_csv(get_csv_file_name(data_supplier, symbol), parse_dates=True, index_col="Date")
+
 
 def get_cn_stock_data(symbol):
     """
@@ -129,11 +132,12 @@ def get_cn_stock_data(symbol):
         Raises	 :
     """
     _data = get_cn_bars_all(symbol,
-                            dt = datetime.datetime.now(),
-                            convert_to_dataframe = True)
+                            dt=datetime.datetime.now(),
+                            convert_to_dataframe=True)
     _data.rename(columns=cn_stock_dict_columns, inplace=True)
     return _data
     pass
+
 
 def yahoo_download_data(stock_name):
     start = datetime.datetime(2000, 1, 1)
@@ -209,6 +213,7 @@ def init_data():
                 print("暂停3秒钟")
                 time.sleep(3)
 
+
 def get_cn_stocks():
     """
         Description : 取得中国所有可以测试交易的股票列表，去掉ST和刚开市90天的股票。
@@ -221,6 +226,7 @@ def get_cn_stocks():
             not is_cn_st_stock(_stock, 1)
             and (datetime.datetime.now() - get_cn_instruments(_stock).listed_date).days > 90]
     pass
+
 
 if __name__ == "__main__":
     # init_data()

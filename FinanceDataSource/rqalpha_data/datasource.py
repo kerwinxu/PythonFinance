@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Last Change:  2018-01-13 15:01:01
+# Last Change:  2018-01-13 20:03:31
 import os
 import datetime
 import pandas as pd
@@ -346,3 +346,12 @@ def instruments(id_or_symbols):
         Raises	 :
     """
     return datasource.instruments(id_or_symbols)
+
+def rqalpha_update():
+    """
+        Description : 更新数据源的
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    return datasource.update()
