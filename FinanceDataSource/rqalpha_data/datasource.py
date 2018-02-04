@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Last Change:  2018-01-13 20:03:31
+# Last Change:  2018-01-30 16:10:23
 import os
 import datetime
 import pandas as pd
@@ -152,7 +152,7 @@ class DataSource(DataProxy):
 
     def get_bars_all(self,
                  order_book_id,
-                 dt,
+                 dt = None,
                  frequency='1d',
                  fields=None,
                  skip_suspended=True,
@@ -161,6 +161,8 @@ class DataSource(DataProxy):
                  adjust_orig=None,
                  convert_to_dataframe=False):
         order_book_id = to_order_book_id(order_book_id)
+        if dt is None:
+            dt = datetime.datetime.now()
         dt = to_date_object(dt)
 
         if fields is None:
@@ -235,7 +237,7 @@ def get_bars(order_book_id,
                                convert_to_dataframe=convert_to_dataframe)
 
 def get_bars_all(order_book_id,
-             dt,
+             dt = None,
              frequency='1d',
              fields=None,
              skip_suspended=True,
@@ -243,6 +245,8 @@ def get_bars_all(order_book_id,
              adjust_type='pre',
              adjust_orig=None,
              convert_to_dataframe=False):
+    if dt is None:
+        dt = datetime.datetime.now()
     return datasource.get_bars_all(order_book_id=order_book_id,
                                dt=dt,
                                frequency=frequency,

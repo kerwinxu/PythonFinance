@@ -12,6 +12,9 @@ import StrategyBase
 # Create a Stratey
 # 这个MACD系统
 class Strategy_MACD(StrategyBase.StrategyBase):
+    """
+
+    """
 
     params = (('fastperiod', 12),
               ('slowperiod', 26),
