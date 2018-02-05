@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-01-20 10:37:02
+# Last Change:  2018-02-05 16:32:28
 # File Name: init_data.py
 
 """
@@ -20,6 +20,7 @@ import chardet
 import numpy as np
 import tushare as ts
 
+# 可以使用rqalpha的数据
 from rqalpha_data import get_bars_all as get_cn_bars_all
 from rqalpha_data import get_bars as get_cn_bars
 from rqalpha_data import get_bar as get_cn_bar
@@ -28,6 +29,23 @@ from rqalpha_data import is_trading_date as is_cn_trading_date
 from rqalpha_data import get_all_instruments as get_cn_all_instruments
 from rqalpha_data import is_st_stock as is_cn_st_stock
 from rqalpha_data import instruments as get_cn_instruments
+
+# 查看tushare的数据
+from tushare_data.tushare_data import get_all_cashflow_data as get_cn_all_cashflow_data
+from tushare_data.tushare_data import get_all_debtpaying_data as get_cn_all_debtpaying_data
+from tushare_data.tushare_data import get_all_finance_data as get_cn_all_finance_data
+from tushare_data.tushare_data import get_all_growth_data as get_cn_all_growth_data
+from tushare_data.tushare_data import get_all_operation_data as get_cn_all_operation_data
+from tushare_data.tushare_data import get_all_profit_data as get_cn_all_profit_data
+from tushare_data.tushare_data import get_all_report_data as get_cn_all_report_data
+from tushare_data.tushare_data import get_finance_data as get_cn_finance_data
+
+from tushare_data.tushare_data import str_cashflow as str_cn_cashflow
+from tushare_data.tushare_data import str_debtpaying as str_cn_debtpaying
+from tushare_data.tushare_data import str_growth as str_cn_growth
+from tushare_data.tushare_data import str_operation as str_cn_operation
+from tushare_data.tushare_data import str_profit as str_cn_profit
+from tushare_data.tushare_data import str_report as str_cn_report
 
 
 # 这里只需要定义符号就可以了
