@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-06 23:05:12
-# Last Change:  2017-11-12 18:26:56
+# Last Change:  2018-02-05 14:02:08
 # File Name: adaptive_ma_1.py
 # 这个是运用Ta-lib中的模式识别来判断。
 
@@ -11,7 +11,6 @@ sys.path.append("../FinanceDataSource")
 import FinanceDataSource
 import numpy as np
 import talib
-
 
 def get_tonghuashun_AGUSDO_data():
     """取得同花顺上的白银数据"""
