@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-02-05 16:12:24
+# Last Change:  2018-02-05 17:32:05
 """@File Name: tushare_data.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-02-04 10:59:51
@@ -29,10 +29,36 @@ str_operation = 'operation'     # 营运能力
 str_growth = 'growth'           # 成长能力
 str_debtpaying = 'debtpaying'   # 偿债能力
 str_cashflow = 'cashflow'       # 现金流。
+str_stock_basic = 'stock_basics'      # 股票的基本情况。
 
 h5_file_path = os.path.join(os.path.dirname(
     os.path.abspath(__file__)), "tushare_data.h5")
 stone = pd.HDFStore(h5_file_path, "a", complevel=9, complib='zlib')
+
+dict_stock_basics = {
+    'name': 'str',
+    'industry': 'str',
+    'area': 'str',
+    'pe': 'float',
+    'outstanding': 'float',
+    'totals': 'float',
+    'totalAssets': 'float',
+    'liquidAssets': 'float',
+    'fixedAssets': 'float',
+    'reserved': 'float',
+    'reservedPerShare': 'float',
+    'esp': 'float',
+    'bvps': 'float',
+    'pb': 'float',
+    'timeToMarket': 'float',
+    'undp': 'float',
+    'perundp': 'float',
+    'rev': 'float',
+    'profit': 'float',
+    'gpr': 'float',
+    'npr': 'float',
+    'holders': 'float',
+}
 
 lst_report_column_name = ['code',
                           'year_quarter',
@@ -414,6 +440,34 @@ def get_finance_data(finance_type, code, year, quarter):
     return stone.select(finance_type, where=[code_where, year_quarter_where])
 
 
+def get_stock_basics(code):
+    """
+        Description : 取得某个股票的基本信息，请注意这个只是取得最近的基本信息。
+        不能设定时间的。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    code_where = 'index=="{}"'.format(get_tushare_code(code))
+    return stone.select(str_stock_basic, where=[code_where])
+
+    pass
+
+
+def init_stock_basics():
+    """
+        Description : 初始化上市公司的基本情况的。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    pf = ts.get_stock_basics()
+    pf = pf.astype(dict_stock_basics, copy=True, errors='ignore')
+    stone.put(str_stock_basic, pf,
+              format='table',
+              data_columns=dict_stock_basics)
+
+
 def init_data():
     """
         Description : 数据的初始化。
@@ -421,6 +475,7 @@ def init_data():
         Returns :
         Raises	 :
     """
+    init_stock_basics()
     start_year = 1990
     end_year = int(datetime.datetime.now().strftime("%Y")) + 1
     for year in range(start_year, end_year):
@@ -440,6 +495,9 @@ def init_data():
 
 
 if __name__ == '__main__':
-    init_data()
+    print(get_stock_basics('000002'))
+    # init_stock_basics()
+    # init_data()
     # print(get_all_finance_data(str_report, '000001'))
     # print(get_finance_data(str_report, '300419', 2014, 3))
+    pass
