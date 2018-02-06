@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-02-05 16:32:28
+# Last Change:  2018-02-06 10:51:22
 # File Name: init_data.py
 
 """
@@ -39,6 +39,7 @@ from tushare_data.tushare_data import get_all_operation_data as get_cn_all_opera
 from tushare_data.tushare_data import get_all_profit_data as get_cn_all_profit_data
 from tushare_data.tushare_data import get_all_report_data as get_cn_all_report_data
 from tushare_data.tushare_data import get_finance_data as get_cn_finance_data
+from tushare_data.tushare_data import get_stock_basics as get_cn_stock_basics
 
 from tushare_data.tushare_data import str_cashflow as str_cn_cashflow
 from tushare_data.tushare_data import str_debtpaying as str_cn_debtpaying
