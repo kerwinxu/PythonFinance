@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-02-05 17:32:05
+# Last Change:  2018-02-06 12:02:17
 """@File Name: tushare_data.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-02-04 10:59:51
@@ -449,9 +449,12 @@ def get_stock_basics(code):
         Raises	 :
     """
     code_where = 'index=="{}"'.format(get_tushare_code(code))
-    return stone.select(str_stock_basic, where=[code_where])
-
-    pass
+    _df = stone.select(str_stock_basic, where=[code_where])
+    _dict = {}
+    _dict['code'] = _df.index[0]
+    for _key in _df.keys():
+        _dict[_key] = _df[_key][0]
+    return _dict
 
 
 def init_stock_basics():
