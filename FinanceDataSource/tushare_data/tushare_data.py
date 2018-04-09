@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-02-06 12:02:17
+# Last Change:  2018-02-07 21:19:38
 """@File Name: tushare_data.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-02-04 10:59:51
@@ -410,6 +410,8 @@ def get_all_finance_data(finance_type, code):
 def get_tushare_code(code):
     """
         Description : 取得tushare接受的code数据。
+            主要是rqalpha的股票代码表示是"000300.XSHG",
+            而tushare需要的仅仅是000300
         Arg :
         Returns :
         Raises	 :
@@ -421,6 +423,144 @@ def get_tushare_code(code):
     # 其他的先做省事吧。
     return code[:6]
     pass
+
+
+def get_quarter(_datetime):
+    """
+        Description : 根据日期返回年份季度
+        Arg :
+        Returns : (年份, 季度)
+        Raises	 :
+    """
+    if (not isinstance(_datetime, datetime.datetime)):
+        return None
+    str_month = _datetime.strftime('%m')
+    str_year = _datetime.strftime("%Y")
+    if str_month in ['01', '02', '03']:
+        return (str_year, '1')
+    elif str_month in ['04', '05', '06']:
+        return (str_year, '2')
+    elif str_month in ['07', '08', '09']:
+        return (str_year, '3')
+    elif str_month in ['10', '11', '12']:
+        return (str_year, '4')
+
+
+def get_quarter_pre(_datetime):
+    """
+        Description : 取得某日期的上一个月份季度。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    year, quarter = get_quarter(_datetime)
+    if year is None:
+        return None
+    if quarter == '1':
+        # 上一年啦。
+        return str(int(year) - 1), '4'
+    else:
+        return year, str(int(quarter) - 1)
+
+
+def get_last_finance_data_2(finance_type, lst_code, dt=None, n=4):
+    """
+        Description : 取得一些股票最近几个季度的财务数据
+        Arg :
+            @finance_type : 财务数据类别
+            @lst_code   : 股票代码
+            @dt     : 日期
+            @n      : 取得的财务报表数量。
+        Returns :
+        Raises	 :
+    """
+    if dt is None:
+        dt = datetime.datetime.now()
+    if (not isinstance(dt, datetime.datetime)):
+        raise NameError('dt参数类型必须是datetime类型')
+    lst_code_where = []
+    for _code in lst_code:
+        lst_code_where.append('(code=="{}")'.format(get_tushare_code(_code)))
+    code_where = ' | '.join(lst_code_where)
+    _df = stone.select(finance_type, where=code_where)
+    # 这时候就得判断日期了。
+    # 取得某个日期的上一个季度的年份季度
+    year, quarter = get_quarter_pre(dt)
+    year_quarter = "{}-{}".format(year, quarter)
+    # 运算季度减法
+    _df['_quarter_sub'] = quarter_sub_func(_df['year_quarter'], year_quarter)
+    # 然后筛选啦
+    return _df.loc[((_df['_quarter_sub'] < 1) & (_df['_quarter_sub'] >= (0 - n)))]
+
+
+def get_last_finance_data(finance_type, code, dt=None, n=4):
+    """
+        Description : 取得某个日期前面的n个财务数据
+        Arg :
+            @finance_type : 财务数据类别
+            @code   : 股票代码
+            @dt     : 日期
+            @n      : 取得的财务报表数量。
+        Returns :
+        Raises	 :
+            @ dt不是datetime类型。
+    """
+    if dt is None:
+        dt = datetime.datetime.now()
+    if (not isinstance(dt, datetime.datetime)):
+        raise NameError('dt参数类型必须是datetime类型')
+    # 股票代码改成tushare能接受的格式。
+    code = get_tushare_code(code)
+    # 组建查询字符串
+    code_where = 'code=="{}"'.format(get_tushare_code(code))
+    # 查询。
+    _df = stone.select(finance_type, where=[code_where])
+    # 这时候就得判断日期了。
+    # 取得某个日期的上一个季度的年份季度
+    year, quarter = get_quarter_pre(dt)
+    year_quarter = "{}-{}".format(year, quarter)
+    # 运算季度减法
+    _df['_quarter_sub'] = quarter_sub_func(_df['year_quarter'], year_quarter)
+    # 取得季度小于等于0的
+    _df = _df[_df['_quarter_sub'] < 1]
+    # 判断是否有超过n个季度的数据。
+    if len(_df) > n:
+        # 取得最后的n项数据。
+        return _df.tail(n)
+    return _df
+
+
+def quarter_sub(quarter_1, quarter_2):
+    """
+        Description : 季度减法。判断2个季度中间相差几个季度。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    # 假设相等，就返回0啦
+    if (quarter_1 == quarter_2):
+        return 0
+    # 这个格式是"2017-1", 表示2017年第一个季度
+    _year_1, _quarter_1 = quarter_1.split('-')
+    _year_2, _quarter_2 = quarter_2.split('-')
+    _year_1 = int(_year_1)
+    _year_2 = int(_year_2)
+    _quarter_1 = int(_quarter_1)
+    _quarter_2 = int(_quarter_2)
+    # 判断年份是否大于吧
+    if _year_1 > _year_2:
+        # 如果大于，就表示是正数了。
+        return (_year_1 - _year_2 - 1) * 4 + _quarter_1 + (4 - _quarter_2)
+    elif _year_1 == _year_2:
+        # 如果是同一年的，就季度相减吧
+        return _quarter_1 - _quarter_2
+    else:
+        # 如果小于的年份
+        return (_year_1 - _year_2 + 1) * 4 - (4 - _quarter_1) - _quarter_2
+
+
+# 将如上的函数保障成func函数
+quarter_sub_func = np.frompyfunc(quarter_sub, 2, 1)
 
 
 def get_finance_data(finance_type, code, year, quarter):
@@ -437,7 +577,18 @@ def get_finance_data(finance_type, code, year, quarter):
     code_where = 'code=="{}"'.format(get_tushare_code(code))
     year_quarter = "{}-{}".format(year, quarter)
     year_quarter_where = 'year_quarter=="{}"'.format(year_quarter)
-    return stone.select(finance_type, where=[code_where, year_quarter_where])
+    _df = stone.select(finance_type, where=[code_where, year_quarter_where])
+    if _df is None or len(_df) == 0:
+        return None
+    _dict = _df.to_dict()
+    _dict_2 = {}
+    for _key, _value in _dict.items():
+        # 判断这个_value是否也是这字典
+        if (isinstance(_value, dict)):
+            _dict_2[_key] = _value[_df.index[0]]
+        else:
+            _dict_2[_key] = _value
+    return _dict_2
 
 
 def get_stock_basics(code):
@@ -450,6 +601,8 @@ def get_stock_basics(code):
     """
     code_where = 'index=="{}"'.format(get_tushare_code(code))
     _df = stone.select(str_stock_basic, where=[code_where])
+    if _df is None or len(_df) == 0:
+        return None
     _dict = {}
     _dict['code'] = _df.index[0]
     for _key in _df.keys():
@@ -469,6 +622,20 @@ def init_stock_basics():
     stone.put(str_stock_basic, pf,
               format='table',
               data_columns=dict_stock_basics)
+
+
+def df_drop_duplicates(finance_type):
+    """
+        Description : 将指定财务类别去重复
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    _df = stone.select(finance_type)
+    _df = _df.drop_duplicates(['code', 'year_quarter'])
+    # 重新赋值
+    stone.append(finance_type, _df, format='table', append=False)
+    pass
 
 
 def init_data():
@@ -494,13 +661,21 @@ def init_data():
             for _fun in list_fun:
                 time.sleep(10)
                 print("run: {}".format(_fun.__name__))
-                _fun(year, quarter)
+                try:
+                    _fun(year, quarter)
+                except:
+                    pass
 
 
 if __name__ == '__main__':
-    print(get_stock_basics('000002'))
+    # print(get_finance_data(str_report, '000002', 2017, 1))
+    # print(get_stock_basics('000002'))
     # init_stock_basics()
+    # stone.remove(str_report)
     # init_data()
     # print(get_all_finance_data(str_report, '000001'))
     # print(get_finance_data(str_report, '300419', 2014, 3))
+    # print(quarter_sub('2017-1', '2016-2'))
+    # print(quarter_sub('2015-1', '2016-2'))
+    print(get_last_finance_data_2(str_report, ['000001', '000002']))
     pass

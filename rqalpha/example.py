@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Last Change:  2018-01-17 10:02:11
+# Last Change:  2018-02-05 16:46:24
 """@File Name: example.py
 @Author:  kerwin.cn@gmail.com
 @Created Time:2018-01-10 21:18:00
@@ -8,14 +8,15 @@
 @Description :
 """
 from rqalpha import run_func
-from rqalpha.api import update_universe # 更新股票池，这个是覆盖操作。
+from rqalpha.api import update_universe  # 更新股票池，这个是覆盖操作。
 # 如下是下单相关
 # 股票期货通用
 from rqalpha.api import order   # 智能下单，单位手
 from rqalpha.api import order_to    # 智能下单，调仓到某个仓位，单位手
 # 股票专用
-from rqalpha.api import order_value # 指定价值交易，股票专用
-from rqalpha.api import order_percent   # 一定比例下单，股票专用，发送一个等于目前投资组合价值（市场价值和目前现金的总和）一定百分比的买/卖单，
+from rqalpha.api import order_value  # 指定价值交易，股票专用
+# 一定比例下单，股票专用，发送一个等于目前投资组合价值（市场价值和目前现金的总和）一定百分比的买/卖单，
+from rqalpha.api import order_percent
 from rqalpha.api import order_target_value  # 指定目标价值下单，股票专用。
 from rqalpha.api import order_target_percent    # 目标比例下单，指定投资组合的目标百分比，股票专用
 # 期货专用
@@ -25,9 +26,9 @@ from rqalpha.api import sell_open   # 卖出开仓
 from rqalpha.api import sell_close  # 卖出平仓
 # 撤单
 from rqalpha.api import cancel_order    # 撤单
-from rqalpha.api import get_open_orders # 获得未成交订单数据
+from rqalpha.api import get_open_orders  # 获得未成交订单数据
 # 查询相关
-from rqalpha.api import all_instruments # 所有合约基础信息
+from rqalpha.api import all_instruments  # 所有合约基础信息
 from rqalpha.api import instruments     # 合约详细信息
 from rqalpha.api import industry        # 行业股票列表
 from rqalpha.api import sector          # 板块股票列表
@@ -41,10 +42,10 @@ from rqalpha.api import get_next_trading_date       # 下一个交易日
 # 收益率
 from rqalpha.api import get_yield_curve     # 获得国债收益率曲线
 # ST股票
-from rqalpha.api import is_st_stock # 是否是ST股票
+from rqalpha.api import is_st_stock  # 是否是ST股票
 # 订阅
 from rqalpha.api import subscribe   # 订阅合约行情，
-from rqalpha.api import unsubscribe # 取消订阅合约行情
+from rqalpha.api import unsubscribe  # 取消订阅合约行情
 # 添加指标
 from rqalpha.api import add_indicator   # 添加指标
 # logger
@@ -90,9 +91,9 @@ def init(context):
     # 删除ST股票, 不对ST股票做回测。
     # 上市90天的股票不做回测，因为前几天都是疯涨。然后暴跌。
     _all_cn_stock = [
-            _stock for _stock in _all_cn_stock
-            if not is_st_stock(_stock, 1)
-            and is_predate_listed_date(_stock, 90)]
+        _stock for _stock in _all_cn_stock
+        if not is_st_stock(_stock, 1)
+        and is_predate_listed_date(_stock, 90)]
 
     for _book_id in _all_cn_stock:
         # 在这里添加指标的相关数据
@@ -172,10 +173,10 @@ config = {
 starttime = datetime.datetime.now()
 # 您可以指定您要传递的参数
 run_func(
-        init=init,
-        before_trading=before_trading,
-        handle_bar=handle_bar,
-        config=config)
+    init=init,
+    before_trading=before_trading,
+    handle_bar=handle_bar,
+    config=config)
 
 endtime = datetime.datetime.now()
 print("程序运行时间：" + str((endtime - starttime).seconds))

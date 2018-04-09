@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-02-06 10:51:22
+# Last Change:  2018-04-09 23:00:37
 # File Name: init_data.py
 
 """
@@ -40,6 +40,8 @@ from tushare_data.tushare_data import get_all_profit_data as get_cn_all_profit_d
 from tushare_data.tushare_data import get_all_report_data as get_cn_all_report_data
 from tushare_data.tushare_data import get_finance_data as get_cn_finance_data
 from tushare_data.tushare_data import get_stock_basics as get_cn_stock_basics
+from tushare_data.tushare_data import get_last_finance_data as get_cn_last_finance_data
+from tushare_data.tushare_data import get_last_finance_data_2 as get_cn_last_finance_data_2
 
 from tushare_data.tushare_data import str_cashflow as str_cn_cashflow
 from tushare_data.tushare_data import str_debtpaying as str_cn_debtpaying
@@ -47,6 +49,19 @@ from tushare_data.tushare_data import str_growth as str_cn_growth
 from tushare_data.tushare_data import str_operation as str_cn_operation
 from tushare_data.tushare_data import str_profit as str_cn_profit
 from tushare_data.tushare_data import str_report as str_cn_report
+
+from tushare_data.tushare_data_3 import session
+from tushare_data.tushare_data_3 import session_close
+from tushare_data.tushare_data_3 import stock_basics_table
+from tushare_data.tushare_data_3 import stock_cashflow_data
+from tushare_data.tushare_data_3 import stock_debtpaying_data
+from tushare_data.tushare_data_3 import stock_growth_data
+from tushare_data.tushare_data_3 import stock_operation_data
+from tushare_data.tushare_data_3 import stock_operation_data
+from tushare_data.tushare_data_3 import stock_profit_data
+from tushare_data.tushare_data_3 import stock_report_data
+from tushare_data.tushare_data_3 import get_fundamentals
+from tushare_data.tushare_data_3 import func
 
 
 # 这里只需要定义符号就可以了
@@ -241,9 +256,49 @@ def get_cn_stocks():
         Raises	 :
     """
     _all_cn_stock = list(get_cn_all_instruments('CS')['order_book_id'])
-    return [_stock for _stock in _all_cn_stock if
-            not is_cn_st_stock(_stock, 1)
-            and (datetime.datetime.now() - get_cn_instruments(_stock).listed_date).days > 90]
+    return [_stock for _stock in _all_cn_stock if (not
+                                                   is_cn_st_stock(_stock, 1) and
+                                                   (datetime.datetime.now() - get_cn_instruments(_stock).listed_date).days > 90)]
+    pass
+
+
+def get_quarter(_datetime):
+    """
+        Description : 根据日期返回年份季度
+        Arg :
+        Returns : (年份, 季度)
+        Raises	 :
+    """
+    if (not isinstance(_datetime, datetime.datetime)):
+        return None
+    str_month = _datetime.strftime('%m')
+    str_year = _datetime.strftime("%Y")
+    if str_month in ['01', '02', '03']:
+        return (str_year, '1')
+    elif str_month in ['04', '05', '06']:
+        return (str_year, '2')
+    elif str_month in ['07', '08', '09']:
+        return (str_year, '3')
+    elif str_month in ['10', '11', '12']:
+        return (str_year, '4')
+
+
+def get_quarter_pre(_datetime):
+    """
+        Description : 取得某日期的上一个月份季度。
+        Arg :
+        Returns :
+        Raises	 :
+    """
+    year, quarter = get_quarter(_datetime)
+    if year is None:
+        return None
+    if quarter == '1':
+        # 上一年啦。
+        return str(int(year) - 1), '4'
+    else:
+        return year, str(int(quarter) - 1)
+
     pass
 
 
