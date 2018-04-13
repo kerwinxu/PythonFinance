@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 
-# Last Change:  2018-01-30 16:10:23
+# Last Change:  2018-04-10 22:30:41
 import os
 import datetime
 import pandas as pd
@@ -21,7 +21,8 @@ class DataSource(DataProxy):
         if data_bundle_path is None:
             data_bundle_path = default_bundle_path
         else:
-            data_bundle_path = os.path.abspath(os.path.join(data_bundle_path, '.'))
+            data_bundle_path = os.path.abspath(
+                os.path.join(data_bundle_path, '.'))
 
         data_bundle_path = data_bundle_path + '/bundle'
 
@@ -50,7 +51,8 @@ class DataSource(DataProxy):
         instrument = self.instruments('000001.XSHG')
         raw = d._all_day_bars_of(instrument)
         df = pd.DataFrame.from_dict(raw)
-        df['datetime'] = df['datetime'].map(lambda x: pd.to_datetime(str(x)[:8]))
+        df['datetime'] = df['datetime'].map(
+            lambda x: pd.to_datetime(str(x)[:8]))
 
         self._last_date_date = df['datetime'].max().date()
 
@@ -80,7 +82,8 @@ class DataSource(DataProxy):
                     # basic_system_log.debug('need update data bundle to ' + date.strftime('%Y-%m-%d'))
 
         data_bundle_path = self._data_bundle_path
-        data_bundle_path = data_bundle_path[:len(data_bundle_path) - len('/bundle')]
+        data_bundle_path = data_bundle_path[:len(
+            data_bundle_path) - len('/bundle')]
         from rqalpha import main
         main.update_bundle(data_bundle_path=data_bundle_path)
 
@@ -129,7 +132,8 @@ class DataSource(DataProxy):
         dt = to_date_object(dt)
 
         if fields is None:
-            fields = ['datetime', 'open', 'high', 'low', 'close', 'volume', 'total_turnover']
+            fields = ['datetime', 'open', 'high', 'low',
+                      'close', 'volume', 'total_turnover']
 
         bars = super(DataSource, self).history_bars(order_book_id=order_book_id,
                                                     bar_count=bar_count,
@@ -143,7 +147,8 @@ class DataSource(DataProxy):
         if convert_to_dataframe:
             df = pd.DataFrame.from_dict(bars)
             if 'datetime' in df.columns:
-                df['datetime'] = df['datetime'].map(lambda x: convert_int_to_datetime(x))
+                df['datetime'] = df['datetime'].map(
+                    lambda x: convert_int_to_datetime(x))
                 df.set_index('datetime', inplace=True)
                 df.index.name = ''
             return df
@@ -151,22 +156,23 @@ class DataSource(DataProxy):
         return bars
 
     def get_bars_all(self,
-                 order_book_id,
-                 dt = None,
-                 frequency='1d',
-                 fields=None,
-                 skip_suspended=True,
-                 include_now=False,
-                 adjust_type='pre',
-                 adjust_orig=None,
-                 convert_to_dataframe=False):
+                     order_book_id,
+                     dt=None,
+                     frequency='1d',
+                     fields=None,
+                     skip_suspended=True,
+                     include_now=False,
+                     adjust_type='pre',
+                     adjust_orig=None,
+                     convert_to_dataframe=False):
         order_book_id = to_order_book_id(order_book_id)
         if dt is None:
             dt = datetime.datetime.now()
         dt = to_date_object(dt)
 
         if fields is None:
-            fields = ['datetime', 'open', 'high', 'low', 'close', 'volume', 'total_turnover']
+            fields = ['datetime', 'open', 'high', 'low',
+                      'close', 'volume', 'total_turnover']
 
         bars = super(DataSource, self).get_bars_all(order_book_id=order_book_id,
                                                     frequency=frequency,
@@ -179,7 +185,8 @@ class DataSource(DataProxy):
         if convert_to_dataframe:
             df = pd.DataFrame.from_dict(bars)
             if 'datetime' in df.columns:
-                df['datetime'] = df['datetime'].map(lambda x: convert_int_to_datetime(x))
+                df['datetime'] = df['datetime'].map(
+                    lambda x: convert_int_to_datetime(x))
                 df.set_index('datetime', inplace=True)
                 df.index.name = ''
             return df
@@ -189,11 +196,14 @@ class DataSource(DataProxy):
 
 datasource = DataSource()
 
+
 def is_trading_date(date):
     datasource.is_trading_date(date)
 
+
 def get_bar(order_book_id, dt, frequency='1d'):
     return datasource.get_bar(order_book_id=order_book_id, dt=dt, frequency=frequency)
+
 
 def history_bars(
         order_book_id,
@@ -214,6 +224,7 @@ def history_bars(
                                    include_now=include_now,
                                    adjust_type=adjust_type,
                                    adjust_orig=adjust_orig)
+
 
 def get_bars(order_book_id,
              dt,
@@ -236,26 +247,28 @@ def get_bars(order_book_id,
                                adjust_orig=adjust_orig,
                                convert_to_dataframe=convert_to_dataframe)
 
+
 def get_bars_all(order_book_id,
-             dt = None,
-             frequency='1d',
-             fields=None,
-             skip_suspended=True,
-             include_now=False,
-             adjust_type='pre',
-             adjust_orig=None,
-             convert_to_dataframe=False):
+                 dt=None,
+                 frequency='1d',
+                 fields=None,
+                 skip_suspended=True,
+                 include_now=False,
+                 adjust_type='pre',
+                 adjust_orig=None,
+                 convert_to_dataframe=False):
     if dt is None:
         dt = datetime.datetime.now()
     return datasource.get_bars_all(order_book_id=order_book_id,
-                               dt=dt,
-                               frequency=frequency,
-                               fields=fields,
-                               skip_suspended=skip_suspended,
-                               include_now=include_now,
-                               adjust_type=adjust_type,
-                               adjust_orig=adjust_orig,
-                               convert_to_dataframe=convert_to_dataframe)
+                                   dt=dt,
+                                   frequency=frequency,
+                                   fields=fields,
+                                   skip_suspended=skip_suspended,
+                                   include_now=include_now,
+                                   adjust_type=adjust_type,
+                                   adjust_orig=adjust_orig,
+                                   convert_to_dataframe=convert_to_dataframe)
+
 
 def get_all_instruments(type=None, date=None):
     """
@@ -318,7 +331,8 @@ def get_all_instruments(type=None, date=None):
             if t == 'Stock':
                 types.add('CS')
             elif t == 'Fund':
-                types.update(['ETF', 'LOF', 'SF', 'FenjiA', 'FenjiB', 'FenjiMu'])
+                types.update(
+                    ['ETF', 'LOF', 'SF', 'FenjiA', 'FenjiB', 'FenjiMu'])
             else:
                 types.add(t)
     else:
@@ -330,8 +344,10 @@ def get_all_instruments(type=None, date=None):
         return pd.DataFrame([i.__dict__ for i in result])
 
     return pd.DataFrame(
-        [[i.order_book_id, i.symbol, i.type, i.listed_date, i.de_listed_date] for i in result],
+        [[i.order_book_id, i.symbol, i.type, i.listed_date, i.de_listed_date]
+            for i in result],
         columns=['order_book_id', 'symbol', 'type', 'listed_date', 'de_listed_date'])
+
 
 def is_st_stock(book_id, date):
     """
@@ -342,6 +358,7 @@ def is_st_stock(book_id, date):
     """
     return datasource.is_st_stock(book_id, date)
 
+
 def instruments(id_or_symbols):
     """
         Description : 获得一个或者多个合约的详细信息。
@@ -350,6 +367,7 @@ def instruments(id_or_symbols):
         Raises	 :
     """
     return datasource.instruments(id_or_symbols)
+
 
 def rqalpha_update():
     """

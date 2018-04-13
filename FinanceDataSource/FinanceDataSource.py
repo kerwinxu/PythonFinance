@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Author:  kerwin.cn@gmail.com
 # Created Time:2017-09-03 11:23:33
-# Last Change:  2018-04-09 23:00:37
+# Last Change:  2018-04-10 22:39:07
 # File Name: init_data.py
 
 """
@@ -21,6 +21,7 @@ import numpy as np
 import tushare as ts
 
 # 可以使用rqalpha的数据
+import rqalpha_data
 from rqalpha_data import get_bars_all as get_cn_bars_all
 from rqalpha_data import get_bars as get_cn_bars
 from rqalpha_data import get_bar as get_cn_bar
@@ -31,24 +32,24 @@ from rqalpha_data import is_st_stock as is_cn_st_stock
 from rqalpha_data import instruments as get_cn_instruments
 
 # 查看tushare的数据
-from tushare_data.tushare_data import get_all_cashflow_data as get_cn_all_cashflow_data
-from tushare_data.tushare_data import get_all_debtpaying_data as get_cn_all_debtpaying_data
-from tushare_data.tushare_data import get_all_finance_data as get_cn_all_finance_data
-from tushare_data.tushare_data import get_all_growth_data as get_cn_all_growth_data
-from tushare_data.tushare_data import get_all_operation_data as get_cn_all_operation_data
-from tushare_data.tushare_data import get_all_profit_data as get_cn_all_profit_data
-from tushare_data.tushare_data import get_all_report_data as get_cn_all_report_data
-from tushare_data.tushare_data import get_finance_data as get_cn_finance_data
-from tushare_data.tushare_data import get_stock_basics as get_cn_stock_basics
-from tushare_data.tushare_data import get_last_finance_data as get_cn_last_finance_data
-from tushare_data.tushare_data import get_last_finance_data_2 as get_cn_last_finance_data_2
+# from tushare_data.tushare_data import get_all_cashflow_data as get_cn_all_cashflow_data
+# from tushare_data.tushare_data import get_all_debtpaying_data as get_cn_all_debtpaying_data
+# from tushare_data.tushare_data import get_all_finance_data as get_cn_all_finance_data
+# from tushare_data.tushare_data import get_all_growth_data as get_cn_all_growth_data
+# from tushare_data.tushare_data import get_all_operation_data as get_cn_all_operation_data
+# from tushare_data.tushare_data import get_all_profit_data as get_cn_all_profit_data
+# from tushare_data.tushare_data import get_all_report_data as get_cn_all_report_data
+# from tushare_data.tushare_data import get_finance_data as get_cn_finance_data
+# from tushare_data.tushare_data import get_stock_basics as get_cn_stock_basics
+# from tushare_data.tushare_data import get_last_finance_data as get_cn_last_finance_data
+# from tushare_data.tushare_data import get_last_finance_data_2 as get_cn_last_finance_data_2
 
-from tushare_data.tushare_data import str_cashflow as str_cn_cashflow
-from tushare_data.tushare_data import str_debtpaying as str_cn_debtpaying
-from tushare_data.tushare_data import str_growth as str_cn_growth
-from tushare_data.tushare_data import str_operation as str_cn_operation
-from tushare_data.tushare_data import str_profit as str_cn_profit
-from tushare_data.tushare_data import str_report as str_cn_report
+# from tushare_data.tushare_data import str_cashflow as str_cn_cashflow
+# from tushare_data.tushare_data import str_debtpaying as str_cn_debtpaying
+# from tushare_data.tushare_data import str_growth as str_cn_growth
+# from tushare_data.tushare_data import str_operation as str_cn_operation
+# from tushare_data.tushare_data import str_profit as str_cn_profit
+# from tushare_data.tushare_data import str_report as str_cn_report
 
 from tushare_data.tushare_data_3 import session
 from tushare_data.tushare_data_3 import session_close
@@ -304,11 +305,9 @@ def get_quarter_pre(_datetime):
 
 if __name__ == "__main__":
     # init_data()
-    # df = get_cn_bars('600469.XSHG', '2017-11-01', 5,
-                     # fields=['datetime', 'open', 'close'])
+    # df = get_cn_bars('600469.XSHG', '2017-11-01', 5, fields=['datetime', 'open', 'close'])
     # print(df)
-    # df = get_cn_bars_all('600469.XSHG', '2017-11-01',
-                         # fields=['datetime', 'open', 'close'])
+    # df = get_cn_bars_all('600469.XSHG', '2017-11-01' fields=['datetime', 'open', 'close'])
     # print(df)
     # print(get_data(str_cn_stock, '600469.XSHG'))
     # print(get_cn_all_instruments('CS'))
