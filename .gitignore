@@ -4,3 +4,4 @@ GRTAGS
 GTAGS
 tags
 *.pyc
+*.csv
