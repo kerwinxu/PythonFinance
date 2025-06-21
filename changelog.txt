@@ -1,0 +1,55 @@
+Changelog
+=========
+
+
+(unreleased)
+------------
+
+New
+~~~
+- 想通过修改bcolz数据库来达到只在策略中运行一遍计算指标的目的，还未完成，只是个草稿. [kerwinxu]
+- 一个简单的二八轮动. [kerwinxu]
+- 增加了试试zip转向的，但结果却不怎么好. [kerwinxu]
+- 增加kama_4，增加仓位控制. [kerwinxu]
+- 主要是增加l了macd_2回测交易. [kerwinxu]
+- 增加了一个自动生成changelog的批处理. [kerwinxu]
+
+Changes
+~~~~~~~
+- 初步实验backtrader可以做到做到多品种. [kerwinxu]
+- 将数据挖掘分目录，比如这个放在一个单独的目录中. [kerwinxu]
+
+Fix
+~~~
+- 修复因为自动补全而造成的错误. [kerwinxu]
+- 添加伦敦银的zip转向结果。 [kerwinxu]
+- 批量更新. [kerwinxu]
+- 在FinanceDataSource里规范了k线名称. [kerwinxu]
+- 只是修改了一下文件日期. [kerwinxu]
+- 加仓分为买单加仓和卖单加仓. [kerwinxu]
+
+Other
+~~~~~
+- Merge branch 'master' of https://github.com/kerwinxu/PythonFinance.
+  [kerwinxu]
+- 终于搞明白backtrader的杠杆是在leverage中设置. [kerwinxu]
+
+
+1.0 (2017-12-06)
+----------------
+
+New
+~~~
+- 我用gitchangelog来生成changelog (1.0.0) [kerwinxu]
+
+Other
+~~~~~
+- 试试PyAlgoTrade. [kerwinxu]
+- 主要是CerebroBase的上海黄金交易所的大脑增加手续费. [kerwinxu]
+- 添加策略方法中增加可以设置参数的. [kerwinxu]
+- 增加上海黄金交易所的黄金和白银TD. [kerwinxu]
+- 删除了一些临时文件. [kerwinxu]
+- V1.0 ,算是第一个正式版吧，主要分如下几个部分：数据获取，数据挖掘和回测交易. [kerwinxu]
+- V0.1. [kerwinxu]
+
+

@@ -1,0 +1,3358 @@
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[11]..neobundle#util#redir returning '^@--- Auto-Commands ---^@filetypeplug...ll s:SetUpForNewFiletype(&filetype, 1)'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp returning ['E:\home\kerwin/vimfiles', 'D:/Vim/bu...', 'D:/Vim/bundle/xptemplate/personal']
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir returning 'D:/Vim/bundle/.neobundle'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp returning 'E:\home\kerwin/vimfiles,D:/Vim/bundle...vim/,D:/Vim/bundle/xptemplate/personal'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list returning [{'rtp': 'D:/Vim/bundle/DoxygenToolkit...t'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort returning []
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+
+line 13: sourcing "D:\Vim\bundle\DoxygenToolkit.vim\\plugin\DoxygenToolkit.vim"
+finished sourcing D:\Vim\bundle\DoxygenToolkit.vim\\plugin\DoxygenToolkit.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[47]..<SNR>25_is_reset_ftplugin
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[47]..<SNR>25_is_reset_ftplugin returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm[3]..<SNR>25_get_rtp_after
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm[3]..<SNR>25_get_rtp_after returning 'D:/Vim/bundle/jedi-vim/after'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp returning ['E:\home\kerwin/vimfiles', 'D:/Vim/bu...', 'D:/Vim/bundle/xptemplate/personal']
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir returning 'D:/Vim/bundle/.neobundle'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp returning 'E:\home\kerwin/vimfiles,D:/Vim/bundle...vim/,D:/Vim/bundle/xptemplate/personal'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[20]..<SNR>25_get_rtp_after
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[20]..<SNR>25_get_rtp_after returning 'D:/Vim/bundle/jedi-vim/after'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list returning [{'rtp': 'D:/Vim/bundle/jedi-vim/', 'o...i'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort returning []
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+
+line 13: sourcing "D:\Vim\bundle\jedi-vim\\plugin\jedi.vim"
+Searching for "filetype.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after"
+Searching for "E:\home\kerwin/vimfiles\filetype.vim"
+Searching for "D:/Vim/bundle/FencView.vim/filetype.vim"
+Searching for "D:/Vim/bundle/Gundo/filetype.vim"
+Searching for "D:/Vim/bundle/Tagbar/filetype.vim"
+Searching for "D:/Vim/bundle/surround.vim/filetype.vim"
+Searching for "D:/Vim/bundle/powerline/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/filetype.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/filetype.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/filetype.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/filetype.vim"
+Searching for "D:/Vim/bundle/.neobundle\filetype.vim"
+Searching for "D:\Vim/vimfiles\filetype.vim"
+Searching for "D:\Vim\vim80\filetype.vim"
+line 16: sourcing "D:\Vim\vim80\filetype.vim"
+finished sourcing D:\Vim\vim80\filetype.vim
+continuing in D:\Vim\bundle\jedi-vim\plugin\jedi.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\filetype.vim"
+Searching for "D:\Vim/vimfiles/after\filetype.vim"
+Searching for "E:\home\kerwin/vimfiles/after\filetype.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\filetype.vim"
+Searching for "ftplugin.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after"
+Searching for "E:\home\kerwin/vimfiles\ftplugin.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/.neobundle\ftplugin.vim"
+Searching for "D:\Vim/vimfiles\ftplugin.vim"
+Searching for "D:\Vim\vim80\ftplugin.vim"
+line 16: sourcing "D:\Vim\vim80\ftplugin.vim"
+finished sourcing D:\Vim\vim80\ftplugin.vim
+continuing in D:\Vim\bundle\jedi-vim\plugin\jedi.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\ftplugin.vim"
+Searching for "D:\Vim/vimfiles/after\ftplugin.vim"
+Searching for "E:\home\kerwin/vimfiles/after\ftplugin.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\ftplugin.vim"
+finished sourcing D:\Vim\bundle\jedi-vim\\plugin\jedi.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[47]..<SNR>25_is_reset_ftplugin
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[47]..<SNR>25_is_reset_ftplugin returning #1
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm[3]..<SNR>25_get_rtp_after
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm[3]..<SNR>25_get_rtp_after returning 'D:/Vim/bundle/Python-mode-klen/after'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[2]..neobundle#config#rtp_rm returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[14]..neobundle#util#split_rtp returning ['E:\home\kerwin/vimfiles', 'D:/Vim/bu...sonal', 'D:/Vim/bundle/jedi-vim/after']
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#get_rtp_dir returning 'D:/Vim/bundle/.neobundle'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[15]..neobundle#util#join_rtp returning 'E:\home\kerwin/vimfiles,D:/Vim/bundle.../personal,D:/Vim/bundle/jedi-vim/after'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[20]..<SNR>25_get_rtp_after
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[20]..<SNR>25_get_rtp_after returning 'D:/Vim/bundle/Python-mode-klen/after'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[1]..neobundle#util#convert2list returning [{'rtp': 'D:/Vim/bundle/Python-mode-kl...n'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook[7]..neobundle#config#tsort returning []
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add[24]..neobundle#call_hook returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[32]..neobundle#config#rtp_add returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+
+line 13: sourcing "D:\Vim\bundle\Python-mode-klen\\plugin\pymode.vim"
+Searching for "autoload/pymode.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles\autoload/pymode.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode.vim"
+line 8: sourcing "D:\Vim\bundle\Python-mode-klen\autoload\pymode.vim"
+finished sourcing D:\Vim\bundle\Python-mode-klen\autoload\pymode.vim
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+Searching for "filetype.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles\filetype.vim"
+Searching for "D:/Vim/bundle/FencView.vim/filetype.vim"
+Searching for "D:/Vim/bundle/Gundo/filetype.vim"
+Searching for "D:/Vim/bundle/Tagbar/filetype.vim"
+Searching for "D:/Vim/bundle/surround.vim/filetype.vim"
+Searching for "D:/Vim/bundle/powerline/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/filetype.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/filetype.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/filetype.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/filetype.vim"
+Searching for "D:/Vim/bundle/.neobundle\filetype.vim"
+Searching for "D:\Vim/vimfiles\filetype.vim"
+Searching for "D:\Vim\vim80\filetype.vim"
+line 17: sourcing "D:\Vim\vim80\filetype.vim"
+finished sourcing D:\Vim\vim80\filetype.vim
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\filetype.vim"
+Searching for "D:\Vim/vimfiles/after\filetype.vim"
+Searching for "E:\home\kerwin/vimfiles/after\filetype.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after\filetype.vim"
+Searching for "ftplugin.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles\ftplugin.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin.vim"
+Searching for "D:/Vim/bundle/.neobundle\ftplugin.vim"
+Searching for "D:\Vim/vimfiles\ftplugin.vim"
+Searching for "D:\Vim\vim80\ftplugin.vim"
+line 17: sourcing "D:\Vim\vim80\ftplugin.vim"
+finished sourcing D:\Vim\vim80\ftplugin.vim
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\ftplugin.vim"
+Searching for "D:\Vim/vimfiles/after\ftplugin.vim"
+Searching for "E:\home\kerwin/vimfiles/after\ftplugin.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after\ftplugin.vim"
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+
+Searching for "filetype.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles\filetype.vim"
+Searching for "D:/Vim/bundle/FencView.vim/filetype.vim"
+Searching for "D:/Vim/bundle/Gundo/filetype.vim"
+Searching for "D:/Vim/bundle/Tagbar/filetype.vim"
+Searching for "D:/Vim/bundle/surround.vim/filetype.vim"
+Searching for "D:/Vim/bundle/powerline/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/filetype.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/filetype.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/filetype.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/filetype.vim"
+Searching for "D:/Vim/bundle/.neobundle\filetype.vim"
+Searching for "D:\Vim/vimfiles\filetype.vim"
+Searching for "D:\Vim\vim80\filetype.vim"
+line 248: sourcing "D:\Vim\vim80\filetype.vim"
+finished sourcing D:\Vim\vim80\filetype.vim
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\filetype.vim"
+Searching for "D:\Vim/vimfiles/after\filetype.vim"
+Searching for "E:\home\kerwin/vimfiles/after\filetype.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after\filetype.vim"
+Searching for "ftplugin.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles\ftplugin.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin.vim"
+Searching for "D:/Vim/bundle/.neobundle\ftplugin.vim"
+Searching for "D:\Vim/vimfiles\ftplugin.vim"
+Searching for "D:\Vim\vim80\ftplugin.vim"
+line 248: sourcing "D:\Vim\vim80\ftplugin.vim"
+finished sourcing D:\Vim\vim80\ftplugin.vim
+continuing in D:\Vim\bundle\Python-mode-klen\plugin\pymode.vim
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit\ftplugin.vim"
+Searching for "D:\Vim/vimfiles/after\ftplugin.vim"
+Searching for "E:\home\kerwin/vimfiles/after\ftplugin.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal\ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after\ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after\ftplugin.vim"
+finished sourcing D:\Vim\bundle\Python-mode-klen\\plugin\pymode.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[36]..<SNR>25_on_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[44]..neobundle#autoload#_source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[51]..neobundle#util#redir
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[51]..neobundle#util#redir returning '^@--- Auto-Commands ---^@filetypeplug...ll s:SetUpForNewFiletype(&filetype, 1)'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo[1]..neobundle#util#convert2list
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo[1]..neobundle#util#convert2list returning ['Neobundle: resetting ftplugin, after...olkit.vim, jedi-vim, Python-mode-klen']
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo[8]..<SNR>23_echo_mode
+
+[neobundle] Neobundle: resetting ftplugin, after loading bundles:DoxygenToolkit.vim, jedi-vim, Python-mode-klen
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo[8]..<SNR>23_echo_mode returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error[1]..<SNR>23_echo returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[55]..neobundle#util#print_error returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off[1]..neobundle#util#redir
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off[1]..neobundle#util#redir returning '^@filetype detection:ON  plugin:ON  indent:ON'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off
+
+Searching for "ftplugof.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftplugof.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugof.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugof.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugof.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugof.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugof.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugof.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugof.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugof.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugof.vim"
+Searching for "D:\Vim/vimfiles/ftplugof.vim"
+Searching for "D:\Vim\vim80/ftplugof.vim"
+line 5: sourcing "D:/Vim/vim80/ftplugof.vim"
+finished sourcing D:/Vim/vim80/ftplugof.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugof.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugof.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugof.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugof.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugof.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugof.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugof.vim"
+Searching for "indoff.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/indoff.vim"
+Searching for "D:/Vim/bundle/FencView.vim/indoff.vim"
+Searching for "D:/Vim/bundle/Gundo/indoff.vim"
+Searching for "D:/Vim/bundle/Tagbar/indoff.vim"
+Searching for "D:/Vim/bundle/surround.vim/indoff.vim"
+Searching for "D:/Vim/bundle/powerline/indoff.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/indoff.vim"
+Searching for "D:/Vim/bundle/xptemplate/indoff.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/indoff.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/indoff.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/indoff.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/indoff.vim"
+Searching for "D:/Vim/bundle/jedi-vim/indoff.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/indoff.vim"
+Searching for "D:/Vim/bundle/.neobundle/indoff.vim"
+Searching for "D:\Vim/vimfiles/indoff.vim"
+Searching for "D:\Vim\vim80/indoff.vim"
+line 5: sourcing "D:/Vim/vim80/indoff.vim"
+finished sourcing D:/Vim/vim80/indoff.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/indoff.vim"
+Searching for "D:\Vim/vimfiles/after/indoff.vim"
+Searching for "E:\home\kerwin/vimfiles/after/indoff.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/indoff.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/indoff.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/indoff.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/indoff.vim"
+Searching for "ftoff.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftoff.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftoff.vim"
+Searching for "D:/Vim/bundle/Gundo/ftoff.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftoff.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftoff.vim"
+Searching for "D:/Vim/bundle/powerline/ftoff.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftoff.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftoff.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftoff.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftoff.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftoff.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftoff.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftoff.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftoff.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftoff.vim"
+Searching for "D:\Vim/vimfiles/ftoff.vim"
+Searching for "D:\Vim\vim80/ftoff.vim"
+line 9: sourcing "D:/Vim/vim80/ftoff.vim"
+finished sourcing D:/Vim/vim80/ftoff.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftoff.vim"
+Searching for "D:\Vim/vimfiles/after/ftoff.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftoff.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftoff.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftoff.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftoff.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftoff.vim"
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin[1]..<SNR>25_filetype_off returning '^@filetype detection:ON  plugin:ON  indent:ON'
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin
+
+Searching for "filetype.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/filetype.vim"
+Searching for "D:/Vim/bundle/FencView.vim/filetype.vim"
+Searching for "D:/Vim/bundle/Gundo/filetype.vim"
+Searching for "D:/Vim/bundle/Tagbar/filetype.vim"
+Searching for "D:/Vim/bundle/surround.vim/filetype.vim"
+Searching for "D:/Vim/bundle/powerline/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/filetype.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/filetype.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/filetype.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/filetype.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/filetype.vim"
+Searching for "D:/Vim/bundle/.neobundle/filetype.vim"
+Searching for "D:\Vim/vimfiles/filetype.vim"
+Searching for "D:\Vim\vim80/filetype.vim"
+line 6: sourcing "D:/Vim/vim80/filetype.vim"
+Searching for "ftdetect/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/powerline/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftdetect/*.vim"
+line 2815: sourcing "D:/Vim/bundle/xptemplate/ftdetect/xptemplate.detect.vim"
+finished sourcing D:/Vim/bundle/xptemplate/ftdetect/xptemplate.detect.vim
+continuing in D:/Vim/vim80/filetype.vim
+line 2815: sourcing "D:/Vim/bundle/xptemplate/ftdetect/xptlog.detect.vim"
+finished sourcing D:/Vim/bundle/xptemplate/ftdetect/xptlog.detect.vim
+continuing in D:/Vim/vim80/filetype.vim
+Searching for "D:/Vim/bundle/AutoComplPop/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftdetect/*.vim"
+line 2815: sourcing "D:/Vim/bundle/.neobundle/ftdetect/ftdetect.vim"
+finished sourcing D:/Vim/bundle/.neobundle/ftdetect/ftdetect.vim
+continuing in D:/Vim/vim80/filetype.vim
+Searching for "D:\Vim/vimfiles/ftdetect/*.vim"
+Searching for "D:\Vim\vim80/ftdetect/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftdetect/*.vim"
+Searching for "D:\Vim/vimfiles/after/ftdetect/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftdetect/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftdetect/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftdetect/*.vim"
+finished sourcing D:/Vim/vim80/filetype.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/filetype.vim"
+Searching for "D:\Vim/vimfiles/after/filetype.vim"
+Searching for "E:\home\kerwin/vimfiles/after/filetype.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/filetype.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/filetype.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/filetype.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/filetype.vim"
+Searching for "ftplugin.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftplugin.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin.vim"
+Searching for "D:\Vim/vimfiles/ftplugin.vim"
+Searching for "D:\Vim\vim80/ftplugin.vim"
+line 6: sourcing "D:/Vim/vim80/ftplugin.vim"
+finished sourcing D:/Vim/vim80/ftplugin.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin.vim"
+Searching for "indent.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/indent.vim"
+Searching for "D:/Vim/bundle/FencView.vim/indent.vim"
+Searching for "D:/Vim/bundle/Gundo/indent.vim"
+Searching for "D:/Vim/bundle/Tagbar/indent.vim"
+Searching for "D:/Vim/bundle/surround.vim/indent.vim"
+Searching for "D:/Vim/bundle/powerline/indent.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/indent.vim"
+Searching for "D:/Vim/bundle/xptemplate/indent.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/indent.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/indent.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/indent.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/indent.vim"
+Searching for "D:/Vim/bundle/jedi-vim/indent.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/indent.vim"
+Searching for "D:/Vim/bundle/.neobundle/indent.vim"
+Searching for "D:\Vim/vimfiles/indent.vim"
+Searching for "D:\Vim\vim80/indent.vim"
+line 6: sourcing "D:/Vim/vim80/indent.vim"
+finished sourcing D:/Vim/vim80/indent.vim
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/indent.vim"
+Searching for "D:\Vim/vimfiles/after/indent.vim"
+Searching for "E:\home\kerwin/vimfiles/after/indent.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/indent.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/indent.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/indent.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/indent.vim"
+Executing BufRead Auto commands for "*.py"
+autocommand setf python
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat | runtime! scripts.vim | endif
+
+Executing BufRead Auto commands for "*"
+autocommand if !did_filetype() && expand("<amatch>") !~ g:ft_ignore_pat    && (getline(1) =~ '^#' || getline(2) =~ '^#' || getline(3) =~ '^#'^I|| getline(4) =~ '^#' || getline(5) =~ '^#') |   setf FALLBACK conf | endif
+
+Executing FileType Auto commands for "python"
+autocommand set omnifunc=python3complete#Complete
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoPair()
+
+calling function AutoPair
+
+function AutoPair returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoSpace()
+
+calling function AutoSpace
+
+function AutoSpace returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+calling function <SNR>5_SynSet
+
+Searching for "syntax/python.vim syntax/python/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/syntax/python.vim"
+Searching for "E:\home\kerwin/vimfiles/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Gundo/syntax/python.vim"
+Searching for "D:/Vim/bundle/Gundo/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/syntax/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/powerline/syntax/python.vim"
+Searching for "D:/Vim/bundle/powerline/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/syntax/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/syntax/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/syntax/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/syntax/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/syntax/python.vim"
+line 24: sourcing "D:/Vim/bundle/Python-mode-klen/syntax/python.vim"
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:/Vim/bundle/Python-mode-klen/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/.neobundle/syntax/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/syntax/python/*.vim"
+Searching for "D:\Vim/vimfiles/syntax/python.vim"
+Searching for "D:\Vim/vimfiles/syntax/python/*.vim"
+Searching for "D:\Vim\vim80/syntax/python.vim"
+line 24: sourcing "D:/Vim/vim80/syntax/python.vim"
+finished sourcing D:/Vim/vim80/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:\Vim\vim80/syntax/python/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/syntax/python.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/syntax/python/*.vim"
+Searching for "D:\Vim/vimfiles/after/syntax/python.vim"
+Searching for "D:\Vim/vimfiles/after/syntax/python/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/syntax/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/syntax/python/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/syntax/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/syntax/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/syntax/python.vim"
+line 24: sourcing "D:/Vim/bundle/jedi-vim/after/syntax/python.vim"
+Searching for "autoload/jedi.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/jedi.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/jedi.vim"
+line 1: sourcing "D:/Vim/bundle/jedi-vim/autoload/jedi.vim"
+calling function jedi#init_python
+
+calling function jedi#init_python[3]..<SNR>120_init_python
+
+calling function jedi#init_python[3]..<SNR>120_init_python[50]..jedi#setup_py_version
+
+function jedi#init_python[3]..<SNR>120_init_python[50]..jedi#setup_py_version returning #1
+
+continuing in function jedi#init_python[3]..<SNR>120_init_python
+
+function jedi#init_python[3]..<SNR>120_init_python returning #1
+
+continuing in function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/autoload/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/autoload/jedi.vim
+continuing in D:/Vim/bundle/jedi-vim/after/syntax/python.vim
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/after/syntax/python.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/after/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:/Vim/bundle/jedi-vim/after/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/syntax/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/syntax/python/*.vim"
+function <SNR>5_SynSet returning #0
+
+continuing in Syntax Auto commands for "*"
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoLoadCTagsAndCScope()
+
+calling function AutoLoadCTagsAndCScope
+
+chdir(./)
+E:/Program/python/PythonFinance
+function AutoLoadCTagsAndCScope returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "python"
+autocommand setlocal et | setlocal sta | setlocal sw=4
+
+autocommand compiler pyunit
+
+Searching for "compiler/pyunit.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/FencView.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Gundo/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Tagbar/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/surround.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/powerline/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/xptemplate/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/jedi-vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/.neobundle/compiler/pyunit.vim"
+Searching for "D:\Vim/vimfiles/compiler/pyunit.vim"
+Searching for "D:\Vim\vim80/compiler/pyunit.vim"
+line 0: sourcing "D:/Vim/vim80/compiler/pyunit.vim"
+finished sourcing D:/Vim/vim80/compiler/pyunit.vim
+continuing in FileType Auto commands for "python"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/compiler/pyunit.vim"
+Searching for "D:\Vim/vimfiles/after/compiler/pyunit.vim"
+Searching for "E:\home\kerwin/vimfiles/after/compiler/pyunit.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/compiler/pyunit.vim"
+autocommand setlocal makeprg=python\ %
+
+Executing FileType Auto commands for "*"
+autocommand call s:on_filetype()
+
+calling function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_filetype[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[3]..neobundle#util#get_filetypes
+
+function <SNR>26_on_filetype[3]..neobundle#util#get_filetypes returning ['python']
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+function <SNR>26_on_filetype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call XPTfiletypeInit()
+
+calling function XPTfiletypeInit
+
+function XPTfiletypeInit returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand :call s:SetUpForNewFiletype(&filetype, 1)
+
+calling function <SNR>75_SetUpForNewFiletype
+
+function <SNR>75_SetUpForNewFiletype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+calling function <SNR>12_LoadFTPlugin
+
+Searching for "ftplugin/python.vim ftplugin/python_*.vim ftplugin/python/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim"
+calling function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match
+
+function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match returning #1
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern returning {'r': '^', 'item_qvar': '\V{$\w\+}', '...-}', 'lr': '`^', 'item_var': '\V$\w\+'}
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get returning #16
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New returning {'ptn': {'r': '^', 'item_qvar': '\V{$\...y': 16, 'filetype': '', 'inheritFT': 0}
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT
+
+function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT returning 'python'
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded returning #0
+
+continuing in function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded returning #0
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[29]..XPTemplatePriority
+
+calling function xpt#parser#InitSnippetFile[29]..XPTemplatePriority[6]..xpt#priority#Parse
+
+function xpt#parser#InitSnippetFile[29]..XPTemplatePriority[6]..xpt#priority#Parse returning #16
+
+continuing in function xpt#parser#InitSnippetFile[29]..XPTemplatePriority
+
+function xpt#parser#InitSnippetFile[29]..XPTemplatePriority returning #0
+
+continuing in function xpt#parser#InitSnippetFile
+
+function xpt#parser#InitSnippetFile returning 'doit'
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function XPTfuncs
+
+calling function XPTfuncs[1]..GetSnipFileFtScope
+
+
+continuing in function XPTfuncs
+
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#Include
+
+calling function xpt#parser#Include[1]..xpt#parser#Load
+
+calling function xpt#parser#Include[1]..xpt#parser#Load[5]..xpt#util#Flatten
+
+function xpt#parser#Include[1]..xpt#parser#Load[5]..xpt#util#Flatten returning ['_common/common']
+
+continuing in function xpt#parser#Include[1]..xpt#parser#Load
+
+calling function xpt#parser#Include[1]..xpt#parser#Load[7]..xpt#ftscope#IsSnippetLoaded
+
+function xpt#parser#Include[1]..xpt#parser#Load[7]..xpt#ftscope#IsSnippetLoaded returning #1
+
+continuing in function xpt#parser#Include[1]..xpt#parser#Load
+
+function xpt#parser#Include[1]..xpt#parser#Load returning #0
+
+continuing in function xpt#parser#Include
+
+function xpt#parser#Include returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#SetVar
+
+function xpt#parser#SetVar returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#Include
+
+calling function xpt#parser#Include[1]..xpt#parser#Load
+
+calling function xpt#parser#Include[1]..xpt#parser#Load[5]..xpt#util#Flatten
+
+function xpt#parser#Include[1]..xpt#parser#Load[5]..xpt#util#Flatten returning ['_comment/singleDouble']
+
+continuing in function xpt#parser#Include[1]..xpt#parser#Load
+
+calling function xpt#parser#Include[1]..xpt#parser#Load[7]..xpt#ftscope#IsSnippetLoaded
+
+function xpt#parser#Include[1]..xpt#parser#Load[7]..xpt#ftscope#IsSnippetLoaded returning #1
+
+continuing in function xpt#parser#Include[1]..xpt#parser#Load
+
+function xpt#parser#Include[1]..xpt#parser#Load returning #0
+
+continuing in function xpt#parser#Include
+
+function xpt#parser#Include returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+calling function xpt#parser#LoadSnippetToParseList
+
+function xpt#parser#LoadSnippetToParseList returning #0
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+finished sourcing D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+calling function jedi#configure_call_signatures
+
+function jedi#configure_call_signatures returning #0
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim"
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+calling function pymode#init
+
+function pymode#init returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+Searching for "autoload/pymode/virtualenv.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode/virtualenv.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode/virtualenv.vim"
+line 8: sourcing "D:/Vim/bundle/Python-mode-klen/autoload/pymode/virtualenv.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/autoload/pymode/virtualenv.vim
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+calling function pymode#virtualenv#init
+
+function pymode#virtualenv#init returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+Searching for "autoload/pymode/breakpoint.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode/breakpoint.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode/breakpoint.vim"
+line 9: sourcing "D:/Vim/bundle/Python-mode-klen/autoload/pymode/breakpoint.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/autoload/pymode/breakpoint.vim
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+calling function pymode#breakpoint#init
+
+function pymode#breakpoint#init returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/vim80/ftplugin/python.vim"
+finished sourcing D:/Vim/vim80/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:\Vim\vim80/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python_*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python/*.vim"
+function <SNR>12_LoadFTPlugin returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+calling function <SNR>13_LoadIndent
+
+Searching for "indent/python.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/indent/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Gundo/indent/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/indent/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/powerline/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/indent/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/indent/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/indent/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/indent/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/indent/python.vim"
+Searching for "D:\Vim/vimfiles/indent/python.vim"
+Searching for "D:\Vim\vim80/indent/python.vim"
+line 14: sourcing "D:/Vim/vim80/indent/python.vim"
+finished sourcing D:/Vim/vim80/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/indent/python.vim"
+Searching for "D:\Vim/vimfiles/after/indent/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/indent/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+line 14: sourcing "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+function <SNR>13_LoadIndent returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "python"
+autocommand set omnifunc=python3complete#Complete
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoPair()
+
+calling function AutoPair
+
+function AutoPair returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoSpace()
+
+calling function AutoSpace
+
+function AutoSpace returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "*"
+autocommand exe "set syntax=" . expand("<amatch>")
+
+Executing Syntax Auto commands for "*"
+autocommand call s:SynSet()
+
+calling function <SNR>5_SynSet
+
+Searching for "syntax/python.vim syntax/python/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/syntax/python.vim"
+Searching for "E:\home\kerwin/vimfiles/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Gundo/syntax/python.vim"
+Searching for "D:/Vim/bundle/Gundo/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/syntax/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/powerline/syntax/python.vim"
+Searching for "D:/Vim/bundle/powerline/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/syntax/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/syntax/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/syntax/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/syntax/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/syntax/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/syntax/python.vim"
+line 24: sourcing "D:/Vim/bundle/Python-mode-klen/syntax/python.vim"
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:/Vim/bundle/Python-mode-klen/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/.neobundle/syntax/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/syntax/python/*.vim"
+Searching for "D:\Vim/vimfiles/syntax/python.vim"
+Searching for "D:\Vim/vimfiles/syntax/python/*.vim"
+Searching for "D:\Vim\vim80/syntax/python.vim"
+line 24: sourcing "D:/Vim/vim80/syntax/python.vim"
+finished sourcing D:/Vim/vim80/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:\Vim\vim80/syntax/python/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/syntax/python.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/syntax/python/*.vim"
+Searching for "D:\Vim/vimfiles/after/syntax/python.vim"
+Searching for "D:\Vim/vimfiles/after/syntax/python/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/syntax/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/syntax/python/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/syntax/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/syntax/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/syntax/python.vim"
+line 24: sourcing "D:/Vim/bundle/jedi-vim/after/syntax/python.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/after/syntax/python.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/after/syntax/python.vim
+continuing in function <SNR>5_SynSet
+Searching for "D:/Vim/bundle/jedi-vim/after/syntax/python/*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/syntax/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/syntax/python/*.vim"
+function <SNR>5_SynSet returning #0
+
+continuing in Syntax Auto commands for "*"
+
+Executing FileType Auto commands for "python"
+autocommand :call AutoLoadCTagsAndCScope()
+
+calling function AutoLoadCTagsAndCScope
+
+chdir(./)
+E:/Program/python/PythonFinance
+function AutoLoadCTagsAndCScope returning #0
+
+continuing in FileType Auto commands for "python"
+
+Executing FileType Auto commands for "python"
+autocommand setlocal et | setlocal sta | setlocal sw=4
+
+autocommand compiler pyunit
+
+Searching for "compiler/pyunit.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/FencView.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Gundo/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Tagbar/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/surround.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/powerline/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/xptemplate/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/jedi-vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/.neobundle/compiler/pyunit.vim"
+Searching for "D:\Vim/vimfiles/compiler/pyunit.vim"
+Searching for "D:\Vim\vim80/compiler/pyunit.vim"
+line 0: sourcing "D:/Vim/vim80/compiler/pyunit.vim"
+finished sourcing D:/Vim/vim80/compiler/pyunit.vim
+continuing in FileType Auto commands for "python"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/compiler/pyunit.vim"
+Searching for "D:\Vim/vimfiles/after/compiler/pyunit.vim"
+Searching for "E:\home\kerwin/vimfiles/after/compiler/pyunit.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/compiler/pyunit.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/compiler/pyunit.vim"
+autocommand setlocal makeprg=python\ %
+
+Executing FileType Auto commands for "*"
+autocommand call s:on_filetype()
+
+calling function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_filetype[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[3]..neobundle#util#get_filetypes
+
+function <SNR>26_on_filetype[3]..neobundle#util#get_filetypes returning ['python']
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+function <SNR>26_on_filetype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call XPTfiletypeInit()
+
+calling function XPTfiletypeInit
+
+function XPTfiletypeInit returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand :call s:SetUpForNewFiletype(&filetype, 1)
+
+calling function <SNR>75_SetUpForNewFiletype
+
+function <SNR>75_SetUpForNewFiletype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+calling function <SNR>12_LoadFTPlugin
+
+Searching for "ftplugin/python.vim ftplugin/python_*.vim ftplugin/python/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim"
+calling function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match
+
+function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match returning #1
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern returning {'r': '^', 'item_qvar': '\V{$\w\+}', '...-}', 'lr': '`^', 'item_var': '\V$\w\+'}
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get returning #16
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New returning {'ptn': {'r': '^', 'item_qvar': '\V{$\...y': 16, 'filetype': '', 'inheritFT': 0}
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT
+
+function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT returning 'python'
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded returning #0
+
+continuing in function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded returning #1
+
+continuing in function xpt#parser#InitSnippetFile
+
+function xpt#parser#InitSnippetFile returning 'finish'
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+finished sourcing D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+calling function jedi#configure_call_signatures
+
+function jedi#configure_call_signatures returning #0
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim"
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/vim80/ftplugin/python.vim"
+finished sourcing D:/Vim/vim80/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:\Vim\vim80/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python_*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python/*.vim"
+function <SNR>12_LoadFTPlugin returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+calling function <SNR>13_LoadIndent
+
+Searching for "indent/python.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/indent/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Gundo/indent/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/indent/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/powerline/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/indent/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/indent/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/indent/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/indent/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/indent/python.vim"
+Searching for "D:\Vim/vimfiles/indent/python.vim"
+Searching for "D:\Vim\vim80/indent/python.vim"
+line 14: sourcing "D:/Vim/vim80/indent/python.vim"
+finished sourcing D:/Vim/vim80/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/indent/python.vim"
+Searching for "D:\Vim/vimfiles/after/indent/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/indent/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+line 14: sourcing "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+function <SNR>13_LoadIndent returning #0
+
+continuing in FileType Auto commands for "*"
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[59]..<SNR>25_reset_ftplugin returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook[1]..neobundle#util#convert2list
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook[1]..neobundle#util#convert2list returning [{'rtp': 'D:/Vim/bundle/DoxygenToolkit...n'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook[7]..neobundle#config#tsort
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook[7]..neobundle#config#tsort returning []
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source[70]..neobundle#call_hook returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles[2]..neobundle#config#source returning #0
+
+continuing in function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+calling function <SNR>26_on_filetype[4]..neobundle#config#source_bundles
+
+function <SNR>26_on_filetype[4]..neobundle#config#source_bundles returning #0
+
+continuing in function <SNR>26_on_filetype
+
+function <SNR>26_on_filetype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call XPTfiletypeInit()
+
+calling function XPTfiletypeInit
+
+function XPTfiletypeInit returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand :call s:SetUpForNewFiletype(&filetype, 1)
+
+calling function <SNR>75_SetUpForNewFiletype
+
+function <SNR>75_SetUpForNewFiletype returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadFTPlugin()
+
+calling function <SNR>12_LoadFTPlugin
+
+Searching for "ftplugin/python.vim ftplugin/python_*.vim ftplugin/python/*.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/FencView.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Gundo/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Tagbar/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/surround.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/powerline/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim"
+calling function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match
+
+function xpt#parser#InitSnippetFile[1]..xpt#option#lib_filter#Match returning #1
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#snipfile#GenPattern returning {'r': '^', 'item_qvar': '\V{$\w\+}', '...-}', 'lr': '`^', 'item_var': '\V$\w\+'}
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+calling function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New[1]..xpt#priority#Get returning #16
+
+continuing in function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New
+
+function xpt#parser#InitSnippetFile[9]..xpt#snipfile#New returning {'ptn': {'r': '^', 'item_qvar': '\V{$\...y': 16, 'filetype': '', 'inheritFT': 0}
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT
+
+function xpt#parser#InitSnippetFile[10]..<SNR>90_AssignSnipFT returning 'python'
+
+continuing in function xpt#parser#InitSnippetFile
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+calling function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded[2]..xpt#ftscope#SetSnippetLoaded returning #0
+
+continuing in function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded
+
+function xpt#parser#InitSnippetFile[21]..xpt#ftscope#CheckAndSetSnippetLoaded returning #1
+
+continuing in function xpt#parser#InitSnippetFile
+
+function xpt#parser#InitSnippetFile returning 'finish'
+
+continuing in D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+
+finished sourcing D:/Vim/bundle/xptemplate/ftplugin/python/python.xpt.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+calling function jedi#configure_call_signatures
+
+function jedi#configure_call_signatures returning #0
+
+continuing in D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim"
+calling function pymode#default
+
+function pymode#default returning #1
+
+continuing in D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/ftplugin/python/pymode.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/.neobundle/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/vim80/ftplugin/python.vim"
+finished sourcing D:/Vim/vim80/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:\Vim\vim80/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80/ftplugin/python/*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python_*.vim"
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/ftplugin/python/*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python_*.vim"
+Searching for "D:\Vim/vimfiles/after/ftplugin/python/*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python_*.vim"
+Searching for "E:\home\kerwin/vimfiles/after/ftplugin/python/*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python_*.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/ftplugin/python/*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/ftplugin/python/*.vim"
+line 17: sourcing "D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim"
+calling function jedi#init_python
+
+function jedi#init_python returning #1
+
+continuing in D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+
+finished sourcing D:/Vim/bundle/jedi-vim/after/ftplugin/python/jedi.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+line 17: sourcing "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/ftplugin/python.vim
+continuing in function <SNR>12_LoadFTPlugin
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python_*.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/ftplugin/python/*.vim"
+function <SNR>12_LoadFTPlugin returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing FileType Auto commands for "*"
+autocommand call s:LoadIndent()
+
+calling function <SNR>13_LoadIndent
+
+Searching for "indent/python.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/indent/python.vim"
+Searching for "D:/Vim/bundle/FencView.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Gundo/indent/python.vim"
+Searching for "D:/Vim/bundle/Tagbar/indent/python.vim"
+Searching for "D:/Vim/bundle/surround.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/powerline/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/indent/python.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/indent/python.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/indent/python.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/indent/python.vim"
+Searching for "D:/Vim/bundle/.neobundle/indent/python.vim"
+Searching for "D:\Vim/vimfiles/indent/python.vim"
+Searching for "D:\Vim\vim80/indent/python.vim"
+line 14: sourcing "D:/Vim/vim80/indent/python.vim"
+finished sourcing D:/Vim/vim80/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+Searching for "D:\Vim\vim80\pack\dist\opt\matchit/indent/python.vim"
+Searching for "D:\Vim/vimfiles/after/indent/python.vim"
+Searching for "E:\home\kerwin/vimfiles/after/indent/python.vim"
+Searching for "D:\Vim/bundle/neobundle.vim/indent/python.vim"
+Searching for "D:/Vim/bundle/xptemplate/personal/indent/python.vim"
+Searching for "D:/Vim/bundle/jedi-vim/after/indent/python.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+line 14: sourcing "D:/Vim/bundle/Python-mode-klen/after/indent/python.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/after/indent/python.vim
+continuing in function <SNR>13_LoadIndent
+function <SNR>13_LoadIndent returning #0
+
+continuing in FileType Auto commands for "*"
+
+Executing BufRead Auto commands for "*"
+autocommand :call s:SetUpForNewFiletype(&filetype, 0)
+
+calling function <SNR>75_SetUpForNewFiletype
+
+function <SNR>75_SetUpForNewFiletype returning #0
+
+continuing in BufRead Auto commands for "*"
+
+Executing BufWinEnter Auto commands for "*"
+autocommand call s:on_path(expand('<afile>'), 'BufWinEnter')
+
+calling function <SNR>26_on_path
+
+calling function <SNR>26_on_path[11]..neobundle#util#expand
+
+function <SNR>26_on_path[11]..neobundle#util#expand returning 'BackTrader/Strategy_KAMA_2.py'
+
+continuing in function <SNR>26_on_path
+
+calling function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_path
+
+function <SNR>26_on_path returning #0
+
+continuing in BufWinEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand call s:on_path(expand('<afile>'), 'BufEnter')
+
+calling function <SNR>26_on_path
+
+calling function <SNR>26_on_path[11]..neobundle#util#expand
+
+function <SNR>26_on_path[11]..neobundle#util#expand returning 'BackTrader/Strategy_KAMA_2.py'
+
+continuing in function <SNR>26_on_path
+
+calling function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_path
+
+function <SNR>26_on_path returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+calling function nerdtree#checkForBrowse
+
+function nerdtree#checkForBrowse returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand call <SID>InitBuf()
+
+calling function <SNR>59_InitBuf
+
+function <SNR>59_InitBuf returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand call XPTemplateInit()
+
+calling function XPTemplateInit
+
+function XPTemplateInit returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand :call s:SetUpForNewFiletype(&filetype, 0)
+
+calling function <SNR>75_SetUpForNewFiletype
+
+function <SNR>75_SetUpForNewFiletype returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+Executing BufEnter Auto commands for "*"
+autocommand sil call s:LocalBrowse(expand("<amatch>"))
+
+calling function <SNR>81_LocalBrowse
+
+function <SNR>81_LocalBrowse returning #0
+
+continuing in BufEnter Auto commands for "*"
+
+chdir(E:/Program/python/PythonFinance/BackTrader)
+Executing VimEnter Auto commands for "*"
+autocommand if !exists("no_buffers_menu") | call <SID>BMShow() | endif
+
+calling function <SNR>8_BMShow
+
+Error detected while processing function <SNR>8_BMShow:
+line   12:
+E329: No menu "&Buffers"
+Error detected while processing function <SNR>8_BMShow:
+line   14:
+E328: Menu only exists in another mode
+calling function <SNR>8_BMShow[44]..<SNR>8_BMFilename
+
+calling function <SNR>8_BMShow[44]..<SNR>8_BMFilename[4]..<SNR>8_BMMunge
+
+calling function <SNR>8_BMShow[44]..<SNR>8_BMFilename[4]..<SNR>8_BMMunge[15]..<SNR>8_BMTruncName
+
+function <SNR>8_BMShow[44]..<SNR>8_BMFilename[4]..<SNR>8_BMMunge[15]..<SNR>8_BMTruncName returning 'E:/Program/pyth...inance/BackTrader'
+
+continuing in function <SNR>8_BMShow[44]..<SNR>8_BMFilename[4]..<SNR>8_BMMunge
+
+function <SNR>8_BMShow[44]..<SNR>8_BMFilename[4]..<SNR>8_BMMunge returning 'Strategy_KAMA_2\.py\ (1)\^IE:/Program/pyth\.\.\.inance/BackTrader'
+
+continuing in function <SNR>8_BMShow[44]..<SNR>8_BMFilename
+
+calling function <SNR>8_BMShow[44]..<SNR>8_BMFilename[5]..<SNR>8_BMHash
+
+function <SNR>8_BMShow[44]..<SNR>8_BMFilename[5]..<SNR>8_BMHash returning #434845477
+
+continuing in function <SNR>8_BMShow[44]..<SNR>8_BMFilename
+
+function <SNR>8_BMShow[44]..<SNR>8_BMFilename returning #0
+
+continuing in function <SNR>8_BMShow
+
+function <SNR>8_BMShow returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+autocommand au! LoadBufferMenu
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:on_vim_enter()
+
+calling function <SNR>25_on_vim_enter
+
+calling function <SNR>25_on_vim_enter[10]..neobundle#call_hook
+
+calling function <SNR>25_on_vim_enter[10]..neobundle#call_hook[1]..neobundle#config#get_neobundles
+
+function <SNR>25_on_vim_enter[10]..neobundle#call_hook[1]..neobundle#config#get_neobundles returning [{'rtp': 'D:/Vim/bundle/The-NERD-tree/...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>25_on_vim_enter[10]..neobundle#call_hook
+
+calling function <SNR>25_on_vim_enter[10]..neobundle#call_hook[1]..neobundle#util#convert2list
+
+function <SNR>25_on_vim_enter[10]..neobundle#call_hook[1]..neobundle#util#convert2list returning [{'rtp': 'D:/Vim/bundle/The-NERD-tree/...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>25_on_vim_enter[10]..neobundle#call_hook
+
+calling function <SNR>25_on_vim_enter[10]..neobundle#call_hook[7]..neobundle#config#tsort
+
+function <SNR>25_on_vim_enter[10]..neobundle#call_hook[7]..neobundle#config#tsort returning []
+
+continuing in function <SNR>25_on_vim_enter[10]..neobundle#call_hook
+
+function <SNR>25_on_vim_enter[10]..neobundle#call_hook returning #0
+
+continuing in function <SNR>25_on_vim_enter
+
+function <SNR>25_on_vim_enter returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:on_path(expand('<afile>'), 'VimEnter')
+
+calling function <SNR>26_on_path
+
+calling function <SNR>26_on_path[11]..neobundle#util#expand
+
+function <SNR>26_on_path[11]..neobundle#util#expand returning 'Strategy_KAMA_2.py'
+
+continuing in function <SNR>26_on_path
+
+calling function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_on_path[12]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_on_path
+
+function <SNR>26_on_path returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+Executing VimEnter Auto commands for "*"
+autocommand silent! autocmd! FileExplorer
+
+autocommand call nerdtree#checkForBrowse(expand("<amatch>"))
+
+calling function nerdtree#checkForBrowse
+
+function nerdtree#checkForBrowse returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+Executing VimEnter Auto commands for "*"
+autocommand :if has('clipboard') | call <SID>YRFocusGained() | endif
+
+calling function <SNR>74_YRFocusGained
+
+calling function <SNR>74_YRFocusGained[15]..<SNR>74_YRCheckClipboard
+
+function <SNR>74_YRFocusGained[15]..<SNR>74_YRCheckClipboard returning #0
+
+continuing in function <SNR>74_YRFocusGained
+
+calling function <SNR>74_YRFocusGained[18]..<SNR>74_YRWindowUpdate
+
+function <SNR>74_YRFocusGained[18]..<SNR>74_YRWindowUpdate returning #0
+
+continuing in function <SNR>74_YRFocusGained
+
+function <SNR>74_YRFocusGained returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+Executing VimEnter Auto commands for "*"
+autocommand call s:setup_completeopt()
+
+calling function <SNR>113_setup_completeopt
+
+  completeopt=longest,menu
+	Last set from D:/Vim/_vimrc
+function <SNR>113_setup_completeopt returning #0
+
+continuing in VimEnter Auto commands for "*"
+
+Executing CursorMoved Auto commands for "*"
+autocommand call <SID>XPTupdateTyping()
+
+calling function <SNR>68_XPTupdateTyping
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[1]..XPTemplateInit
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[1]..XPTemplateInit returning #0
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[1]..XPMflush
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[1]..XPMflush[1]..<SNR>59_BufData
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[1]..XPMflush[1]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h..._initCurrentStat'), 'lastTotalLine': 1}
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[1]..XPMflush
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[1]..XPMflush returning #0
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory
+
+calling function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[2]..<SNR>59_BufData
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory[2]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h..._initCurrentStat'), 'lastTotalLine': 1}
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition[2]..XPMflushWithHistory returning #0
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate[3]..<SNR>68_IsUpdateCondition returning #0
+
+continuing in function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate
+
+function <SNR>68_XPTupdateTyping[1]..<SNR>68_XPTupdate returning #0
+
+continuing in function <SNR>68_XPTupdateTyping
+
+function <SNR>68_XPTupdateTyping returning #0
+
+continuing in CursorMoved Auto commands for "*"
+
+Executing CursorMoved Auto commands for "*"
+autocommand call s:Highlight_Matching_Pair()
+
+calling function <SNR>80_Highlight_Matching_Pair
+
+function <SNR>80_Highlight_Matching_Pair returning #0
+
+continuing in CursorMoved Auto commands for "*"
+
+Executing CursorMoved Auto commands for "<buffer=1>"
+autocommand call pymode#lint#show_errormessage()
+
+Searching for "autoload/pymode/lint.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode/lint.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim"
+line 0: sourcing "D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim"
+Searching for "autoload/pymode/tools/signs.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode/tools/signs.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/signs.vim"
+line 3: sourcing "D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/signs.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/signs.vim
+continuing in D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim
+calling function pymode#tools#signs#init
+
+calling function pymode#tools#signs#init[1]..355
+
+calling function pymode#tools#signs#init[1]..355[1]..354
+
+function pymode#tools#signs#init[1]..355[1]..354 returning #1
+
+continuing in function pymode#tools#signs#init[1]..355
+
+function pymode#tools#signs#init[1]..355 returning #0
+
+continuing in function pymode#tools#signs#init
+
+function pymode#tools#signs#init returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim
+
+Searching for "autoload/pymode/tools/loclist.vim" in "E:\home\kerwin/vimfiles,D:/Vim/bundle/FencView.vim/,D:/Vim/bundle/Gundo/,D:/Vim/bundle/Tagbar/,D:/Vim/bundle/surround.vim/,D:/Vim/bundle/powerline/,D:/Vim/bundle/The-NERD-tree/,D:/Vim/bundle/xptemplate/,D:/Vim/bundle/AutoComplPop/,D:/Vim/bundle/YankRing.vim/,D:/Vim/bundle/The-NERD-Commenter/,D:/Vim/bundle/DoxygenToolkit.vim/,D:/Vim/bundle/jedi-vim/,D:/Vim/bundle/Python-mode-klen/,D:/Vim/bundle/.neobundle,D:\Vim/vimfiles,D:\Vim\vim80,D:\Vim\vim80\pack\dist\opt\matchit,D:\Vim/vimfiles/after,E:\home\kerwin/vimfiles/after,D:\Vim/bundle/neobundle.vim/,D:/Vim/bundle/xptemplate/personal,D:/Vim/bundle/jedi-vim/after,D:/Vim/bundle/Python-mode-klen/after"
+Searching for "E:\home\kerwin/vimfiles/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/FencView.vim/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/Gundo/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/Tagbar/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/surround.vim/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/powerline/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/The-NERD-tree/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/xptemplate/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/AutoComplPop/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/YankRing.vim/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/The-NERD-Commenter/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/DoxygenToolkit.vim/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/jedi-vim/autoload/pymode/tools/loclist.vim"
+Searching for "D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/loclist.vim"
+line 4: sourcing "D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/loclist.vim"
+finished sourcing D:/Vim/bundle/Python-mode-klen/autoload/pymode/tools/loclist.vim
+continuing in D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim
+calling function pymode#tools#loclist#init
+
+function pymode#tools#loclist#init returning #0
+
+continuing in D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim
+
+finished sourcing D:/Vim/bundle/Python-mode-klen/autoload/pymode/lint.vim
+continuing in CursorMoved Auto commands for "<buffer=1>"
+calling function pymode#lint#show_errormessage
+
+calling function pymode#lint#show_errormessage[1]..360
+
+calling function pymode#lint#show_errormessage[1]..360[2]..359
+
+calling function pymode#lint#show_errormessage[1]..360[2]..359[3]..362
+
+function pymode#lint#show_errormessage[1]..360[2]..359[3]..362 returning #0
+
+continuing in function pymode#lint#show_errormessage[1]..360[2]..359
+
+function pymode#lint#show_errormessage[1]..360[2]..359 returning {'show': function('365'), 'filter': fu...'_title': 'CodeCheck', '_messages': {}}
+
+continuing in function pymode#lint#show_errormessage[1]..360
+
+function pymode#lint#show_errormessage[1]..360 returning {'show': function('365'), 'filter': fu...'_title': 'CodeCheck', '_messages': {}}
+
+continuing in function pymode#lint#show_errormessage
+
+calling function pymode#lint#show_errormessage[2]..361
+
+function pymode#lint#show_errormessage[2]..361 returning #1
+
+continuing in function pymode#lint#show_errormessage
+
+function pymode#lint#show_errormessage returning #0
+
+continuing in CursorMoved Auto commands for "<buffer=1>"
+
+calling function XPMautoUpdate
+
+calling function XPMautoUpdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h..._initCurrentStat'), 'lastTotalLine': 1}
+
+continuing in function XPMautoUpdate
+
+calling function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h..._initCurrentStat'), 'lastTotalLine': 1}
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded
+
+function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot
+
+function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+function XPMautoUpdate[9]..XPMupdate returning {'no_updated_made': 1}
+
+continuing in function XPMautoUpdate
+
+function XPMautoUpdate returning ''
+
+calling function XPMautoUpdate
+
+calling function XPMautoUpdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate
+
+calling function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded
+
+function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot
+
+function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+function XPMautoUpdate[9]..XPMupdate returning {'no_updated_made': 1}
+
+continuing in function XPMautoUpdate
+
+function XPMautoUpdate returning ''
+
+Executing FocusLost Auto commands for "*"
+autocommand let s:active_auto_source = 1 | call s:source_focus()
+
+calling function <SNR>26_source_focus
+
+calling function <SNR>26_source_focus[1]..neobundle#config#get_autoload_bundles
+
+function <SNR>26_source_focus[1]..neobundle#config#get_autoload_bundles returning [{'rtp': 'D:/Vim/bundle/indenthtml.vim...p'], 'vim_version': '', 'terminal': 0}]
+
+continuing in function <SNR>26_source_focus
+
+calling function <SNR>26_source_focus[1]..neobundle#util#sort_by
+
+calling function <SNR>26_source_focus[1]..neobundle#util#sort_by[2]..<SNR>23_sort
+
+function <SNR>26_source_focus[1]..neobundle#util#sort_by[2]..<SNR>23_sort returning []
+
+continuing in function <SNR>26_source_focus[1]..neobundle#util#sort_by
+
+function <SNR>26_source_focus[1]..neobundle#util#sort_by returning []
+
+continuing in function <SNR>26_source_focus
+
+function <SNR>26_source_focus returning #0
+
+continuing in FocusLost Auto commands for "*"
+
+calling function XPMautoUpdate
+
+calling function XPMautoUpdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate
+
+calling function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded
+
+function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot
+
+function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+function XPMautoUpdate[9]..XPMupdate returning {'no_updated_made': 1}
+
+continuing in function XPMautoUpdate
+
+function XPMautoUpdate returning ''
+
+Executing FocusGained Auto commands for "*"
+autocommand :if has('clipboard') | call <SID>YRFocusGained() | endif
+
+calling function <SNR>74_YRFocusGained
+
+calling function <SNR>74_YRFocusGained[15]..<SNR>74_YRCheckClipboard
+
+function <SNR>74_YRFocusGained[15]..<SNR>74_YRCheckClipboard returning #0
+
+continuing in function <SNR>74_YRFocusGained
+
+calling function <SNR>74_YRFocusGained[18]..<SNR>74_YRWindowUpdate
+
+function <SNR>74_YRFocusGained[18]..<SNR>74_YRWindowUpdate returning #0
+
+continuing in function <SNR>74_YRFocusGained
+
+function <SNR>74_YRFocusGained returning #0
+
+continuing in FocusGained Auto commands for "*"
+
+calling function XPMautoUpdate
+
+calling function XPMautoUpdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate
+
+calling function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData
+
+function XPMautoUpdate[9]..XPMupdate[4]..<SNR>59_BufData returning {'handleUndoRedo': function('<SNR>59_h...nitCurrentStat'), 'lastTotalLine': 384}
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded
+
+function XPMautoUpdate[9]..XPMupdate[9]..<SNR>59_isUpdateNeeded returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot
+
+function XPMautoUpdate[9]..XPMupdate[12]..<SNR>59_snapshot returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+calling function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat[1]..<SNR>59_saveCurrentCursorStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat
+
+function XPMautoUpdate[9]..XPMupdate[13]..<SNR>59_saveCurrentStat returning #0
+
+continuing in function XPMautoUpdate[9]..XPMupdate
+
+function XPMautoUpdate[9]..XPMupdate returning {'no_updated_made': 1}
+
+continuing in function XPMautoUpdate
+
+function XPMautoUpdate returning ''
+
+Writing viminfo file "E:/home/kerwin\_viminfo"

@@ -1,0 +1,8 @@
+*.un~
+GPATH
+GRTAGS
+GTAGS
+tags
+*.pyc
+*.csv
+*.pkl
