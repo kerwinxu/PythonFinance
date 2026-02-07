@@ -1,7 +1,15 @@
 # 这个是作为数据源的脚本
 import pandas as pd
 import os
+import sqlite3
+
 _file_path_ = os.path.split(os.path.realpath(__file__))[0]
+
+DB_FILE_NAME = 'data.db'  # 数据库的文件
+DB_FILE = os.path.join(_file_path_, DB_FILE_NAME)
+
+# 数据库部分
+
 
 def get_data(code):
     """获得数据
@@ -49,3 +57,36 @@ def get_indexs():
     csv_path = os.path.join(_file_path_, "zz500_stocks.csv")
     dt = pd.read_csv(csv_path, sep=',',encoding='utf-8')
     return list(dt['code'])
+
+
+def getData(code, start_date=None, end_date=None):
+    # 搜索指定股票，可以指定开始结束日期
+    # 连接到 SQLite 数据库（如果不存在会自动创建）
+    conn = sqlite3.connect(DB_FILE)
+    sql = f'select * from stock_details where code = "{code}" '
+    if start_date is not None:
+        sql += f' and date >= "{start_date}" '
+    if end_date is not None:
+        sql += f' and date <= "{end_date}"'
+    sql += ' order by date'
+    dt =  pd.read_sql(sql, conn, parse_dates='date', index_col='date')
+    conn.close()
+    return dt
+
+def runSql(sql:str):
+    # 执行一个sql
+    conn = sqlite3.connect(DB_FILE)
+    dt = pd.read_sql(sql, conn)
+    conn.close()
+    return dt
+
+def getStockIndustry():
+    # 取得所有的A股
+    return runSql('select * from stock_industry')
+
+def getStockIndex():
+    return runSql('select * from stock_index')
+
+def getZz500():
+    # 取得中证500成分股
+    return runSql('select * from zz500_stocks')
