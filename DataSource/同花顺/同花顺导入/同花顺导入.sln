@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "同花顺导入", "同花顺导入\同花顺导入.csproj", "{EA8ACD91-56EA-44F3-9037-9026D98ED495}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Debug|x86.ActiveCfg = Debug|x86
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Debug|x86.Build.0 = Debug|x86
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Release|x86.ActiveCfg = Release|x86
+		{EA8ACD91-56EA-44F3-9037-9026D98ED495}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D58578-2F4F-42F1-B023-D9795F9D9C8A}
+	EndGlobalSection
+EndGlobal

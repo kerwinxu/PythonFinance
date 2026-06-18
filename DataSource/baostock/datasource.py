@@ -80,6 +80,13 @@ def runSql(sql:str):
     conn.close()
     return dt
 
+def getAStockCodes():
+    # 取得A股股票列表
+    dt = runSql('select * from stock_industry')
+    lst = dt['code'].tolist()
+    lst = [code  for code in lst if code.startswith('sh.60') or code.startswith('sz.000') or code.startswith('sz.001')]
+    return lst
+
 def getStockIndustry():
     # 取得所有的A股
     return runSql('select * from stock_industry')

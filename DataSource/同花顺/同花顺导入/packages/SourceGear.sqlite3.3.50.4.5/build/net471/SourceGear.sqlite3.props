@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Target Name="CheckForAnyCPU" BeforeTargets="BeforeBuild">
+        <Message Text="RID is: $(RuntimeIdentifier)" Importance="High" />
+        <Message Text="Platform is: $(Platform)" Importance="High" />
+        <Error
+            Text="This package does not support Any CPU builds"
+            Condition="'$(RuntimeIdentifier)' == '' AND $(Platform.Replace(' ', '').ToLower()) == 'anycpu'" />
+    </Target>
+</Project>

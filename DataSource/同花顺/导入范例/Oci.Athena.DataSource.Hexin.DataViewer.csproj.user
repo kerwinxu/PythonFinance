@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\AnnotationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\BalanceUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\CapitalistUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\CashflowUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\D1BarUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\DividendUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\EquityUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\HomeUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\InformationUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\IssueUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\NegotiableUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\ProfitUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Oci.Athena.DataSource.Hexin.DataViewer\StockholderUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
