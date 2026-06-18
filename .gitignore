@@ -8,3 +8,5 @@ tags
 *.pkl
 *.jpg
 *.db
+*.xlsx
+*.xlx

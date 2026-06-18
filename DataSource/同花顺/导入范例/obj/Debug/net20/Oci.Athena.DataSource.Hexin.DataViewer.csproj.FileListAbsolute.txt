@@ -1,0 +1,4 @@
+C:\Users\xuhen\OneDrive\project\python\PythonFinance\DataSource\同花顺\导入范例\obj\Debug\net20\Oci.Athena.DataSource.Hexin.DataViewer.csproj.AssemblyReference.cache
+C:\Users\xuhen\OneDrive\project\python\PythonFinance\DataSource\同花顺\导入范例\obj\Debug\net20\Oci.Athena.DataSource.Hexin.DataViewer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\xuhen\OneDrive\project\python\PythonFinance\DataSource\同花顺\导入范例\obj\Debug\net20\Oci.Athena.DataSource.Hexin.DataViewer.csproj.CoreCompileInputs.cache
+C:\Users\xuhen\OneDrive\project\python\PythonFinance\DataSource\同花顺\导入范例\obj\Debug\net20\Oci.Athena.DataSource.Hexin.DataViewer.sourcelink.json

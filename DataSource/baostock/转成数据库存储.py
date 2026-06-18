@@ -9,6 +9,9 @@ import sqlite3
 _file_dir_ = os.path.split(os.path.realpath(__file__))[0] # 本文件的目录
 DB_FILE_NAME = 'data.db'  # 数据库的文件
 DB_FILE = os.path.join(_file_dir_, DB_FILE_NAME)
+# 这里先删除这个数据库
+if os.path.exists(DB_FILE):
+    os.remove(DB_FILE)
 
 # 数据库部分
 # 连接到 SQLite 数据库（如果不存在会自动创建）
@@ -44,11 +47,12 @@ for i  in tqdm(range(len(codes))):
     _code_name = codes[i]
     # 第一个是删除
     _if_exists = 'append'
-    if i == 0:
-        # 如果是第一个就替换
-        _if_exists = 'replace'
-    # 导出
     csv_path = os.path.join(_file_dir_, "k线数据", f'{_code_name}.csv')
-    dt = pd.read_csv(csv_path,sep=',',parse_dates=['date'], encoding='utf-8')
-    dt.set_index(['code', 'date'],inplace=True) # 设置索引,这里是多级索引
-    dt.to_sql('stock_details', conn, if_exists=_if_exists)
+    # 这里删除所有数据
+    if os.path.exists(csv_path):
+        dt = pd.read_csv(csv_path,sep=',',parse_dates=['date'], encoding='utf-8') # 读取
+        dt.set_index(['code', 'date'],inplace=True) # 设置索引,这里是多级索引
+        dt.to_sql('stock_details', conn, if_exists=_if_exists) # 导入到数据库
+
+# 最后关闭数据库
+conn.close()

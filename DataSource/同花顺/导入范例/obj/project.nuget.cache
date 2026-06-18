@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "I34gxyQO2A4=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\xuhen\\OneDrive\\project\\python\\PythonFinance\\DataSource\\同花顺\\导入范例\\Oci.Athena.DataSource.Hexin.DataViewer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\xuhen\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\xuhen\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net481\\1.0.3\\microsoft.netframework.referenceassemblies.net481.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
