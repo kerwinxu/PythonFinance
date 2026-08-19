@@ -2,6 +2,7 @@ from tqdm import tqdm
 import os
 import sqlite3
 import pandas as pd
+from tqdm import tqdm, trange
 
 _file_dir_ = os.path.split(os.path.realpath(__file__))[0] # 本文件的目录
 DB_FILE_NAME = 'data.db'  # 数据库的文件
@@ -16,8 +17,9 @@ conn = sqlite3.connect(DB_FILE)
 
 # 遍历文件夹
 new_data_dir = os.path.join(_file_dir_, './最新数据')
-for file_path in os.listdir(new_data_dir):
-    file_full_path = os.path.join(new_data_dir, file_path)
+file_paths = os.listdir(new_data_dir)
+for i in tqdm(range(len(file_paths))):
+    file_full_path = os.path.join(new_data_dir, file_paths[i])
     dt = pd.read_csv(file_full_path
                     ,names=['code','index','date','open','high','low','close','money','volume']  # 自定义列名
                     ,parse_dates=['date']  # 指定日期列
