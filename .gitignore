@@ -10,3 +10,5 @@ tags
 *.db
 *.xlsx
 *.xlx
+*.log
+*.h5
