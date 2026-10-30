@@ -15,6 +15,7 @@ import backtrader
 import logging
 from multiprocessing import Pool
 from itertools import product
+import inspect
 
 file_dir = os.path.dirname(os.path.realpath(__file__))
 file_name = os.path.basename(__file__)
@@ -70,6 +71,10 @@ class StrategyLog(bt.Strategy):
         self.order_creation_time = None # 开仓时间
         self.order_creation_time_s = []
         self.logDebug(f'初始化完毕')
+    
+    @classmethod
+    def introduction(cls):
+        return ""
     
     def notify_order(self, order):
         # 订单变动通知。
@@ -171,7 +176,7 @@ class HoldingPeriodAnalyzer(bt.Analyzer):
         }
 
 
-def testStrategy(stratety:bt.Strategy, file_path=None, file_out_name=None):
+def testStrategy(stratety:StrategyLog, file_path=None, file_out_name=None):
     """测试交易的，参数是交易系统类
     Args:
         stratety (bt.Strategy): 交易策略累
@@ -196,6 +201,13 @@ def testStrategy(stratety:bt.Strategy, file_path=None, file_out_name=None):
     # 下边是策略
     init_amount = 10000.0 # 初始的金额
     logger.info(f'初始金额:{init_amount}')
+    # 输出类的源代码
+    _source = inspect.getsource(stratety)
+    logger.info(f'策略源代码:\n{_source}')
+    # 这里添加参数情况
+    param_items = stratety.params._getitems()
+    _params = ", ".join(f"{k}={repr(v)}" for k, v in param_items)
+    logger.info(f'策略参数: {stratety.__name__} ({_params})')
     # 如下的是记录收益情况
     code_value = [] # 用这个数组来保存股票的收益情况
     for i in range(len(codes)):
@@ -242,47 +254,57 @@ def testStrategy(stratety:bt.Strategy, file_path=None, file_out_name=None):
                 results = cerebro.run(tradehistory=True)
                 strat = results[0]
                 _sp = strat.analyzers.SharpeRatio.get_analysis().get('sharperatio', 'N/A')
+                _sp = f'{_sp:5.2f}' if _sp is not None else 'N/A'
                 _dw_value = strat.analyzers.DW.get_analysis()['max']['drawdown']
                 _dw_len = strat.analyzers.DW.get_analysis()['max']['len']
                 ta = strat.analyzers.ta.get_analysis()
                 holding_analysis = results[0].analyzers.holding_period.get_analysis()
                 # 要显示的消息。
-                lst_msg = [
-                    f'{i+1}/{len(codes)}:'
-                    f'{code}',
-                    f'最终资金: {cerebro.broker.getvalue():8.2f}',
-                    f' 夏普比率:{_sp:5.2f}',
-                    f'最大回撤指标:{_dw_value:5.2f}',
-                    f'回撤周期:{_dw_len:4d}',
-                    f'总交易次数: {ta.total.total:3d}',
-                    f'盈利次数: {ta.won.total:3d}',
-                    f'最大盈利: {holding_analysis['max_trade_percent']:5.1f}%',
-                    f'亏损次数: {ta.lost.total:3d}',
-                    f'最大亏损: {holding_analysis['min_trade_percent']:5.1f}%',
-                    f'胜率: {ta.won.total / ta.total.total:2.2%}',
-                    f"平均持仓天数: {holding_analysis['average_holding_days']:3.1f} 天",
-                    f"最大: {holding_analysis['max_holding_days']:3d} 天",
-                    f"最小: {holding_analysis['min_holding_days']:3d} 天"
-                ]
-                logger.info(','.join(lst_msg))
-                # 如下的是要保存到csv文件中
-                code_value.append(
-                    [
-                        code,
-                        cerebro.broker.getvalue(),
-                        _sp,
-                        _dw_value,
-                        _dw_len,
-                        ta.total.total,
-                        ta.won.total,
-                        holding_analysis['max_trade_percent'],
-                        ta.lost.total,
-                        holding_analysis['min_trade_percent'],
-                        holding_analysis['average_holding_days'],
-                        holding_analysis['max_holding_days'],
-                        holding_analysis['min_holding_days']
+                if ta.total.total > 0:
+                    # 这里要显示的消息，必须得是有交易的才显示
+                    lst_msg = [
+                        f'{i+1}/{len(codes)}:'
+                        f'{code}',
+                        f'最终资金: {cerebro.broker.getvalue():8.2f}',
+                        f' 夏普比率:{_sp}',
+                        f'最大回撤指标:{_dw_value:5.2f}',
+                        f'回撤周期:{int(_dw_len):4d}',
+                        f'总交易次数: {int(ta.total.total):3d}',
+                        f'盈利次数: {int(ta.won.total):3d}',
+                        f'最大盈利: {holding_analysis['max_trade_percent']:5.1f}%',
+                        f'亏损次数: {int(ta.lost.total):3d}',
+                        f'最大亏损: {holding_analysis['min_trade_percent']:5.1f}%',
+                        f'胜率: {ta.won.total / ta.total.total:2.2%}',
+                        f"平均持仓天数: {holding_analysis['average_holding_days']:3.1f} 天",
+                        f"最大: {int(holding_analysis['max_holding_days']):3d} 天",
+                        f"最小: {int(holding_analysis['min_holding_days']):3d} 天"
                     ]
-                )
+                    logger.info(','.join(lst_msg))
+                    # 如下的是要保存到csv文件中
+                    code_value.append(
+                        [
+                            code,
+                            cerebro.broker.getvalue(),
+                            _sp,
+                            _dw_value,
+                            _dw_len,
+                            ta.total.total,
+                            ta.won.total,
+                            holding_analysis['max_trade_percent'],
+                            ta.lost.total,
+                            holding_analysis['min_trade_percent'],
+                            holding_analysis['average_holding_days'],
+                            holding_analysis['max_holding_days'],
+                            holding_analysis['min_holding_days']
+                        ]
+                    )
+                else:
+                    lst_msg = [
+                        f'{i+1}/{len(codes)}:'
+                        f'{code}',
+                        '没有交易'
+                    ]
+                    logger.info(','.join(lst_msg))
         except Exception as err:
             msg = str(err)
             logger.error(f"{code}:" + msg)

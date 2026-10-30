@@ -11,7 +11,7 @@ file_name_without_extension = os.path.splitext(file_name)[0]
 
 STOP_LOSS = 0.1
 
-# TRIX指标的，三重指数平滑移动均线的
+# TRIX指标的，三重指数平滑移动均线的,收益平均值:13732.704300211464,方差:11141.246830389047,中位值:10762.096135000002,最大值：193252.98208000002,最小值：1328.9821199999974
 
 class Trix1Strategy(StrategyLog):
     """
